@@ -189,4 +189,24 @@ custom classes must fully style the input
       </div>
 <!-- phoenix:html-end -->
 
+## Python Static Generator Guidelines
+
+- **Zero-Dependency Rule**: The static generator (`build.py`) must remain completely dependency-free, relying strictly on Python's built-in standard libraries to maintain ultra-fast execution times (< 1 second) and zero-installation overhead in CI/CD pipelines.
+- **PEP 585 Typing**: Always use modern lowercase generic collection types (such as `dict`, `list`, `tuple`) for type hinting rather than legacy capitalized types from `typing`.
+- **Functional Style**: Keep the code highly functional and deterministic: isolate I/O operations from pure formatting and data-transformation functions.
+- **Type Safety**: Maintain strict type hints (`mypy --strict`) and code formatting (`black`) on all changes to `build.py` and `test_build.py`.
+
+## Expect Testing Guidelines
+
+- **Deterministic Assertions**: Always test the static generator using the expect/snapshot pattern (`test_build.py`).
+- **Snapshot Storage**: Store golden expectation snapshots inside `test/expect/`.
+- **Snapshot Updates**: Never update expect assertions manually. Always run `UPDATE_EXPECT=1 python test_build.py` to auto-re-record baseline expectations when HTML/XML structures are intentionally modified.
+
+## Local Git Hook & Security Guidelines
+
+- **Pre-commit Secrets Scan**: A local pre-commit hook runs automatically on every commit, executing `gitleaks` and `test_build.py`.
+- **Git Hooks Path**: The local git repository is configured to read hooks from the tracked `.githooks/` directory (`git config core.hooksPath .githooks`).
+- **Safe Secrets Mocking**: **Never** use real key formats or realistic-looking credential prefixes (e.g., `AIzaSy`) for mocks, tests, or examples. Always use explicit, safe placeholders like `"YOUR_GEMINI_API_KEY_HERE"` or `"DUMMY_API_KEY_FOR_TESTING"`.
+- **Gitleaks Configuration**: The `.gitleaks.toml` config extends default rules (`useDefault = true`) and allowlists development/test local configs, databases, and build artifacts.
+
 <!-- usage-rules-end -->
