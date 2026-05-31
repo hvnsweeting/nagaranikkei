@@ -6,11 +6,22 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages and updating history.json
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -30,8 +41,11 @@ jobs:
           git add history.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update history database [skip ci]" && git push origin main)
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.7.4 # v4.7.4
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda996908d24 # v3.0.1
         with:
-          folder: dist
-          branch: gh-pages
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164db5ed86f2b5aed60f1ee0a37701789a # v4.0.5
