@@ -1,0 +1,19 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Global allowlist for Podcast Tracker"
+paths = [
+  '''^\.env$''',
+  '''^_build/''',
+  '''^deps/''',
+  '''^dist/''',
+  '''^history\.json$''',
+  '''^mix\.lock$''',
+  '''^podcast_tracker_dev\.db.*''',
+  '''^podcast_tracker_test\.db.*''',
+  '''^\.elixir_ls/''',
+  '''^\.git/''',
+  '''^config/dev\.exs$''',
+  '''^config/test\.exs$'''
+]
