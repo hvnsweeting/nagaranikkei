@@ -7,12 +7,12 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import re
 import html
-from typing import Dict, List, Tuple, Optional, Any, Final
+from typing import Optional, Any, Final
 
-# Type Aliases for strict typing and clarity
-Chunk = Dict[str, str]
-Episode = Dict[str, Any]
-History = List[Episode]
+# Type Aliases utilizing modern PEP 585 generics
+Chunk = dict[str, str]
+Episode = dict[str, Any]
+History = list[Episode]
 
 RSS_URL: Final[str] = "https://feeds.megaphone.fm/nagara"
 HISTORY_FILE: Final[str] = "history.json"
@@ -75,7 +75,7 @@ def parse_date(pub_date_str: str) -> str:
         return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
 
-def parse_xml_to_episode_metadata(xml_data: bytes) -> Optional[Tuple[str, str, str]]:
+def parse_xml_to_episode_metadata(xml_data: bytes) -> Optional[tuple[str, str, str]]:
     """Pure parser that extracts (title, pubDate, audio_url) from Megaphone RSS bytes."""
     try:
         root = ET.fromstring(xml_data)
@@ -105,10 +105,10 @@ def parse_xml_to_episode_metadata(xml_data: bytes) -> Optional[Tuple[str, str, s
     return None
 
 
-def mock_analyze(title: str) -> Tuple[str, List[Chunk]]:
+def mock_analyze(title: str) -> tuple[str, list[Chunk]]:
     """Safe pure mock fallback that generates high-quality mock data when API is unavailable."""
     mock_english = "Daily Nikkei News: " + title[:11] + "..."
-    mock_chunks: List[Chunk] = [
+    mock_chunks: list[Chunk] = [
         {"japanese": "日経", "romaji": "nikkei", "meaning": "Nikkei (newspaper)"},
         {"japanese": "平均", "romaji": "heikin", "meaning": "Average"},
         {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
@@ -118,8 +118,8 @@ def mock_analyze(title: str) -> Tuple[str, List[Chunk]]:
 
 
 def try_models_recursively(
-    models: List[str], title: str, api_key: str
-) -> Tuple[str, List[Chunk]]:
+    models: list[str], title: str, api_key: str
+) -> tuple[str, list[Chunk]]:
     """Pure functional helper that attempts translation across available model versions."""
     if not models:
         print("All models failed. Using mock.")
@@ -142,7 +142,7 @@ Output strictly in the following JSON format:
 
 Title: {title}"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/#{model}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     req_data = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -180,7 +180,7 @@ Title: {title}"""
     return try_models_recursively(models[1:], title, api_key)
 
 
-def analyze_japanese(title: str, api_key: Optional[str]) -> Tuple[str, List[Chunk]]:
+def analyze_japanese(title: str, api_key: Optional[str]) -> tuple[str, list[Chunk]]:
     """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks."""
     if not api_key:
         print("GEMINI_API_KEY not set. Using mock translation.")
