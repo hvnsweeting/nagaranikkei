@@ -7,12 +7,20 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import re
 import html
+from typing import Dict, List, Tuple, Optional, Any, Final
 
-RSS_URL = "https://feeds.megaphone.fm/nagara"
-HISTORY_FILE = "history.json"
-DIST_DIR = "dist"
+# Type Aliases for strict typing and clarity
+Chunk = Dict[str, str]
+Episode = Dict[str, Any]
+History = List[Episode]
 
-def read_from_env_file(key):
+RSS_URL: Final[str] = "https://feeds.megaphone.fm/nagara"
+HISTORY_FILE: Final[str] = "history.json"
+DIST_DIR: Final[str] = "dist"
+
+
+def read_from_env_file(key: str) -> Optional[str]:
+    """Reads a key from a local .env file if it exists."""
     if os.path.exists(".env"):
         try:
             with open(".env", "r", encoding="utf-8") as f:
@@ -23,7 +31,9 @@ def read_from_env_file(key):
             pass
     return None
 
-def get_api_key():
+
+def get_api_key() -> Optional[str]:
+    """Retrieves the Gemini API key from environment variables or .env file."""
     return (
         os.environ.get("GEMINI_API_KEY")
         or os.environ.get("GEMINI_API_TOKEN")
@@ -31,47 +41,93 @@ def get_api_key():
         or read_from_env_file("GEMINI_API_TOKEN")
     )
 
-def load_history():
+
+def load_history() -> History:
+    """Pure loader that returns the current history list from file."""
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+                if isinstance(data, list):
+                    return data
         except Exception:
-            return []
+            pass
     return []
 
-def save_history(history):
+
+def save_history(history: History) -> None:
+    """Side-effect function that persists the history list to file."""
     try:
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"Failed to save history: {e}")
 
-def parse_date(pub_date_str):
-    # Format typically: Sun, 31 May 2026 15:30:00 GMT or Sun, 31 May 2026 15:30:00 +0000
+
+def parse_date(pub_date_str: str) -> str:
+    """Pure function that converts RFC 2822 date string into standard ISO format."""
     try:
-        clean_date_str = re.sub(r'\s+[\+\-]\d{4}$', '', pub_date_str)
-        clean_date_str = re.sub(r'\s+GMT$', '', clean_date_str)
+        clean_date_str = re.sub(r"\s+[\+\-]\d{4}$", "", pub_date_str)
+        clean_date_str = re.sub(r"\s+GMT$", "", clean_date_str)
         dt = datetime.strptime(clean_date_str.strip(), "%a, %d %b %Y %H:%M:%S")
         return dt.strftime("%Y-%m-%d %H:%M:%S")
     except Exception:
         return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
-def analyze_japanese(title, api_key):
-    if not api_key:
-        print("GEMINI_API_KEY not set. Using mock translation.")
-        return mock_analyze(title)
-    
-    models = [
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
-        "gemini-flash-latest",
-        "gemini-flash-lite-latest",
-        "gemini-3.5-flash",
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-lite"
+
+def parse_xml_to_episode_metadata(xml_data: bytes) -> Optional[Tuple[str, str, str]]:
+    """Pure parser that extracts (title, pubDate, audio_url) from Megaphone RSS bytes."""
+    try:
+        root = ET.fromstring(xml_data)
+        item = root.find(".//item")
+        if item is None:
+            return None
+
+        title_elem = item.find("title")
+        pub_date_elem = item.find("pubDate")
+        link_elem = item.find("link")
+        enclosure_elem = item.find("enclosure")
+
+        title = title_elem.text if title_elem is not None else None
+        pub_date_str = pub_date_elem.text if pub_date_elem is not None else None
+
+        link = link_elem.text if link_elem is not None else None
+        enclosure_url = (
+            enclosure_elem.get("url") if enclosure_elem is not None else None
+        )
+
+        audio_url = link if link and link.strip() else enclosure_url
+
+        if title and pub_date_str and audio_url:
+            return title.strip(), pub_date_str.strip(), audio_url.strip()
+    except Exception as e:
+        print(f"Failed to parse RSS XML: {e}")
+    return None
+
+
+def mock_analyze(title: str) -> Tuple[str, List[Chunk]]:
+    """Safe pure mock fallback that generates high-quality mock data when API is unavailable."""
+    mock_english = "Daily Nikkei News: " + title[:11] + "..."
+    mock_chunks: List[Chunk] = [
+        {"japanese": "日経", "romaji": "nikkei", "meaning": "Nikkei (newspaper)"},
+        {"japanese": "平均", "romaji": "heikin", "meaning": "Average"},
+        {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
+        {"japanese": "反落", "romaji": "hanraku", "meaning": "fell back / declined"},
     ]
-    
+    return mock_english, mock_chunks
+
+
+def try_models_recursively(
+    models: List[str], title: str, api_key: str
+) -> Tuple[str, List[Chunk]]:
+    """Pure functional helper that attempts translation across available model versions."""
+    if not models:
+        print("All models failed. Using mock.")
+        return mock_analyze(title)
+
+    model = models[0]
+    print(f"Attempting translation with model: {model}...")
+
     prompt = f"""You are a Japanese learning assistant. I will provide a Japanese podcast title. 
 1. Translate the full title to English.
 2. Break the title down word by word or phrase by phrase. For each chunk, provide the Japanese text, Romaji reading, and English meaning.
@@ -86,67 +142,66 @@ Output strictly in the following JSON format:
 
 Title: {title}"""
 
-    for model in models:
-        print(f"Attempting translation with model: {model}...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-        headers = {"Content-Type": "application/json"}
-        req_data = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json"}
-        }
-        try:
-            req = urllib.request.Request(
-                url, 
-                data=json.dumps(req_data).encode("utf-8"), 
-                headers=headers, 
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=30) as response:
-                res_body = json.loads(response.read().decode("utf-8"))
-                text_content = res_body["candidates"][0]["content"]["parts"][0]["text"]
-                parsed = json.loads(text_content)
-                english = parsed.get("english_translation", "")
-                chunks = parsed.get("chunks", [])
-                
-                if english and chunks:
-                    cleaned_chunks = []
-                    for c in chunks:
-                        cleaned_chunks.append({
-                            "japanese": c.get("japanese", ""),
-                            "romaji": c.get("romaji", ""),
-                            "meaning": c.get("meaning", "")
-                        })
-                    print(f"Successfully translated using {model}")
-                    return english, cleaned_chunks
-        except Exception as e:
-            print(f"Model {model} failed: {e}")
-            continue
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    headers = {"Content-Type": "application/json"}
+    req_data = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json"},
+    }
 
-    print("All models failed. Using mock.")
-    return mock_analyze(title)
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(req_data).encode("utf-8"),
+            headers=headers,
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as response:
+            res_body = json.loads(response.read().decode("utf-8"))
+            text_content = res_body["candidates"][0]["content"]["parts"][0]["text"]
+            parsed = json.loads(text_content)
+            english = parsed.get("english_translation", "")
+            chunks = parsed.get("chunks", [])
 
-def mock_analyze(title):
-    mock_english = "Daily Nikkei News: " + title[:11] + "..."
-    mock_chunks = [
-        {"japanese": "日経", "romaji": "nikkei", "meaning": "Nikkei (newspaper)"},
-        {"japanese": "平均", "romaji": "heikin", "meaning": "Average"},
-        {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
-        {"japanese": "反落", "romaji": "hanraku", "meaning": "fell back / declined"}
+            if english and chunks:
+                cleaned_chunks = [
+                    {
+                        "japanese": str(c.get("japanese", "")),
+                        "romaji": str(c.get("romaji", "")),
+                        "meaning": str(c.get("meaning", "")),
+                    }
+                    for c in chunks
+                ]
+                print(f"Successfully translated using {model}")
+                return english, cleaned_chunks
+    except Exception as e:
+        print(f"Model {model} failed: {e}")
+
+    return try_models_recursively(models[1:], title, api_key)
+
+
+def analyze_japanese(title: str, api_key: Optional[str]) -> Tuple[str, List[Chunk]]:
+    """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks."""
+    if not api_key:
+        print("GEMINI_API_KEY not set. Using mock translation.")
+        return mock_analyze(title)
+
+    models = [
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "gemini-flash-latest",
+        "gemini-flash-lite-latest",
+        "gemini-3.5-flash",
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite",
     ]
-    return mock_english, mock_chunks
+    return try_models_recursively(models, title, api_key)
 
-def generate_html(episodes):
-    if not episodes:
-        cards_html = """<div class="empty-state">
-  <p>No episodes translated yet. Running the workflow will fetch the latest!</p>
-</div>"""
-    else:
-        cards = []
-        for ep in episodes:
-            chunks_list = []
-            for c in ep.get("chunks", []):
-                jp_encoded = urllib.parse.quote_plus(c.get("japanese", ""))
-                chunk_str = f"""              <div class="chunk">
+
+def format_chunk_html(c: Chunk) -> str:
+    """Pure formatter that transforms a vocabulary chunk to HTML list items."""
+    jp_encoded = urllib.parse.quote_plus(c.get("japanese", ""))
+    return f"""              <div class="chunk">
                 <dt>
                   <a href="https://jisho.org/search/{jp_encoded}" target="_blank" rel="noopener noreferrer" class="chunk-jp-link">
                     <span class="chunk-jp">{html.escape(c.get("japanese", ""))}</span>
@@ -155,13 +210,15 @@ def generate_html(episodes):
                 </dt>
                 <dd class="chunk-en">{html.escape(c.get("meaning", ""))}</dd>
               </div>"""
-                chunks_list.append(chunk_str)
-            chunks_html = "\n".join(chunks_list)
-            
-            date_formatted = ep.get("published_at", "")[:10]
-            audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
-            
-            card_str = f"""          <div class="episode-card">
+
+
+def format_episode_card(ep: Episode) -> str:
+    """Pure formatter that transforms an Episode card structure to beautiful dynamic HTML."""
+    chunks_html = "\n".join(format_chunk_html(c) for c in ep.get("chunks", []))
+    date_formatted = ep.get("published_at", "")[:10]
+    audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
+
+    return f"""          <div class="episode-card">
             <span class="date">{html.escape(date_formatted)}</span>
             <h2 class="japanese-title">
               {html.escape(ep.get("japanese_title", ""))}
@@ -175,10 +232,11 @@ def generate_html(episodes):
 {chunks_html}
             </dl>
           </div>"""
-            cards.append(card_str)
-        cards_html = "\n".join(cards)
 
-    html_content = f"""<!DOCTYPE html>
+
+def render_html_content(cards_html: str) -> str:
+    """Pure formatter that produces the full-page static index.html dashboard template."""
+    return f"""<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -476,23 +534,20 @@ def generate_html(episodes):
   </body>
 </html>"""
 
-    with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html_content)
 
-def generate_rss(episodes):
-    items = []
-    for ep in episodes:
-        table_rows = []
-        for c in ep.get("chunks", []):
-            row = f"""            <tr>
+def format_rss_table_row(c: Chunk) -> str:
+    """Pure formatter that transforms a chunk into an RSS-compliant table row."""
+    return f"""            <tr>
               <td style="padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;">{html.escape(c.get("japanese", ""))}</td>
               <td style="padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;">{html.escape(c.get("romaji", ""))}</td>
               <td style="padding: 8px; border-bottom: 1px solid #334155;">{html.escape(c.get("meaning", ""))}</td>
             </tr>"""
-            table_rows.append(row)
-        table_rows_str = "\n".join(table_rows)
 
-        description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
+
+def format_rss_item(ep: Episode) -> str:
+    """Pure formatter that transforms an Episode structure into a compliant RSS XML <item>."""
+    table_rows = "\n".join(format_rss_table_row(c) for c in ep.get("chunks", []))
+    description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
         <h3>Vocabulary Breakdown:</h3>
         <table style="width: 100%; border-collapse: collapse; text-align: left;">
           <thead>
@@ -503,39 +558,39 @@ def generate_rss(episodes):
             </tr>
           </thead>
           <tbody>
-{table_rows_str}
+{table_rows}
           </tbody>
         </table>
         <p><a href="{html.escape(ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/")}">Listen to this Episode on Radio NIKKEI</a></p>"""
 
-        # Escape HTML for XML compliance
-        escaped_description = (
-            description_html
-            .replace("&", "&amp;")
-            .replace("<", "&lt;")
-            .replace(">", "&gt;")
-            .replace('"', "&quot;")
-            .replace("'", "&apos;")
-        )
+    escaped_description = (
+        description_html.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
 
-        title_raw = f"{ep.get('japanese_title', '')} - {ep.get('english_translation', '')}"
-        escaped_title = html.escape(title_raw)
-        escaped_link = html.escape(ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/")
-        escaped_guid = html.escape(ep.get("japanese_title", ""))
-        escaped_pub_date = html.escape(ep.get("published_at", ""))
+    title_raw = f"{ep.get('japanese_title', '')} - {ep.get('english_translation', '')}"
+    escaped_title = html.escape(title_raw)
+    escaped_link = html.escape(
+        ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
+    )
+    escaped_guid = html.escape(ep.get("japanese_title", ""))
+    escaped_pub_date = html.escape(ep.get("published_at", ""))
 
-        item = f"""        <item>
+    return f"""        <item>
           <title>{escaped_title}</title>
           <link>{escaped_link}</link>
           <guid isPermaLink="false">{escaped_guid}</guid>
           <pubDate>{escaped_pub_date} +0000</pubDate>
           <description>{escaped_description}</description>
         </item>"""
-        items.append(item)
 
-    items_xml = "\n".join(items)
 
-    rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
+def render_rss_content(items_xml: str) -> str:
+    """Pure formatter that builds the complete RSS XML feed envelope."""
+    return f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>ながら日経 Vocabulary Tracker</title>
@@ -546,88 +601,79 @@ def generate_rss(episodes):
 </channel>
 </rss>"""
 
-    with open(os.path.join(DIST_DIR, "rss.xml"), "w", encoding="utf-8") as f:
-        f.write(rss_content)
 
-def main():
-    print("Starting PodcastTracker Static Site Generator (Python Native)...")
+def main() -> None:
+    print(
+        "Starting PodcastTracker Static Site Generator (Python Typed & Functional)..."
+    )
     os.makedirs(DIST_DIR, exist_ok=True)
-    
+
     # 1. Load history
     history = load_history()
-    
-    # 2. Fetch RSS
+
+    # 2. Fetch RSS XML
     print(f"Fetching RSS from {RSS_URL}...")
     try:
-        req = urllib.request.Request(RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(RSS_URL, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as response:
             xml_data = response.read()
     except Exception as e:
         print(f"Failed to fetch RSS: {e}")
         return
 
-    # 3. Parse XML
-    try:
-        root = ET.fromstring(xml_data)
-        item = root.find(".//item")
-        if item is None:
-            print("No items found in RSS feed.")
-            return
-            
-        title = item.find("title").text if item.find("title") is not None else None
-        pub_date_str = item.find("pubDate").text if item.find("pubDate") is not None else None
-        
-        # Link & audio
-        link_elem = item.find("link")
-        link = link_elem.text if link_elem is not None else None
-        
-        enclosure = item.find("enclosure")
-        enclosure_url = enclosure.get("url") if enclosure is not None else None
-        
-        audio_url = link if link and link.strip() else enclosure_url
-    except Exception as e:
-        print(f"Failed to parse RSS XML: {e}")
+    # 3. Parse RSS metadata
+    metadata = parse_xml_to_episode_metadata(xml_data)
+    if not metadata:
+        print("Empty or invalid metadata parsed from feed.")
         return
 
-    if not title or not title.strip():
-        print("Empty or missing title in RSS feed.")
-        return
-
+    title, pub_date_str, audio_url = metadata
     parsed_date = parse_date(pub_date_str)
-    
-    # 4. Check if episode already exists
-    existing = [ep for ep in history if ep.get("japanese_title") == title]
-    
-    if not existing:
+
+    # 4. Check if episode already exists in history (using functional match check)
+    already_exists = any(ep.get("japanese_title") == title for ep in history)
+
+    if not already_exists:
         print(f"Found new episode: {title}")
         api_key = get_api_key()
         english, chunks = analyze_japanese(title, api_key)
-        
-        new_episode = {
+
+        new_episode: Episode = {
             "japanese_title": title,
             "english_translation": english,
             "published_at": parsed_date,
             "audio_url": audio_url,
-            "chunks": chunks
+            "chunks": chunks,
         }
-        
-        # Prepend and limit to latest 100 items
+
+        # Pure update: prepend new episode and slice to latest 100 items
         history = [new_episode] + history
         history = history[:100]
-        
-        # Save updated history
+
+        # Persist updated history database
         save_history(history)
     else:
         print("Episode already exists in history.")
 
-    # 5. Generate Outputs
+    # 5. Build static outputs
     print("Generating index.html...")
-    generate_html(history)
-    
+    cards_html = (
+        "\n".join(format_episode_card(ep) for ep in history)
+        if history
+        else """<div class="empty-state">
+  <p>No episodes translated yet. Running the workflow will fetch the latest!</p>
+</div>"""
+    )
+    with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(render_html_content(cards_html))
+
     print("Generating rss.xml...")
-    generate_rss(history)
-    
+    items_xml = "\n".join(format_rss_item(ep) for ep in history)
+    with open(os.path.join(DIST_DIR, "rss.xml"), "w", encoding="utf-8") as f:
+        f.write(render_rss_content(items_xml))
+
     print(f"Static build completed successfully in '{DIST_DIR}' folder!")
+
 
 if __name__ == "__main__":
     main()
