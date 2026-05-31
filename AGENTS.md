@@ -209,4 +209,9 @@ custom classes must fully style the input
 - **Safe Secrets Mocking**: **Never** use real key formats or realistic-looking credential prefixes (e.g., `AIzaSy`) for mocks, tests, or examples. Always use explicit, safe placeholders like `"YOUR_GEMINI_API_KEY_HERE"` or `"DUMMY_API_KEY_FOR_TESTING"`.
 - **Gitleaks Configuration**: The `.gitleaks.toml` config extends default rules (`useDefault = true`) and allowlists development/test local configs, databases, and build artifacts.
 
+## Agent Verification & Security Workflows
+
+- **Verification Pipeline**: Whenever a coding task or feature is implemented by a Developer/Coder Agent, a **QA Agent** must always be invoked next to verify the correctness of the code (running the test suite, reviewing changes, and checking for regressions).
+- **Final Security Audit**: Before any feature, task completion, or refactoring is marked as finalized, a **Security Engineer/Auditor Agent** must always be invoked to perform a rigorous security review (auditing for secrets leakage, input sanitization, safe API boundaries, and general vulnerabilities).
+
 <!-- usage-rules-end -->
