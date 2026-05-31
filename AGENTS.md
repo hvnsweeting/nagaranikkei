@@ -4,6 +4,8 @@ This is a web application written using the Phoenix web framework.
 
 - Use `mix precommit` alias when you are done with all changes and fix any pending issues
 - Use the already included and available `:req` (`Req`) library for HTTP requests, **avoid** `:httpoison`, `:tesla`, and `:httpc`. Req is included by default and is the preferred HTTP client for Phoenix apps
+- **Always** use **Nix** (`nix`) for package management and installing system binaries. Homebrew (`brew`) is **not** installed and must **never** be used or searched for under any circumstances.
+
 
 ### Phoenix v1.8 guidelines
 
