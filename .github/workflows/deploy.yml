@@ -1,0 +1,49 @@
+name: Deploy Static Site
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC (9:00 AM Japan Standard Time - perfect for Nagara Nikkei)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for push capabilities
+
+      - name: Set up Elixir
+        uses: erlef/setup-beam@v1
+        with:
+          elixir-version: '1.18.4'
+          otp-version: '27.3'
+
+      - name: Install dependencies
+        run: |
+          mix local.rebar --force
+          mix local.hex --force
+          mix deps.get
+
+      - name: Run Build Generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: mix run build.exs
+
+      - name: Commit history changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update history database [skip ci]" && git push origin main)
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
