@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "==> Running Git pre-commit secrets check..."
+
+# Run gitleaks detect on the directory
+gitleaks detect --no-git --source . --verbose --redact
+
+# Capture the exit code of gitleaks
+EXIT_CODE=$?
+
+if [ $EXIT_CODE -ne 0 ]; then
+  echo "\n🔴 COMMIT BLOCKED: Leaked secrets detected by Gitleaks!"
+  exit $EXIT_CODE
+fi
+
+echo "✨ Secrets check passed. Proceeding with commit..."
+exit 0
