@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>ながら日経 Vocabulary Tracker</title>
+  <link>https://www.radionikkei.jp/nagara/</link>
+  <description>Daily Japanese learning chunks, romaji, and translations from the latest Nagara Nikkei podcast titles.</description>
+  <language>en-us</language>
+        <item>
+          <title>日経平均は反落、米ハイテク安で売り優勢 - Nikkei average falls back, selling dominant due to US tech decline</title>
+          <link>https://feeds.megaphone.fm/nagara-sample</link>
+          <guid isPermaLink="false">日経平均は反落、米ハイテク安で売り優勢</guid>
+          <pubDate>2026-05-31 15:30:00 +0000</pubDate>
+          <description>        &lt;p&gt;&lt;strong&gt;English Title:&lt;/strong&gt; &lt;em&gt;Nikkei average falls back, selling dominant due to US tech decline&lt;/em&gt;&lt;/p&gt;
+        &lt;h3&gt;Vocabulary Breakdown:&lt;/h3&gt;
+        &lt;table style=&quot;width: 100%; border-collapse: collapse; text-align: left;&quot;&gt;
+          &lt;thead&gt;
+            &lt;tr style=&quot;background-color: #1e293b; color: #f8fafc;&quot;&gt;
+              &lt;th style=&quot;padding: 8px;&quot;&gt;Japanese&lt;/th&gt;
+              &lt;th style=&quot;padding: 8px;&quot;&gt;Romaji&lt;/th&gt;
+              &lt;th style=&quot;padding: 8px;&quot;&gt;English Meaning&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;&quot;&gt;日経平均&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;&quot;&gt;nikkei heikin&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155;&quot;&gt;Nikkei average&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;&quot;&gt;は&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;&quot;&gt;wa&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155;&quot;&gt;is (particle)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;&quot;&gt;反落&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;&quot;&gt;hanraku&lt;/td&gt;
+              &lt;td style=&quot;padding: 8px; border-bottom: 1px solid #334155;&quot;&gt;fell back / declined&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;p&gt;&lt;a href=&quot;https://feeds.megaphone.fm/nagara-sample&quot;&gt;Listen to this Episode on Radio NIKKEI&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+</channel>
+</rss>

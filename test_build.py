@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+import os
+import unittest
+import difflib
+import sys
+from typing import Callable
+
+# Import our builder functions
+from build import (
+    parse_date,
+    parse_xml_to_episode_metadata,
+    format_chunk_html,
+    format_episode_card,
+    render_html_content,
+    render_rss_content,
+    format_rss_item,
+    Chunk,
+    Episode,
+    History,
+)
+
+EXPECT_DIR = "test/expect"
+UPDATE_EXPECT = os.environ.get("UPDATE_EXPECT") == "1"
+
+
+class TestBuild(unittest.TestCase):
+    def setUp(self) -> None:
+        os.makedirs(EXPECT_DIR, exist_ok=True)
+
+        # Consistent mock history for deterministic snapshot generation
+        self.mock_history: History = [
+            {
+                "japanese_title": "日経平均は反落、米ハイテク安で売り優勢",
+                "english_translation": "Nikkei average falls back, selling dominant due to US tech decline",
+                "published_at": "2026-05-31 15:30:00",
+                "audio_url": "https://feeds.megaphone.fm/nagara-sample",
+                "chunks": [
+                    {
+                        "japanese": "日経平均",
+                        "romaji": "nikkei heikin",
+                        "meaning": "Nikkei average",
+                    },
+                    {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
+                    {
+                        "japanese": "反落",
+                        "romaji": "hanraku",
+                        "meaning": "fell back / declined",
+                    },
+                ],
+            }
+        ]
+
+    def assert_expect(self, filename: str, actual: str) -> None:
+        """Helper that compares actual output with expected golden file.
+
+        If UPDATE_EXPECT=1 is set, it automatically updates the golden file.
+        """
+        filepath = os.path.join(EXPECT_DIR, filename)
+
+        if UPDATE_EXPECT:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(actual)
+            print(f"Updated expectation: {filepath}")
+            return
+
+        if not os.path.exists(filepath):
+            # If golden file doesn't exist, create it on first run
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(actual)
+            print(f"Created expectation: {filepath}")
+            return
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            expected = f.read()
+
+        if actual != expected:
+            # Generate a beautiful git-style unified diff
+            diff = difflib.unified_diff(
+                expected.splitlines(keepends=True),
+                actual.splitlines(keepends=True),
+                fromfile=f"Expected ({filename})",
+                tofile="Actual Output",
+            )
+            diff_text = "".join(diff)
+            self.fail(
+                f"Expectation mismatch in {filename}!\n"
+                f"To update this expectation, run: UPDATE_EXPECT=1 python test_build.py\n\n"
+                f"{diff_text}"
+            )
+
+    # 1. Unit Tests for pure functions
+    def test_parse_date(self) -> None:
+        self.assertEqual(
+            parse_date("Sun, 31 May 2026 15:30:00 GMT"), "2026-05-31 15:30:00"
+        )
+        self.assertEqual(
+            parse_date("Sun, 31 May 2026 15:30:00 +0000"), "2026-05-31 15:30:00"
+        )
+
+    def test_parse_xml_to_episode_metadata(self) -> None:
+        xml_bytes = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss>
+          <channel>
+            <item>
+              <title>Sample Episode Title</title>
+              <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
+              <link>https://www.radionikkei.jp/nagara/sample.html</link>
+            </item>
+          </channel>
+        </rss>"""
+        metadata = parse_xml_to_episode_metadata(xml_bytes)
+        self.assertIsNotNone(metadata)
+        if metadata:
+            title, pub_date, audio_url = metadata
+            self.assertEqual(title, "Sample Episode Title")
+            self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
+            self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
+
+    # 2. Expect (Snapshot) Tests for HTML & XML generation
+    def test_expect_chunk_html(self) -> None:
+        chunk: Chunk = {
+            "japanese": "反落",
+            "romaji": "hanraku",
+            "meaning": "fell back / declined",
+        }
+        actual_html = format_chunk_html(chunk)
+        self.assert_expect("chunk.html", actual_html)
+
+    def test_expect_episode_card(self) -> None:
+        actual_html = format_episode_card(self.mock_history[0])
+        self.assert_expect("episode_card.html", actual_html)
+
+    def test_expect_full_html_page(self) -> None:
+        cards_html = "\n".join(format_episode_card(ep) for ep in self.mock_history)
+        actual_html = render_html_content(cards_html)
+        self.assert_expect("index.html", actual_html)
+
+    def test_expect_rss_item(self) -> None:
+        actual_xml = format_rss_item(self.mock_history[0])
+        self.assert_expect("rss_item.xml", actual_xml)
+
+    def test_expect_full_rss_feed(self) -> None:
+        items_xml = "\n".join(format_rss_item(ep) for ep in self.mock_history)
+        actual_xml = render_rss_content(items_xml)
+        self.assert_expect("rss.xml", actual_xml)
+
+
+if __name__ == "__main__":
+    unittest.main()

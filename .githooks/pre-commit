@@ -4,8 +4,6 @@ echo "==> Running Git pre-commit secrets check..."
 
 # Run gitleaks detect on the directory
 gitleaks detect --no-git --source . --verbose --redact
-
-# Capture the exit code of gitleaks
 EXIT_CODE=$?
 
 if [ $EXIT_CODE -ne 0 ]; then
@@ -13,5 +11,14 @@ if [ $EXIT_CODE -ne 0 ]; then
   exit $EXIT_CODE
 fi
 
-echo "✨ Secrets check passed. Proceeding with commit..."
+echo "\n==> Running Python static builder expect tests..."
+python test_build.py
+TEST_CODE=$?
+
+if [ $TEST_CODE -ne 0 ]; then
+  echo "\n🔴 COMMIT BLOCKED: Python expect tests failed!"
+  exit $TEST_CODE
+fi
+
+echo "\n✨ All checks passed. Proceeding with commit..."
 exit 0

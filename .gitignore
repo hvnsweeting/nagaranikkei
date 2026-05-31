@@ -34,3 +34,9 @@ podcast_tracker-*.tar
 
 # Build Artifacts
 /dist/
+
+# Python local caches
+__pycache__/
+*.pyc
+.mypy_cache/
+
