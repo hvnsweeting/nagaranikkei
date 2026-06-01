@@ -278,12 +278,17 @@ def format_episode_card(ep: Episode) -> str:
     title_class = "english-title translation-pending" if is_mock else "english-title"
 
     return f"""          <div class="episode-card">
-            <span class="date">{html.escape(date_formatted)}</span>
+            <div class="card-meta">
+              <span class="date">{html.escape(date_formatted)}</span>
+              <a href="{html.escape(audio_url)}" target="_blank" rel="noopener noreferrer" class="podcast-link">
+                Podcast Link
+              </a>
+            </div>
             <h2 class="japanese-title">
               {html.escape(ep.get("japanese_title", ""))}
-              <a href="{html.escape(audio_url)}" target="_blank" rel="noopener noreferrer" class="listen-badge">
-                Listen
-              </a>
+              <button onclick="speakTitle(this)" data-title="{html.escape(ep.get("japanese_title", ""))}" class="listen-badge" title="Read title aloud">
+                🔊 Speech to Text
+              </button>
             </h2>
             <p class="{title_class}">{html.escape(ep.get("english_translation", ""))}</p>
 {chunks_container}
@@ -347,13 +352,30 @@ def render_html_content(cards_html: str) -> str:
         margin-bottom: 30px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.2);
       }}
+      .card-meta {{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+      }}
       .date {{
         font-size: 0.9rem;
         color: var(--accent);
         text-transform: uppercase;
         letter-spacing: 1px;
-        margin-bottom: 10px;
-        display: block;
+        display: inline-block;
+      }}
+      .podcast-link {{
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        transition: color 0.2s ease;
+      }}
+      .podcast-link:hover {{
+        color: var(--accent);
+        text-decoration: underline;
       }}
       .japanese-title {{
         font-size: 1.5rem;
@@ -446,12 +468,18 @@ def render_html_content(cards_html: str) -> str:
         text-decoration: none;
         vertical-align: middle;
         font-weight: 500;
+        cursor: pointer;
+        font-family: inherit;
         transition: background-color 0.2s ease, transform 0.2s ease;
       }}
       .listen-badge:hover {{
         background: var(--accent);
         color: var(--bg-color);
         transform: scale(1.05);
+      }}
+      .listen-badge:disabled {{
+        opacity: 0.7;
+        cursor: not-allowed;
       }}
       .empty-state {{
         text-align: center;
@@ -545,6 +573,38 @@ def render_html_content(cards_html: str) -> str:
     </div>
 
     <script>
+      function speakTitle(btn) {{
+        const text = btn.getAttribute('data-title');
+        if ('speechSynthesis' in window) {{
+          window.speechSynthesis.cancel();
+          const utterance = new SpeechSynthesisUtterance(text);
+          const voices = window.speechSynthesis.getVoices();
+          const jaVoice = voices.find(voice => voice.lang.startsWith('ja'));
+          if (jaVoice) {{
+            utterance.voice = jaVoice;
+          }}
+          utterance.lang = 'ja-JP';
+          
+          const originalText = btn.innerHTML;
+          btn.innerHTML = '🔊 Speaking...';
+          btn.disabled = true;
+          
+          utterance.onend = () => {{
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+          }};
+          
+          utterance.onerror = () => {{
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+          }};
+          
+          window.speechSynthesis.speak(utterance);
+        }} else {{
+          alert('Text-to-speech is not supported in this browser.');
+        }}
+      }}
+
       document.addEventListener('DOMContentLoaded', () => {{
         const episodesPerPage = 5;
         let currentPage = 1;
