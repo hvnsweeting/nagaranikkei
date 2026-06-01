@@ -17,6 +17,7 @@ History = list[Episode]
 RSS_URL: Final[str] = "https://feeds.megaphone.fm/nagara"
 HISTORY_FILE: Final[str] = "history.json"
 DIST_DIR: Final[str] = "dist"
+BASE_URL: Final[str] = "https://hvnsweeting.github.io/nagaranikkei"
 
 
 def read_from_env_file(key: str) -> Optional[str]:
@@ -283,6 +284,10 @@ def format_episode_card(ep: Episode) -> str:
               <a href="{html.escape(audio_url)}" target="_blank" rel="noopener noreferrer" class="podcast-link">
                 Podcast Link
               </a>
+              <span class="meta-divider">•</span>
+              <a href="{html.escape(date_formatted)}.html" class="permalink">
+                Permalink
+              </a>
             </div>
             <h2 class="japanese-title">
               {html.escape(ep.get("japanese_title", ""))}
@@ -375,6 +380,37 @@ def render_html_content(cards_html: str) -> str:
       }}
       .podcast-link:hover {{
         color: var(--accent);
+        text-decoration: underline;
+      }}
+      .meta-divider {{
+        color: var(--text-muted);
+        opacity: 0.5;
+        font-size: 0.85rem;
+      }}
+      .permalink {{
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }}
+      .permalink:hover {{
+        color: var(--accent);
+        text-decoration: underline;
+      }}
+      .back-link-container {{
+        margin-bottom: 30px;
+      }}
+      .back-link {{
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: transform 0.2s ease;
+      }}
+      .back-link:hover {{
+        transform: translateX(-4px);
         text-decoration: underline;
       }}
       .japanese-title {{
@@ -685,12 +721,13 @@ def format_rss_item(ep: Episode) -> str:
     else:
         breakdown_html = ""
 
-    site_url = "https://www.radionikkei.jp/nagara/"
+    date_formatted = ep.get("published_at", "")[:10]
+    site_url = f"{BASE_URL}/{date_formatted}.html" if date_formatted else BASE_URL
     audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
 
     description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
 {breakdown_html}
-        <p><a href="{html.escape(site_url)}">Listen to this Episode on Radio NIKKEI</a></p>
+        <p><a href="{html.escape(site_url)}">View Translation &amp; Vocabulary Breakdown on Tracker</a></p>
         <p><a href="{html.escape(audio_url)}">Play Audio (Media Link)</a></p>"""
 
     escaped_description = (
@@ -820,6 +857,19 @@ def main() -> None:
     )
     with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_html_content(cards_html))
+
+    print("Generating individual episode pages...")
+    for ep in history:
+        date_formatted = ep.get("published_at", "")[:10]
+        if date_formatted:
+            back_link_html = """            <div class="back-link-container">
+              <a href="index.html" class="back-link">← Back to Dashboard</a>
+            </div>"""
+            card_html = format_episode_card(ep)
+            single_page_content = render_html_content(f"{back_link_html}\n{card_html}")
+            page_path = os.path.join(DIST_DIR, f"{date_formatted}.html")
+            with open(page_path, "w", encoding="utf-8") as f:
+                f.write(single_page_content)
 
     print("Generating rss.xml...")
     items_xml = "\n".join(format_rss_item(ep) for ep in history)
