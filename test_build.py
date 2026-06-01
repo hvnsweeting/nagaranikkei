@@ -155,6 +155,24 @@ class TestBuild(unittest.TestCase):
         actual_xml = render_rss_content(items_xml)
         self.assert_expect("rss.xml", actual_xml)
 
+    def test_malicious_audio_url_sanitization(self) -> None:
+        malicious_episode: Episode = {
+            "japanese_title": "テスト",
+            "english_translation": "Test",
+            "published_at": "2026-05-31 15:30:00",
+            "audio_url": "javascript:alert('xss')",
+            "chunks": [],
+            "is_mock": False,
+        }
+        card_html = format_episode_card(malicious_episode)
+        rss_item_xml = format_rss_item(malicious_episode)
+
+        # Verify both formats fall back to a safe URL and do not contain javascript:
+        self.assertNotIn("javascript:alert('xss')", card_html)
+        self.assertNotIn("javascript:alert('xss')", rss_item_xml)
+        self.assertIn("https://www.radionikkei.jp/nagara/", card_html)
+        self.assertIn("https://www.radionikkei.jp/nagara/", rss_item_xml)
+
 
 if __name__ == "__main__":
     unittest.main()

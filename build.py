@@ -274,7 +274,7 @@ def format_episode_card(ep: Episode) -> str:
         chunks_container = ""
 
     date_formatted = ep.get("published_at", "")[:10]
-    audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
+    audio_url = sanitize_audio_url(ep.get("audio_url", ""))
 
     is_mock = ep.get("is_mock", False)
     title_class = "english-title translation-pending" if is_mock else "english-title"
@@ -724,7 +724,7 @@ def format_rss_item(ep: Episode) -> str:
 
     date_formatted = ep.get("published_at", "")[:10]
     site_url = f"{BASE_URL}/{date_formatted}.html" if date_formatted else BASE_URL
-    audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
+    audio_url = sanitize_audio_url(ep.get("audio_url", ""))
 
     description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
 {breakdown_html}
