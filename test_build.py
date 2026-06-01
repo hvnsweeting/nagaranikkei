@@ -135,7 +135,9 @@ class TestBuild(unittest.TestCase):
             "romaji": "hanraku",
             "meaning": "fell back / declined",
         }
-        actual_html = format_chunk_html(chunk)
+        actual_html = format_chunk_html(
+            chunk, "2026-05-31", "日経平均は反落、米ハイテク安で売り優勢"
+        )
         self.assert_expect("chunk.html", actual_html)
 
     def test_expect_episode_card(self) -> None:

@@ -249,33 +249,53 @@ def analyze_japanese(
     return try_models_recursively(models, title, api_key)
 
 
-def format_chunk_html(c: Chunk) -> str:
-    """Pure formatter that transforms a vocabulary chunk to HTML list items."""
+def format_chunk_html(c: Chunk, slug: str, ep_title: str) -> str:
+    """Pure formatter that transforms a vocabulary chunk to HTML list items with save buttons."""
     jp_encoded = urllib.parse.quote_plus(c.get("japanese", ""))
+    jp = c.get("japanese", "")
+    ro = c.get("romaji", "")
+    en = c.get("meaning", "")
+
+    # HTML attributes escaping
+    escaped_jp = html.escape(jp)
+    escaped_ro = html.escape(ro)
+    escaped_en = html.escape(en)
+    escaped_slug = html.escape(slug)
+    escaped_ep_title = html.escape(ep_title)
+
     return f"""              <div class="chunk">
                 <dt>
                   <a href="https://jisho.org/search/{jp_encoded}" target="_blank" rel="noopener noreferrer" class="chunk-jp-link">
-                    <span class="chunk-jp">{html.escape(c.get("japanese", ""))}</span>
+                    <span class="chunk-jp">{escaped_jp}</span>
                   </a>
-                  <span class="chunk-ro">{html.escape(c.get("romaji", ""))}</span>
+                  <span class="chunk-ro">{escaped_ro}</span>
                 </dt>
-                <dd class="chunk-en">{html.escape(c.get("meaning", ""))}</dd>
+                <dd class="chunk-en">{escaped_en}</dd>
+                <div>
+                  <button class="save-word-btn" onclick="toggleSaveWord(this)" data-jp="{escaped_jp}" data-ro="{escaped_ro}" data-en="{escaped_en}" data-url="{escaped_slug}.html" data-title="{escaped_ep_title}" title="Save to learning list" aria-label="Save to learning list">
+                    ☆
+                  </button>
+                </div>
               </div>"""
 
 
 def format_episode_card(ep: Episode) -> str:
     """Pure formatter that transforms an Episode card structure to beautiful dynamic HTML."""
+    date_formatted = ep.get("published_at", "")[:10]
+    ep_title = ep.get("japanese_title", "")
+
     chunks_list = ep.get("chunks", [])
     chunks_html = ""
     if chunks_list:
-        chunks_html = "\n".join(format_chunk_html(c) for c in chunks_list)
+        chunks_html = "\n".join(
+            format_chunk_html(c, date_formatted, ep_title) for c in chunks_list
+        )
         chunks_container = f"""            <dl class="chunks-container collapsed">
 {chunks_html}
             </dl>"""
     else:
         chunks_container = ""
 
-    date_formatted = ep.get("published_at", "")[:10]
     audio_url = sanitize_audio_url(ep.get("audio_url", ""))
 
     is_mock = ep.get("is_mock", False)
@@ -357,6 +377,52 @@ def render_html_content(
         padding: 0;
         line-height: 1.6;
         -webkit-font-smoothing: antialiased;
+      }}
+      .top-bar {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--border-color);
+      }}
+      .logo-link {{
+        text-decoration: none;
+        color: var(--text-main);
+        font-weight: 600;
+        font-size: 1.2rem;
+        transition: color 0.2s ease;
+      }}
+      .logo-link:hover {{
+        color: var(--accent);
+      }}
+      .saved-words-btn {{
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+      }}
+      .saved-words-btn:hover {{
+        background: rgba(255, 255, 255, 0.05);
+        border-color: var(--accent);
+        transform: scale(1.02);
+      }}
+      .saved-words-btn .badge {{
+        background: var(--accent);
+        color: var(--bg-color);
+        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 9999px;
+        font-weight: bold;
       }}
       .container {{
         max-width: 800px;
@@ -495,7 +561,7 @@ def render_html_content(
       }}
       .chunk {{
         display: grid;
-        grid-template-columns: 220px 1fr;
+        grid-template-columns: 220px 1fr auto;
         align-items: center;
         gap: 20px;
         padding: 16px 20px;
@@ -503,6 +569,23 @@ def render_html_content(
         margin: 0;
         transition: background-color 0.2s ease;
         cursor: default;
+      }}
+      .save-word-btn {{
+        background: transparent;
+        border: none;
+        color: var(--text-muted);
+        cursor: pointer;
+        font-size: 1.25rem;
+        padding: 4px;
+        transition: color 0.2s ease, transform 0.2s ease;
+        line-height: 1;
+      }}
+      .save-word-btn:hover {{
+        color: #eab308;
+        transform: scale(1.2);
+      }}
+      .save-word-btn.saved {{
+        color: #eab308;
       }}
       .chunk:last-child {{
         border-bottom: none;
@@ -640,8 +723,16 @@ def render_html_content(
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>ながら日経 Tracker</h1>
+      <div class="top-bar">
+        <a href="index.html" class="logo-link">
+          ながら日経 Tracker
+        </a>
+        <a href="learning-words.html" class="saved-words-btn">
+          ⭐ Saved Words <span class="badge" id="saved-words-count">0</span>
+        </a>
+      </div>
+
+      <header style="text-align: center; margin-bottom: 50px;">
         <p class="subtitle">Daily Japanese learning through podcast titles</p>
       </header>
 
@@ -705,6 +796,62 @@ def render_html_content(
         }}
       }}
 
+      function toggleSaveWord(btn) {{
+        const jp = btn.getAttribute('data-jp');
+        const ro = btn.getAttribute('data-ro');
+        const en = btn.getAttribute('data-en');
+        const url = btn.getAttribute('data-url');
+        const title = btn.getAttribute('data-title');
+        
+        let saved = JSON.parse(localStorage.getItem('learning_words') || '[]');
+        const index = saved.findIndex(item => item.japanese === jp);
+        
+        if (index > -1) {{
+          saved.splice(index, 1);
+          btn.classList.remove('saved');
+          btn.innerHTML = '☆';
+          btn.title = 'Save to learning list';
+        }} else {{
+          saved.push({{
+            japanese: jp,
+            romaji: ro,
+            meaning: en,
+            post_url: url,
+            post_title: title,
+            saved_at: new Date().toISOString()
+          }});
+          btn.classList.add('saved');
+          btn.innerHTML = '★';
+          btn.title = 'Saved';
+        }}
+        
+        localStorage.setItem('learning_words', JSON.stringify(saved));
+        syncSavedWordButtons();
+      }}
+
+      function syncSavedWordButtons() {{
+        const saved = JSON.parse(localStorage.getItem('learning_words') || '[]');
+        const savedJps = new Set(saved.map(item => item.japanese));
+        
+        document.querySelectorAll('.save-word-btn').forEach(btn => {{
+          const jp = btn.getAttribute('data-jp');
+          if (savedJps.has(jp)) {{
+            btn.classList.add('saved');
+            btn.innerHTML = '★';
+            btn.title = 'Saved';
+          }} else {{
+            btn.classList.remove('saved');
+            btn.innerHTML = '☆';
+            btn.title = 'Save to learning list';
+          }}
+        }});
+        
+        const badge = document.getElementById('saved-words-count');
+        if (badge) {{
+          badge.textContent = saved.length;
+        }}
+      }}
+
       document.addEventListener('DOMContentLoaded', () => {{
         const episodesPerPage = 5;
         let currentPage = 1;
@@ -749,6 +896,7 @@ def render_html_content(
         document.getElementById('next-btn').addEventListener('click', () => showPage(currentPage + 1));
 
         showPage(1);
+        syncSavedWordButtons();
       }});
     </script>
   </body>
@@ -969,6 +1117,417 @@ def main() -> None:
     items_xml = "\n".join(format_rss_item(ep) for ep in history)
     with open(os.path.join(DIST_DIR, "rss.xml"), "w", encoding="utf-8") as f:
         f.write(render_rss_content(items_xml))
+
+    print("Generating learning-words.html...")
+    learning_words_html = f"""<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Learning Words - Tracker</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+      :root {{
+        --bg-color: #0f172a;
+        --card-bg: #1e293b;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --accent: #38bdf8;
+        --border-color: #334155;
+        --accent-glow: rgba(56, 189, 248, 0.1);
+      }}
+      body {{
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }}
+      .container {{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }}
+      .top-bar {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--border-color);
+      }}
+      .back-btn {{
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: transform 0.2s ease;
+      }}
+      .back-btn:hover {{
+        transform: translateX(-4px);
+      }}
+      h1 {{
+        font-size: 2.2rem;
+        margin: 0 0 10px 0;
+        background: linear-gradient(135deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }}
+      p.subtitle {{
+        color: var(--text-muted);
+        margin: 0 0 30px 0;
+      }}
+      .view-selector {{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+      }}
+      .view-btn {{
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        transition: background-color 0.2s ease, border-color 0.2s ease;
+      }}
+      .view-btn.active {{
+        border-color: var(--accent);
+        background: var(--accent-glow);
+        color: var(--accent);
+      }}
+      .word-list-container, .flashcard-container {{
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      }}
+      .empty-state {{
+        text-align: center;
+        padding: 50px 20px;
+        color: var(--text-muted);
+      }}
+      .vocab-table {{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+      }}
+      .vocab-table th, .vocab-table td {{
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--border-color);
+      }}
+      .vocab-table th {{
+        color: var(--text-muted);
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }}
+      .vocab-table tr:last-child td {{
+        border-bottom: none;
+      }}
+      .jp-word {{
+        font-size: 1.15rem;
+        font-weight: 600;
+      }}
+      .ro-word {{
+        color: var(--accent);
+        font-size: 0.9rem;
+      }}
+      .source-link {{
+        font-size: 0.8rem;
+        color: var(--accent);
+        text-decoration: none;
+        background: var(--accent-glow);
+        padding: 4px 8px;
+        border-radius: 4px;
+        max-width: 150px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }}
+      .source-link:hover {{
+        text-decoration: underline;
+      }}
+      .delete-btn {{
+        background: transparent;
+        border: none;
+        color: #ef4444;
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 4px;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
+      }}
+      .delete-btn:hover {{
+        background-color: rgba(239, 68, 68, 0.1);
+      }}
+      .flashcard-widget {{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 250px;
+        text-align: center;
+        padding: 20px;
+      }}
+      .card-face {{
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }}
+      .card-detail {{
+        margin-bottom: 30px;
+        min-height: 80px;
+      }}
+      .card-ro {{
+        font-size: 1.1rem;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }}
+      .card-en {{
+        font-size: 1.3rem;
+        color: var(--text-main);
+      }}
+      .reveal-btn {{
+        background: var(--accent);
+        border: none;
+        color: var(--bg-color);
+        padding: 12px 30px;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+      }}
+      .reveal-btn:hover {{
+        transform: scale(1.05);
+      }}
+      .flashcard-nav {{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+      }}
+      .nav-btn {{
+        background: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        padding: 8px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        transition: border-color 0.2s ease, color 0.2s ease;
+      }}
+      .nav-btn:hover:not(:disabled) {{
+        border-color: var(--accent);
+        color: var(--accent);
+      }}
+      .nav-btn:disabled {{
+        opacity: 0.5;
+        cursor: not-allowed;
+      }}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <a href="index.html" class="back-btn">← Back to Tracker</a>
+      </div>
+
+      <h1>My Saved Vocabulary</h1>
+      <p class="subtitle">Review and practice your saved words using list and flashcard mode.</p>
+
+      <div class="view-selector">
+        <button id="list-view-btn" class="view-btn active" onclick="switchView('list')">📋 List View</button>
+        <button id="flash-view-btn" class="view-btn" onclick="switchView('flash')">🎴 Flashcard Mode</button>
+      </div>
+
+      <div id="list-view" class="word-list-container">
+        <!-- Dynamically populated -->
+      </div>
+
+      <div id="flash-view" class="flashcard-container" style="display: none;">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <script>
+      let savedWords = [];
+      let currentCardIndex = 0;
+      let isRevealed = false;
+
+      function loadSavedWords() {{
+        savedWords = JSON.parse(localStorage.getItem('learning_words') || '[]');
+        renderListView();
+        renderFlashcardView();
+      }}
+
+      function switchView(view) {{
+        const listBtn = document.getElementById('list-view-btn');
+        const flashBtn = document.getElementById('flash-view-btn');
+        const listView = document.getElementById('list-view');
+        const flashView = document.getElementById('flash-view');
+
+        if (view === 'list') {{
+          listBtn.classList.add('active');
+          flashBtn.classList.remove('active');
+          listView.style.display = 'block';
+          flashView.style.display = 'none';
+        }} else {{
+          listBtn.classList.remove('active');
+          flashBtn.classList.add('active');
+          listView.style.display = 'none';
+          flashView.style.display = 'block';
+          currentCardIndex = 0;
+          isRevealed = false;
+          renderFlashcardView();
+        }}
+      }}
+
+      function deleteWord(jp) {{
+        savedWords = savedWords.filter(w => w.japanese !== jp);
+        localStorage.setItem('learning_words', JSON.stringify(savedWords));
+        renderListView();
+        if (document.getElementById('flash-view').style.display !== 'none') {{
+          currentCardIndex = Math.max(0, Math.min(currentCardIndex, savedWords.length - 1));
+          isRevealed = false;
+          renderFlashcardView();
+        }}
+      }}
+
+      function renderListView() {{
+        const container = document.getElementById('list-view');
+        if (savedWords.length === 0) {{
+          container.innerHTML = `
+            <div class="empty-state">
+              <h3>No words saved yet!</h3>
+              <p>Go back to the dashboard and click the star ☆ icon next to any vocabulary word to add it here.</p>
+            </div>
+          `;
+          return;
+        }}
+
+        let rowsHtml = savedWords.map(w => `
+          <tr>
+            <td>
+              <div class="jp-word">${{escapeHtml(w.japanese)}}</div>
+              <div class="ro-word">${{escapeHtml(w.romaji)}}</div>
+            </td>
+            <td>${{escapeHtml(w.meaning)}}</td>
+            <td>
+              <a href="${{escapeHtml(w.post_url)}}" class="source-link" title="${{escapeHtml(w.post_title)}}">
+                🔗 ${{escapeHtml(w.post_title)}}
+              </a>
+            </td>
+            <td style="text-align: right;">
+              <button class="delete-btn" onclick="deleteWord('${{escapeHtml(w.japanese)}}')">🗑️</button>
+            </td>
+          </tr>
+        `).join('');
+
+        container.innerHTML = `
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th style="width: 30%;">Word</th>
+                <th style="width: 35%;">Meaning</th>
+                <th style="width: 25%;">Source Post</th>
+                <th style="width: 10%; text-align: right;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${{rowsHtml}}
+            </tbody>
+          </table>
+        `;
+      }}
+
+      function renderFlashcardView() {{
+        const container = document.getElementById('flash-view');
+        if (savedWords.length === 0) {{
+          container.innerHTML = `
+            <div class="empty-state">
+              <h3>No flashcards available</h3>
+              <p>Add some vocabulary words from the tracker homepage first!</p>
+            </div>
+          `;
+          return;
+        }}
+
+        const word = savedWords[currentCardIndex];
+        const detailHtml = isRevealed ? `
+          <div class="card-ro">${{escapeHtml(word.romaji)}}</div>
+          <div class="card-en">${{escapeHtml(word.meaning)}}</div>
+        ` : `
+          <button class="reveal-btn" onclick="revealCard()">Reveal Meaning</button>
+        `;
+
+        container.innerHTML = `
+          <div class="flashcard-widget">
+            <div class="card-face">${{escapeHtml(word.japanese)}}</div>
+            <div class="card-detail">
+              ${{detailHtml}}
+            </div>
+            
+            <div class="flashcard-nav">
+              <button class="nav-btn" onclick="prevCard()" ${{currentCardIndex === 0 ? 'disabled' : ''}}>Previous</button>
+              <span style="align-self: center; color: var(--text-muted); font-size: 0.9rem;">
+                Card ${{currentCardIndex + 1}} of ${{savedWords.length}}
+              </span>
+              <button class="nav-btn" onclick="nextCard()" ${{currentCardIndex === savedWords.length - 1 ? 'disabled' : ''}}>Next</button>
+            </div>
+          </div>
+        `;
+      }}
+
+      function revealCard() {{
+        isRevealed = true;
+        renderFlashcardView();
+      }}
+
+      function nextCard() {{
+        if (currentCardIndex < savedWords.length - 1) {{
+          currentCardIndex++;
+          isRevealed = false;
+          renderFlashcardView();
+        }}
+      }}
+
+      function prevCard() {{
+        if (currentCardIndex > 0) {{
+          currentCardIndex--;
+          isRevealed = false;
+          renderFlashcardView();
+        }}
+      }}
+
+      function escapeHtml(str) {{
+        return str
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }}
+
+      document.addEventListener('DOMContentLoaded', loadSavedWords);
+    </script>
+  </body>
+</html>"""
+    with open(
+        os.path.join(DIST_DIR, "learning-words.html"), "w", encoding="utf-8"
+    ) as f:
+        f.write(learning_words_html)
 
     print(f"Static build completed successfully in '{DIST_DIR}' folder!")
 
