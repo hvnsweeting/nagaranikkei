@@ -214,4 +214,18 @@ custom classes must fully style the input
 - **Verification Pipeline**: Whenever a coding task or feature is implemented by a Developer/Coder Agent, a **QA Agent** must always be invoked next to verify the correctness of the code (running the test suite, reviewing changes, and checking for regressions).
 - **Final Security Audit**: Before any feature, task completion, or refactoring is marked as finalized, a **Security Engineer/Auditor Agent** must always be invoked to perform a rigorous security review (auditing for secrets leakage, input sanitization, safe API boundaries, and general vulnerabilities).
 
+## Mandatory Output Block
+
+Every agent response during a task must conclude with the following status block to enforce pipeline discipline:
+
+```markdown
+---
+**[Pipeline Status]**: [Coding / QA / Security / Done]
+- **Current Stage**: [e.g., QA Verification / Security Audit]
+- **Developer Commit**: [Commit Hash or N/A]
+- **QA Report**: [Conversation ID or Link]
+- **Security Audit**: [Conversation ID or Link]
+---
+```
+
 <!-- usage-rules-end -->
