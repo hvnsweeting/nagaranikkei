@@ -311,14 +311,32 @@ def format_episode_card(ep: Episode) -> str:
           </div>"""
 
 
-def render_html_content(cards_html: str) -> str:
+def render_html_content(
+    cards_html: str,
+    title: str = "ながら日経 Podcast Tracker",
+    description: str = "Daily Japanese learning chunks, romaji, and translations from the latest Nagara Nikkei podcast titles.",
+    og_url: str = "https://hvnsweeting.github.io/nagaranikkei/",
+) -> str:
     """Pure formatter that produces the full-page static index.html dashboard template."""
     return f"""<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ながら日経 Podcast Tracker</title>
+    <title>{html.escape(title)}</title>
+    <meta name="description" content="{html.escape(description)}" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{html.escape(og_url)}" />
+    <meta property="og:title" content="{html.escape(title)}" />
+    <meta property="og:description" content="{html.escape(description)}" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="{html.escape(og_url)}" />
+    <meta property="twitter:title" content="{html.escape(title)}" />
+    <meta property="twitter:description" content="{html.escape(description)}" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
@@ -912,7 +930,14 @@ def main() -> None:
 </div>"""
     )
     with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(render_html_content(cards_html))
+        f.write(
+            render_html_content(
+                cards_html,
+                title="ながら日経 Podcast Tracker",
+                description="Daily Japanese learning chunks, romaji, and translations from the latest Nagara Nikkei podcast titles.",
+                og_url=f"{BASE_URL}/",
+            )
+        )
 
     print("Generating individual episode pages...")
     for ep in history:
@@ -922,7 +947,20 @@ def main() -> None:
               <a href="index.html" class="back-link">← Back to Dashboard</a>
             </div>"""
             card_html = format_episode_card(ep)
-            single_page_content = render_html_content(f"{back_link_html}\n{card_html}")
+
+            # Dynamic social media preview metadata (Telegram, Discord, Twitter/X, etc.)
+            jp_title = ep.get("japanese_title", "")
+            en_trans = ep.get("english_translation", "")
+            page_title = f"ながら日経 Tracker • {jp_title}"
+            page_desc = f"English Translation: {en_trans}"
+            og_page_url = f"{BASE_URL}/{date_formatted}.html"
+
+            single_page_content = render_html_content(
+                f"{back_link_html}\n{card_html}",
+                title=page_title,
+                description=page_desc,
+                og_url=og_page_url,
+            )
             page_path = os.path.join(DIST_DIR, f"{date_formatted}.html")
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(single_page_content)
