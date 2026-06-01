@@ -1394,7 +1394,8 @@ def main() -> None:
         }}
       }}
 
-      function deleteWord(jp) {{
+      function deleteWord(btn) {{
+        const jp = btn.getAttribute('data-jp');
         savedWords = savedWords.filter(w => w.japanese !== jp);
         localStorage.setItem('learning_words', JSON.stringify(savedWords));
         renderListView();
@@ -1430,7 +1431,7 @@ def main() -> None:
               </a>
             </td>
             <td style="text-align: right;">
-              <button class="delete-btn" onclick="deleteWord('${{escapeHtml(w.japanese)}}')">🗑️</button>
+              <button class="delete-btn" onclick="deleteWord(this)" data-jp="${{escapeHtml(w.japanese)}}">🗑️</button>
             </td>
           </tr>
         `).join('');
