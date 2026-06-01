@@ -18,7 +18,6 @@ RSS_URL: Final[str] = "https://feeds.megaphone.fm/nagara"
 HISTORY_FILE: Final[str] = "history.json"
 DIST_DIR: Final[str] = "dist"
 
-
 def read_from_env_file(key: str) -> Optional[str]:
     """Reads a key from a local .env file if it exists."""
     if os.path.exists(".env"):
@@ -31,7 +30,6 @@ def read_from_env_file(key: str) -> Optional[str]:
             pass
     return None
 
-
 def get_api_key() -> Optional[str]:
     """Retrieves the Gemini API key from environment variables or .env file."""
     return (
@@ -40,7 +38,6 @@ def get_api_key() -> Optional[str]:
         or read_from_env_file("GEMINI_API_KEY")
         or read_from_env_file("GEMINI_API_TOKEN")
     )
-
 
 def load_history() -> History:
     """Pure loader that returns the current history list from file."""
@@ -54,15 +51,22 @@ def load_history() -> History:
             pass
     return []
 
-
 def save_history(history: History) -> None:
-    """Side-effect function that persists the history list to file."""
+    """Side-effect function that persists the history list to file, sorted by date descending."""
     try:
+        # Sort history by published_at descending to keep chronological order
+        sorted_history = sorted(
+            history,
+            key=lambda ep: str(ep.get("published_at", "")),
+            reverse=True
+        )
+        # Enforce history limit of latest 100 items
+        truncated_history = sorted_history[:100]
+        
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history, f, indent=2, ensure_ascii=False)
+            json.dump(truncated_history, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"Failed to save history: {e}")
-
 
 def parse_date(pub_date_str: str) -> str:
     """Pure function that converts RFC 2822 date string into standard ISO format."""
@@ -74,60 +78,49 @@ def parse_date(pub_date_str: str) -> str:
     except Exception:
         return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
-
-def parse_xml_to_episode_metadata(xml_data: bytes) -> Optional[tuple[str, str, str]]:
-    """Pure parser that extracts (title, pubDate, audio_url) from Megaphone RSS bytes."""
+def parse_xml_to_episodes_metadata(xml_data: bytes, limit: int = 5) -> list[tuple[str, str, str]]:
+    """Pure parser that extracts the first N episodes (title, pubDate, audio_url) from RSS bytes."""
     try:
         root = ET.fromstring(xml_data)
-        item = root.find(".//item")
-        if item is None:
-            return None
-
-        title_elem = item.find("title")
-        pub_date_elem = item.find("pubDate")
-        link_elem = item.find("link")
-        enclosure_elem = item.find("enclosure")
-
-        title = title_elem.text if title_elem is not None else None
-        pub_date_str = pub_date_elem.text if pub_date_elem is not None else None
-
-        link = link_elem.text if link_elem is not None else None
-        enclosure_url = (
-            enclosure_elem.get("url") if enclosure_elem is not None else None
-        )
-
-        audio_url = link if link and link.strip() else enclosure_url
-
-        if title and pub_date_str and audio_url:
-            return title.strip(), pub_date_str.strip(), audio_url.strip()
+        items = root.findall(".//item")[:limit]
+        metadata_list = []
+        for item in items:
+            title_elem = item.find("title")
+            pub_date_elem = item.find("pubDate")
+            link_elem = item.find("link")
+            enclosure_elem = item.find("enclosure")
+            
+            title = title_elem.text if title_elem is not None else None
+            pub_date_str = pub_date_elem.text if pub_date_elem is not None else None
+            
+            link = link_elem.text if link_elem is not None else None
+            enclosure_url = enclosure_elem.get("url") if enclosure_elem is not None else None
+            
+            audio_url = link if link and link.strip() else enclosure_url
+            
+            if title and pub_date_str and audio_url:
+                metadata_list.append((title.strip(), pub_date_str.strip(), audio_url.strip()))
+        return metadata_list
     except Exception as e:
         print(f"Failed to parse RSS XML: {e}")
-    return None
-
+    return []
 
 def mock_analyze(title: str) -> tuple[str, list[Chunk]]:
-    """Safe pure mock fallback that generates high-quality mock data when API is unavailable."""
-    mock_english = "Daily Nikkei News: " + title[:11] + "..."
-    mock_chunks: list[Chunk] = [
-        {"japanese": "日経", "romaji": "nikkei", "meaning": "Nikkei (newspaper)"},
-        {"japanese": "平均", "romaji": "heikin", "meaning": "Average"},
-        {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
-        {"japanese": "反落", "romaji": "hanraku", "meaning": "fell back / declined"},
-    ]
+    """Safe pure mock fallback that generates a placeholder warning when API is down."""
+    mock_english = "[Translation temporarily unavailable. Re-run workflow to retry.]"
+    mock_chunks: list[Chunk] = []
     return mock_english, mock_chunks
 
-
-def try_models_recursively(
-    models: list[str], title: str, api_key: str
-) -> tuple[str, list[Chunk]]:
+def try_models_recursively(models: list[str], title: str, api_key: str) -> tuple[str, list[Chunk], bool]:
     """Pure functional helper that attempts translation across available model versions."""
     if not models:
         print("All models failed. Using mock.")
-        return mock_analyze(title)
-
+        english, chunks = mock_analyze(title)
+        return english, chunks, True
+        
     model = models[0]
     print(f"Attempting translation with model: {model}...")
-
+    
     prompt = f"""You are a Japanese learning assistant. I will provide a Japanese podcast title. 
 1. Translate the full title to English.
 2. Break the title down word by word or phrase by phrase. For each chunk, provide the Japanese text, Romaji reading, and English meaning.
@@ -142,19 +135,19 @@ Output strictly in the following JSON format:
 
 Title: {title}"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/#{model}:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     req_data = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
+        "generationConfig": {"responseMimeType": "application/json"}
     }
-
+    
     try:
         req = urllib.request.Request(
-            url,
-            data=json.dumps(req_data).encode("utf-8"),
-            headers=headers,
-            method="POST",
+            url, 
+            data=json.dumps(req_data).encode("utf-8"), 
+            headers=headers, 
+            method="POST"
         )
         with urllib.request.urlopen(req, timeout=30) as response:
             res_body = json.loads(response.read().decode("utf-8"))
@@ -162,30 +155,33 @@ Title: {title}"""
             parsed = json.loads(text_content)
             english = parsed.get("english_translation", "")
             chunks = parsed.get("chunks", [])
-
+            
             if english and chunks:
                 cleaned_chunks = [
                     {
                         "japanese": str(c.get("japanese", "")),
                         "romaji": str(c.get("romaji", "")),
-                        "meaning": str(c.get("meaning", "")),
+                        "meaning": str(c.get("meaning", ""))
                     }
                     for c in chunks
                 ]
                 print(f"Successfully translated using {model}")
-                return english, cleaned_chunks
+                return english, cleaned_chunks, False
     except Exception as e:
         print(f"Model {model} failed: {e}")
-
+        
     return try_models_recursively(models[1:], title, api_key)
 
-
-def analyze_japanese(title: str, api_key: Optional[str]) -> tuple[str, list[Chunk]]:
-    """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks."""
+def analyze_japanese(title: str, api_key: Optional[str]) -> tuple[str, list[Chunk], bool]:
+    """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks.
+    
+    Returns (english_translation, chunks, is_mock).
+    """
     if not api_key:
         print("GEMINI_API_KEY not set. Using mock translation.")
-        return mock_analyze(title)
-
+        english, chunks = mock_analyze(title)
+        return english, chunks, True
+        
     models = [
         "gemini-2.5-flash",
         "gemini-2.5-flash-lite",
@@ -193,10 +189,9 @@ def analyze_japanese(title: str, api_key: Optional[str]) -> tuple[str, list[Chun
         "gemini-flash-lite-latest",
         "gemini-3.5-flash",
         "gemini-2.0-flash",
-        "gemini-2.0-flash-lite",
+        "gemini-2.0-flash-lite"
     ]
     return try_models_recursively(models, title, api_key)
-
 
 def format_chunk_html(c: Chunk) -> str:
     """Pure formatter that transforms a vocabulary chunk to HTML list items."""
@@ -211,13 +206,24 @@ def format_chunk_html(c: Chunk) -> str:
                 <dd class="chunk-en">{html.escape(c.get("meaning", ""))}</dd>
               </div>"""
 
-
 def format_episode_card(ep: Episode) -> str:
     """Pure formatter that transforms an Episode card structure to beautiful dynamic HTML."""
-    chunks_html = "\n".join(format_chunk_html(c) for c in ep.get("chunks", []))
+    chunks_list = ep.get("chunks", [])
+    chunks_html = ""
+    if chunks_list:
+        chunks_html = "\n".join(format_chunk_html(c) for c in chunks_list)
+        chunks_container = f"""            <dl class="chunks-container">
+{chunks_html}
+            </dl>"""
+    else:
+        chunks_container = ""
+
     date_formatted = ep.get("published_at", "")[:10]
     audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
-
+    
+    is_mock = ep.get("is_mock", False)
+    title_class = "english-title translation-pending" if is_mock else "english-title"
+    
     return f"""          <div class="episode-card">
             <span class="date">{html.escape(date_formatted)}</span>
             <h2 class="japanese-title">
@@ -226,13 +232,9 @@ def format_episode_card(ep: Episode) -> str:
                 Listen
               </a>
             </h2>
-            <p class="english-title">{html.escape(ep.get("english_translation", ""))}</p>
-
-            <dl class="chunks-container">
-{chunks_html}
-            </dl>
+            <p class="{title_class}">{html.escape(ep.get("english_translation", ""))}</p>
+{chunks_container}
           </div>"""
-
 
 def render_html_content(cards_html: str) -> str:
     """Pure formatter that produces the full-page static index.html dashboard template."""
@@ -310,6 +312,10 @@ def render_html_content(cards_html: str) -> str:
         color: var(--text-muted);
         margin: 0 0 25px 0;
         font-style: italic;
+      }}
+      .english-title.translation-pending {{
+        color: #f59e0b;
+        opacity: 0.8;
       }}
       .chunks-container {{
         display: flex;
@@ -534,7 +540,6 @@ def render_html_content(cards_html: str) -> str:
   </body>
 </html>"""
 
-
 def format_rss_table_row(c: Chunk) -> str:
     """Pure formatter that transforms a chunk into an RSS-compliant table row."""
     return f"""            <tr>
@@ -543,12 +548,12 @@ def format_rss_table_row(c: Chunk) -> str:
               <td style="padding: 8px; border-bottom: 1px solid #334155;">{html.escape(c.get("meaning", ""))}</td>
             </tr>"""
 
-
 def format_rss_item(ep: Episode) -> str:
     """Pure formatter that transforms an Episode structure into a compliant RSS XML <item>."""
-    table_rows = "\n".join(format_rss_table_row(c) for c in ep.get("chunks", []))
-    description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
-        <h3>Vocabulary Breakdown:</h3>
+    chunks_list = ep.get("chunks", [])
+    if chunks_list:
+        table_rows = "\n".join(format_rss_table_row(c) for c in chunks_list)
+        breakdown_html = f"""        <h3>Vocabulary Breakdown:</h3>
         <table style="width: 100%; border-collapse: collapse; text-align: left;">
           <thead>
             <tr style="background-color: #1e293b; color: #f8fafc;">
@@ -560,11 +565,17 @@ def format_rss_item(ep: Episode) -> str:
           <tbody>
 {table_rows}
           </tbody>
-        </table>
+        </table>"""
+    else:
+        breakdown_html = ""
+
+    description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
+{breakdown_html}
         <p><a href="{html.escape(ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/")}">Listen to this Episode on Radio NIKKEI</a></p>"""
 
     escaped_description = (
-        description_html.replace("&", "&amp;")
+        description_html
+        .replace("&", "&amp;")
         .replace("<", "&lt;")
         .replace(">", "&gt;")
         .replace('"', "&quot;")
@@ -573,9 +584,7 @@ def format_rss_item(ep: Episode) -> str:
 
     title_raw = f"{ep.get('japanese_title', '')} - {ep.get('english_translation', '')}"
     escaped_title = html.escape(title_raw)
-    escaped_link = html.escape(
-        ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
-    )
+    escaped_link = html.escape(ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/")
     escaped_guid = html.escape(ep.get("japanese_title", ""))
     escaped_pub_date = html.escape(ep.get("published_at", ""))
 
@@ -586,7 +595,6 @@ def format_rss_item(ep: Episode) -> str:
           <pubDate>{escaped_pub_date} +0000</pubDate>
           <description>{escaped_description}</description>
         </item>"""
-
 
 def render_rss_content(items_xml: str) -> str:
     """Pure formatter that builds the complete RSS XML feed envelope."""
@@ -601,16 +609,13 @@ def render_rss_content(items_xml: str) -> str:
 </channel>
 </rss>"""
 
-
 def main() -> None:
-    print(
-        "Starting PodcastTracker Static Site Generator (Python Typed & Functional)..."
-    )
+    print("Starting PodcastTracker Static Site Generator (Python Typed, Functional & Self-Healing)...")
     os.makedirs(DIST_DIR, exist_ok=True)
-
+    
     # 1. Load history
     history = load_history()
-
+    
     # 2. Fetch RSS XML
     print(f"Fetching RSS from {RSS_URL}...")
     try:
@@ -621,41 +626,58 @@ def main() -> None:
         print(f"Failed to fetch RSS: {e}")
         return
 
-    # 3. Parse RSS metadata
-    metadata = parse_xml_to_episode_metadata(xml_data)
-    if not metadata:
-        print("Empty or invalid metadata parsed from feed.")
+    # 3. Parse XML for first 5 episodes
+    episodes_metadata = parse_xml_to_episodes_metadata(xml_data, limit=5)
+    if not episodes_metadata:
+        print("No metadata parsed from feed.")
         return
 
-    title, pub_date_str, audio_url = metadata
-    parsed_date = parse_date(pub_date_str)
+    # We will build a set of titles that are processed to log them cleanly
+    api_key = get_api_key()
+    has_changes = False
 
-    # 4. Check if episode already exists in history (using functional match check)
-    already_exists = any(ep.get("japanese_title") == title for ep in history)
+    # 4. Self-Healing scan loop
+    for title, pub_date_str, audio_url in episodes_metadata:
+        parsed_date = parse_date(pub_date_str)
+        
+        # Check if the title is already in history and is fully translated
+        existing_index = next((i for i, ep in enumerate(history) if ep.get("japanese_title") == title), -1)
+        
+        needs_translation = (existing_index == -1) or history[existing_index].get("is_mock", False)
+        
+        if needs_translation:
+            print(f"Attempting to translate/heal episode: {title}")
+            english, chunks, is_mock = analyze_japanese(title, api_key)
+            
+            new_episode: Episode = {
+                "japanese_title": title,
+                "english_translation": english,
+                "published_at": parsed_date,
+                "audio_url": audio_url,
+                "chunks": chunks,
+                "is_mock": is_mock
+            }
+            
+            if existing_index != -1:
+                # Heal/replace the existing mock entry
+                history[existing_index] = new_episode
+                print(f"Successfully healed existing mock episode: {title}")
+            else:
+                # Prepend new episode
+                history.append(new_episode)
+                print(f"Added new episode: {title}")
+                
+            has_changes = True
+        else:
+            print(f"Episode already translated: {title}")
 
-    if not already_exists:
-        print(f"Found new episode: {title}")
-        api_key = get_api_key()
-        english, chunks = analyze_japanese(title, api_key)
-
-        new_episode: Episode = {
-            "japanese_title": title,
-            "english_translation": english,
-            "published_at": parsed_date,
-            "audio_url": audio_url,
-            "chunks": chunks,
-        }
-
-        # Pure update: prepend new episode and slice to latest 100 items
-        history = [new_episode] + history
-        history = history[:100]
-
-        # Persist updated history database
+    # 5. Persist database if any additions or heals occurred
+    if has_changes:
         save_history(history)
-    else:
-        print("Episode already exists in history.")
+        # Reload history to ensure it is sorted and truncated correctly
+        history = load_history()
 
-    # 5. Build static outputs
+    # 6. Build static outputs
     print("Generating index.html...")
     cards_html = (
         "\n".join(format_episode_card(ep) for ep in history)
@@ -666,14 +688,13 @@ def main() -> None:
     )
     with open(os.path.join(DIST_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_html_content(cards_html))
-
+        
     print("Generating rss.xml...")
     items_xml = "\n".join(format_rss_item(ep) for ep in history)
     with open(os.path.join(DIST_DIR, "rss.xml"), "w", encoding="utf-8") as f:
         f.write(render_rss_content(items_xml))
-
+        
     print(f"Static build completed successfully in '{DIST_DIR}' folder!")
-
 
 if __name__ == "__main__":
     main()

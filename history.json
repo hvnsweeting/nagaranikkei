@@ -1,31 +1,87 @@
 [
   {
     "japanese_title": "6月1日（月）高市内閣支持3ポイント低下66%、メガソーラー乱開発防止へ環境アセス拡大",
-    "english_translation": "Daily Nikkei News: 6月1日（月）高市内閣...",
+    "english_translation": "June 1st (Monday): Takaichi Cabinet Support drops 3 points to 66%; Environmental assessment expanded to prevent reckless development of mega solar.",
     "published_at": "2026-05-31 21:30:00",
     "audio_url": "https://traffic.megaphone.fm/NRBC1406192821.mp3",
     "chunks": [
       {
-        "japanese": "日経",
-        "romaji": "nikkei",
-        "meaning": "Nikkei (newspaper)"
+        "japanese": "6月1日",
+        "romaji": "rokugatsu tsuitachi",
+        "meaning": "June 1st"
       },
       {
-        "japanese": "平均",
-        "romaji": "heikin",
-        "meaning": "Average"
+        "japanese": "（月）",
+        "romaji": "getsu",
+        "meaning": "(Monday)"
       },
       {
-        "japanese": "は",
-        "romaji": "wa",
-        "meaning": "is (particle)"
+        "japanese": "高市",
+        "romaji": "Takaichi",
+        "meaning": "Takaichi (surname)"
       },
       {
-        "japanese": "反落",
-        "romaji": "hanraku",
-        "meaning": "fell back / declined"
+        "japanese": "内閣",
+        "romaji": "naikaku",
+        "meaning": "Cabinet"
+      },
+      {
+        "japanese": "支持",
+        "romaji": "shiji",
+        "meaning": "support"
+      },
+      {
+        "japanese": "3ポイント",
+        "romaji": "san pointo",
+        "meaning": "3 points"
+      },
+      {
+        "japanese": "低下",
+        "romaji": "teika",
+        "meaning": "decline, drop"
+      },
+      {
+        "japanese": "66%",
+        "romaji": "rokujūroku pāsento",
+        "meaning": "66 percent"
+      },
+      {
+        "japanese": "メガソーラー",
+        "romaji": "mega sōrā",
+        "meaning": "mega solar (power plant)"
+      },
+      {
+        "japanese": "乱開発",
+        "romaji": "rankaihatsu",
+        "meaning": "reckless development"
+      },
+      {
+        "japanese": "防止",
+        "romaji": "bōshi",
+        "meaning": "prevention"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "towards, for (indicating purpose)"
+      },
+      {
+        "japanese": "環境",
+        "romaji": "kankyō",
+        "meaning": "environment"
+      },
+      {
+        "japanese": "アセス",
+        "romaji": "asesu",
+        "meaning": "assessment (short for アセスメント)"
+      },
+      {
+        "japanese": "拡大",
+        "romaji": "kakudai",
+        "meaning": "expansion, enlargement"
       }
-    ]
+    ],
+    "is_mock": false
   },
   {
     "audio_url": "https://traffic.megaphone.fm/NRBC9952152448.mp3",
@@ -129,5 +185,197 @@
     "english_translation": "May 31st (Sunday): Japan-UK Defense Ministers Agree on Cooperation for Next-Generation Fighter Jet Development; Obligation to Disclose Basis for Yields in Real Estate Crowdfunding.",
     "japanese_title": "5月31日（日） 日英防衛相 次期戦闘機開発で連携と一致、不動産クラファン 利回り根拠の開示を義務に",
     "published_at": "2026-05-30 22:50:00"
+  },
+  {
+    "japanese_title": "5月30日（土）ビール「23円減税」 物価高で8割帳消し、トヨタ新社長 EV選別へ大なた",
+    "english_translation": "May 30th (Sat): Beer \"23 Yen Tax Cut\" 80% Offset by High Prices, Toyota's New President Takes Drastic Measures for EV Selection",
+    "published_at": "2026-05-29 22:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9509977087.mp3",
+    "chunks": [
+      {
+        "japanese": "5月30日",
+        "romaji": "gogatsu sanjuunichi",
+        "meaning": "May 30th"
+      },
+      {
+        "japanese": "（土）",
+        "romaji": "(do)",
+        "meaning": "(Saturday)"
+      },
+      {
+        "japanese": "ビール",
+        "romaji": "biiru",
+        "meaning": "Beer"
+      },
+      {
+        "japanese": "23円",
+        "romaji": "nijuusan-en",
+        "meaning": "23 yen"
+      },
+      {
+        "japanese": "減税",
+        "romaji": "genzei",
+        "meaning": "Tax reduction/cut"
+      },
+      {
+        "japanese": "物価高",
+        "romaji": "bukkadaka",
+        "meaning": "High prices/soaring prices"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "by/due to"
+      },
+      {
+        "japanese": "8割",
+        "romaji": "hachi-wari",
+        "meaning": "80% (eight tenths)"
+      },
+      {
+        "japanese": "帳消し",
+        "romaji": "choukeshi",
+        "meaning": "Cancellation/nullification/offset"
+      },
+      {
+        "japanese": "トヨタ",
+        "romaji": "toyota",
+        "meaning": "Toyota"
+      },
+      {
+        "japanese": "新社長",
+        "romaji": "shin-shachou",
+        "meaning": "New president/CEO"
+      },
+      {
+        "japanese": "EV",
+        "romaji": "ii-vii",
+        "meaning": "EV (Electric Vehicle)"
+      },
+      {
+        "japanese": "選別",
+        "romaji": "senbetsu",
+        "meaning": "Selection/screening"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "towards/to"
+      },
+      {
+        "japanese": "大なた",
+        "romaji": "oonata",
+        "meaning": "Big axe/hatchet (metaphorically: drastic measures/sweeping changes)"
+      }
+    ],
+    "is_mock": false
+  },
+  {
+    "japanese_title": "5月29日（金）「壁に貼ったバナナ」で９億円、現代アートの歴史と経済〜with NIKKEI",
+    "english_translation": "May 29th (Friday) - 900 Million Yen for 'Banana Taped to a Wall': The History and Economy of Contemporary Art ~with NIKKEI",
+    "published_at": "2026-05-29 09:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9396972229.mp3",
+    "chunks": [
+      {
+        "japanese": "5月29日（金）",
+        "romaji": "Gogatsu Nijūkunichi (Kin)",
+        "meaning": "May 29th (Friday)"
+      },
+      {
+        "japanese": "「壁に貼ったバナナ」",
+        "romaji": "Kabe ni hatta banana",
+        "meaning": "\"Banana Taped to a Wall\""
+      },
+      {
+        "japanese": "で",
+        "romaji": "De",
+        "meaning": "for / with (indicating means or value)"
+      },
+      {
+        "japanese": "９億円",
+        "romaji": "Kyū-oku-en",
+        "meaning": "900 million yen"
+      },
+      {
+        "japanese": "現代アート",
+        "romaji": "Gendai āto",
+        "meaning": "contemporary art"
+      },
+      {
+        "japanese": "の",
+        "romaji": "No",
+        "meaning": "'s / of (possessive particle)"
+      },
+      {
+        "japanese": "歴史と経済",
+        "romaji": "Rekishi to keizai",
+        "meaning": "history and economy"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "~with NIKKEI",
+        "meaning": "~with NIKKEI"
+      }
+    ],
+    "is_mock": false
+  },
+  {
+    "japanese_title": "NIKKEI THE PITCH会議室 第19回 スタートアップに個人マネーを——産業政策か、投資家保護か？",
+    "english_translation": "NIKKEI THE PITCH Meeting Room Vol. 19: Personal Money for Startups - Industrial Policy or Investor Protection?",
+    "published_at": "2026-05-29 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9281132484.mp3",
+    "chunks": [
+      {
+        "japanese": "NIKKEI THE PITCH",
+        "romaji": "NIKKEI THE PITCH",
+        "meaning": "NIKKEI THE PITCH (Brand/Program Name)"
+      },
+      {
+        "japanese": "会議室",
+        "romaji": "kaigishitsu",
+        "meaning": "meeting room"
+      },
+      {
+        "japanese": "第19回",
+        "romaji": "dai 19 kai",
+        "meaning": "the 19th time / volume 19"
+      },
+      {
+        "japanese": "スタートアップに",
+        "romaji": "sutaatoappu ni",
+        "meaning": "to startups"
+      },
+      {
+        "japanese": "個人マネーを",
+        "romaji": "kojin manee o",
+        "meaning": "personal money (object marker)"
+      },
+      {
+        "japanese": "——",
+        "romaji": "——",
+        "meaning": "em dash (indicates a break or elaboration)"
+      },
+      {
+        "japanese": "産業政策か",
+        "romaji": "sangyou seisaku ka",
+        "meaning": "industrial policy, or"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "投資家保護か",
+        "romaji": "toushika hogo ka",
+        "meaning": "investor protection, or"
+      },
+      {
+        "japanese": "？",
+        "romaji": "?",
+        "meaning": "?"
+      }
+    ],
+    "is_mock": false
   }
 ]

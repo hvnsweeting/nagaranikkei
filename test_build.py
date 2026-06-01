@@ -8,7 +8,7 @@ from typing import Callable
 # Import our builder functions
 from build import (
     parse_date,
-    parse_xml_to_episode_metadata,
+    parse_xml_to_episodes_metadata,
     format_chunk_html,
     format_episode_card,
     render_html_content,
@@ -47,6 +47,7 @@ class TestBuild(unittest.TestCase):
                         "meaning": "fell back / declined",
                     },
                 ],
+                "is_mock": False,
             }
         ]
 
@@ -97,7 +98,7 @@ class TestBuild(unittest.TestCase):
             parse_date("Sun, 31 May 2026 15:30:00 +0000"), "2026-05-31 15:30:00"
         )
 
-    def test_parse_xml_to_episode_metadata(self) -> None:
+    def test_parse_xml_to_episodes_metadata(self) -> None:
         xml_bytes = b"""<?xml version="1.0" encoding="UTF-8"?>
         <rss>
           <channel>
@@ -108,13 +109,12 @@ class TestBuild(unittest.TestCase):
             </item>
           </channel>
         </rss>"""
-        metadata = parse_xml_to_episode_metadata(xml_bytes)
-        self.assertIsNotNone(metadata)
-        if metadata:
-            title, pub_date, audio_url = metadata
-            self.assertEqual(title, "Sample Episode Title")
-            self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
-            self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
+        episodes = parse_xml_to_episodes_metadata(xml_bytes, limit=1)
+        self.assertEqual(len(episodes), 1)
+        title, pub_date, audio_url = episodes[0]
+        self.assertEqual(title, "Sample Episode Title")
+        self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
+        self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
 
     # 2. Expect (Snapshot) Tests for HTML & XML generation
     def test_expect_chunk_html(self) -> None:
