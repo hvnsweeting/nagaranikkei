@@ -287,7 +287,7 @@ def format_episode_card(ep: Episode) -> str:
             <h2 class="japanese-title">
               {html.escape(ep.get("japanese_title", ""))}
               <button onclick="speakTitle(this)" data-title="{html.escape(ep.get("japanese_title", ""))}" class="listen-badge" title="Read title aloud">
-                🔊 Speech to Text
+                🔊
               </button>
             </h2>
             <p class="{title_class}">{html.escape(ep.get("english_translation", ""))}</p>
