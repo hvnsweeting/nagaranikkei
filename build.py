@@ -154,12 +154,12 @@ def mock_analyze(title: str) -> tuple[str, list[Chunk]]:
 
 def try_models_recursively(
     models: list[str], title: str, api_key: str
-) -> tuple[str, list[Chunk], bool]:
+) -> tuple[str, list[Chunk], str, bool]:
     """Pure functional helper that attempts translation across available model versions."""
     if not models:
         print("All models failed. Using mock.")
         english, chunks = mock_analyze(title)
-        return english, chunks, True
+        return english, chunks, "mock", True
 
     model = models[0]
     print(f"Attempting translation with model: {model}...")
@@ -210,7 +210,7 @@ Title: {title}"""
                     for c in chunks
                 ]
                 print(f"Successfully translated using {model}")
-                return english, cleaned_chunks, False
+                return english, cleaned_chunks, model, False
     except Exception as e:
         err_msg = str(e)
         if api_key:
@@ -222,15 +222,15 @@ Title: {title}"""
 
 def analyze_japanese(
     title: str, api_key: Optional[str]
-) -> tuple[str, list[Chunk], bool]:
+) -> tuple[str, list[Chunk], str, bool]:
     """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks.
 
-    Returns (english_translation, chunks, is_mock).
+    Returns (english_translation, chunks, model_used, is_mock).
     """
     if not api_key:
         print("GEMINI_API_KEY not set. Using mock translation.")
         english, chunks = mock_analyze(title)
-        return english, chunks, True
+        return english, chunks, "mock", True
 
     models = [
         "gemini-3.5-flash",
@@ -712,7 +712,7 @@ def main() -> None:
 
         if needs_translation:
             print(f"Attempting to translate/heal episode: {title}")
-            english, chunks, is_mock = analyze_japanese(title, api_key)
+            english, chunks, model_used, is_mock = analyze_japanese(title, api_key)
 
             new_episode: Episode = {
                 "japanese_title": title,
@@ -721,20 +721,25 @@ def main() -> None:
                 "audio_url": audio_url,
                 "chunks": chunks,
                 "is_mock": is_mock,
+                "translation_model": model_used,
             }
 
             if existing_index != -1:
                 # Heal/replace the existing mock entry
                 history[existing_index] = new_episode
-                print(f"Successfully healed existing mock episode: {title}")
+                print(
+                    f"Successfully healed existing mock episode using {model_used}: {title}"
+                )
             else:
                 # Prepend new episode
                 history.append(new_episode)
-                print(f"Added new episode: {title}")
+                print(f"Added new episode using {model_used}: {title}")
 
             has_changes = True
         else:
-            print(f"Episode already translated: {title}")
+            existing_ep = history[existing_index]
+            model_used = existing_ep.get("translation_model", "unknown")
+            print(f"Episode already translated (using {model_used}): {title}")
 
     # 5. Persist database if any additions or heals occurred
     if has_changes:
