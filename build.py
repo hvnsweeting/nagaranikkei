@@ -42,6 +42,14 @@ def get_api_key() -> Optional[str]:
     )
 
 
+def clean_json_text(text: str) -> str:
+    """Pure function that strips markdown code fence wrappers from a JSON string if present."""
+    # Match ```json ... ``` or ``` ... ```
+    cleaned = re.sub(r"^```(?:json)?\s*", "", text.strip())
+    cleaned = re.sub(r"\s*```$", "", cleaned.strip())
+    return cleaned.strip()
+
+
 def load_history() -> History:
     """Pure loader that returns the current history list from file."""
     if os.path.exists(HISTORY_FILE):
@@ -166,7 +174,8 @@ Title: {title}"""
         with urllib.request.urlopen(req, timeout=30) as response:
             res_body = json.loads(response.read().decode("utf-8"))
             text_content = res_body["candidates"][0]["content"]["parts"][0]["text"]
-            parsed = json.loads(text_content)
+            parsed = json.loads(clean_json_text(text_content))
+
             english = parsed.get("english_translation", "")
             chunks = parsed.get("chunks", [])
 

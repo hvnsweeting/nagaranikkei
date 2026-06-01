@@ -14,10 +14,12 @@ from build import (
     render_html_content,
     render_rss_content,
     format_rss_item,
+    clean_json_text,
     Chunk,
     Episode,
     History,
 )
+
 
 EXPECT_DIR = "test/expect"
 UPDATE_EXPECT = os.environ.get("UPDATE_EXPECT") == "1"
@@ -115,6 +117,15 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(title, "Sample Episode Title")
         self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
         self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
+
+    def test_clean_json_text(self) -> None:
+        raw_markdown = '```json\n{"english_translation": "Test", "chunks": []}\n```'
+        raw_markdown_no_lang = '```\n{"english_translation": "Test", "chunks": []}\n```'
+        clean_json = '{"english_translation": "Test", "chunks": []}'
+        
+        self.assertEqual(clean_json_text(raw_markdown).strip(), clean_json)
+        self.assertEqual(clean_json_text(raw_markdown_no_lang).strip(), clean_json)
+        self.assertEqual(clean_json_text(clean_json).strip(), clean_json)
 
     # 2. Expect (Snapshot) Tests for HTML & XML generation
     def test_expect_chunk_html(self) -> None:
