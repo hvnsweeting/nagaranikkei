@@ -2,8 +2,9 @@ name: Deploy Static Site
 
 on:
   schedule:
-    # Run daily at 00:00 UTC (9:00 AM Japan Standard Time - perfect for Nagara Nikkei)
-    - cron: '0 0 * * *'
+    # Run every 6 hours (00:00, 06:00, 12:00, 18:00 UTC / 9:00 AM, 3:00 PM, 9:00 PM, 3:00 AM JST)
+    - cron: '0 */6 * * *'
+
   workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages and updating history.json
