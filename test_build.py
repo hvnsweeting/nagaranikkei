@@ -18,6 +18,7 @@ from build import (
     Chunk,
     Episode,
     History,
+    BASE_URL,
 )
 
 
@@ -145,6 +146,26 @@ class TestBuild(unittest.TestCase):
         cards_html = "\n".join(format_episode_card(ep) for ep in self.mock_history)
         actual_html = render_html_content(cards_html)
         self.assert_expect("index.html", actual_html)
+
+    def test_expect_individual_html_page(self) -> None:
+        ep = self.mock_history[0]
+        back_link_html = """            <div class="back-link-container">
+              <a href="index.html" class="back-link">← Back to Dashboard</a>
+            </div>"""
+        card_html = format_episode_card(ep)
+        jp_title = ep.get("japanese_title", "")
+        en_trans = ep.get("english_translation", "")
+        page_title = f"ながら日経 Tracker • {jp_title}"
+        page_desc = f"English Translation: {en_trans}"
+        og_page_url = f"{BASE_URL}/2026-05-31.html"
+
+        actual_html = render_html_content(
+            f"{back_link_html}\n{card_html}",
+            title=page_title,
+            description=page_desc,
+            og_url=og_page_url,
+        )
+        self.assert_expect("episode_page.html", actual_html)
 
     def test_expect_rss_item(self) -> None:
         actual_xml = format_rss_item(self.mock_history[0])
