@@ -4,7 +4,8 @@ import json
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+import email.utils
 import re
 import html
 from typing import Optional, Any, Final
@@ -100,14 +101,14 @@ def save_history(history: History) -> None:
 
 
 def parse_date(pub_date_str: str) -> str:
-    """Pure function that converts RFC 2822 date string into standard ISO format."""
+    """Pure function that converts RFC 2822 date string into standard ISO format in UTC+7."""
+    tz_utc7 = timezone(timedelta(hours=7))
     try:
-        clean_date_str = re.sub(r"\s+[\+\-]\d{4}$", "", pub_date_str)
-        clean_date_str = re.sub(r"\s+GMT$", "", clean_date_str)
-        dt = datetime.strptime(clean_date_str.strip(), "%a, %d %b %Y %H:%M:%S")
-        return dt.strftime("%Y-%m-%d %H:%M:%S")
+        dt = email.utils.parsedate_to_datetime(pub_date_str)
+        dt_utc7 = dt.astimezone(tz_utc7)
+        return dt_utc7.strftime("%Y-%m-%d %H:%M:%S")
     except Exception:
-        return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+        return datetime.now(tz_utc7).strftime("%Y-%m-%d %H:%M:%S")
 
 
 def parse_xml_to_episodes_metadata(
