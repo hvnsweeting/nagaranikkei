@@ -43,11 +43,30 @@ def get_api_key() -> Optional[str]:
 
 
 def clean_json_text(text: str) -> str:
-    """Pure function that strips markdown code fence wrappers from a JSON string if present."""
-    # Match ```json ... ``` or ``` ... ```
-    cleaned = re.sub(r"^```(?:json)?\s*", "", text.strip())
-    cleaned = re.sub(r"\s*```$", "", cleaned.strip())
-    return cleaned.strip()
+    """Pure function that strips markdown code fence wrappers from a JSON string if present.
+
+    Uses fast O(N) string slicing to completely eliminate ReDoS risks.
+    """
+    stripped = text.strip()
+    if stripped.startswith("```"):
+        newline_idx = stripped.find("\n")
+        if newline_idx != -1:
+            stripped = stripped[newline_idx + 1 :]
+        else:
+            stripped = stripped[3:]
+    if stripped.endswith("```"):
+        stripped = stripped[:-3]
+    return stripped.strip()
+
+
+def sanitize_audio_url(url: Optional[str]) -> str:
+    """Pure function that ensures the URL strictly uses http:// or https:// to prevent XSS."""
+    if not url:
+        return "https://www.radionikkei.jp/nagara/"
+    trimmed = url.strip()
+    if trimmed.startswith("http://") or trimmed.startswith("https://"):
+        return trimmed
+    return "https://www.radionikkei.jp/nagara/"
 
 
 def load_history() -> History:
@@ -113,11 +132,13 @@ def parse_xml_to_episodes_metadata(
             )
 
             audio_url = link if link and link.strip() else enclosure_url
+            sanitized_audio = sanitize_audio_url(audio_url)
 
-            if title and pub_date_str and audio_url:
+            if title and pub_date_str:
                 metadata_list.append(
-                    (title.strip(), pub_date_str.strip(), audio_url.strip())
+                    (title.strip(), pub_date_str.strip(), sanitized_audio)
                 )
+
         return metadata_list
     except Exception as e:
         print(f"Failed to parse RSS XML: {e}")
@@ -191,7 +212,10 @@ Title: {title}"""
                 print(f"Successfully translated using {model}")
                 return english, cleaned_chunks, False
     except Exception as e:
-        print(f"Model {model} failed: {e}")
+        err_msg = str(e)
+        if api_key:
+            err_msg = err_msg.replace(api_key, "REDACTED_API_KEY")
+        print(f"Model {model} failed: {err_msg}")
 
     return try_models_recursively(models[1:], title, api_key)
 
