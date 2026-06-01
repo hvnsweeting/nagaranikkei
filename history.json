@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月2日（火）NVIDIAがAIパソコン向け半導体「Windows」で高性能モデル操作、ソフトバンクGの時価総額49兆円",
+    "english_translation": "June 2nd (Tuesday): NVIDIA operates high-performance models using 'Windows' semiconductors for AI PCs; SoftBank Group's market capitalization is 49 trillion yen.",
+    "published_at": "2026-06-02 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4610697916.mp3",
+    "chunks": [
+      {
+        "japanese": "6月2日（火）",
+        "romaji": "Rokugatsu futsuka (Ka)",
+        "meaning": "June 2nd (Tuesday)"
+      },
+      {
+        "japanese": "NVIDIAが",
+        "romaji": "NVIDIA ga",
+        "meaning": "NVIDIA (subject particle)"
+      },
+      {
+        "japanese": "AIパソコン向け",
+        "romaji": "AI pasokon muke",
+        "meaning": "for AI PCs"
+      },
+      {
+        "japanese": "半導体「Windows」で",
+        "romaji": "Handoutai \"Windows\" de",
+        "meaning": "with 'Windows' semiconductors"
+      },
+      {
+        "japanese": "高性能モデル操作",
+        "romaji": "Kouseinou moderu sousa",
+        "meaning": "operates high-performance models / high-performance model operation"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "ソフトバンクGの",
+        "romaji": "Sofutobanku G no",
+        "meaning": "SoftBank Group's"
+      },
+      {
+        "japanese": "時価総額",
+        "romaji": "Jika sōgaku",
+        "meaning": "market capitalization"
+      },
+      {
+        "japanese": "49兆円",
+        "romaji": "Yonjūkyū chō-en",
+        "meaning": "49 trillion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月1日（月）高市内閣支持3ポイント低下66%、メガソーラー乱開発防止へ環境アセス拡大",
     "english_translation": "June 1st (Monday): Takaichi Cabinet Support drops 3 points to 66%; Environmental assessment expanded to prevent reckless development of mega solar.",
     "published_at": "2026-06-01 06:30:00",
