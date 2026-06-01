@@ -94,10 +94,10 @@ class TestBuild(unittest.TestCase):
     # 1. Unit Tests for pure functions
     def test_parse_date(self) -> None:
         self.assertEqual(
-            parse_date("Sun, 31 May 2026 15:30:00 GMT"), "2026-05-31 22:30:00"
+            parse_date("Sun, 31 May 2026 15:30:00 GMT"), "2026-06-01 00:30:00"
         )
         self.assertEqual(
-            parse_date("Sun, 31 May 2026 15:30:00 +0000"), "2026-05-31 22:30:00"
+            parse_date("Sun, 31 May 2026 15:30:00 +0000"), "2026-06-01 00:30:00"
         )
 
     def test_parse_xml_to_episodes_metadata(self) -> None:

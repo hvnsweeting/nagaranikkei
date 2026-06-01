@@ -101,14 +101,16 @@ def save_history(history: History) -> None:
 
 
 def parse_date(pub_date_str: str) -> str:
-    """Pure function that converts RFC 2822 date string into standard ISO format in UTC+7."""
-    tz_utc7 = timezone(timedelta(hours=7))
+    """Pure function that converts RFC 2822 date string into standard ISO format in JST (UTC+9)."""
+    tz_jst = timezone(timedelta(hours=9))
     try:
         dt = email.utils.parsedate_to_datetime(pub_date_str)
-        dt_utc7 = dt.astimezone(tz_utc7)
-        return dt_utc7.strftime("%Y-%m-%d %H:%M:%S")
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt_jst = dt.astimezone(tz_jst)
+        return dt_jst.strftime("%Y-%m-%d %H:%M:%S")
     except Exception:
-        return datetime.now(tz_utc7).strftime("%Y-%m-%d %H:%M:%S")
+        return datetime.now(tz_jst).strftime("%Y-%m-%d %H:%M:%S")
 
 
 def parse_xml_to_episodes_metadata(
@@ -839,7 +841,17 @@ def main() -> None:
         else:
             existing_ep = history[existing_index]
             model_used = existing_ep.get("translation_model", "unknown")
-            print(f"Episode already translated (using {model_used}): {title}")
+            # Self-heal metadata timezones or audio URLs if generator configurations updated
+            if (
+                existing_ep.get("published_at") != parsed_date
+                or existing_ep.get("audio_url") != audio_url
+            ):
+                existing_ep["published_at"] = parsed_date
+                existing_ep["audio_url"] = audio_url
+                has_changes = True
+                print(f"Self-healed timezone/metadata for: {title} -> {parsed_date}")
+            else:
+                print(f"Episode already translated (using {model_used}): {title}")
 
     # 5. Persist database if any additions or heals occurred
     if has_changes:
