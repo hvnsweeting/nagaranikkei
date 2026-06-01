@@ -685,9 +685,13 @@ def format_rss_item(ep: Episode) -> str:
     else:
         breakdown_html = ""
 
+    site_url = "https://www.radionikkei.jp/nagara/"
+    audio_url = ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
+
     description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
 {breakdown_html}
-        <p><a href="{html.escape(ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/")}">Listen to this Episode on Radio NIKKEI</a></p>"""
+        <p><a href="{html.escape(site_url)}">Listen to this Episode on Radio NIKKEI</a></p>
+        <p><a href="{html.escape(audio_url)}">Play Audio (Media Link)</a></p>"""
 
     escaped_description = (
         description_html.replace("&", "&amp;")
@@ -699,9 +703,7 @@ def format_rss_item(ep: Episode) -> str:
 
     title_raw = f"{ep.get('japanese_title', '')} - {ep.get('english_translation', '')}"
     escaped_title = html.escape(title_raw)
-    escaped_link = html.escape(
-        ep.get("audio_url", "") or "https://www.radionikkei.jp/nagara/"
-    )
+    escaped_link = html.escape(site_url)
     escaped_guid = html.escape(ep.get("japanese_title", ""))
     escaped_pub_date = html.escape(ep.get("published_at", ""))
 
