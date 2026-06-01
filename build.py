@@ -402,6 +402,24 @@ def main() -> None:
         opacity: 0.5;
         cursor: not-allowed;
       }}
+      .keyboard-legend {{
+        margin-top: 25px;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        opacity: 0.85;
+        border-top: 1px solid var(--border-color);
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+      }}
+      .keyboard-legend code {{
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        padding: 2px 6px;
+        font-family: monospace;
+        color: var(--accent);
+      }}
     </style>
   </head>
   <body>
@@ -553,6 +571,10 @@ def main() -> None:
               </span>
               <button class="nav-btn" onclick="nextCard()" ${{currentCardIndex === savedWords.length - 1 ? 'disabled' : ''}}>Next</button>
             </div>
+            
+            <div class="keyboard-legend">
+              💡 <strong>Keyboard Shortcuts:</strong> Press <code>Space</code> to Reveal/Next • <code>←</code> / <code>→</code> Arrow keys for Prev/Next
+            </div>
           </div>
         `;
       }}
@@ -586,6 +608,37 @@ def main() -> None:
           .replace(/"/g, "&quot;")
           .replace(/'/g, "&#039;");
       }}
+
+      document.addEventListener('keydown', (e) => {{
+        // Only active if flash view is visible and we have words
+        const flashView = document.getElementById('flash-view');
+        if (!flashView || flashView.style.display === 'none' || savedWords.length === 0) {{
+          return;
+        }}
+
+        switch (e.key) {{
+          case ' ':
+            // Prevent scrolling on spacebar press
+            e.preventDefault();
+            if (!isRevealed) {{
+              revealCard();
+            }} else {{
+              nextCard();
+            }}
+            break;
+          case 'ArrowLeft':
+            prevCard();
+            break;
+          case 'ArrowRight':
+            nextCard();
+            break;
+          case 'Enter':
+            if (!isRevealed) {{
+              revealCard();
+            }}
+            break;
+        }}
+      }});
 
       document.addEventListener('DOMContentLoaded', loadSavedWords);
     </script>
