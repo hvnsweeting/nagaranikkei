@@ -269,7 +269,7 @@ def format_episode_card(ep: Episode) -> str:
     chunks_html = ""
     if chunks_list:
         chunks_html = "\n".join(format_chunk_html(c) for c in chunks_list)
-        chunks_container = f"""            <dl class="chunks-container">
+        chunks_container = f"""            <dl class="chunks-container collapsed">
 {chunks_html}
             </dl>"""
     else:
@@ -280,6 +280,13 @@ def format_episode_card(ep: Episode) -> str:
 
     is_mock = ep.get("is_mock", False)
     title_class = "english-title translation-pending" if is_mock else "english-title"
+
+    num_chunks = len(chunks_list)
+    toggle_btn = ""
+    if num_chunks > 0:
+        toggle_btn = f"""            <button onclick="toggleChunks(this)" data-count="{num_chunks}" class="toggle-chunks-btn" aria-expanded="false">
+              📖 Show Vocabulary Chunks ({num_chunks})
+            </button>"""
 
     return f"""          <div class="episode-card">
             <div class="card-meta">
@@ -299,6 +306,7 @@ def format_episode_card(ep: Episode) -> str:
               </button>
             </h2>
             <p class="{title_class}">{html.escape(ep.get("english_translation", ""))}</p>
+{toggle_btn}
 {chunks_container}
           </div>"""
 
@@ -415,6 +423,30 @@ def render_html_content(cards_html: str) -> str:
       .back-link:hover {{
         transform: translateX(-4px);
         text-decoration: underline;
+      }}
+      .toggle-chunks-btn {{
+        background: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        padding: 6px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        margin-top: 10px;
+      }}
+      .toggle-chunks-btn:hover {{
+        background: rgba(255, 255, 255, 0.03);
+        border-color: var(--accent);
+        color: var(--accent);
+      }}
+      .chunks-container.collapsed {{
+        display: none;
       }}
       .japanese-title {{
         font-size: 1.5rem;
@@ -641,6 +673,17 @@ def render_html_content(cards_html: str) -> str:
           window.speechSynthesis.speak(utterance);
         }} else {{
           alert('Text-to-speech is not supported in this browser.');
+        }}
+      }}
+
+      function toggleChunks(btn) {{
+        const card = btn.closest('.episode-card');
+        const container = card.querySelector('.chunks-container');
+        if (container) {{
+          const isCollapsed = container.classList.toggle('collapsed');
+          btn.setAttribute('aria-expanded', !isCollapsed);
+          const count = btn.getAttribute('data-count');
+          btn.innerHTML = isCollapsed ? `📖 Show Vocabulary Chunks (${{count}})` : `📘 Hide Vocabulary Chunks`;
         }}
       }}
 

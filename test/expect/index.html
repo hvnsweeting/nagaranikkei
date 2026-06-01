@@ -109,6 +109,30 @@
         transform: translateX(-4px);
         text-decoration: underline;
       }
+      .toggle-chunks-btn {
+        background: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        padding: 6px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        margin-top: 10px;
+      }
+      .toggle-chunks-btn:hover {
+        background: rgba(255, 255, 255, 0.03);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .chunks-container.collapsed {
+        display: none;
+      }
       .japanese-title {
         font-size: 1.5rem;
         margin: 0 0 10px 0;
@@ -307,7 +331,10 @@
               </button>
             </h2>
             <p class="english-title">Nikkei average falls back, selling dominant due to US tech decline</p>
-            <dl class="chunks-container">
+            <button onclick="toggleChunks(this)" data-count="3" class="toggle-chunks-btn" aria-expanded="false">
+              📖 Show Vocabulary Chunks (3)
+            </button>
+            <dl class="chunks-container collapsed">
               <div class="chunk">
                 <dt>
                   <a href="https://jisho.org/search/%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87" target="_blank" rel="noopener noreferrer" class="chunk-jp-link">
@@ -381,6 +408,17 @@
           window.speechSynthesis.speak(utterance);
         } else {
           alert('Text-to-speech is not supported in this browser.');
+        }
+      }
+
+      function toggleChunks(btn) {
+        const card = btn.closest('.episode-card');
+        const container = card.querySelector('.chunks-container');
+        if (container) {
+          const isCollapsed = container.classList.toggle('collapsed');
+          btn.setAttribute('aria-expanded', !isCollapsed);
+          const count = btn.getAttribute('data-count');
+          btn.innerHTML = isCollapsed ? `📖 Show Vocabulary Chunks (${count})` : `📘 Hide Vocabulary Chunks`;
         }
       }
 
