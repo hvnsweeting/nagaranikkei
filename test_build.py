@@ -122,7 +122,7 @@ class TestBuild(unittest.TestCase):
         raw_markdown = '```json\n{"english_translation": "Test", "chunks": []}\n```'
         raw_markdown_no_lang = '```\n{"english_translation": "Test", "chunks": []}\n```'
         clean_json = '{"english_translation": "Test", "chunks": []}'
-        
+
         self.assertEqual(clean_json_text(raw_markdown).strip(), clean_json)
         self.assertEqual(clean_json_text(raw_markdown_no_lang).strip(), clean_json)
         self.assertEqual(clean_json_text(clean_json).strip(), clean_json)
