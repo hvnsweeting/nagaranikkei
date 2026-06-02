@@ -6,14 +6,15 @@ from typing import Optional
 
 def read_from_env_file(key: str) -> Optional[str]:
     """Reads a key from a local .env file if it exists."""
-    if os.path.exists(".env"):
-        try:
-            with open(".env", "r", encoding="utf-8") as f:
-                for line in f:
-                    if line.startswith(key + "="):
-                        return line.split("=", 1)[1].strip().strip('"').strip("'")
-        except Exception:
-            pass
+    try:
+        with open(".env", "r", encoding="utf-8") as f:
+            for line in f:
+                if line.startswith(key + "="):
+                    return line.split("=", 1)[1].strip().strip('"').strip("'")
+    except FileNotFoundError:
+        pass
+    except Exception:
+        pass
     return None
 
 

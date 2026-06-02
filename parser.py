@@ -7,6 +7,10 @@ def parse_xml_to_episodes_metadata(
 ) -> list[tuple[str, str, str]]:
     """Pure parser that extracts the first N episodes (title, pubDate, audio_url) from RSS bytes."""
     try:
+        # Prevent XML Entity Expansion (Billion Laughs, XXE) by checking for DOCTYPE/ENTITY declarations
+        if b"<!DOCTYPE" in xml_data.upper() or b"<!ENTITY" in xml_data.upper():
+            raise ValueError("Forbidden DTD or Entity declaration found in XML data")
+
         root = ET.fromstring(xml_data)
         items = root.findall(".//item")[:limit]
         metadata_list = []

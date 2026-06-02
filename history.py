@@ -1,18 +1,18 @@
-import os
 import json
 from models import History, HISTORY_FILE
 
 
 def load_history() -> History:
     """Pure loader that returns the current history list from file."""
-    if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    return data
-        except Exception:
-            pass
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                return data
+    except FileNotFoundError:
+        pass
+    except Exception:
+        pass
     return []
 
 
