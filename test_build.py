@@ -119,6 +119,37 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
         self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
 
+    def test_parse_xml_to_episodes_metadata_security_hardening(self) -> None:
+        malicious_xml_doctype = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE rss [ <!ENTITY xxe "attack"> ]>
+        <rss>
+          <channel>
+            <item>
+              <title>Sample Episode Title &xxe;</title>
+              <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
+              <link>https://www.radionikkei.jp/nagara/sample.html</link>
+            </item>
+          </channel>
+        </rss>"""
+        episodes_doctype = parse_xml_to_episodes_metadata(
+            malicious_xml_doctype, limit=1
+        )
+        self.assertEqual(len(episodes_doctype), 0)
+
+        malicious_xml_entity = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <!ENTITY xxe "attack">
+        <rss>
+          <channel>
+            <item>
+              <title>Sample Episode Title &xxe;</title>
+              <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
+              <link>https://www.radionikkei.jp/nagara/sample.html</link>
+            </item>
+          </channel>
+        </rss>"""
+        episodes_entity = parse_xml_to_episodes_metadata(malicious_xml_entity, limit=1)
+        self.assertEqual(len(episodes_entity), 0)
+
     def test_clean_json_text(self) -> None:
         raw_markdown = '```json\n{"english_translation": "Test", "chunks": []}\n```'
         raw_markdown_no_lang = '```\n{"english_translation": "Test", "chunks": []}\n```'
