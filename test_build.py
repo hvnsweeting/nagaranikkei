@@ -20,6 +20,7 @@ from build import (
     History,
     BASE_URL,
 )
+from models import JapaneseText, EnglishText, JSTDateTime, AudioURL
 
 
 EXPECT_DIR = "test/expect"
@@ -32,26 +33,33 @@ class TestBuild(unittest.TestCase):
 
         # Consistent mock history for deterministic snapshot generation
         self.mock_history: History = [
-            {
-                "japanese_title": "日経平均は反落、米ハイテク安で売り優勢",
-                "english_translation": "Nikkei average falls back, selling dominant due to US tech decline",
-                "published_at": "2026-05-31 15:30:00",
-                "audio_url": "https://feeds.megaphone.fm/nagara-sample",
-                "chunks": [
-                    {
-                        "japanese": "日経平均",
-                        "romaji": "nikkei heikin",
-                        "meaning": "Nikkei average",
-                    },
-                    {"japanese": "は", "romaji": "wa", "meaning": "is (particle)"},
-                    {
-                        "japanese": "反落",
-                        "romaji": "hanraku",
-                        "meaning": "fell back / declined",
-                    },
+            Episode(
+                japanese_title=JapaneseText("日経平均は反落、米ハイテク安で売り優勢"),
+                english_translation=EnglishText(
+                    "Nikkei average falls back, selling dominant due to US tech decline"
+                ),
+                published_at=JSTDateTime("2026-05-31 15:30:00"),
+                audio_url=AudioURL("https://feeds.megaphone.fm/nagara-sample"),
+                chunks=[
+                    Chunk(
+                        japanese=JapaneseText("日経平均"),
+                        romaji="nikkei heikin",
+                        meaning=EnglishText("Nikkei average"),
+                    ),
+                    Chunk(
+                        japanese=JapaneseText("は"),
+                        romaji="wa",
+                        meaning=EnglishText("is (particle)"),
+                    ),
+                    Chunk(
+                        japanese=JapaneseText("反落"),
+                        romaji="hanraku",
+                        meaning=EnglishText("fell back / declined"),
+                    ),
                 ],
-                "is_mock": False,
-            }
+                is_mock=False,
+                translation_model="gemini-mock",
+            )
         ]
 
     def assert_expect(self, filename: str, actual: str) -> None:
@@ -161,11 +169,11 @@ class TestBuild(unittest.TestCase):
 
     # 2. Expect (Snapshot) Tests for HTML & XML generation
     def test_expect_chunk_html(self) -> None:
-        chunk: Chunk = {
-            "japanese": "反落",
-            "romaji": "hanraku",
-            "meaning": "fell back / declined",
-        }
+        chunk = Chunk(
+            japanese=JapaneseText("反落"),
+            romaji="hanraku",
+            meaning=EnglishText("fell back / declined"),
+        )
         actual_html = format_chunk_html(
             chunk, "2026-05-31", "日経平均は反落、米ハイテク安で売り優勢"
         )
@@ -186,8 +194,8 @@ class TestBuild(unittest.TestCase):
               <a href="index.html" class="back-link">← Back to Dashboard</a>
             </div>"""
         card_html = format_episode_card(ep)
-        jp_title = ep.get("japanese_title", "")
-        en_trans = ep.get("english_translation", "")
+        jp_title = ep.japanese_title
+        en_trans = ep.english_translation
         page_title = f"ながら日経 Tracker • {jp_title}"
         page_desc = f"English Translation: {en_trans}"
         og_page_url = f"{BASE_URL}/2026-05-31.html"
@@ -210,14 +218,15 @@ class TestBuild(unittest.TestCase):
         self.assert_expect("rss.xml", actual_xml)
 
     def test_malicious_audio_url_sanitization(self) -> None:
-        malicious_episode: Episode = {
-            "japanese_title": "テスト",
-            "english_translation": "Test",
-            "published_at": "2026-05-31 15:30:00",
-            "audio_url": "javascript:alert('xss')",
-            "chunks": [],
-            "is_mock": False,
-        }
+        malicious_episode = Episode(
+            japanese_title=JapaneseText("テスト"),
+            english_translation=EnglishText("Test"),
+            published_at=JSTDateTime("2026-05-31 15:30:00"),
+            audio_url=AudioURL("javascript:alert('xss')"),
+            chunks=[],
+            is_mock=False,
+            translation_model="mock",
+        )
         card_html = format_episode_card(malicious_episode)
         rss_item_xml = format_rss_item(malicious_episode)
 

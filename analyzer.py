@@ -1,25 +1,37 @@
 import json
 import urllib.request
 from typing import Optional
-from models import Chunk
+from models import (
+    Chunk,
+    TranslationResult,
+    TranslationSuccess,
+    TranslationFailure,
+    JapaneseText,
+    EnglishText,
+)
 from utils import clean_json_text
 
 
-def mock_analyze(title: str) -> tuple[str, list[Chunk]]:
+def mock_analyze(title: JapaneseText) -> TranslationFailure:
     """Safe pure mock fallback that generates a placeholder warning when API is down."""
-    mock_english = "[Translation temporarily unavailable. Re-run workflow to retry.]"
+    mock_english = EnglishText(
+        "[Translation temporarily unavailable. Re-run workflow to retry.]"
+    )
     mock_chunks: list[Chunk] = []
-    return mock_english, mock_chunks
+    return TranslationFailure(
+        english_translation=mock_english,
+        chunks=mock_chunks,
+        model_used="mock",
+    )
 
 
 def try_models_recursively(
-    models: list[str], title: str, api_key: str
-) -> tuple[str, list[Chunk], str, bool]:
+    models: list[str], title: JapaneseText, api_key: str
+) -> TranslationResult:
     """Pure functional helper that attempts translation across available model versions."""
     if not models:
         print("All models failed. Using mock.")
-        english, chunks = mock_analyze(title)
-        return english, chunks, "mock", True
+        return mock_analyze(title)
 
     model = models[0]
     print(f"Attempting translation with model: {model}...")
@@ -62,15 +74,19 @@ Title: {title}"""
 
             if english and chunks:
                 cleaned_chunks = [
-                    {
-                        "japanese": str(c.get("japanese", "")),
-                        "romaji": str(c.get("romaji", "")),
-                        "meaning": str(c.get("meaning", "")),
-                    }
+                    Chunk(
+                        japanese=JapaneseText(str(c.get("japanese", ""))),
+                        romaji=str(c.get("romaji", "")),
+                        meaning=EnglishText(str(c.get("meaning", ""))),
+                    )
                     for c in chunks
                 ]
                 print(f"Successfully translated using {model}")
-                return english, cleaned_chunks, model, False
+                return TranslationSuccess(
+                    english_translation=EnglishText(str(english)),
+                    chunks=cleaned_chunks,
+                    model_used=model,
+                )
     except Exception as e:
         err_msg = str(e)
         if api_key:
@@ -80,17 +96,14 @@ Title: {title}"""
     return try_models_recursively(models[1:], title, api_key)
 
 
-def analyze_japanese(
-    title: str, api_key: Optional[str]
-) -> tuple[str, list[Chunk], str, bool]:
+def analyze_japanese(title: JapaneseText, api_key: Optional[str]) -> TranslationResult:
     """Fetches full Japanese translation & chunk breakdown via Gemini API using fallbacks.
 
-    Returns (english_translation, chunks, model_used, is_mock).
+    Returns a TranslationResult (either TranslationSuccess or TranslationFailure).
     """
     if not api_key:
         print("GEMINI_API_KEY not set. Using mock translation.")
-        english, chunks = mock_analyze(title)
-        return english, chunks, "mock", True
+        return mock_analyze(title)
 
     models = [
         "gemini-3.5-flash",

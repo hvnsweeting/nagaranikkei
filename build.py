@@ -1,9 +1,24 @@
 #!/usr/bin/env python3
 import os
 import urllib.request
+from dataclasses import replace
+from typing import assert_never
 
 # 1. Backwards-compatible imports and re-exposures
-from models import Chunk, Episode, History, BASE_URL, DIST_DIR, RSS_URL
+from models import (
+    Chunk,
+    Episode,
+    History,
+    BASE_URL,
+    DIST_DIR,
+    RSS_URL,
+    JapaneseText,
+    EnglishText,
+    JSTDateTime,
+    AudioURL,
+    TranslationSuccess,
+    TranslationFailure,
+)
 from utils import (
     parse_date,
     clean_json_text,
@@ -80,49 +95,66 @@ def main() -> None:
 
         # Check if the title is already in history and is fully translated
         existing_index = next(
-            (i for i, ep in enumerate(history) if ep.get("japanese_title") == title), -1
+            (i for i, ep in enumerate(history) if ep.japanese_title == title), -1
         )
 
-        needs_translation = (existing_index == -1) or history[existing_index].get(
-            "is_mock", False
-        )
+        needs_translation = (existing_index == -1) or history[existing_index].is_mock
 
         if needs_translation:
             print(f"Attempting to translate/heal episode: {title}")
-            english, chunks, model_used, is_mock = analyze_japanese(title, api_key)
+            res = analyze_japanese(JapaneseText(title), api_key)
 
-            new_episode: Episode = {
-                "japanese_title": title,
-                "english_translation": english,
-                "published_at": parsed_date,
-                "audio_url": audio_url,
-                "chunks": chunks,
-                "is_mock": is_mock,
-                "translation_model": model_used,
-            }
+            match res:
+                case TranslationSuccess(english, chunks, model_used):
+                    new_episode = Episode(
+                        japanese_title=JapaneseText(title),
+                        english_translation=english,
+                        published_at=JSTDateTime(parsed_date),
+                        audio_url=AudioURL(audio_url),
+                        chunks=chunks,
+                        is_mock=False,
+                        translation_model=model_used,
+                    )
+                case TranslationFailure(english, chunks, model_used):
+                    new_episode = Episode(
+                        japanese_title=JapaneseText(title),
+                        english_translation=english,
+                        published_at=JSTDateTime(parsed_date),
+                        audio_url=AudioURL(audio_url),
+                        chunks=chunks,
+                        is_mock=True,
+                        translation_model=model_used,
+                    )
+                case unreachable:
+                    assert_never(unreachable)
 
             if existing_index != -1:
                 # Heal/replace the existing mock entry
                 history[existing_index] = new_episode
                 print(
-                    f"Successfully healed existing mock episode using {model_used}: {title}"
+                    f"Successfully healed existing mock episode using {new_episode.translation_model}: {title}"
                 )
             else:
                 # Prepend new episode
                 history.append(new_episode)
-                print(f"Added new episode using {model_used}: {title}")
+                print(
+                    f"Added new episode using {new_episode.translation_model}: {title}"
+                )
 
             has_changes = True
         else:
             existing_ep = history[existing_index]
-            model_used = existing_ep.get("translation_model", "unknown")
+            model_used = existing_ep.translation_model
             # Self-heal metadata timezones or audio URLs if generator configurations updated
             if (
-                existing_ep.get("published_at") != parsed_date
-                or existing_ep.get("audio_url") != audio_url
+                existing_ep.published_at != parsed_date
+                or existing_ep.audio_url != audio_url
             ):
-                existing_ep["published_at"] = parsed_date
-                existing_ep["audio_url"] = audio_url
+                history[existing_index] = replace(
+                    existing_ep,
+                    published_at=JSTDateTime(parsed_date),
+                    audio_url=AudioURL(audio_url),
+                )
                 has_changes = True
                 print(f"Self-healed timezone/metadata for: {title} -> {parsed_date}")
             else:
@@ -155,7 +187,7 @@ def main() -> None:
 
     print("Generating individual episode pages...")
     for ep in history:
-        date_formatted = ep.get("published_at", "")[:10]
+        date_formatted = ep.published_at[:10]
         if date_formatted:
             back_link_html = """            <div class="back-link-container">
               <a href="index.html" class="back-link">← Back to Dashboard</a>
@@ -163,8 +195,8 @@ def main() -> None:
             card_html = format_episode_card(ep)
 
             # Dynamic social media preview metadata (Telegram, Discord, Twitter/X, etc.)
-            jp_title = ep.get("japanese_title", "")
-            en_trans = ep.get("english_translation", "")
+            jp_title = ep.japanese_title
+            en_trans = ep.english_translation
             page_title = f"ながら日経 Tracker • {jp_title}"
             page_desc = f"English Translation: {en_trans}"
             og_page_url = f"{BASE_URL}/{date_formatted}.html"

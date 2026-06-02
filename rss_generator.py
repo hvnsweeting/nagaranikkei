@@ -6,15 +6,15 @@ from utils import sanitize_audio_url
 def format_rss_table_row(c: Chunk) -> str:
     """Pure formatter that transforms a chunk into an RSS-compliant table row."""
     return f"""            <tr>
-              <td style="padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;">{html.escape(c.get("japanese", ""))}</td>
-              <td style="padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;">{html.escape(c.get("romaji", ""))}</td>
-              <td style="padding: 8px; border-bottom: 1px solid #334155;">{html.escape(c.get("meaning", ""))}</td>
+              <td style="padding: 8px; border-bottom: 1px solid #334155; font-weight: bold; font-size: 1.1em;">{html.escape(c.japanese)}</td>
+              <td style="padding: 8px; border-bottom: 1px solid #334155; color: #38bdf8;">{html.escape(c.romaji)}</td>
+              <td style="padding: 8px; border-bottom: 1px solid #334155;">{html.escape(c.meaning)}</td>
             </tr>"""
 
 
 def format_rss_item(ep: Episode) -> str:
     """Pure formatter that transforms an Episode structure into a compliant RSS XML <item>."""
-    chunks_list = ep.get("chunks", [])
+    chunks_list = ep.chunks
     if chunks_list:
         table_rows = "\n".join(format_rss_table_row(c) for c in chunks_list)
         breakdown_html = f"""        <h3>Vocabulary Breakdown:</h3>
@@ -33,11 +33,11 @@ def format_rss_item(ep: Episode) -> str:
     else:
         breakdown_html = ""
 
-    date_formatted = ep.get("published_at", "")[:10]
+    date_formatted = ep.published_at[:10]
     site_url = f"{BASE_URL}/{date_formatted}.html" if date_formatted else BASE_URL
-    audio_url = sanitize_audio_url(ep.get("audio_url", ""))
+    audio_url = sanitize_audio_url(ep.audio_url)
 
-    description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.get("english_translation", ""))}</em></p>
+    description_html = f"""        <p><strong>English Title:</strong> <em>{html.escape(ep.english_translation)}</em></p>
 {breakdown_html}
         <p><a href="{html.escape(site_url)}">View Translation &amp; Vocabulary Breakdown on Tracker</a></p>
         <p><a href="{html.escape(audio_url)}">Play Audio (Media Link)</a></p>"""
@@ -50,11 +50,11 @@ def format_rss_item(ep: Episode) -> str:
         .replace("'", "&apos;")
     )
 
-    title_raw = f"{ep.get('japanese_title', '')} - {ep.get('english_translation', '')}"
+    title_raw = f"{ep.japanese_title} - {ep.english_translation}"
     escaped_title = html.escape(title_raw)
     escaped_link = html.escape(site_url)
-    escaped_guid = html.escape(ep.get("japanese_title", ""))
-    escaped_pub_date = html.escape(ep.get("published_at", ""))
+    escaped_guid = html.escape(ep.japanese_title)
+    escaped_pub_date = html.escape(ep.published_at)
 
     return f"""        <item>
           <title>{escaped_title}</title>

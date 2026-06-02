@@ -1536,110 +1536,113 @@
         "meaning": "expansion, enlargement"
       }
     ],
-    "is_mock": false
+    "is_mock": false,
+    "translation_model": "mock"
   },
   {
+    "japanese_title": "5月31日（日） 日英防衛相 次期戦闘機開発で連携と一致、不動産クラファン 利回り根拠の開示を義務に",
+    "english_translation": "May 31st (Sunday): Japan-UK Defense Ministers Agree on Cooperation for Next-Generation Fighter Jet Development; Obligation to Disclose Basis for Yields in Real Estate Crowdfunding.",
+    "published_at": "2026-05-31 07:50:00",
     "audio_url": "https://traffic.megaphone.fm/NRBC9952152448.mp3",
     "chunks": [
       {
         "japanese": "5月31日",
-        "meaning": "May 31st",
-        "romaji": "Gogatsu Sanjūichi-nichi"
+        "romaji": "Gogatsu Sanjūichi-nichi",
+        "meaning": "May 31st"
       },
       {
         "japanese": "（日）",
-        "meaning": "(Sunday)",
-        "romaji": "(Nichi)"
+        "romaji": "(Nichi)",
+        "meaning": "(Sunday)"
       },
       {
         "japanese": "日英",
-        "meaning": "Japan-UK",
-        "romaji": "Nichiei"
+        "romaji": "Nichiei",
+        "meaning": "Japan-UK"
       },
       {
         "japanese": "防衛相",
-        "meaning": "Defense Ministers",
-        "romaji": "Bōeishō"
+        "romaji": "Bōeishō",
+        "meaning": "Defense Ministers"
       },
       {
         "japanese": "次期",
-        "meaning": "Next-generation / Next-term",
-        "romaji": "Jiki"
+        "romaji": "Jiki",
+        "meaning": "Next-generation / Next-term"
       },
       {
         "japanese": "戦闘機",
-        "meaning": "Fighter jet",
-        "romaji": "Sentōki"
+        "romaji": "Sentōki",
+        "meaning": "Fighter jet"
       },
       {
         "japanese": "開発",
-        "meaning": "Development",
-        "romaji": "Kaihatsu"
+        "romaji": "Kaihatsu",
+        "meaning": "Development"
       },
       {
         "japanese": "で",
-        "meaning": "In / For",
-        "romaji": "De"
+        "romaji": "De",
+        "meaning": "In / For"
       },
       {
         "japanese": "連携",
-        "meaning": "Cooperation / Collaboration",
-        "romaji": "Renkei"
+        "romaji": "Renkei",
+        "meaning": "Cooperation / Collaboration"
       },
       {
         "japanese": "と",
-        "meaning": "And / With",
-        "romaji": "To"
+        "romaji": "To",
+        "meaning": "And / With"
       },
       {
         "japanese": "一致",
-        "meaning": "Agreement / Consensus",
-        "romaji": "Itchi"
+        "romaji": "Itchi",
+        "meaning": "Agreement / Consensus"
       },
       {
         "japanese": "不動産",
-        "meaning": "Real estate",
-        "romaji": "Fudōsan"
+        "romaji": "Fudōsan",
+        "meaning": "Real estate"
       },
       {
         "japanese": "クラファン",
-        "meaning": "Crowdfunding",
-        "romaji": "Kurafan"
+        "romaji": "Kurafan",
+        "meaning": "Crowdfunding"
       },
       {
         "japanese": "利回り",
-        "meaning": "Yield / Return",
-        "romaji": "Rimawari"
+        "romaji": "Rimawari",
+        "meaning": "Yield / Return"
       },
       {
         "japanese": "根拠",
-        "meaning": "Basis / Grounds",
-        "romaji": "Konkyo"
+        "romaji": "Konkyo",
+        "meaning": "Basis / Grounds"
       },
       {
         "japanese": "の",
-        "meaning": "Of / 's",
-        "romaji": "No"
+        "romaji": "No",
+        "meaning": "Of / 's"
       },
       {
         "japanese": "開示",
-        "meaning": "Disclosure",
-        "romaji": "Kaiji"
+        "romaji": "Kaiji",
+        "meaning": "Disclosure"
       },
       {
         "japanese": "を",
-        "meaning": "(Direct object particle)",
-        "romaji": "O"
+        "romaji": "O",
+        "meaning": "(Direct object particle)"
       },
       {
         "japanese": "義務に",
-        "meaning": "Make it an obligation / Into an obligation",
-        "romaji": "Gimu ni"
+        "romaji": "Gimu ni",
+        "meaning": "Make it an obligation / Into an obligation"
       }
     ],
-    "english_translation": "May 31st (Sunday): Japan-UK Defense Ministers Agree on Cooperation for Next-Generation Fighter Jet Development; Obligation to Disclose Basis for Yields in Real Estate Crowdfunding.",
-    "japanese_title": "5月31日（日） 日英防衛相 次期戦闘機開発で連携と一致、不動産クラファン 利回り根拠の開示を義務に",
-    "published_at": "2026-05-31 07:50:00"
+    "is_mock": false,
+    "translation_model": "mock"
   },
   {
     "japanese_title": "5月30日（土）ビール「23円減税」 物価高で8割帳消し、トヨタ新社長 EV選別へ大なた",
@@ -1723,7 +1726,8 @@
         "meaning": "Big axe/hatchet (metaphorically: drastic measures/sweeping changes)"
       }
     ],
-    "is_mock": false
+    "is_mock": false,
+    "translation_model": "mock"
   },
   {
     "japanese_title": "5月29日（金）「壁に貼ったバナナ」で９億円、現代アートの歴史と経済〜with NIKKEI",
@@ -1772,7 +1776,8 @@
         "meaning": "~with NIKKEI"
       }
     ],
-    "is_mock": false
+    "is_mock": false,
+    "translation_model": "mock"
   },
   {
     "japanese_title": "NIKKEI THE PITCH会議室 第19回 スタートアップに個人マネーを——産業政策か、投資家保護か？",
@@ -1831,6 +1836,7 @@
         "meaning": "?"
       }
     ],
-    "is_mock": false
+    "is_mock": false,
+    "translation_model": "mock"
   }
 ]

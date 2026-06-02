@@ -6,10 +6,10 @@ from utils import sanitize_audio_url
 
 def format_chunk_html(c: Chunk, slug: str, ep_title: str) -> str:
     """Pure formatter that transforms a vocabulary chunk to HTML list items with save buttons."""
-    jp_encoded = urllib.parse.quote_plus(c.get("japanese", ""))
-    jp = c.get("japanese", "")
-    ro = c.get("romaji", "")
-    en = c.get("meaning", "")
+    jp_encoded = urllib.parse.quote_plus(c.japanese)
+    jp = c.japanese
+    ro = c.romaji
+    en = c.meaning
 
     # HTML attributes escaping
     escaped_jp = html.escape(jp)
@@ -36,10 +36,10 @@ def format_chunk_html(c: Chunk, slug: str, ep_title: str) -> str:
 
 def format_episode_card(ep: Episode) -> str:
     """Pure formatter that transforms an Episode card structure to beautiful dynamic HTML."""
-    date_formatted = ep.get("published_at", "")[:10]
-    ep_title = ep.get("japanese_title", "")
+    date_formatted = ep.published_at[:10]
+    ep_title = ep.japanese_title
 
-    chunks_list = ep.get("chunks", [])
+    chunks_list = ep.chunks
     chunks_html = ""
     if chunks_list:
         chunks_html = "\n".join(
@@ -51,9 +51,9 @@ def format_episode_card(ep: Episode) -> str:
     else:
         chunks_container = ""
 
-    audio_url = sanitize_audio_url(ep.get("audio_url", ""))
+    audio_url = sanitize_audio_url(ep.audio_url)
 
-    is_mock = ep.get("is_mock", False)
+    is_mock = ep.is_mock
     title_class = "english-title translation-pending" if is_mock else "english-title"
 
     num_chunks = len(chunks_list)
@@ -75,12 +75,12 @@ def format_episode_card(ep: Episode) -> str:
               </a>
             </div>
             <h2 class="japanese-title">
-              {html.escape(ep.get("japanese_title", ""))}
-              <button onclick="speakTitle(this)" data-title="{html.escape(ep.get("japanese_title", ""))}" class="listen-badge" title="Read title aloud">
+              {html.escape(ep.japanese_title)}
+              <button onclick="speakTitle(this)" data-title="{html.escape(ep.japanese_title)}" class="listen-badge" title="Read title aloud">
                 🔊
               </button>
             </h2>
-            <p class="{title_class}">{html.escape(ep.get("english_translation", ""))}</p>
+            <p class="{title_class}">{html.escape(ep.english_translation)}</p>
 {toggle_btn}
 {chunks_container}
           </div>"""
