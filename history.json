@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "6月3日（水）投資会社アドバンテッジ 3000億円買収ファンド 国内企業の再編促す、半導体市場の成長率過去最高 26年90%に",
+    "english_translation": "June 3rd (Wed) - Investment firm Advantage's 300 billion yen buyout fund prompts restructuring of domestic companies; Semiconductor market growth rate at record high, reaching 90% by 2026",
+    "published_at": "2026-06-03 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1659633143.mp3",
+    "chunks": [
+      {
+        "japanese": "6月3日（水）",
+        "romaji": "rokugatsu mikka (sui)",
+        "meaning": "June 3rd (Wednesday)"
+      },
+      {
+        "japanese": "投資会社",
+        "romaji": "tōshi gaisha",
+        "meaning": "investment company"
+      },
+      {
+        "japanese": "アドバンテッジ",
+        "romaji": "adobantejji",
+        "meaning": "Advantage (referring to Advantage Partners)"
+      },
+      {
+        "japanese": "3000億円",
+        "romaji": "sanzen-oku en",
+        "meaning": "300 billion yen"
+      },
+      {
+        "japanese": "買収ファンド",
+        "romaji": "baishū fando",
+        "meaning": "buyout fund / acquisition fund"
+      },
+      {
+        "japanese": "国内企業",
+        "romaji": "kokunai kigyō",
+        "meaning": "domestic companies"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's (possessive particle)"
+      },
+      {
+        "japanese": "再編",
+        "romaji": "saihen",
+        "meaning": "reorganization / restructuring"
+      },
+      {
+        "japanese": "促す",
+        "romaji": "unagasu",
+        "meaning": "to prompt / to encourage"
+      },
+      {
+        "japanese": "半導体市場",
+        "romaji": "handōtai shijō",
+        "meaning": "semiconductor market"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (particle)"
+      },
+      {
+        "japanese": "成長率",
+        "romaji": "seichōritsu",
+        "meaning": "growth rate"
+      },
+      {
+        "japanese": "過去最高",
+        "romaji": "kako saikō",
+        "meaning": "record high / highest ever in history"
+      },
+      {
+        "japanese": "26年",
+        "romaji": "nijūroku nen",
+        "meaning": "year [20]26"
+      },
+      {
+        "japanese": "90%に",
+        "romaji": "kyūjū pāsento ni",
+        "meaning": "to 90%"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月2日（火）NVIDIAがAIパソコン向け半導体「Windows」で高性能モデル操作、ソフトバンクGの時価総額49兆円",
     "english_translation": "June 2nd (Tuesday): NVIDIA operates high-performance models using 'Windows' semiconductors for AI PCs; SoftBank Group's market capitalization is 49 trillion yen.",
     "published_at": "2026-06-02 06:30:00",
