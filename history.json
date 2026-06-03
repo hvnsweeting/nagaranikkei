@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "6月4日（木）日銀・植田総裁「利上げの是非しっかりと議論」、25年出生率は過去最低1.14 10年連続低下",
+    "english_translation": "June 4th (Thursday) BOJ Governor Ueda: 'Thoroughly discuss the pros and cons of rate hikes'; '25 birth rate hits record low of 1.14, declining for 10 consecutive years",
+    "published_at": "2026-06-04 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7642438392.mp3",
+    "chunks": [
+      {
+        "japanese": "6月4日（木）",
+        "romaji": "rokugatsu yokka (moku)",
+        "meaning": "June 4th (Thursday)"
+      },
+      {
+        "japanese": "日銀",
+        "romaji": "nichigin",
+        "meaning": "Bank of Japan (BOJ)"
+      },
+      {
+        "japanese": "植田総裁",
+        "romaji": "ueda sōsai",
+        "meaning": "Governor Ueda"
+      },
+      {
+        "japanese": "利上げ",
+        "romaji": "riage",
+        "meaning": "interest rate hike"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / possessive particle"
+      },
+      {
+        "japanese": "是非",
+        "romaji": "zehi",
+        "meaning": "pros and cons / right or wrong"
+      },
+      {
+        "japanese": "しっかりと",
+        "romaji": "shikkari to",
+        "meaning": "firmly / thoroughly / reliably"
+      },
+      {
+        "japanese": "議論",
+        "romaji": "giron",
+        "meaning": "discussion / debate"
+      },
+      {
+        "japanese": "25年",
+        "romaji": "nijūgo-nen",
+        "meaning": "Year '25 (2025)"
+      },
+      {
+        "japanese": "出生率",
+        "romaji": "shusseiritsu",
+        "meaning": "birth rate / fertility rate"
+      },
+      {
+        "japanese": "過去最低",
+        "romaji": "kako saitei",
+        "meaning": "record low / all-time low"
+      },
+      {
+        "japanese": "10年連続",
+        "romaji": "jū-nen renzoku",
+        "meaning": "10 consecutive years / 10 years in a row"
+      },
+      {
+        "japanese": "低下",
+        "romaji": "teika",
+        "meaning": "decline / fall / drop"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月3日（水）投資会社アドバンテッジ 3000億円買収ファンド 国内企業の再編促す、半導体市場の成長率過去最高 26年90%に",
     "english_translation": "June 3rd (Wed) - Investment firm Advantage's 300 billion yen buyout fund prompts restructuring of domestic companies; Semiconductor market growth rate at record high, reaching 90% by 2026",
     "published_at": "2026-06-03 06:30:00",
