@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "6月5日（金）PayPay 生命保険に参入、スタートアップ 創業期の資金調達4割減",
+    "english_translation": "June 5 (Friday): PayPay enters the life insurance market; fundraising for early-stage startups down 40%",
+    "published_at": "2026-06-05 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3391971336.mp3",
+    "chunks": [
+      {
+        "japanese": "6月5日",
+        "romaji": "rokugatsu itsuka",
+        "meaning": "June 5th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday (abbreviated)"
+      },
+      {
+        "japanese": "PayPay",
+        "romaji": "peipei",
+        "meaning": "PayPay (a major Japanese mobile payment service)"
+      },
+      {
+        "japanese": "生命保険",
+        "romaji": "seimei hoken",
+        "meaning": "life insurance"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / into (particle)"
+      },
+      {
+        "japanese": "参入",
+        "romaji": "sannyū",
+        "meaning": "entry (into a market) / penetration"
+      },
+      {
+        "japanese": "スタートアップ",
+        "romaji": "sutātoappu",
+        "meaning": "startup"
+      },
+      {
+        "japanese": "創業期",
+        "romaji": "sōgyōki",
+        "meaning": "founding period / early stage"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / possessive particle"
+      },
+      {
+        "japanese": "資金調達",
+        "romaji": "shikin chōtatsu",
+        "meaning": "fundraising / financing / capital procurement"
+      },
+      {
+        "japanese": "4割減",
+        "romaji": "yonwarigen",
+        "meaning": "40% decrease (literally, '4-tenths reduction')"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月4日（木）日銀・植田総裁「利上げの是非しっかりと議論」、25年出生率は過去最低1.14 10年連続低下",
     "english_translation": "June 4th (Thursday) BOJ Governor Ueda: 'Thoroughly discuss the pros and cons of rate hikes'; '25 birth rate hits record low of 1.14, declining for 10 consecutive years",
     "published_at": "2026-06-04 06:30:00",
