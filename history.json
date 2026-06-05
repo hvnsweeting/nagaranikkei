@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "6月5日（金）タイパ追求、「ショート」化の行く先は？〜with NIKKEI",
+    "english_translation": "June 5 (Fri) Pursuing 'Taipa' (Time-Performance): Where is the Trend Toward 'Short-Form' Heading? ~with NIKKEI",
+    "published_at": "2026-06-05 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9243886389.mp3",
+    "chunks": [
+      {
+        "japanese": "6月5日（金）",
+        "romaji": "rokugatsu itsuka (kin)",
+        "meaning": "June 5th (Friday)"
+      },
+      {
+        "japanese": "タイパ",
+        "romaji": "taipa",
+        "meaning": "time-performance (portmanteau of 'time' and 'performance', referring to time efficiency)"
+      },
+      {
+        "japanese": "追求",
+        "romaji": "tsuikyū",
+        "meaning": "pursuit / seeking"
+      },
+      {
+        "japanese": "「ショート」化",
+        "romaji": "\"shōto\"-ka",
+        "meaning": "becoming shorter / transition to short-form (content)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of)"
+      },
+      {
+        "japanese": "行く先は？",
+        "romaji": "yukusaki wa?",
+        "meaning": "where is it heading? / what is the destination?"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "with nikkei",
+        "meaning": "~with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月5日（金）PayPay 生命保険に参入、スタートアップ 創業期の資金調達4割減",
     "english_translation": "June 5 (Friday): PayPay enters the life insurance market; fundraising for early-stage startups down 40%",
     "published_at": "2026-06-05 06:30:00",
