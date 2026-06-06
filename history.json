@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "6月7日（日）金融庁、「仕組み預金」にメス、企業の不動産売却18年ぶり高水準",
+    "english_translation": "June 7th (Sun): Financial Services Agency cracks down on 'structured deposits'; corporate real estate sales hit highest level in 18 years",
+    "published_at": "2026-06-07 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5360504708.mp3",
+    "chunks": [
+      {
+        "japanese": "6月7日（日）",
+        "romaji": "rokugatsu nanoka (nichiyōbi)",
+        "meaning": "June 7th (Sunday)"
+      },
+      {
+        "japanese": "金融庁",
+        "romaji": "kinyūchō",
+        "meaning": "Financial Services Agency (FSA)"
+      },
+      {
+        "japanese": "「仕組み預金」",
+        "romaji": "shikumi yokin",
+        "meaning": "structured deposits"
+      },
+      {
+        "japanese": "にメス",
+        "romaji": "ni mesu",
+        "meaning": "to take a scalpel to (idiom for cracking down on, investigating, or taking drastic measures against)"
+      },
+      {
+        "japanese": "企業の",
+        "romaji": "kigyō no",
+        "meaning": "companies' / corporate"
+      },
+      {
+        "japanese": "不動産売却",
+        "romaji": "fudōsan baikyaku",
+        "meaning": "real estate sales / property divestment"
+      },
+      {
+        "japanese": "18年ぶり",
+        "romaji": "jūhachinen buri",
+        "meaning": "for the first time in 18 years"
+      },
+      {
+        "japanese": "高水準",
+        "romaji": "kōsuijun",
+        "meaning": "high level / high standard"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月6日（土）食品や日用品値上げ「実施・検討中」5割 包装見直し3割、アンソロピック｢AI開発減速｣提言",
     "english_translation": "June 6 (Sat) 50% of companies 'implementing or considering' price hikes for food and daily goods, 30% reviewing packaging; Anthropic proposes 'slowing down AI development'",
     "published_at": "2026-06-06 07:50:00",
