@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月8日（月)年金3号「専業主夫」30年で3倍の13万人、ヤマダ・エディオン 統合交渉「対等合併」",
+    "english_translation": "June 8 (Mon) Category 3 Pension: 'Stay-at-home husbands' triple in 30 years to 130,000; Yamada and Edion integration talks for a 'merger of equals'",
+    "published_at": "2026-06-08 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4058772602.mp3",
+    "chunks": [
+      {
+        "japanese": "6月8日（月）",
+        "romaji": "rokugatsu yōka (getsu)",
+        "meaning": "June 8th (Monday)"
+      },
+      {
+        "japanese": "年金3号",
+        "romaji": "nenkin sangō",
+        "meaning": "Category 3 Pension (pension system for dependent spouses)"
+      },
+      {
+        "japanese": "「専業主夫」",
+        "romaji": "\"sengyō shufu\"",
+        "meaning": "\"stay-at-home husband(s)\""
+      },
+      {
+        "japanese": "30年で",
+        "romaji": "sanjū-nen de",
+        "meaning": "in 30 years"
+      },
+      {
+        "japanese": "3倍の",
+        "romaji": "san-bai no",
+        "meaning": "three times / triple of"
+      },
+      {
+        "japanese": "13万人",
+        "romaji": "jūsan-man nin",
+        "meaning": "130,000 people"
+      },
+      {
+        "japanese": "ヤマダ・エディオン",
+        "romaji": "Yamada Edion",
+        "meaning": "Yamada and Edion (major Japanese electronics retailers)"
+      },
+      {
+        "japanese": "統合交渉",
+        "romaji": "tōgō kōshō",
+        "meaning": "integration / merger negotiations"
+      },
+      {
+        "japanese": "「対等合併」",
+        "romaji": "\"taitō gappei\"",
+        "meaning": "\"merger of equals\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月7日（日）金融庁、「仕組み預金」にメス、企業の不動産売却18年ぶり高水準",
     "english_translation": "June 7th (Sun): Financial Services Agency cracks down on 'structured deposits'; corporate real estate sales hit highest level in 18 years",
     "published_at": "2026-06-07 07:50:00",
