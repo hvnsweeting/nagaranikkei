@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "6月9日（火）新AI銘柄パナソニックHD 関連売上2兆円へ、 TOTO ユニットバス受注を全面再開",
+    "english_translation": "June 9 (Tuesday) New AI Stock Panasonic HD: Related Sales Towards 2 Trillion Yen, TOTO Fully Resumes Unit Bath Orders",
+    "published_at": "2026-06-09 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3595136671.mp3",
+    "chunks": [
+      {
+        "japanese": "6月9日（火）",
+        "romaji": "Rokugatsu kokonoka (Ka)",
+        "meaning": "June 9 (Tuesday)"
+      },
+      {
+        "japanese": "新",
+        "romaji": "Shin",
+        "meaning": "New"
+      },
+      {
+        "japanese": "AI銘柄",
+        "romaji": "AI meigara",
+        "meaning": "AI stock / AI brand"
+      },
+      {
+        "japanese": "パナソニックHD",
+        "romaji": "Panasonikku Eichi Dī",
+        "meaning": "Panasonic HD (Holdings)"
+      },
+      {
+        "japanese": "関連売上",
+        "romaji": "Kanren uriage",
+        "meaning": "Related sales"
+      },
+      {
+        "japanese": "2兆円へ",
+        "romaji": "Nichōen e",
+        "meaning": "Towards 2 trillion yen"
+      },
+      {
+        "japanese": "TOTO",
+        "romaji": "TOTO",
+        "meaning": "TOTO (company name)"
+      },
+      {
+        "japanese": "ユニットバス",
+        "romaji": "Yunitto basu",
+        "meaning": "Unit bath / Modular bathroom"
+      },
+      {
+        "japanese": "受注を",
+        "romaji": "Juchū o",
+        "meaning": "Orders received (object particle)"
+      },
+      {
+        "japanese": "全面",
+        "romaji": "Zenmen",
+        "meaning": "Full / Complete"
+      },
+      {
+        "japanese": "再開",
+        "romaji": "Saikai",
+        "meaning": "Resumption / Reopening"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月8日（月)年金3号「専業主夫」30年で3倍の13万人、ヤマダ・エディオン 統合交渉「対等合併」",
     "english_translation": "June 8 (Mon) Category 3 Pension: 'Stay-at-home husbands' triple in 30 years to 130,000; Yamada and Edion integration talks for a 'merger of equals'",
     "published_at": "2026-06-08 06:30:00",
