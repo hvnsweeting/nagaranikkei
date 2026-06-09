@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月10日（水）日銀 6月利上げ1.0%へ 国債買い入れは減額停止で調整、トヨタ 自動運転ティアフォーに出資",
+    "english_translation": "June 10 (Wednesday) Bank of Japan: Heading towards a 1.0% interest rate hike in June, JGB purchases being adjusted by suspending reduction; Toyota invests in self-driving company Tier IV",
+    "published_at": "2026-06-10 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2611008086.mp3",
+    "chunks": [
+      {
+        "japanese": "6月10日（水）",
+        "romaji": "rokugatsu tōka (suiyōbi)",
+        "meaning": "June 10th (Wednesday)"
+      },
+      {
+        "japanese": "日銀",
+        "romaji": "nichigin",
+        "meaning": "Bank of Japan (BOJ)"
+      },
+      {
+        "japanese": "6月利上げ",
+        "romaji": "rokugatsu riage",
+        "meaning": "June interest rate hike"
+      },
+      {
+        "japanese": "1.0%へ",
+        "romaji": "ichi tōten zero pāsento e",
+        "meaning": "to 1.0%"
+      },
+      {
+        "japanese": "国債買い入れ",
+        "romaji": "kokusai kaiire",
+        "meaning": "government bond purchases"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "[topic marker]"
+      },
+      {
+        "japanese": "減額停止",
+        "romaji": "gengaku teishi",
+        "meaning": "suspension of reduction"
+      },
+      {
+        "japanese": "で調整",
+        "romaji": "de chōsei",
+        "meaning": "adjusting by / coordinating with"
+      },
+      {
+        "japanese": "トヨタ",
+        "romaji": "toyota",
+        "meaning": "Toyota"
+      },
+      {
+        "japanese": "自動運転",
+        "romaji": "jidō unten",
+        "meaning": "autonomous driving"
+      },
+      {
+        "japanese": "ティアフォー",
+        "romaji": "tiafō",
+        "meaning": "Tier IV (autonomous driving startup)"
+      },
+      {
+        "japanese": "に出資",
+        "romaji": "ni shusshi",
+        "meaning": "invest in / capital contribution to"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月9日（火）新AI銘柄パナソニックHD 関連売上2兆円へ、 TOTO ユニットバス受注を全面再開",
     "english_translation": "June 9 (Tuesday) New AI Stock Panasonic HD: Related Sales Towards 2 Trillion Yen, TOTO Fully Resumes Unit Bath Orders",
     "published_at": "2026-06-09 06:30:00",
