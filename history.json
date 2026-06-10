@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月11日（木）信越化学 福井に18年ぶりレアアース工場、米スターバックス 日本事業の売却を検討",
+    "english_translation": "June 11 (Thu) Shin-Etsu Chemical to build rare earth plant in Fukui for the first time in 18 years; US Starbucks considers selling Japanese operations",
+    "published_at": "2026-06-11 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3236353003.mp3",
+    "chunks": [
+      {
+        "japanese": "6月11日（木）",
+        "romaji": "rokugatsu jūichinichi (mokuyōbi)",
+        "meaning": "June 11th (Thursday)"
+      },
+      {
+        "japanese": "信越化学",
+        "romaji": "Shin'etsu Kagaku",
+        "meaning": "Shin-Etsu Chemical (company name)"
+      },
+      {
+        "japanese": "福井に",
+        "romaji": "Fukui ni",
+        "meaning": "in Fukui (Prefecture)"
+      },
+      {
+        "japanese": "18年ぶり",
+        "romaji": "jūhachinen buri",
+        "meaning": "for the first time in 18 years"
+      },
+      {
+        "japanese": "レアアース工場",
+        "romaji": "rea āsu kōjō",
+        "meaning": "rare earth factory"
+      },
+      {
+        "japanese": "米スターバックス",
+        "romaji": "Bei Sutābakkusu",
+        "meaning": "US Starbucks"
+      },
+      {
+        "japanese": "日本事業の",
+        "romaji": "Nihon jigyō no",
+        "meaning": "of Japan operations / of the Japanese business"
+      },
+      {
+        "japanese": "売却を",
+        "romaji": "baikyaku o",
+        "meaning": "sale (direct object)"
+      },
+      {
+        "japanese": "検討",
+        "romaji": "kentō",
+        "meaning": "considering / examining"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月10日（水）日銀 6月利上げ1.0%へ 国債買い入れは減額停止で調整、トヨタ 自動運転ティアフォーに出資",
     "english_translation": "June 10 (Wednesday) Bank of Japan: Heading towards a 1.0% interest rate hike in June, JGB purchases being adjusted by suspending reduction; Toyota invests in self-driving company Tier IV",
     "published_at": "2026-06-10 06:30:00",
