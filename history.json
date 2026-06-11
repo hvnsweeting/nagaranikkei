@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月12日（金）AIなど軍民両用技術 日英がスタートアップ支援基金、日銀 異例の植田総裁不在で利上げへ",
+    "english_translation": "June 12th (Friday) Dual-use technologies such as AI: Japan and UK to launch startup support fund; BOJ heads toward interest rate hike in the unusual absence of Governor Ueda",
+    "published_at": "2026-06-12 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4297825827.mp3",
+    "chunks": [
+      {
+        "japanese": "6月12日（金）",
+        "romaji": "rokugatsu juuninichi (kin'youbi)",
+        "meaning": "June 12th (Friday)"
+      },
+      {
+        "japanese": "AIなど",
+        "romaji": "ee-ai nado",
+        "meaning": "such as AI / AI and others"
+      },
+      {
+        "japanese": "軍民両用技術",
+        "romaji": "gunmin ryouyou gijutsu",
+        "meaning": "military-civilian dual-use technology"
+      },
+      {
+        "japanese": "日英が",
+        "romaji": "nichiei ga",
+        "meaning": "Japan and the UK (as subject)"
+      },
+      {
+        "japanese": "スタートアップ支援基金",
+        "romaji": "sutaatoappu shien kikin",
+        "meaning": "startup support fund"
+      },
+      {
+        "japanese": "日銀",
+        "romaji": "nichigin",
+        "meaning": "Bank of Japan (BOJ)"
+      },
+      {
+        "japanese": "異例の",
+        "romaji": "irei no",
+        "meaning": "unusual / unprecedented"
+      },
+      {
+        "japanese": "植田総裁不在で",
+        "romaji": "ueda sousai fuzai de",
+        "meaning": "due to the absence of Governor Ueda"
+      },
+      {
+        "japanese": "利上げへ",
+        "romaji": "riage e",
+        "meaning": "toward an interest rate hike"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月11日（木）信越化学 福井に18年ぶりレアアース工場、米スターバックス 日本事業の売却を検討",
     "english_translation": "June 11 (Thu) Shin-Etsu Chemical to build rare earth plant in Fukui for the first time in 18 years; US Starbucks considers selling Japanese operations",
     "published_at": "2026-06-11 06:30:00",
