@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "6月13日（土）監視委がニデックに資料提出命令 調査に着手、学生寮のJSB 米ファンドのウォーバーグが買収へ",
+    "english_translation": "June 13 (Sat): Surveillance Commission orders Nidec to submit documents and begins investigation; US fund Warburg to acquire student dorm operator JSB",
+    "published_at": "2026-06-13 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3167547615.mp3",
+    "chunks": [
+      {
+        "japanese": "6月13日（土）",
+        "romaji": "rokugatsu jūsan-nichi (doyōbi)",
+        "meaning": "June 13th (Saturday)"
+      },
+      {
+        "japanese": "監視委が",
+        "romaji": "kanshi-i ga",
+        "meaning": "the Surveillance Commission (Securities and Exchange Surveillance Commission) [subject]"
+      },
+      {
+        "japanese": "ニデックに",
+        "romaji": "Nidekku ni",
+        "meaning": "to Nidec"
+      },
+      {
+        "japanese": "資料提出命令",
+        "romaji": "shiryō teishutsu meirei",
+        "meaning": "order to submit documents"
+      },
+      {
+        "japanese": "調査に着手",
+        "romaji": "chōsa ni chakushu",
+        "meaning": "launching/starting an investigation"
+      },
+      {
+        "japanese": "学生寮の",
+        "romaji": "gakuseiryō no",
+        "meaning": "student dormitories'"
+      },
+      {
+        "japanese": "JSB",
+        "romaji": "Jei Esu Bī",
+        "meaning": "JSB (a company operating student housing)"
+      },
+      {
+        "japanese": "米ファンドの",
+        "romaji": "bei fando no",
+        "meaning": "US fund's"
+      },
+      {
+        "japanese": "ウォーバーグが",
+        "romaji": "Wōbāgu ga",
+        "meaning": "Warburg (US private equity firm Warburg Pincus) [subject]"
+      },
+      {
+        "japanese": "買収へ",
+        "romaji": "baishū he",
+        "meaning": "heading toward acquisition / set to acquire"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月12日（金）何が変わった？新たな防災気象情報〜with NIKKEI",
     "english_translation": "June 12 (Fri) What has changed? New disaster prevention weather information ~with NIKKEI",
     "published_at": "2026-06-12 18:00:00",
