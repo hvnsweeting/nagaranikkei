@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "6月12日（金）何が変わった？新たな防災気象情報〜with NIKKEI",
+    "english_translation": "June 12 (Fri) What has changed? New disaster prevention weather information ~with NIKKEI",
+    "published_at": "2026-06-12 18:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6104964569.mp3",
+    "chunks": [
+      {
+        "japanese": "6月12日",
+        "romaji": "rokugatsu juuninichi",
+        "meaning": "June 12th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday (abbreviation of 金曜日 - kinyoubi)"
+      },
+      {
+        "japanese": "何が",
+        "romaji": "nani ga",
+        "meaning": "what (followed by subject marker)"
+      },
+      {
+        "japanese": "変わった？",
+        "romaji": "kawatta?",
+        "meaning": "changed? (past tense of 変わる - kawaru)"
+      },
+      {
+        "japanese": "新たな",
+        "romaji": "arata na",
+        "meaning": "new / fresh"
+      },
+      {
+        "japanese": "防災",
+        "romaji": "bousai",
+        "meaning": "disaster prevention"
+      },
+      {
+        "japanese": "気象情報",
+        "romaji": "kishou jouhou",
+        "meaning": "weather / meteorological information"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "with nikkei",
+        "meaning": "with NIKKEI (日本経済新聞 - Nihon Keizai Shimbun)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "NIKKEI THE PITCH会議室 第19回 結局、誰が得をするのかーースタートアップM＆Aの本音",
     "english_translation": "NIKKEI THE PITCH Conference Room Episode 19: In the end, who actually benefits? — The real truth about startup M&A",
     "published_at": "2026-06-12 16:50:00",
