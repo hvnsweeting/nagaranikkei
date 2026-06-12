@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "NIKKEI THE PITCH会議室 第19回 結局、誰が得をするのかーースタートアップM＆Aの本音",
+    "english_translation": "NIKKEI THE PITCH Conference Room Episode 19: In the end, who actually benefits? — The real truth about startup M&A",
+    "published_at": "2026-06-12 16:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6232404460.mp3",
+    "chunks": [
+      {
+        "japanese": "NIKKEI THE PITCH会議室",
+        "romaji": "NIKKEI THE PITCH kaigishitsu",
+        "meaning": "NIKKEI THE PITCH Meeting Room / Conference Room"
+      },
+      {
+        "japanese": "第19回",
+        "romaji": "dai-jūkyū-kai",
+        "meaning": "Episode 19"
+      },
+      {
+        "japanese": "結局",
+        "romaji": "kekkyoku",
+        "meaning": "in the end / after all"
+      },
+      {
+        "japanese": "誰が",
+        "romaji": "dare ga",
+        "meaning": "who (as the subject)"
+      },
+      {
+        "japanese": "得をするのか",
+        "romaji": "toku o suru no ka",
+        "meaning": "benefits? / is the one who gains?"
+      },
+      {
+        "japanese": "スタートアップ",
+        "romaji": "sutātoappu",
+        "meaning": "startup"
+      },
+      {
+        "japanese": "M＆A",
+        "romaji": "emu ando ē",
+        "meaning": "M&A (Mergers and Acquisitions)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (modifying particle)"
+      },
+      {
+        "japanese": "本音",
+        "romaji": "honne",
+        "meaning": "real intentions / true feelings / the honest truth"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月12日（金）AIなど軍民両用技術 日英がスタートアップ支援基金、日銀 異例の植田総裁不在で利上げへ",
     "english_translation": "June 12th (Friday) Dual-use technologies such as AI: Japan and UK to launch startup support fund; BOJ heads toward interest rate hike in the unusual absence of Governor Ueda",
     "published_at": "2026-06-12 06:30:00",
