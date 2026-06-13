@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "6月14日（日）アンソロピック「ミュトス級AI」世界で停止、日産が社外取締役の任期を6年に短縮 27年から",
+    "english_translation": "June 14th (Sunday) Anthropic's 'Mythos-class AI' suspended worldwide; Nissan to shorten outside directors' terms to 6 years starting in 2027",
+    "published_at": "2026-06-14 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4213460541.mp3",
+    "chunks": [
+      {
+        "japanese": "6月14日（日）",
+        "romaji": "rokugatsu jūyokka (nichiyōbi)",
+        "meaning": "June 14th (Sunday)"
+      },
+      {
+        "japanese": "アンソロピック",
+        "romaji": "ansoropikku",
+        "meaning": "Anthropic"
+      },
+      {
+        "japanese": "「ミュトス級AI」",
+        "romaji": "\"myutosu-kyū ē-ai\"",
+        "meaning": "\"Mythos-class AI\""
+      },
+      {
+        "japanese": "世界で停止",
+        "romaji": "sekai de teishi",
+        "meaning": "suspended/stopped worldwide"
+      },
+      {
+        "japanese": "日産が",
+        "romaji": "nissan ga",
+        "meaning": "Nissan (subject)"
+      },
+      {
+        "japanese": "社外取締役の",
+        "romaji": "shagai torishimariyaku no",
+        "meaning": "outside directors'"
+      },
+      {
+        "japanese": "任期を",
+        "romaji": "ninki o",
+        "meaning": "term of office"
+      },
+      {
+        "japanese": "6年に",
+        "romaji": "roku-nen ni",
+        "meaning": "to 6 years"
+      },
+      {
+        "japanese": "短縮",
+        "romaji": "tanshuku",
+        "meaning": "shorten / reduction"
+      },
+      {
+        "japanese": "27年から",
+        "romaji": "nijūnananen kara",
+        "meaning": "starting from 2027"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月13日（土）監視委がニデックに資料提出命令 調査に着手、学生寮のJSB 米ファンドのウォーバーグが買収へ",
     "english_translation": "June 13 (Sat): Surveillance Commission orders Nidec to submit documents and begins investigation; US fund Warburg to acquire student dorm operator JSB",
     "published_at": "2026-06-13 07:50:00",
