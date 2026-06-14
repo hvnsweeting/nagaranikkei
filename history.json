@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "6月15日（月）日英 洋上風力や高温ガス炉開発で協力、アメリカとイラン 双方主張曲げず「合意」か",
+    "english_translation": "June 15th (Mon) - Japan and the UK cooperate on offshore wind and high-temperature gas reactor development; US and Iran both refuse to back down, is an \"agreement\" in sight?",
+    "published_at": "2026-06-15 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9299477980.mp3",
+    "chunks": [
+      {
+        "japanese": "6月15日（月）",
+        "romaji": "rokugatsu jūgonicji (getsuyōbi)",
+        "meaning": "June 15th (Monday)"
+      },
+      {
+        "japanese": "日英",
+        "romaji": "nichiei",
+        "meaning": "Japan and the UK (Japan-UK)"
+      },
+      {
+        "japanese": "洋上風力",
+        "romaji": "yōjō fūryoku",
+        "meaning": "offshore wind power"
+      },
+      {
+        "japanese": "や",
+        "romaji": "ya",
+        "meaning": "and (for listing multiple items)"
+      },
+      {
+        "japanese": "高温ガス炉開発",
+        "romaji": "kōon gasuro kaihatsu",
+        "meaning": "high-temperature gas-cooled reactor development"
+      },
+      {
+        "japanese": "で協力",
+        "romaji": "de kyōryoku",
+        "meaning": "cooperate in / cooperation on"
+      },
+      {
+        "japanese": "アメリカとイラン",
+        "romaji": "amerika to iran",
+        "meaning": "the United States and Iran"
+      },
+      {
+        "japanese": "双方",
+        "romaji": "sōhō",
+        "meaning": "both sides / both parties"
+      },
+      {
+        "japanese": "主張曲げず",
+        "romaji": "shuchō magezu",
+        "meaning": "without yielding their assertions / not backing down on their claims"
+      },
+      {
+        "japanese": "「合意」か",
+        "romaji": "\"gōi\" ka",
+        "meaning": "is there an \"agreement\"? / will they reach a consensus?"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月14日（日）アンソロピック「ミュトス級AI」世界で停止、日産が社外取締役の任期を6年に短縮 27年から",
     "english_translation": "June 14th (Sunday) Anthropic's 'Mythos-class AI' suspended worldwide; Nissan to shorten outside directors' terms to 6 years starting in 2027",
     "published_at": "2026-06-14 07:50:00",
