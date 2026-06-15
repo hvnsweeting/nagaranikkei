@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月16日（火）米イラン 戦闘終結の覚書合意、 JX金属 光通信の半導体材料を10倍に増産",
+    "english_translation": "June 16 (Tuesday) US-Iran agreement on memorandum to end hostilities; JX Metals to increase production of semiconductor materials for optical communications tenfold",
+    "published_at": "2026-06-16 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9300871256.mp3",
+    "chunks": [
+      {
+        "japanese": "6月16日（火）",
+        "romaji": "rokugatsu jūrokunichi (ka)",
+        "meaning": "June 16th (Tuesday)"
+      },
+      {
+        "japanese": "米イラン",
+        "romaji": "bei iran",
+        "meaning": "US and Iran"
+      },
+      {
+        "japanese": "戦闘終結",
+        "romaji": "sentō shūketsu",
+        "meaning": "end of combat / cessation of hostilities"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "覚書合意",
+        "romaji": "obogaki gōi",
+        "meaning": "agreement on a memorandum of understanding (MOU)"
+      },
+      {
+        "japanese": "JX金属",
+        "romaji": "jei-ekkusu kinzoku",
+        "meaning": "JX Metals (JX Nippon Mining & Metals)"
+      },
+      {
+        "japanese": "光通信",
+        "romaji": "hikari tsūshin",
+        "meaning": "optical communication"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "半導体材料",
+        "romaji": "handōtai zairyō",
+        "meaning": "semiconductor materials"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "direct object particle"
+      },
+      {
+        "japanese": "10倍に",
+        "romaji": "jū-bai ni",
+        "meaning": "tenfold / by 10 times"
+      },
+      {
+        "japanese": "増産",
+        "romaji": "zōsan",
+        "meaning": "increase in production"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月15日（月）日英 洋上風力や高温ガス炉開発で協力、アメリカとイラン 双方主張曲げず「合意」か",
     "english_translation": "June 15th (Mon) - Japan and the UK cooperate on offshore wind and high-temperature gas reactor development; US and Iran both refuse to back down, is an \"agreement\" in sight?",
     "published_at": "2026-06-15 06:30:00",
