@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月18日（木）食品消費税27年4月に1% 新給付は27年秋と明記、築地・渋谷再開発にあわせ割安住宅 東京都がビル容積率2倍に",
+    "english_translation": "June 18th (Thursday): Food consumption tax set to 1% in April 2025; new benefits explicitly for Autumn 2025; Tokyo Metropolitan Government to double building floor area ratio for affordable housing in conjunction with Tsukiji and Shibuya redevelopments.",
+    "published_at": "2026-06-18 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4731864315.mp3",
+    "chunks": [
+      {
+        "japanese": "6月18日（木）",
+        "romaji": "Rokugatsu jūhachinichi (Moku)",
+        "meaning": "June 18th (Thursday)"
+      },
+      {
+        "japanese": "食品消費税",
+        "romaji": "Shokuhin shōhizei",
+        "meaning": "Food consumption tax"
+      },
+      {
+        "japanese": "27年4月に",
+        "romaji": "Nijūnananen shigatsu ni",
+        "meaning": "In April of year 27 (Reiwa 7 / 2025)"
+      },
+      {
+        "japanese": "1%",
+        "romaji": "Ichi pāsento",
+        "meaning": "1%"
+      },
+      {
+        "japanese": "新給付は",
+        "romaji": "Shin kyūfu wa",
+        "meaning": "New benefits / New payouts (topic marker)"
+      },
+      {
+        "japanese": "27年秋と明記",
+        "romaji": "Nijūnananen aki to meiki",
+        "meaning": "explicitly stated as Autumn of year 27 (Reiwa 7 / 2025)"
+      },
+      {
+        "japanese": "築地・渋谷再開発に",
+        "romaji": "Tsukiji Shibuya saikaihatsu ni",
+        "meaning": "for Tsukiji and Shibuya redevelopment"
+      },
+      {
+        "japanese": "あわせ",
+        "romaji": "awase",
+        "meaning": "in conjunction with / accompanying"
+      },
+      {
+        "japanese": "割安住宅",
+        "romaji": "Wari yasu jūgaku",
+        "meaning": "affordable housing"
+      },
+      {
+        "japanese": "東京都が",
+        "romaji": "Tōkyōto ga",
+        "meaning": "Tokyo Metropolitan Government (subject)"
+      },
+      {
+        "japanese": "ビル容積率",
+        "romaji": "Biru yōseki-ritsu",
+        "meaning": "building floor area ratio / building plot ratio"
+      },
+      {
+        "japanese": "2倍に",
+        "romaji": "Nibai ni",
+        "meaning": "to double / by 2 times"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月17日（水）日銀 1.0%への利上げ決定 国債買い入れ減額は27年4月以降停止、日経平均株価が連日最高値 6万9404円",
     "english_translation": "Wednesday, June 17: BOJ decides on interest rate hike to 1.0%, reduction of government bond purchases to be suspended from April 2027 onwards; Nikkei Stock Average hits record highs for consecutive days, reaching 69,404 yen",
     "published_at": "2026-06-17 06:30:00",
