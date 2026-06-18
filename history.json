@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "6月19日（金）日経平均7万円 史上最速の大台替わり、ChatGPT内に広告表示 日本でOpenAIが展開",
+    "english_translation": "June 19th (Friday): Nikkei Average hits 70,000 yen, fastest-ever major milestone shift; Ads displayed within ChatGPT as OpenAI expands in Japan.",
+    "published_at": "2026-06-19 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9251477905.mp3",
+    "chunks": [
+      {
+        "japanese": "6月19日",
+        "romaji": "Rokugatsu jūkunichi",
+        "meaning": "June 19th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(Kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "日経平均",
+        "romaji": "Nikkei Heikin",
+        "meaning": "Nikkei Average"
+      },
+      {
+        "japanese": "7万円",
+        "romaji": "Nanaman-en",
+        "meaning": "70,000 yen"
+      },
+      {
+        "japanese": "史上最速の大台替わり",
+        "romaji": "Shijō saikoku no ōdai kawari",
+        "meaning": "fastest-ever major milestone shift"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "ChatGPT内に",
+        "romaji": "ChatGPT nai ni",
+        "meaning": "within ChatGPT"
+      },
+      {
+        "japanese": "広告表示",
+        "romaji": "kōkoku hyōji",
+        "meaning": "ad display"
+      },
+      {
+        "japanese": "日本で",
+        "romaji": "Nihon de",
+        "meaning": "in Japan"
+      },
+      {
+        "japanese": "OpenAIが",
+        "romaji": "OpenAI ga",
+        "meaning": "OpenAI"
+      },
+      {
+        "japanese": "展開",
+        "romaji": "tenkai",
+        "meaning": "expands / rolls out"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月18日（木）食品消費税27年4月に1% 新給付は27年秋と明記、築地・渋谷再開発にあわせ割安住宅 東京都がビル容積率2倍に",
     "english_translation": "June 18th (Thursday): Food consumption tax set to 1% in April 2025; new benefits explicitly for Autumn 2025; Tokyo Metropolitan Government to double building floor area ratio for affordable housing in conjunction with Tsukiji and Shibuya redevelopments.",
     "published_at": "2026-06-18 06:30:00",
