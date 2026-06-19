@@ -1,5 +1,105 @@
 [
   {
+    "japanese_title": "6月19日（金）ワールドカップと経済〜with NIKKEI",
+    "english_translation": "June 19th (Friday) World Cup and Economy ~with NIKKEI",
+    "published_at": "2026-06-19 17:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6760900144.mp3",
+    "chunks": [
+      {
+        "japanese": "6月19日",
+        "romaji": "Rokugatsu jūkunichi",
+        "meaning": "June 19th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(Kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "ワールドカップ",
+        "romaji": "Wārudo Kappu",
+        "meaning": "World Cup"
+      },
+      {
+        "japanese": "と",
+        "romaji": "To",
+        "meaning": "and"
+      },
+      {
+        "japanese": "経済",
+        "romaji": "Keizai",
+        "meaning": "Economy"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "~with NIKKEI",
+        "meaning": "~with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
+    "japanese_title": "NIKKEI THE PITCH会議室 第21回 【IVS2026直前スペシャル版！】CVC担当者がIVSを100倍有効活用するための「IVSの歩き方」",
+    "english_translation": "NIKKEI THE PITCH Conference Room Episode 21: [IVS 2026 Pre-Event Special Edition!] 'How to Navigate IVS' for CVC Managers to 100x More Effectively Utilize IVS",
+    "published_at": "2026-06-19 16:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1652932202.mp3",
+    "chunks": [
+      {
+        "japanese": "NIKKEI THE PITCH会議室",
+        "romaji": "NIKKEI THE PITCH Kaigishitsu",
+        "meaning": "NIKKEI THE PITCH Conference Room"
+      },
+      {
+        "japanese": "第21回",
+        "romaji": "Dai nijūikkai",
+        "meaning": "The 21st Episode"
+      },
+      {
+        "japanese": "【IVS2026直前スペシャル版！】",
+        "romaji": "[IVS2026 Chokuzen Supesharu Ban!]",
+        "meaning": "[IVS 2026 Pre-Event Special Edition!]"
+      },
+      {
+        "japanese": "CVC担当者",
+        "romaji": "CVC Tantōsha",
+        "meaning": "CVC Manager / CVC Representative"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "IVSを",
+        "romaji": "IVS o",
+        "meaning": "IVS (object particle)"
+      },
+      {
+        "japanese": "100倍",
+        "romaji": "Hyakubai",
+        "meaning": "100 times"
+      },
+      {
+        "japanese": "有効活用する",
+        "romaji": "Yūkō Katsuyō Suru",
+        "meaning": "to effectively utilize"
+      },
+      {
+        "japanese": "ための",
+        "romaji": "tame no",
+        "meaning": "for the purpose of / in order to"
+      },
+      {
+        "japanese": "「IVSの歩き方」",
+        "romaji": "「IVS no Arukikata」",
+        "meaning": "「How to Navigate IVS」 / 「Guide to IVS」"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月19日（金）日経平均7万円 史上最速の大台替わり、ChatGPT内に広告表示 日本でOpenAIが展開",
     "english_translation": "June 19th (Friday): Nikkei Average hits 70,000 yen, fastest-ever major milestone shift; Ads displayed within ChatGPT as OpenAI expands in Japan.",
     "published_at": "2026-06-19 06:30:00",
