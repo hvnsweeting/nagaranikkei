@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月20日（土） 戦略17分野 フィジカルAIに10.5兆円、取締役の過半が「社外」主要企業の4割に",
+    "english_translation": "June 20 (Sat) - 10.5 trillion yen for 17 strategic fields of physical AI; majority of board directors are 'outside' at 40% of major companies",
+    "published_at": "2026-06-20 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3584024123.mp3",
+    "chunks": [
+      {
+        "japanese": "6月20日（土）",
+        "romaji": "rokugatsu nijūnichi (doyōbi)",
+        "meaning": "June 20th (Saturday)"
+      },
+      {
+        "japanese": "戦略17分野",
+        "romaji": "senryaku jūnanabunya",
+        "meaning": "17 strategic fields/sectors"
+      },
+      {
+        "japanese": "フィジカルAIに",
+        "romaji": "fijikaru ee-ai ni",
+        "meaning": "to/for physical AI"
+      },
+      {
+        "japanese": "10.5兆円",
+        "romaji": "juttengo chōen",
+        "meaning": "10.5 trillion yen"
+      },
+      {
+        "japanese": "取締役の",
+        "romaji": "torishimariyaku no",
+        "meaning": "of board directors"
+      },
+      {
+        "japanese": "過半が",
+        "romaji": "kahan ga",
+        "meaning": "the majority / more than half"
+      },
+      {
+        "japanese": "「社外」",
+        "romaji": "shagai",
+        "meaning": "\"outside\" (external to the company)"
+      },
+      {
+        "japanese": "主要企業の",
+        "romaji": "shuyō kigyō no",
+        "meaning": "of major companies"
+      },
+      {
+        "japanese": "4割に",
+        "romaji": "yonwari ni",
+        "meaning": "to 40% (reaching 40%)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月19日（金）ワールドカップと経済〜with NIKKEI",
     "english_translation": "June 19th (Friday) World Cup and Economy ~with NIKKEI",
     "published_at": "2026-06-19 17:50:00",
