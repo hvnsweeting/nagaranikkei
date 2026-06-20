@@ -127,6 +127,39 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(pub_date, "Sun, 31 May 2026 15:30:00 GMT")
         self.assertEqual(audio_url, "https://www.radionikkei.jp/nagara/sample.html")
 
+    def test_parse_xml_ignores_nikkei_the_pitch(self) -> None:
+        """Titles starting with 'NIKKEI THE PITCH' must be skipped."""
+        xml_bytes = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss>
+          <channel>
+            <item>
+              <title>NIKKEI THE PITCH Season 3</title>
+              <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+              <link>https://example.com/pitch.html</link>
+            </item>
+            <item>
+              <title>Valid Episode Title</title>
+              <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
+              <link>https://www.radionikkei.jp/nagara/sample.html</link>
+            </item>
+            <item>
+              <title>NIKKEI THE PITCH Special</title>
+              <pubDate>Sat, 30 May 2026 10:00:00 GMT</pubDate>
+              <link>https://example.com/pitch2.html</link>
+            </item>
+            <item>
+              <title>Another Valid Episode</title>
+              <pubDate>Fri, 29 May 2026 08:00:00 GMT</pubDate>
+              <link>https://www.radionikkei.jp/nagara/another.html</link>
+            </item>
+          </channel>
+        </rss>"""
+        episodes = parse_xml_to_episodes_metadata(xml_bytes, limit=5)
+        # Only the two valid episodes should be returned
+        self.assertEqual(len(episodes), 2)
+        self.assertEqual(episodes[0][0], "Valid Episode Title")
+        self.assertEqual(episodes[1][0], "Another Valid Episode")
+
     def test_parse_xml_to_episodes_metadata_security_hardening(self) -> None:
         malicious_xml_doctype = b"""<?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE rss [ <!ENTITY xxe "attack"> ]>
