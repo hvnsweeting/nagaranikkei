@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "6月21日（日）メガ銀の年間配当初の2兆円へ、米 日本に中距離ミサイル装置",
+    "english_translation": "June 21 (Sunday): Megabanks' initial annual dividend payment reaching 2 trillion yen; US deploys mid-range missiles in Japan.",
+    "published_at": "2026-06-21 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2141677340.mp3",
+    "chunks": [
+      {
+        "japanese": "6月21日（日）",
+        "romaji": "Rokugatsu Nijūichinichi (Nichiyōbi)",
+        "meaning": "June 21 (Sunday)"
+      },
+      {
+        "japanese": "メガ銀",
+        "romaji": "Mega-gin",
+        "meaning": "Megabank(s)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s (possessive particle)"
+      },
+      {
+        "japanese": "年間配当初",
+        "romaji": "Nenkan haitōsho",
+        "meaning": "Initial annual dividend payment"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "(particle implying \"amounting to\" or \"reaching\")"
+      },
+      {
+        "japanese": "2兆円へ",
+        "romaji": "Ni chō-en e",
+        "meaning": "towards 2 trillion yen"
+      },
+      {
+        "japanese": "、",
+        "romaji": "ten",
+        "meaning": "comma (separator)"
+      },
+      {
+        "japanese": "米",
+        "romaji": "Bei",
+        "meaning": "US / America"
+      },
+      {
+        "japanese": "日本に",
+        "romaji": "Nihon ni",
+        "meaning": "in/to Japan"
+      },
+      {
+        "japanese": "中距離ミサイル",
+        "romaji": "Chūkyori misairu",
+        "meaning": "mid-range missile(s)"
+      },
+      {
+        "japanese": "装置",
+        "romaji": "Sōchi",
+        "meaning": "installation / deployment"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月20日（土） 戦略17分野 フィジカルAIに10.5兆円、取締役の過半が「社外」主要企業の4割に",
     "english_translation": "June 20 (Sat) - 10.5 trillion yen for 17 strategic fields of physical AI; majority of board directors are 'outside' at 40% of major companies",
     "published_at": "2026-06-20 07:50:00",
