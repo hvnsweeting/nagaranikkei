@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "6月22日（月）コンビニより多い歯科医が減少、預金の5割 相続で首都圏に集中",
+    "english_translation": "June 22nd (Mon) - The number of dentists (which is more than convenience stores) is decreasing; 50% of savings concentrate in the Tokyo metropolitan area through inheritance.",
+    "published_at": "2026-06-22 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6427225800.mp3",
+    "chunks": [
+      {
+        "japanese": "6月22日（月）",
+        "romaji": "rokugatsu nijūnichi (getsuyōbi)",
+        "meaning": "June 22nd (Monday)"
+      },
+      {
+        "japanese": "コンビニより多い",
+        "romaji": "konbini yori ōi",
+        "meaning": "more numerous than convenience stores"
+      },
+      {
+        "japanese": "歯科医",
+        "romaji": "shikai",
+        "meaning": "dentists / dental clinics"
+      },
+      {
+        "japanese": "が減少",
+        "romaji": "ga genshō",
+        "meaning": "decreases / is declining"
+      },
+      {
+        "japanese": "預金の5割",
+        "romaji": "yokin no gowari",
+        "meaning": "50% of savings/deposits"
+      },
+      {
+        "japanese": "相続で",
+        "romaji": "sōzoku de",
+        "meaning": "through inheritance"
+      },
+      {
+        "japanese": "首都圏に集中",
+        "romaji": "shutoken ni shūchū",
+        "meaning": "concentrating in the Tokyo metropolitan area"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月21日（日）メガ銀の年間配当初の2兆円へ、米 日本に中距離ミサイル装置",
     "english_translation": "June 21 (Sunday): Megabanks' initial annual dividend payment reaching 2 trillion yen; US deploys mid-range missiles in Japan.",
     "published_at": "2026-06-21 07:50:00",
