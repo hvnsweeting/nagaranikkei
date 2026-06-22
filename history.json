@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "6月23日（火）JERAが米で大型火力発電 AIデータ拠点に併設、英国のスターマー首相が辞任表明",
+    "english_translation": "June 23 (Tuesday) JERA to build large-scale thermal power plant co-located with AI data hubs in the US; UK Prime Minister Starmer announces resignation",
+    "published_at": "2026-06-23 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6024843063.mp3",
+    "chunks": [
+      {
+        "japanese": "6月23日（火）",
+        "romaji": "rokugatsu nijūsannichi (ka)",
+        "meaning": "June 23rd (Tuesday)"
+      },
+      {
+        "japanese": "JERAが",
+        "romaji": "jera ga",
+        "meaning": "JERA (Japanese energy company, subject marker)"
+      },
+      {
+        "japanese": "米で",
+        "romaji": "bei de",
+        "meaning": "in the US"
+      },
+      {
+        "japanese": "大型火力発電",
+        "romaji": "ōgata karyoku hatsuden",
+        "meaning": "large-scale thermal power generation"
+      },
+      {
+        "japanese": "AIデータ拠点に",
+        "romaji": "ēai dēta kyoten ni",
+        "meaning": "to/at AI data hubs"
+      },
+      {
+        "japanese": "併設",
+        "romaji": "heisetsu",
+        "meaning": "co-location / setting up alongside"
+      },
+      {
+        "japanese": "英国の",
+        "romaji": "eikoku no",
+        "meaning": "the UK's"
+      },
+      {
+        "japanese": "スターマー首相が",
+        "romaji": "sutāmā shushō ga",
+        "meaning": "Prime Minister Starmer (subject marker)"
+      },
+      {
+        "japanese": "辞任表明",
+        "romaji": "jinin hyōmei",
+        "meaning": "announcement of resignation"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月22日（月）コンビニより多い歯科医が減少、預金の5割 相続で首都圏に集中",
     "english_translation": "June 22nd (Mon) - The number of dentists (which is more than convenience stores) is decreasing; 50% of savings concentrate in the Tokyo metropolitan area through inheritance.",
     "published_at": "2026-06-22 06:30:00",
