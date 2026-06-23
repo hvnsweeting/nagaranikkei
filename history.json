@@ -1,5 +1,140 @@
 [
   {
+    "japanese_title": "6月24日（水）欧州の防衛ドローン企業が日本に製造拠点 輸出視野 丸紅が進出支援、日産株主総会 ルノーが「みずほ色」に反発",
+    "english_translation": "June 24th (Wednesday): European Defense Drone Company to Establish Manufacturing Base in Japan with an Eye on Exports; Marubeni Supports Expansion. Nissan Shareholders' Meeting: Renault Objects to 'Mizuho Color'.",
+    "published_at": "2026-06-24 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8721525090.mp3",
+    "chunks": [
+      {
+        "japanese": "6月24日",
+        "romaji": "Rokugatsu nijuuyokka",
+        "meaning": "June 24th"
+      },
+      {
+        "japanese": "（水）",
+        "romaji": "(Sui)",
+        "meaning": "(Wednesday)"
+      },
+      {
+        "japanese": "欧州",
+        "romaji": "Oushuu",
+        "meaning": "Europe"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "防衛",
+        "romaji": "bouei",
+        "meaning": "defense"
+      },
+      {
+        "japanese": "ドローン",
+        "romaji": "doroon",
+        "meaning": "drone"
+      },
+      {
+        "japanese": "企業",
+        "romaji": "kigyou",
+        "meaning": "company"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "日本",
+        "romaji": "Nihon",
+        "meaning": "Japan"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "in / to"
+      },
+      {
+        "japanese": "製造拠点",
+        "romaji": "seizou kyoten",
+        "meaning": "manufacturing base"
+      },
+      {
+        "japanese": "輸出",
+        "romaji": "yushutsu",
+        "meaning": "export"
+      },
+      {
+        "japanese": "視野",
+        "romaji": "shiya",
+        "meaning": "outlook / perspective (implying 'with an eye on')"
+      },
+      {
+        "japanese": "丸紅",
+        "romaji": "Marubeni",
+        "meaning": "Marubeni (Japanese trading company)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "進出",
+        "romaji": "shinshutsu",
+        "meaning": "expansion / entry"
+      },
+      {
+        "japanese": "支援",
+        "romaji": "shien",
+        "meaning": "support"
+      },
+      {
+        "japanese": "日産",
+        "romaji": "Nissan",
+        "meaning": "Nissan (car manufacturer)"
+      },
+      {
+        "japanese": "株主",
+        "romaji": "kabunushi",
+        "meaning": "shareholder"
+      },
+      {
+        "japanese": "総会",
+        "romaji": "soukai",
+        "meaning": "general meeting"
+      },
+      {
+        "japanese": "ルノー",
+        "romaji": "Runoo",
+        "meaning": "Renault (French car manufacturer)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "「みずほ色」",
+        "romaji": "\"Mizuho-iro\"",
+        "meaning": "\"Mizuho color\" (refers to the perceived influence of Mizuho Financial Group)"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / against"
+      },
+      {
+        "japanese": "反発",
+        "romaji": "hanpatsu",
+        "meaning": "opposition / backlash"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月23日（火）JERAが米で大型火力発電 AIデータ拠点に併設、英国のスターマー首相が辞任表明",
     "english_translation": "June 23 (Tuesday) JERA to build large-scale thermal power plant co-located with AI data hubs in the US; UK Prime Minister Starmer announces resignation",
     "published_at": "2026-06-23 06:30:00",
