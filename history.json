@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "6月26日（金）フジHD SBIとメディア事業提携、米大手ステーブルコイン 日本企業向け参入へ",
+    "english_translation": "June 26th (Friday): Fuji HD to partner with SBI on media business; Major US stablecoin to enter the Japanese market for companies.",
+    "published_at": "2026-06-26 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2368029025.mp3",
+    "chunks": [
+      {
+        "japanese": "6月26日",
+        "romaji": "Rokugatsu nijūrokunichi",
+        "meaning": "June 26th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(Kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "フジHD",
+        "romaji": "Fuji Eichi Dī",
+        "meaning": "Fuji HD (Fuji Holdings)"
+      },
+      {
+        "japanese": "SBIと",
+        "romaji": "Esu Bī Ai to",
+        "meaning": "with SBI"
+      },
+      {
+        "japanese": "メディア事業",
+        "romaji": "Media jigyō",
+        "meaning": "media business"
+      },
+      {
+        "japanese": "提携、",
+        "romaji": "Teikei,",
+        "meaning": "partnership/alliance,"
+      },
+      {
+        "japanese": "米大手",
+        "romaji": "Bei ōte",
+        "meaning": "major US (company/firm)"
+      },
+      {
+        "japanese": "ステーブルコイン",
+        "romaji": "Sutēburu koin",
+        "meaning": "stablecoin"
+      },
+      {
+        "japanese": "日本企業向け",
+        "romaji": "Nihon kigyō-muke",
+        "meaning": "for Japanese companies"
+      },
+      {
+        "japanese": "参入へ",
+        "romaji": "Sannyū e",
+        "meaning": "to enter (the market)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月25日（木）経済安保に特別会計活用 高市首相 中長期経財計画の策定表明へ、オマーン ホルムズ海峡にタンカー脱出回廊",
     "english_translation": "June 25th (Thursday) Prime Minister Takaichi to announce the formulation of a medium-to-long-term economic plan utilizing special accounts for economic security, and an escape corridor for tankers in Oman's Strait of Hormuz.",
     "published_at": "2026-06-25 06:30:00",
