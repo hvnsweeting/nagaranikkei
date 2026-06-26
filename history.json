@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "6月26日（金）日経平均７万円　株価指数について知ろう〜with NIKKEI",
+    "english_translation": "June 26th (Friday) Nikkei Average 70,000 Yen: Let's Learn About Stock Price Indices ~ with NIKKEI",
+    "published_at": "2026-06-26 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1944569403.mp3",
+    "chunks": [
+      {
+        "japanese": "6月26日",
+        "romaji": "rokugatsu nijūrokunichi",
+        "meaning": "June 26th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin'yōbi",
+        "meaning": "Friday"
+      },
+      {
+        "japanese": "日経平均",
+        "romaji": "nikkei heikin",
+        "meaning": "Nikkei Average"
+      },
+      {
+        "japanese": "7万円",
+        "romaji": "nanamanyen",
+        "meaning": "70,000 yen"
+      },
+      {
+        "japanese": "株価指数",
+        "romaji": "kabuka shisū",
+        "meaning": "stock price index"
+      },
+      {
+        "japanese": "について",
+        "romaji": "ni tsuite",
+        "meaning": "about / regarding"
+      },
+      {
+        "japanese": "知ろう",
+        "romaji": "shirō",
+        "meaning": "let's learn / let's know (volitional form of shiru)"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "wizu nikkei",
+        "meaning": "~ with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月26日（金）フジHD SBIとメディア事業提携、米大手ステーブルコイン 日本企業向け参入へ",
     "english_translation": "June 26th (Friday): Fuji HD to partner with SBI on media business; Major US stablecoin to enter the Japanese market for companies.",
     "published_at": "2026-06-26 06:30:00",
