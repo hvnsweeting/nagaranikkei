@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月27日（土） 川崎重工 エアバスと防衛ドローン、個人の資産運用 AIチャットで完結",
+    "english_translation": "June 27 (Sat) Kawasaki Heavy Industries and Airbus on defense drones; Personal asset management completed via AI chat",
+    "published_at": "2026-06-27 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2786133462.mp3",
+    "chunks": [
+      {
+        "japanese": "6月27日",
+        "romaji": "rokugatsu nijūnananichi",
+        "meaning": "June 27th"
+      },
+      {
+        "japanese": "（土）",
+        "romaji": "doyōbi",
+        "meaning": "(Saturday)"
+      },
+      {
+        "japanese": "川崎重工",
+        "romaji": "kawasaki jūkō",
+        "meaning": "Kawasaki Heavy Industries"
+      },
+      {
+        "japanese": "エアバス",
+        "romaji": "eabasu",
+        "meaning": "Airbus"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "防衛ドローン",
+        "romaji": "bōei dorōn",
+        "meaning": "defense drone"
+      },
+      {
+        "japanese": "個人",
+        "romaji": "kojin",
+        "meaning": "individual / personal"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's"
+      },
+      {
+        "japanese": "資産運用",
+        "romaji": "shisan un'yō",
+        "meaning": "asset management / asset investment"
+      },
+      {
+        "japanese": "AIチャット",
+        "romaji": "ēai chatto",
+        "meaning": "AI chat"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "by / using / with"
+      },
+      {
+        "japanese": "完結",
+        "romaji": "kanketsu",
+        "meaning": "completion / concluding"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月26日（金）日経平均７万円　株価指数について知ろう〜with NIKKEI",
     "english_translation": "June 26th (Friday) Nikkei Average 70,000 Yen: Let's Learn About Stock Price Indices ~ with NIKKEI",
     "published_at": "2026-06-26 17:00:00",
