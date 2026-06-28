@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月29日（月）高市内閣支持2ポイント上昇68%、ファストリ 取引先の違法就労厳しく監査",
+    "english_translation": "June 29 (Monday): Support for the Takaichi Cabinet rises 2 points to 68%; Fast Retailing to strictly audit suppliers' illegal employment.",
+    "published_at": "2026-06-29 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6864246921.mp3",
+    "chunks": [
+      {
+        "japanese": "6月29日（月）",
+        "romaji": "rokugatsu nijūkyūnichi (getsu)",
+        "meaning": "June 29th (Monday)"
+      },
+      {
+        "japanese": "高市内閣",
+        "romaji": "takaichi naikaku",
+        "meaning": "Takaichi Cabinet"
+      },
+      {
+        "japanese": "支持",
+        "romaji": "shiji",
+        "meaning": "support"
+      },
+      {
+        "japanese": "2ポイント",
+        "romaji": "ni pointo",
+        "meaning": "2 points"
+      },
+      {
+        "japanese": "上昇",
+        "romaji": "jōshō",
+        "meaning": "rise / increase"
+      },
+      {
+        "japanese": "68%",
+        "romaji": "rokujūhachi pasento",
+        "meaning": "68 percent"
+      },
+      {
+        "japanese": "ファストリ",
+        "romaji": "fasutori",
+        "meaning": "Fast Retailing (abbreviation for Uniqlo's parent company)"
+      },
+      {
+        "japanese": "取引先",
+        "romaji": "torihikisaki",
+        "meaning": "business partners / suppliers"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's (possessive particle)"
+      },
+      {
+        "japanese": "違法就労",
+        "romaji": "ihō shūrō",
+        "meaning": "illegal employment / illegal labor"
+      },
+      {
+        "japanese": "厳しく",
+        "romaji": "kibishiku",
+        "meaning": "strictly"
+      },
+      {
+        "japanese": "監査",
+        "romaji": "kansa",
+        "meaning": "audit / inspection"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月28日（日） 対米投資 巨額のドル調達は難路、KDDIが楽天に揺さぶり 回線貸し出しの協業縮小も",
     "english_translation": "June 28th (Sunday): US Investment – Massive Dollar Procurement Faces Difficult Path; KDDI Pressures Rakuten, Also Reducing Cooperation on Line Lending",
     "published_at": "2026-06-28 07:50:00",
