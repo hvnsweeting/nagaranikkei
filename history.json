@@ -1,5 +1,40 @@
 [
   {
+    "japanese_title": "6月28日（日） 対米投資 巨額のドル調達は難路、KDDIが楽天に揺さぶり 回線貸し出しの協業縮小も",
+    "english_translation": "June 28th (Sunday): US Investment – Massive Dollar Procurement Faces Difficult Path; KDDI Pressures Rakuten, Also Reducing Cooperation on Line Lending",
+    "published_at": "2026-06-28 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9673889727.mp3",
+    "chunks": [
+      {
+        "japanese": "6月28日（日）",
+        "romaji": "Roku-gatsu Ni-jū-hachi-nichi (Nichi)",
+        "meaning": "June 28th (Sunday)"
+      },
+      {
+        "japanese": "対米投資",
+        "romaji": "Tai-bei tōshi",
+        "meaning": "Investment in the US"
+      },
+      {
+        "japanese": "巨額のドル調達は難路",
+        "romaji": "Kyo-gaku no Doru chōtatsu wa nanro",
+        "meaning": "Securing a huge amount of dollars is a difficult path"
+      },
+      {
+        "japanese": "KDDIが楽天に揺さぶり",
+        "romaji": "Kē-dī-dī-ai ga Rakuten ni yusaburi",
+        "meaning": "KDDI puts pressure on Rakuten"
+      },
+      {
+        "japanese": "回線貸し出しの協業縮小も",
+        "romaji": "Kaisen kashidashi no kyōgyō shukushō mo",
+        "meaning": "Also, a reduction in cooperation for line lending"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月27日（土） 川崎重工 エアバスと防衛ドローン、個人の資産運用 AIチャットで完結",
     "english_translation": "June 27 (Sat) Kawasaki Heavy Industries and Airbus on defense drones; Personal asset management completed via AI chat",
     "published_at": "2026-06-27 07:50:00",
