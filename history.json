@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "6月30日（火）インドでアンモニア生産支援 日印首脳合意へ、IHI参加の再エネ事業 韓国サムスン SK 半導体に83兆円の巨額投資",
+    "english_translation": "June 30 (Tuesday) Support for ammonia production in India towards a Japan-India summit agreement; IHI to participate in a renewable energy project. South Korea's Samsung and SK to make a massive 83 trillion yen investment in semiconductors.",
+    "published_at": "2026-06-30 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6143207586.mp3",
+    "chunks": [
+      {
+        "japanese": "6月30日（火）",
+        "romaji": "Rokugatsu sanjūnichi (ka)",
+        "meaning": "June 30 (Tuesday)"
+      },
+      {
+        "japanese": "インドで",
+        "romaji": "Indo de",
+        "meaning": "In India"
+      },
+      {
+        "japanese": "アンモニア生産支援",
+        "romaji": "Anmonia seisan shien",
+        "meaning": "Ammonia production support"
+      },
+      {
+        "japanese": "日印首脳合意へ",
+        "romaji": "Nichiin shunō gōi e",
+        "meaning": "Towards a Japan-India summit agreement"
+      },
+      {
+        "japanese": "IHI参加の",
+        "romaji": "IHI sanka no",
+        "meaning": "IHI participating"
+      },
+      {
+        "japanese": "再エネ事業",
+        "romaji": "Sai-ene jigyō",
+        "meaning": "Renewable energy project"
+      },
+      {
+        "japanese": "韓国",
+        "romaji": "Kankoku",
+        "meaning": "South Korea"
+      },
+      {
+        "japanese": "サムスン",
+        "romaji": "Samusun",
+        "meaning": "Samsung"
+      },
+      {
+        "japanese": "SK",
+        "romaji": "Esu Kē",
+        "meaning": "SK (Group)"
+      },
+      {
+        "japanese": "半導体に",
+        "romaji": "Handōtai ni",
+        "meaning": "In semiconductors"
+      },
+      {
+        "japanese": "83兆円の",
+        "romaji": "Hachijūsan chōen no",
+        "meaning": "Of 83 trillion yen"
+      },
+      {
+        "japanese": "巨額投資",
+        "romaji": "Kyogaku tōshi",
+        "meaning": "Massive investment"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "6月29日（月）高市内閣支持2ポイント上昇68%、ファストリ 取引先の違法就労厳しく監査",
     "english_translation": "June 29 (Monday): Support for the Takaichi Cabinet rises 2 points to 68%; Fast Retailing to strictly audit suppliers' illegal employment.",
     "published_at": "2026-06-29 06:30:00",
