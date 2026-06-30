@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "7月1日（水）アフラック顧客情報438万人分流出 不正アクセス、国産AI開発支援 ソフトバンクなど設立の新会社選定",
+    "english_translation": "July 1st (Wednesday): Aflac customer information of 4.38 million people leaked due to unauthorized access; domestic AI development support: new company established by SoftBank and others selected.",
+    "published_at": "2026-07-01 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9605920982.mp3",
+    "chunks": [
+      {
+        "japanese": "7月1日（水）",
+        "romaji": "shichigatsu tsuitachi (sui)",
+        "meaning": "July 1st (Wednesday)"
+      },
+      {
+        "japanese": "アフラック",
+        "romaji": "afurakku",
+        "meaning": "Aflac (insurance company)"
+      },
+      {
+        "japanese": "顧客情報",
+        "romaji": "kokyaku jōhō",
+        "meaning": "customer information"
+      },
+      {
+        "japanese": "438万人分",
+        "romaji": "yonhyaku sanjūhachiman-nin bun",
+        "meaning": "equivalent to 4.38 million people / for 4.38 million people"
+      },
+      {
+        "japanese": "流出",
+        "romaji": "ryūshutsu",
+        "meaning": "leak / leak out / data breach"
+      },
+      {
+        "japanese": "不正アクセス",
+        "romaji": "fusei akusesu",
+        "meaning": "unauthorized access"
+      },
+      {
+        "japanese": "国産",
+        "romaji": "kokusan",
+        "meaning": "domestically produced / domestic"
+      },
+      {
+        "japanese": "AI開発支援",
+        "romaji": "ēai kaihatsu shien",
+        "meaning": "AI development support"
+      },
+      {
+        "japanese": "ソフトバンクなど",
+        "romaji": "sofutobanku nado",
+        "meaning": "SoftBank and others"
+      },
+      {
+        "japanese": "設立の",
+        "romaji": "setsuritsu no",
+        "meaning": "established / founded"
+      },
+      {
+        "japanese": "新会社",
+        "romaji": "shinkaisha",
+        "meaning": "new company"
+      },
+      {
+        "japanese": "選定",
+        "romaji": "sentei",
+        "meaning": "selection / choosing"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "6月30日（火）インドでアンモニア生産支援 日印首脳合意へ、IHI参加の再エネ事業 韓国サムスン SK 半導体に83兆円の巨額投資",
     "english_translation": "June 30 (Tuesday) Support for ammonia production in India towards a Japan-India summit agreement; IHI to participate in a renewable energy project. South Korea's Samsung and SK to make a massive 83 trillion yen investment in semiconductors.",
     "published_at": "2026-06-30 06:30:00",
