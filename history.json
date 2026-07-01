@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月2日（木）全自治体にUSB一斉調査 総務省 自衛隊のウイルス感染製品使用受け、ソフトバンクG OpenAIに1.6兆円払い込み",
+    "english_translation": "July 2nd (Thu): Ministry of Internal Affairs conducts simultaneous USB investigation of all local governments following SDF's use of virus-infected products; SoftBank Group pays 1.6 trillion yen to OpenAI",
+    "published_at": "2026-07-02 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7978255041.mp3",
+    "chunks": [
+      {
+        "japanese": "7月2日（木）",
+        "romaji": "shichi-gatsu futsuka (mokuyōbi)",
+        "meaning": "July 2nd (Thursday)"
+      },
+      {
+        "japanese": "全自治体に",
+        "romaji": "zen-jichitai ni",
+        "meaning": "to all local governments"
+      },
+      {
+        "japanese": "USB一斉調査",
+        "romaji": "yū-esu-bī issei chōsa",
+        "meaning": "simultaneous USB investigation"
+      },
+      {
+        "japanese": "総務省",
+        "romaji": "sōmushō",
+        "meaning": "Ministry of Internal Affairs and Communications"
+      },
+      {
+        "japanese": "自衛隊の",
+        "romaji": "jieitai no",
+        "meaning": "the Self-Defense Forces'"
+      },
+      {
+        "japanese": "ウイルス感染製品使用受け、",
+        "romaji": "uirusu kansen seihin shiyō uke",
+        "meaning": "following the use of virus-infected products"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "sofutobanku jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "OpenAIに",
+        "romaji": "ōpun ē ai ni",
+        "meaning": "to OpenAI"
+      },
+      {
+        "japanese": "1.6兆円",
+        "romaji": "itten-roku chō en",
+        "meaning": "1.6 trillion yen"
+      },
+      {
+        "japanese": "払い込み",
+        "romaji": "haraikomi",
+        "meaning": "payment / paying in"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月1日（水）アフラック顧客情報438万人分流出 不正アクセス、国産AI開発支援 ソフトバンクなど設立の新会社選定",
     "english_translation": "July 1st (Wednesday): Aflac customer information of 4.38 million people leaked due to unauthorized access; domestic AI development support: new company established by SoftBank and others selected.",
     "published_at": "2026-07-01 06:30:00",
