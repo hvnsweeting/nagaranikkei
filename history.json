@@ -1,5 +1,120 @@
 [
   {
+    "japanese_title": "7月3日（金）電通Gが電通総研を株式非公開に 富士通など2000億円規模の出資検討、トヨタ 次世代EV異例の中止で取引先に補償",
+    "english_translation": "July 3rd (Friday): Dentsu Group to take Dentsu Institute Inc. private. Fujitsu and others are considering an investment of around 200 billion yen. Toyota compensates business partners due to the unusual cancellation of its next-generation EV.",
+    "published_at": "2026-07-03 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5716702224.mp3",
+    "chunks": [
+      {
+        "japanese": "7月3日（金）",
+        "romaji": "Shichigatsu Mikka (Kin)",
+        "meaning": "July 3rd (Friday)"
+      },
+      {
+        "japanese": "電通G",
+        "romaji": "Dentsu Jii",
+        "meaning": "Dentsu Group"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "電通総研",
+        "romaji": "Dentsu Sōken",
+        "meaning": "Dentsu Institute Inc."
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "(object particle)"
+      },
+      {
+        "japanese": "株式非公開に",
+        "romaji": "Kabushiki Hikōkai ni",
+        "meaning": "to make shares private / take private"
+      },
+      {
+        "japanese": "富士通",
+        "romaji": "Fujitsū",
+        "meaning": "Fujitsu"
+      },
+      {
+        "japanese": "など",
+        "romaji": "nado",
+        "meaning": "and others / etc."
+      },
+      {
+        "japanese": "2000億円規模",
+        "romaji": "Nisen'okuen kibo",
+        "meaning": "200 billion yen scale"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "(possessive particle)"
+      },
+      {
+        "japanese": "出資検討",
+        "romaji": "Shusshi Kentō",
+        "meaning": "considering investment / investment consideration"
+      },
+      {
+        "japanese": "、",
+        "romaji": "",
+        "meaning": "(comma)"
+      },
+      {
+        "japanese": "トヨタ",
+        "romaji": "Toyota",
+        "meaning": "Toyota"
+      },
+      {
+        "japanese": "次世代EV",
+        "romaji": "Jisedai Īvī",
+        "meaning": "next-generation EV (Electric Vehicle)"
+      },
+      {
+        "japanese": "異例",
+        "romaji": "Iree",
+        "meaning": "unusual / unprecedented"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "(possessive particle)"
+      },
+      {
+        "japanese": "中止",
+        "romaji": "Chūshi",
+        "meaning": "cancellation"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "due to / by"
+      },
+      {
+        "japanese": "取引先",
+        "romaji": "Torihikisaki",
+        "meaning": "business partner / client"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to (recipient particle)"
+      },
+      {
+        "japanese": "補償",
+        "romaji": "Hoshō",
+        "meaning": "compensation"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "7月2日（木）全自治体にUSB一斉調査 総務省 自衛隊のウイルス感染製品使用受け、ソフトバンクG OpenAIに1.6兆円払い込み",
     "english_translation": "July 2nd (Thu): Ministry of Internal Affairs conducts simultaneous USB investigation of all local governments following SDF's use of virus-infected products; SoftBank Group pays 1.6 trillion yen to OpenAI",
     "published_at": "2026-07-02 06:30:00",
