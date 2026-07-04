@@ -30,11 +30,7 @@ jobs:
       - name: Run Build Generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: |
-          pip install --break-system-packages yt-dlp
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          python build.py
+        run: python build.py
 
       - name: Commit history changes
         run: |

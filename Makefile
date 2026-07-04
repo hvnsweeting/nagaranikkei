@@ -1,4 +1,4 @@
-.PHONY: test test-v build lint secrets update-expect precommit clean help
+.PHONY: test test-v build lint secrets update-expect precommit clean publish help
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
@@ -28,3 +28,12 @@ precommit: lint test secrets ## Run all pre-commit checks (lint + test + secrets
 
 clean: ## Remove generated dist output
 	rm -rf dist
+
+publish: build ## Build and deploy to GitHub Pages via SSH
+	cd dist && \
+	rm -rf .git && \
+	git init && \
+	git add -A && \
+	git commit -m "deploy: $$(date -u +%Y-%m-%dT%H:%M:%SZ)" && \
+	git push -f git@github.com:hvnsweeting/nagaranikkei.git HEAD:gh-pages
+	@echo "✅ Published to GitHub Pages"
