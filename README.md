@@ -43,6 +43,7 @@ Ensure you are using the **Nix** environment where all development tooling is pr
 nix shell nixpkgs#python313 nixpkgs#mypy nixpkgs#black nixpkgs#gitleaks
 ```
 
+
 ### 2. Running the Builder
 Create a `.env` file in the root directory:
 ```env
