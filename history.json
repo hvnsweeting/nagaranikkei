@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月5日（日）米マイクロン 広島で最先端メモリー生産へ、ミネベア 精密軸受け増産へ580億円投資",
+    "english_translation": "July 5 (Sun): US Micron to produce cutting-edge memory in Hiroshima; Minebea to invest 58 billion yen to increase precision bearing production",
+    "published_at": "2026-07-05 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5592269838.mp3",
+    "chunks": [
+      {
+        "japanese": "7月5日（日）",
+        "romaji": "shichigatsu itsuka (nichiyōbi)",
+        "meaning": "July 5th (Sunday)"
+      },
+      {
+        "japanese": "米マイクロン",
+        "romaji": "bei maikuron",
+        "meaning": "US Micron (Micron Technology)"
+      },
+      {
+        "japanese": "広島で",
+        "romaji": "hiroshima de",
+        "meaning": "in Hiroshima"
+      },
+      {
+        "japanese": "最先端メモリー",
+        "romaji": "saisentan memorī",
+        "meaning": "cutting-edge memory"
+      },
+      {
+        "japanese": "生産へ",
+        "romaji": "seisan e",
+        "meaning": "toward production / to produce"
+      },
+      {
+        "japanese": "ミネベア",
+        "romaji": "minebea",
+        "meaning": "Minebea (machinery components company)"
+      },
+      {
+        "japanese": "精密軸受け",
+        "romaji": "seimitsu jikuuke",
+        "meaning": "precision bearings"
+      },
+      {
+        "japanese": "増産へ",
+        "romaji": "zōsan e",
+        "meaning": "toward production increase / to boost production"
+      },
+      {
+        "japanese": "580億円",
+        "romaji": "gohyaku hachijū oku en",
+        "meaning": "58 billion yen (literally 580 hundred-million yen)"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investment / to invest"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月4日（土） 成田―羽田直通の有料特急 2030年代に新設、目的曖昧な株式大量保有報告 金融庁が調査",
     "english_translation": "July 4 (Sat): Paid limited express train directly connecting Narita and Haneda to be newly established in the 2030s; Financial Services Agency investigates large shareholding reports with vague purposes",
     "published_at": "2026-07-04 07:50:00",
