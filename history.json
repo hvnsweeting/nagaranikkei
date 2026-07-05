@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月6日（月）英BPが山形の洋上風力撤退へ、小惑星の衝突予防 はやぶさ2が地球防衛の技術実証",
+    "english_translation": "July 6 (Mon): UK's BP to withdraw from Yamagata offshore wind power; Asteroid collision prevention: Hayabusa2 to demonstrate Earth defense technology",
+    "published_at": "2026-07-06 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8241534271.mp3",
+    "chunks": [
+      {
+        "japanese": "7月6日（月）",
+        "romaji": "Shichigatsu muika (Getsu)",
+        "meaning": "July 6th (Monday)"
+      },
+      {
+        "japanese": "英BPが",
+        "romaji": "Ei Bī-Pī ga",
+        "meaning": "British BP (as subject)"
+      },
+      {
+        "japanese": "山形の",
+        "romaji": "Yamagata no",
+        "meaning": "Yamagata's / in Yamagata"
+      },
+      {
+        "japanese": "洋上風力",
+        "romaji": "yōjō fūryoku",
+        "meaning": "offshore wind power"
+      },
+      {
+        "japanese": "撤退へ",
+        "romaji": "tettai e",
+        "meaning": "towards withdrawal"
+      },
+      {
+        "japanese": "小惑星の",
+        "romaji": "shōwakusei no",
+        "meaning": "of an asteroid"
+      },
+      {
+        "japanese": "衝突予防",
+        "romaji": "shōtotsu yobō",
+        "meaning": "collision prevention"
+      },
+      {
+        "japanese": "はやぶさ2が",
+        "romaji": "Hayabusa tsū ga",
+        "meaning": "Hayabusa2 (as subject)"
+      },
+      {
+        "japanese": "地球防衛の",
+        "romaji": "chikyū bōei no",
+        "meaning": "of planetary defense / Earth defense"
+      },
+      {
+        "japanese": "技術実証",
+        "romaji": "gijutsu jisshō",
+        "meaning": "technology demonstration"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月5日（日）米マイクロン 広島で最先端メモリー生産へ、ミネベア 精密軸受け増産へ580億円投資",
     "english_translation": "July 5 (Sun): US Micron to produce cutting-edge memory in Hiroshima; Minebea to invest 58 billion yen to increase precision bearing production",
     "published_at": "2026-07-05 07:50:00",
