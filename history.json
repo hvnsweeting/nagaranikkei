@@ -1,5 +1,100 @@
 [
   {
+    "japanese_title": "7月7日（火）新米の価格2割安 26年産早場米 前年在庫増え値下がりへ  、KDDI 761万人分のパスワード漏洩を確認",
+    "english_translation": "July 7 (Tue): New rice prices 20% cheaper; 2014-crop early-harvest rice set to fall in price due to increased inventory from the previous year; KDDI confirms leak of passwords for 7.61 million people",
+    "published_at": "2026-07-07 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6722060262.mp3",
+    "chunks": [
+      {
+        "japanese": "7月7日（火）",
+        "romaji": "shichigatsu nanoka (ka)",
+        "meaning": "July 7th (Tuesday)"
+      },
+      {
+        "japanese": "新米",
+        "romaji": "shinmai",
+        "meaning": "new rice (newly harvested rice)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's"
+      },
+      {
+        "japanese": "価格",
+        "romaji": "kakaku",
+        "meaning": "price"
+      },
+      {
+        "japanese": "2割安",
+        "romaji": "ni-wari yasu",
+        "meaning": "20% cheaper (1 wari = 10%)"
+      },
+      {
+        "japanese": "26年産",
+        "romaji": "nijūroku-nensan",
+        "meaning": "produced in Year 26 (Heisei 26 / 2014)"
+      },
+      {
+        "japanese": "早場米",
+        "romaji": "hayabamai",
+        "meaning": "early-harvest rice"
+      },
+      {
+        "japanese": "前年在庫",
+        "romaji": "zennen zaiko",
+        "meaning": "previous year's inventory / stock"
+      },
+      {
+        "japanese": "増え",
+        "romaji": "fue",
+        "meaning": "increasing (stem form of 'fueru')"
+      },
+      {
+        "japanese": "値下がりへ",
+        "romaji": "nesagari e",
+        "meaning": "towards a drop in price"
+      },
+      {
+        "japanese": "KDDI",
+        "romaji": "kē-dī-dī",
+        "meaning": "KDDI (Japanese telecommunications operator)"
+      },
+      {
+        "japanese": "761万人分",
+        "romaji": "nanahyaku rokujū ichiman-nin bun",
+        "meaning": "portion for 7.61 million people"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of"
+      },
+      {
+        "japanese": "パスワード",
+        "romaji": "pasuwādo",
+        "meaning": "password"
+      },
+      {
+        "japanese": "漏洩",
+        "romaji": "rōei",
+        "meaning": "leak / leakage"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "direct object marker"
+      },
+      {
+        "japanese": "確認",
+        "romaji": "kakunin",
+        "meaning": "confirmation / confirmed"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月6日（月）英BPが山形の洋上風力撤退へ、小惑星の衝突予防 はやぶさ2が地球防衛の技術実証",
     "english_translation": "July 6 (Mon): UK's BP to withdraw from Yamagata offshore wind power; Asteroid collision prevention: Hayabusa2 to demonstrate Earth defense technology",
     "published_at": "2026-07-06 06:30:00",
