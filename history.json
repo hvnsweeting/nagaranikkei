@@ -1,5 +1,85 @@
 [
   {
+    "japanese_title": "7月8日（水）ヒューリック 東大受験「鉄緑会」買収 トップ進学塾の拡大支援、リニアが生む6600万人の「メガ経済圏」",
+    "english_translation": "July 8 (Wed) Hulic Acquires 'Tetsuryokukai' for Tokyo University Exams: Supporting Expansion of Top Prep Schools; The 'Mega Economic Zone' of 66 Million People Created by the Linear",
+    "published_at": "2026-07-08 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9550768824.mp3",
+    "chunks": [
+      {
+        "japanese": "7月8日（水）",
+        "romaji": "shichigatsu yōka (sui)",
+        "meaning": "July 8th (Wednesday)"
+      },
+      {
+        "japanese": "ヒューリック",
+        "romaji": "hyūrikku",
+        "meaning": "Hulic (a Japanese real estate company)"
+      },
+      {
+        "japanese": "東大受験",
+        "romaji": "tōdai juken",
+        "meaning": "Tokyo University entrance exams"
+      },
+      {
+        "japanese": "「鉄緑会」",
+        "romaji": "tetsuryokukai",
+        "meaning": "Tetsuryokukai (a prestigious prep school)"
+      },
+      {
+        "japanese": "買収",
+        "romaji": "baishū",
+        "meaning": "acquisition / buyout"
+      },
+      {
+        "japanese": "トップ進学塾",
+        "romaji": "toppu shingakujuku",
+        "meaning": "top prep school (cram school for school advancement)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's (possessive/modifying particle)"
+      },
+      {
+        "japanese": "拡大支援",
+        "romaji": "kakudai shien",
+        "meaning": "expansion support"
+      },
+      {
+        "japanese": "リニア",
+        "romaji": "rinia",
+        "meaning": "Linear (referring to the maglev train)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker particle"
+      },
+      {
+        "japanese": "生む",
+        "romaji": "umu",
+        "meaning": "to create / to produce"
+      },
+      {
+        "japanese": "6600万人",
+        "romaji": "rokusen roppyaku-man nin",
+        "meaning": "66 million people"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (modifying particle)"
+      },
+      {
+        "japanese": "「メガ経済圏」",
+        "romaji": "mega keizaiken",
+        "meaning": "mega economic zone"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月7日（火）新米の価格2割安 26年産早場米 前年在庫増え値下がりへ  、KDDI 761万人分のパスワード漏洩を確認",
     "english_translation": "July 7 (Tue): New rice prices 20% cheaper; 2014-crop early-harvest rice set to fall in price due to increased inventory from the previous year; KDDI confirms leak of passwords for 7.61 million people",
     "published_at": "2026-07-07 06:30:00",
