@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "7月10日（金）大成建設とファナック 収納力2倍の倉庫、ファストリ 製造小売りで世界2位に",
+    "english_translation": "July 10th (Friday) Taisei Corporation and FANUC; Warehouses with double storage capacity, Fast Retailing becomes world's 2nd in manufacturing retail",
+    "published_at": "2026-07-10 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6455881520.mp3",
+    "chunks": [
+      {
+        "japanese": "7月10日",
+        "romaji": "shichigatsu tōka",
+        "meaning": "July 10th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "大成建設",
+        "romaji": "Taisei Kensetsu",
+        "meaning": "Taisei Corporation"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "ファナック",
+        "romaji": "Fanukku",
+        "meaning": "FANUC"
+      },
+      {
+        "japanese": "収納力",
+        "romaji": "shūnōryoku",
+        "meaning": "storage capacity"
+      },
+      {
+        "japanese": "2倍",
+        "romaji": "ni-bai",
+        "meaning": "double"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of"
+      },
+      {
+        "japanese": "倉庫",
+        "romaji": "sōko",
+        "meaning": "warehouse"
+      },
+      {
+        "japanese": "、",
+        "romaji": "、",
+        "meaning": ","
+      },
+      {
+        "japanese": "ファストリ",
+        "romaji": "Fasutori",
+        "meaning": "Fast Retailing"
+      },
+      {
+        "japanese": "製造小売り",
+        "romaji": "seizō kogōri",
+        "meaning": "manufacturing retail"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "in"
+      },
+      {
+        "japanese": "世界",
+        "romaji": "sekai",
+        "meaning": "world"
+      },
+      {
+        "japanese": "2位",
+        "romaji": "ni-i",
+        "meaning": "2nd place"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "7月9日（木）JCB・りそながバスで「手ぶら決済」 タッチ不要、骨太の方針原案 金融政策で文言修正",
     "english_translation": "July 9 (Thursday): JCB and Resona trial 'hands-free payment' on buses with no touch required; Draft of the 'Big-Boned' (Basic) Policy; Wording revised in monetary policy",
     "published_at": "2026-07-09 06:30:00",
