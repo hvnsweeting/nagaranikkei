@@ -1,5 +1,45 @@
 [
   {
+    "japanese_title": "7月10日（金）夜は短し遊べよ大人？ 活気づくナイトタイムエコノミー〜with NIKKEI",
+    "english_translation": "July 10th (Friday) The Night is Short, Play, Adults? Revitalizing the Nighttime Economy ~with NIKKEI",
+    "published_at": "2026-07-10 17:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8865727612.mp3",
+    "chunks": [
+      {
+        "japanese": "7月10日（金）",
+        "romaji": "Shichigatsu tōka (Kin)",
+        "meaning": "July 10th (Friday)"
+      },
+      {
+        "japanese": "夜は短し",
+        "romaji": "Yoru wa mijikashi",
+        "meaning": "The night is short"
+      },
+      {
+        "japanese": "遊べよ大人？",
+        "romaji": "Asobe yo otona?",
+        "meaning": "Play, adults?"
+      },
+      {
+        "japanese": "活気づく",
+        "romaji": "Katsuki-zuku",
+        "meaning": "To become lively; revitalizing"
+      },
+      {
+        "japanese": "ナイトタイムエコノミー",
+        "romaji": "Naito taimu ekonomi",
+        "meaning": "Nighttime economy"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "~wizu NIKKEI",
+        "meaning": "~with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "7月10日（金）大成建設とファナック 収納力2倍の倉庫、ファストリ 製造小売りで世界2位に",
     "english_translation": "July 10th (Friday) Taisei Corporation and FANUC; Warehouses with double storage capacity, Fast Retailing becomes world's 2nd in manufacturing retail",
     "published_at": "2026-07-10 06:30:00",
