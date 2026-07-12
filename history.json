@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "7月12日（日） 100万円でも買えない株 6割増の49銘柄、AppleがOpenAI提訴「元幹部が機密持ち出し主導」",
+    "english_translation": "July 12 (Sun) - Stocks you can't buy even with 1 million yen increase by 60% to 49 brands; Apple sues OpenAI: 'Former executive led the removal of confidential info'",
+    "published_at": "2026-07-12 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5298043914.mp3",
+    "chunks": [
+      {
+        "japanese": "7月12日（日）",
+        "romaji": "Shichigatsu jūninichi (nichiyōbi)",
+        "meaning": "July 12th (Sunday)"
+      },
+      {
+        "japanese": "100万円でも",
+        "romaji": "hyakuman-en demo",
+        "meaning": "even with 1 million yen"
+      },
+      {
+        "japanese": "買えない株",
+        "romaji": "kaenai kabu",
+        "meaning": "stocks that cannot be bought"
+      },
+      {
+        "japanese": "6割増の",
+        "romaji": "rokuwarimashi no",
+        "meaning": "60% increase of"
+      },
+      {
+        "japanese": "49銘柄",
+        "romaji": "yonjūkyū meigara",
+        "meaning": "49 stock brands / 49 stock issues"
+      },
+      {
+        "japanese": "Appleが",
+        "romaji": "Appuru ga",
+        "meaning": "Apple (subject)"
+      },
+      {
+        "japanese": "OpenAI提訴",
+        "romaji": "Ōpun-AI teiso",
+        "meaning": "suing OpenAI / lawsuit against OpenAI"
+      },
+      {
+        "japanese": "元幹部が",
+        "romaji": "moto kanbu ga",
+        "meaning": "former executive (subject)"
+      },
+      {
+        "japanese": "機密",
+        "romaji": "kimitsu",
+        "meaning": "confidential information / secrets"
+      },
+      {
+        "japanese": "持ち出し",
+        "romaji": "mochidashi",
+        "meaning": "taking out / removal / unauthorized copying"
+      },
+      {
+        "japanese": "主導",
+        "romaji": "shudō",
+        "meaning": "leadership / spearheading / taking the initiative"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月11日（土） ソフトバンクやPayPay セブン&アイに出資協議、退職自衛官の支援へ「庁」新設検討",
     "english_translation": "July 11 (Sat) - SoftBank and PayPay in talks to invest in Seven & i; considering the establishment of a new 'Agency' to support retired Self-Defense Force personnel.",
     "published_at": "2026-07-11 07:50:00",
