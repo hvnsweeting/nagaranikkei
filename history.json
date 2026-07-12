@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "7月13日（月）東京の空き家予備軍100万戸、ヒューリック 鉄緑会につけた数百億円の価値",
+    "english_translation": "July 13 (Mon) Tokyo's 1 million vacant homes in reserve, Hulic's hundreds of billions of yen value attached to Tetsuryukai",
+    "published_at": "2026-07-13 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3405290245.mp3",
+    "chunks": [
+      {
+        "japanese": "7月13日",
+        "romaji": "shichigatsu jūsan-nichi",
+        "meaning": "July 13th"
+      },
+      {
+        "japanese": "（月）",
+        "romaji": "（getsu）",
+        "meaning": "(Monday)"
+      },
+      {
+        "japanese": "東京",
+        "romaji": "Tōkyō",
+        "meaning": "Tokyo"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "空き家",
+        "romaji": "akiya",
+        "meaning": "vacant house"
+      },
+      {
+        "japanese": "予備軍",
+        "romaji": "yobigun",
+        "meaning": "reserve force / reserve"
+      },
+      {
+        "japanese": "100万戸",
+        "romaji": "hyakuman-ko",
+        "meaning": "1 million units (households/doors)"
+      },
+      {
+        "japanese": "、",
+        "romaji": "、",
+        "meaning": ","
+      },
+      {
+        "japanese": "ヒューリック",
+        "romaji": "Hyūrikku",
+        "meaning": "Hulic (company name)"
+      },
+      {
+        "japanese": " ",
+        "romaji": " ",
+        "meaning": " "
+      },
+      {
+        "japanese": "鉄緑会",
+        "romaji": "Tetsuryūkai",
+        "meaning": "Tetsuryukai (a cram school)"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to (particle indicating destination or target)"
+      },
+      {
+        "japanese": "つけた",
+        "romaji": "tsuketa",
+        "meaning": "attached / given"
+      },
+      {
+        "japanese": "数百億円",
+        "romaji": "suuhyaku okuyen",
+        "meaning": "hundreds of billions of yen"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "価値",
+        "romaji": "kachi",
+        "meaning": "value"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "7月12日（日） 100万円でも買えない株 6割増の49銘柄、AppleがOpenAI提訴「元幹部が機密持ち出し主導」",
     "english_translation": "July 12 (Sun) - Stocks you can't buy even with 1 million yen increase by 60% to 49 brands; Apple sues OpenAI: 'Former executive led the removal of confidential info'",
     "published_at": "2026-07-12 07:50:00",
