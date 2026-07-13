@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月14日（火）「令和のPKO」急浮上 GPIFで国債買い支え論、 三菱UFJ 時価総額首位",
+    "english_translation": "July 14 (Tuesday) - 'Reiwa PKO' Rapidly Emerges: Debate over GPIF supporting government bonds, Mitsubishi UFJ takes top spot in market capitalization",
+    "published_at": "2026-07-14 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9560604493.mp3",
+    "chunks": [
+      {
+        "japanese": "7月14日（火）",
+        "romaji": "shichi-gatsu jūyokka (ka)",
+        "meaning": "July 14th (Tuesday)"
+      },
+      {
+        "japanese": "令和の",
+        "romaji": "reiwa no",
+        "meaning": "Reiwa era's"
+      },
+      {
+        "japanese": "PKO",
+        "romaji": "pī-kē-ō",
+        "meaning": "PKO (Price Keeping Operation - government intervention to support stock prices)"
+      },
+      {
+        "japanese": "急浮上",
+        "romaji": "kyūfujō",
+        "meaning": "rapidly emerging / sudden rise to the surface"
+      },
+      {
+        "japanese": "GPIFで",
+        "romaji": "jī-pī-ai-efu de",
+        "meaning": "by/using GPIF (Government Pension Investment Fund)"
+      },
+      {
+        "japanese": "国債",
+        "romaji": "kokusai",
+        "meaning": "government bonds"
+      },
+      {
+        "japanese": "買い支え論",
+        "romaji": "kaisasae ron",
+        "meaning": "argument for buying to support (the market)"
+      },
+      {
+        "japanese": "三菱UFJ",
+        "romaji": "mitsubishi yū-efu-jei",
+        "meaning": "Mitsubishi UFJ (financial group)"
+      },
+      {
+        "japanese": "時価総額",
+        "romaji": "jika sōgaku",
+        "meaning": "market capitalization"
+      },
+      {
+        "japanese": "首位",
+        "romaji": "shui",
+        "meaning": "first place / top position"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月13日（月）東京の空き家予備軍100万戸、ヒューリック 鉄緑会につけた数百億円の価値",
     "english_translation": "July 13 (Mon) Tokyo's 1 million vacant homes in reserve, Hulic's hundreds of billions of yen value attached to Tetsuryukai",
     "published_at": "2026-07-13 06:30:00",
