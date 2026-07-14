@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月15日（水）日本の特許競争力 G7で最低 産学連携のビジネス活用弱く、NVIDIAと三菱重工 AIデータセンターで提携",
+    "english_translation": "July 15 (Wed) Japan's patent competitiveness lowest in G7, business utilization of industry-academia collaboration is weak; NVIDIA and Mitsubishi Heavy Industries partner in AI data centers",
+    "published_at": "2026-07-15 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1178358694.mp3",
+    "chunks": [
+      {
+        "japanese": "7月15日（水）",
+        "romaji": "shichigatsu jūgonichi (sui)",
+        "meaning": "July 15th (Wednesday)"
+      },
+      {
+        "japanese": "日本の",
+        "romaji": "nihon no",
+        "meaning": "Japan's"
+      },
+      {
+        "japanese": "特許競争力",
+        "romaji": "tokkyo kyōsōryoku",
+        "meaning": "patent competitiveness"
+      },
+      {
+        "japanese": "G7で最低",
+        "romaji": "jī sebun de saitei",
+        "meaning": "lowest among G7"
+      },
+      {
+        "japanese": "産学連携の",
+        "romaji": "sangaku renkei no",
+        "meaning": "of industry-academia collaboration"
+      },
+      {
+        "japanese": "ビジネス活用弱く",
+        "romaji": "bijinesu katsuyō yowaku",
+        "meaning": "business utilization is weak, and"
+      },
+      {
+        "japanese": "NVIDIAと",
+        "romaji": "enubidia to",
+        "meaning": "NVIDIA and"
+      },
+      {
+        "japanese": "三菱重工",
+        "romaji": "mitsubishi jūkō",
+        "meaning": "Mitsubishi Heavy Industries"
+      },
+      {
+        "japanese": "AIデータセンターで",
+        "romaji": "ēai dētasentā de",
+        "meaning": "in AI data centers"
+      },
+      {
+        "japanese": "提携",
+        "romaji": "teikei",
+        "meaning": "partnership / alliance"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月14日（火）「令和のPKO」急浮上 GPIFで国債買い支え論、 三菱UFJ 時価総額首位",
     "english_translation": "July 14 (Tuesday) - 'Reiwa PKO' Rapidly Emerges: Debate over GPIF supporting government bonds, Mitsubishi UFJ takes top spot in market capitalization",
     "published_at": "2026-07-14 06:30:00",
