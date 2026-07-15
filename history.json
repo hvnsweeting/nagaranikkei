@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "7月16日（木）電力8社がデータセンター送電網増強 全国30カ所、ASML 通期売上高見通しを上方修正",
+    "english_translation": "July 16 (Thursday) - 8 power companies to strengthen power grids for data centers at 30 locations nationwide; ASML revises full-year sales forecast upward",
+    "published_at": "2026-07-16 05:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6050648958.mp3",
+    "chunks": [
+      {
+        "japanese": "7月16日（木）",
+        "romaji": "shichigatsu jūrokunichi (mokuyōbi)",
+        "meaning": "July 16th (Thursday)"
+      },
+      {
+        "japanese": "電力8社",
+        "romaji": "denryoku hassha",
+        "meaning": "8 power companies"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "データセンター",
+        "romaji": "dēta sentā",
+        "meaning": "data center"
+      },
+      {
+        "japanese": "送電網",
+        "romaji": "sōdenmō",
+        "meaning": "power transmission grid"
+      },
+      {
+        "japanese": "増強",
+        "romaji": "zōkyō",
+        "meaning": "reinforcement / expansion"
+      },
+      {
+        "japanese": "全国30カ所",
+        "romaji": "zenkoku sanjūkasho",
+        "meaning": "30 locations nationwide"
+      },
+      {
+        "japanese": "ASML",
+        "romaji": "ē esu emu eru",
+        "meaning": "ASML (semiconductor equipment manufacturer)"
+      },
+      {
+        "japanese": "通期",
+        "romaji": "tsūki",
+        "meaning": "full-year / full-term"
+      },
+      {
+        "japanese": "売上高見通し",
+        "romaji": "uriagedaka mitoshi",
+        "meaning": "sales forecast / revenue outlook"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marker"
+      },
+      {
+        "japanese": "上方修正",
+        "romaji": "jōhō shūsei",
+        "meaning": "upward revision"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月15日（水）日本の特許競争力 G7で最低 産学連携のビジネス活用弱く、NVIDIAと三菱重工 AIデータセンターで提携",
     "english_translation": "July 15 (Wed) Japan's patent competitiveness lowest in G7, business utilization of industry-academia collaboration is weak; NVIDIA and Mitsubishi Heavy Industries partner in AI data centers",
     "published_at": "2026-07-15 06:30:00",
