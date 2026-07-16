@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "7月17日（金）セブン&アイ ポーランドのコンビニ最大手に出資、夏ボーナス初の100万円超え AI追い風に5年連続最高",
+    "english_translation": "July 17th (Friday): Seven & i invests in Poland's largest convenience store chain; Summer bonuses exceed 1 million yen for the first time; Record high for 5 consecutive years, bolstered by AI.",
+    "published_at": "2026-07-17 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7029773540.mp3",
+    "chunks": [
+      {
+        "japanese": "7月17日（金）",
+        "romaji": "shichi-gatsu jūshichi-nichi (kin)",
+        "meaning": "July 17th (Friday)"
+      },
+      {
+        "japanese": "セブン&アイ",
+        "romaji": "Sebun & Ai",
+        "meaning": "Seven & i (Holdings)"
+      },
+      {
+        "japanese": "ポーランドの",
+        "romaji": "Pōrando no",
+        "meaning": "Poland's"
+      },
+      {
+        "japanese": "コンビニ最大手",
+        "romaji": "konbini saidai-te",
+        "meaning": "Largest convenience store chain"
+      },
+      {
+        "japanese": "に出資",
+        "romaji": "ni shusshi",
+        "meaning": "Invests in"
+      },
+      {
+        "japanese": "夏ボーナス",
+        "romaji": "natsu bōnasu",
+        "meaning": "Summer bonus"
+      },
+      {
+        "japanese": "初の",
+        "romaji": "hatsu no",
+        "meaning": "First time"
+      },
+      {
+        "japanese": "100万円",
+        "romaji": "hyaku-man-en",
+        "meaning": "1 million yen"
+      },
+      {
+        "japanese": "超え",
+        "romaji": "koe",
+        "meaning": "Exceeding / Over"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "Ē Ai",
+        "meaning": "AI (Artificial Intelligence)"
+      },
+      {
+        "japanese": "追い風に",
+        "romaji": "oikaze ni",
+        "meaning": "As a tailwind / Boosted by"
+      },
+      {
+        "japanese": "5年連続",
+        "romaji": "go-nen renzoku",
+        "meaning": "5 consecutive years"
+      },
+      {
+        "japanese": "最高",
+        "romaji": "saikō",
+        "meaning": "Highest / Record high"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "7月16日（木）電力8社がデータセンター送電網増強 全国30カ所、ASML 通期売上高見通しを上方修正",
     "english_translation": "July 16 (Thursday) - 8 power companies to strengthen power grids for data centers at 30 locations nationwide; ASML revises full-year sales forecast upward",
     "published_at": "2026-07-16 05:30:00",
