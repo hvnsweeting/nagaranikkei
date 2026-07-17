@@ -1,5 +1,45 @@
 [
   {
+    "japanese_title": "7月17日（金）試されるデジタルの真価〜with NIKKEI",
+    "english_translation": "July 17 (Friday) The True Value of Digital Put to the Test ~ with NIKKEI",
+    "published_at": "2026-07-17 17:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8958791979.mp3",
+    "chunks": [
+      {
+        "japanese": "7月17日",
+        "romaji": "shichigatsu jūnananichi",
+        "meaning": "July 17th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday"
+      },
+      {
+        "japanese": "試される",
+        "romaji": "tamesareru",
+        "meaning": "to be tested / put to the test"
+      },
+      {
+        "japanese": "デジタルの",
+        "romaji": "dejitaru no",
+        "meaning": "of digital / digital's"
+      },
+      {
+        "japanese": "真価",
+        "romaji": "shinka",
+        "meaning": "true value / real worth"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "with nikkei",
+        "meaning": "~ with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月17日（金）セブン&アイ ポーランドのコンビニ最大手に出資、夏ボーナス初の100万円超え AI追い風に5年連続最高",
     "english_translation": "July 17th (Friday): Seven & i invests in Poland's largest convenience store chain; Summer bonuses exceed 1 million yen for the first time; Record high for 5 consecutive years, bolstered by AI.",
     "published_at": "2026-07-17 06:30:00",
