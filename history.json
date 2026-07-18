@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月18日（土） 日経平均下げ幅歴代5位　キオクシア半値割れ、改正皇室典範が成立",
+    "english_translation": "July 18th (Sat): Nikkei average drop is 5th largest in history; Kioxia falls below half-value; Revised Imperial House Law enacted",
+    "published_at": "2026-07-18 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6999625593.mp3",
+    "chunks": [
+      {
+        "japanese": "7月18日（土）",
+        "romaji": "shichi-gatsu jūhachi-nichi (doyōbi)",
+        "meaning": "July 18th (Saturday)"
+      },
+      {
+        "japanese": "日経平均",
+        "romaji": "nikkei heikin",
+        "meaning": "Nikkei average (Nikkei 225)"
+      },
+      {
+        "japanese": "下げ幅",
+        "romaji": "sagehaba",
+        "meaning": "decline width / drop margin"
+      },
+      {
+        "japanese": "歴代5位",
+        "romaji": "rekidai goi",
+        "meaning": "5th largest in history"
+      },
+      {
+        "japanese": "キオクシア",
+        "romaji": "kiokushia",
+        "meaning": "Kioxia (Japanese computer memory manufacturer)"
+      },
+      {
+        "japanese": "半値割れ",
+        "romaji": "hannewari",
+        "meaning": "falling below half-value / losing half its value"
+      },
+      {
+        "japanese": "改正",
+        "romaji": "kaisei",
+        "meaning": "revision / amendment"
+      },
+      {
+        "japanese": "皇室典範",
+        "romaji": "kōshitsu tempan",
+        "meaning": "Imperial House Law"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker particle"
+      },
+      {
+        "japanese": "成立",
+        "romaji": "seiritsu",
+        "meaning": "enactment / approval / passage"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月17日（金）試されるデジタルの真価〜with NIKKEI",
     "english_translation": "July 17 (Friday) The True Value of Digital Put to the Test ~ with NIKKEI",
     "published_at": "2026-07-17 17:50:00",
