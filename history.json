@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "7月20日（月）企業の役員選任  一般株主の支持率わかりやすく、Amazon配送大手 運送2300社とステーブルコイン決済",
+    "english_translation": "July 20 (Monday) Making corporate officer appointment approval ratings easier to understand for general shareholders; Amazon delivery giant to use stablecoin payments with 2,300 transport companies",
+    "published_at": "2026-07-20 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8416528975.mp3",
+    "chunks": [
+      {
+        "japanese": "7月20日（月）",
+        "romaji": "shichigatsu hatsuka (getsuyōbi)",
+        "meaning": "July 20th (Monday)"
+      },
+      {
+        "japanese": "企業の",
+        "romaji": "kigyō no",
+        "meaning": "company's / corporate"
+      },
+      {
+        "japanese": "役員選任",
+        "romaji": "yakuin sennin",
+        "meaning": "appointment of officers / election of directors"
+      },
+      {
+        "japanese": "一般株主の",
+        "romaji": "ippan kabunushi no",
+        "meaning": "general shareholders'"
+      },
+      {
+        "japanese": "支持率",
+        "romaji": "shijiritsu",
+        "meaning": "approval rating / support rate"
+      },
+      {
+        "japanese": "わかりやすく",
+        "romaji": "wakariyasuku",
+        "meaning": "clearly / in an easy-to-understand manner"
+      },
+      {
+        "japanese": "Amazon配送大手",
+        "romaji": "amazon haisō ōte",
+        "meaning": "major Amazon delivery partner / Amazon delivery giant"
+      },
+      {
+        "japanese": "運送2300社と",
+        "romaji": "unsō nisen-sanbyaku-sha to",
+        "meaning": "with 2,300 transport companies"
+      },
+      {
+        "japanese": "ステーブルコイン決済",
+        "romaji": "sutēburukoin kessai",
+        "meaning": "stablecoin payment"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月19日（日）地銀 信金の与信管理 金融庁が点検へ、過熱AI相場「期待修正」でマネー逆流",
     "english_translation": "July 19 (Sun): Financial Services Agency to inspect credit management of regional and shinkin banks; money flows reverse due to 'expectation adjustments' in the overheated AI market.",
     "published_at": "2026-07-19 07:50:00",
