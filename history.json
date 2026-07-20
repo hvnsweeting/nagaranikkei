@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "7月21日（火）政府 国際標準化の司令塔創設へ、 EU アリババに制裁金1000億円",
+    "english_translation": "July 21 (Tue): Government to establish control tower for international standardization; EU fines Alibaba 100 billion yen",
+    "published_at": "2026-07-21 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1061928268.mp3",
+    "chunks": [
+      {
+        "japanese": "7月21日（火）",
+        "romaji": "shichigatsu nijūichinichi (kayōbi)",
+        "meaning": "July 21st (Tuesday)"
+      },
+      {
+        "japanese": "政府",
+        "romaji": "seifu",
+        "meaning": "government"
+      },
+      {
+        "japanese": "国際標準化",
+        "romaji": "kokusai hyōjunka",
+        "meaning": "international standardization"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of)"
+      },
+      {
+        "japanese": "司令塔",
+        "romaji": "shireitō",
+        "meaning": "control tower / nerve center"
+      },
+      {
+        "japanese": "創設",
+        "romaji": "sōsetsu",
+        "meaning": "establishment / founding"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "he",
+        "meaning": "towards / aiming for"
+      },
+      {
+        "japanese": "EU",
+        "romaji": "ī-yū",
+        "meaning": "EU (European Union)"
+      },
+      {
+        "japanese": "アリババ",
+        "romaji": "aribaba",
+        "meaning": "Alibaba"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / on (particle indicating target of an action)"
+      },
+      {
+        "japanese": "制裁金",
+        "romaji": "seisaikin",
+        "meaning": "fine / penalty / sanction fee"
+      },
+      {
+        "japanese": "1000億円",
+        "romaji": "sen-oku en",
+        "meaning": "100 billion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月20日（月）企業の役員選任  一般株主の支持率わかりやすく、Amazon配送大手 運送2300社とステーブルコイン決済",
     "english_translation": "July 20 (Monday) Making corporate officer appointment approval ratings easier to understand for general shareholders; Amazon delivery giant to use stablecoin payments with 2,300 transport companies",
     "published_at": "2026-07-20 06:30:00",
