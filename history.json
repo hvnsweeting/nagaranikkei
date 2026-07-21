@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "7月22日（水）M&A「のれん」償却維持で決着 会計基準機構、ゴールドマンCOO 日本経済「最大のリスクは円安」",
+    "english_translation": "July 22 (Wed) - Settlement Reached to Maintain M&A 'Goodwill' Amortization by Accounting Standards Board; Goldman COO: 'The Biggest Risk' to the Japanese Economy is the Weak Yen",
+    "published_at": "2026-07-22 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6670899434.mp3",
+    "chunks": [
+      {
+        "japanese": "7月22日（水）",
+        "romaji": "shichigatsu nijūnichi (sui)",
+        "meaning": "July 22nd (Wednesday)"
+      },
+      {
+        "japanese": "M&A",
+        "romaji": "emu ando ē",
+        "meaning": "M&A (Mergers and Acquisitions)"
+      },
+      {
+        "japanese": "「のれん」",
+        "romaji": "noren",
+        "meaning": "goodwill (intangible asset value in accounting)"
+      },
+      {
+        "japanese": "償却維持で決着",
+        "romaji": "shōkyaku iji de ketchaku",
+        "meaning": "settled on maintaining amortization"
+      },
+      {
+        "japanese": "会計基準機構",
+        "romaji": "kaikei kijun kikō",
+        "meaning": "accounting standards board / organization"
+      },
+      {
+        "japanese": "ゴールドマンCOO",
+        "romaji": "gōrudoman shī-ō-ō",
+        "meaning": "Goldman (Sachs) COO"
+      },
+      {
+        "japanese": "日本経済",
+        "romaji": "nihon keizai",
+        "meaning": "Japanese economy"
+      },
+      {
+        "japanese": "「最大のリスクは円安」",
+        "romaji": "saidai no risuku wa en'yasu",
+        "meaning": "\"the biggest risk is the weak yen\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月21日（火）政府 国際標準化の司令塔創設へ、 EU アリババに制裁金1000億円",
     "english_translation": "July 21 (Tue): Government to establish control tower for international standardization; EU fines Alibaba 100 billion yen",
     "published_at": "2026-07-21 06:30:00",
