@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "7月23日（木）世界の社債発行 1~6月に過去最大580兆円、ストーカー加害者にGPS装着案 被害者に接近通知",
+    "english_translation": "July 23rd (Thursday): Global corporate bond issuance hits record 580 trillion yen in Jan-June; proposal to attach GPS to stalker perpetrators, notifying victims of proximity.",
+    "published_at": "2026-07-23 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1262678322.mp3",
+    "chunks": [
+      {
+        "japanese": "7月23日",
+        "romaji": "Shichigatsu Nijū-san-nichi",
+        "meaning": "July 23rd"
+      },
+      {
+        "japanese": "（木）",
+        "romaji": "(Moku)",
+        "meaning": "(Thursday)"
+      },
+      {
+        "japanese": "世界の",
+        "romaji": "Sekai no",
+        "meaning": "Global / World's"
+      },
+      {
+        "japanese": "社債発行",
+        "romaji": "Shasai Hakkō",
+        "meaning": "corporate bond issuance"
+      },
+      {
+        "japanese": "1~6月に",
+        "romaji": "Ichi-gatsu kara Roku-gatsu ni",
+        "meaning": "in January-June"
+      },
+      {
+        "japanese": "過去最大",
+        "romaji": "Kako Saidai",
+        "meaning": "record high / largest ever"
+      },
+      {
+        "japanese": "580兆円",
+        "romaji": "Gohyaku Hachijū Chō-en",
+        "meaning": "580 trillion yen"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "ストーカー",
+        "romaji": "Sutōkā",
+        "meaning": "stalker"
+      },
+      {
+        "japanese": "加害者に",
+        "romaji": "Kagaisha ni",
+        "meaning": "to perpetrators / to assailants"
+      },
+      {
+        "japanese": "GPS装着案",
+        "romaji": "Jīpīesu Sōchaku-an",
+        "meaning": "GPS attachment proposal / plan to attach GPS"
+      },
+      {
+        "japanese": "被害者に",
+        "romaji": "Higaisha ni",
+        "meaning": "to victims"
+      },
+      {
+        "japanese": "接近通知",
+        "romaji": "Sekkin Tsūchi",
+        "meaning": "proximity notification / notification of approach"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "7月22日（水）M&A「のれん」償却維持で決着 会計基準機構、ゴールドマンCOO 日本経済「最大のリスクは円安」",
     "english_translation": "July 22 (Wed) - Settlement Reached to Maintain M&A 'Goodwill' Amortization by Accounting Standards Board; Goldman COO: 'The Biggest Risk' to the Japanese Economy is the Weak Yen",
     "published_at": "2026-07-22 06:30:00",
