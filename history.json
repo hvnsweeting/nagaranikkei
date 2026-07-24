@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "7月24日（金）動き出した大型鉄道プロジェクト〜with NIKKEI",
+    "english_translation": "July 24th (Friday): The large-scale railway project got underway ~ with NIKKEI",
+    "published_at": "2026-07-24 18:46:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4947260906.mp3",
+    "chunks": [
+      {
+        "japanese": "7月24日",
+        "romaji": "Shichigatsu nijūyokka",
+        "meaning": "July 24th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(Kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "動き出した",
+        "romaji": "Ugokidashita",
+        "meaning": "started to move / got underway"
+      },
+      {
+        "japanese": "大型",
+        "romaji": "Ōgata",
+        "meaning": "large-scale"
+      },
+      {
+        "japanese": "鉄道",
+        "romaji": "Tetsudō",
+        "meaning": "railway"
+      },
+      {
+        "japanese": "プロジェクト",
+        "romaji": "Purojekuto",
+        "meaning": "project"
+      },
+      {
+        "japanese": "〜",
+        "romaji": "〜",
+        "meaning": "~ (tilde, often used as a separator or for emphasis)"
+      },
+      {
+        "japanese": "with NIKKEI",
+        "romaji": "with NIKKEI",
+        "meaning": "with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "7月24日（金）監査法人の仰星 三優合併 3年半ぶり大型再編、PayPayとセブンが顧客データ統合",
     "english_translation": "July 24 (Friday) Merger of Audit Firms Gyosei and Sanyu: First Large-Scale Reorganization in Three and a Half Years; PayPay and Seven to Integrate Customer Data",
     "published_at": "2026-07-24 06:30:00",
