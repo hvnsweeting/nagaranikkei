@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "7月24日（金）監査法人の仰星 三優合併 3年半ぶり大型再編、PayPayとセブンが顧客データ統合",
+    "english_translation": "July 24 (Friday) Merger of Audit Firms Gyosei and Sanyu: First Large-Scale Reorganization in Three and a Half Years; PayPay and Seven to Integrate Customer Data",
+    "published_at": "2026-07-24 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8973335271.mp3",
+    "chunks": [
+      {
+        "japanese": "7月24日",
+        "romaji": "shichigatsu nijūyokka",
+        "meaning": "July 24th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday"
+      },
+      {
+        "japanese": "監査法人",
+        "romaji": "kansa hōjin",
+        "meaning": "audit corporation / audit firm"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's"
+      },
+      {
+        "japanese": "仰星",
+        "romaji": "gyōsei",
+        "meaning": "Gyosei (name of an audit firm)"
+      },
+      {
+        "japanese": "三優",
+        "romaji": "san'yū",
+        "meaning": "Sanyu (name of an audit firm)"
+      },
+      {
+        "japanese": "合併",
+        "romaji": "gappei",
+        "meaning": "merger / consolidation"
+      },
+      {
+        "japanese": "3年半ぶり",
+        "romaji": "sannen han buri",
+        "meaning": "for the first time in three and a half years"
+      },
+      {
+        "japanese": "大型再編",
+        "romaji": "ōgata saihen",
+        "meaning": "large-scale reorganization"
+      },
+      {
+        "japanese": "PayPay",
+        "romaji": "peipei",
+        "meaning": "PayPay (a Japanese mobile payment service)"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "セブン",
+        "romaji": "sebun",
+        "meaning": "Seven (referring to Seven-Eleven / Seven & i Holdings)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "顧客データ",
+        "romaji": "kokyaku dēta",
+        "meaning": "customer data"
+      },
+      {
+        "japanese": "統合",
+        "romaji": "tōgō",
+        "meaning": "integration / unification"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月23日（木）世界の社債発行 1~6月に過去最大580兆円、ストーカー加害者にGPS装着案 被害者に接近通知",
     "english_translation": "July 23rd (Thursday): Global corporate bond issuance hits record 580 trillion yen in Jan-June; proposal to attach GPS to stalker perpetrators, notifying victims of proximity.",
     "published_at": "2026-07-23 06:30:00",
