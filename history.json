@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月25日（土） iDeCo加入者に金融機関の助言解禁、南鳥島沖 海底泥に中重レアアース確認",
+    "english_translation": "July 25 (Saturday): Ban lifted on financial institutions advising iDeCo subscribers; Medium and heavy rare earths confirmed in seabed mud off Minamitorishima.",
+    "published_at": "2026-07-25 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8237736295.mp3",
+    "chunks": [
+      {
+        "japanese": "7月25日（土）",
+        "romaji": "shichigatsu nijūgoka (doyōbi)",
+        "meaning": "July 25th (Saturday)"
+      },
+      {
+        "japanese": "iDeCo加入者",
+        "romaji": "ideko kan'yūsha",
+        "meaning": "iDeCo (individual Defined Contribution pension plan) subscribers"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / for"
+      },
+      {
+        "japanese": "金融機関",
+        "romaji": "kin'yū kikan",
+        "meaning": "financial institutions"
+      },
+      {
+        "japanese": "の助言",
+        "romaji": "no jogen",
+        "meaning": "advice of / from"
+      },
+      {
+        "japanese": "解禁",
+        "romaji": "kaikin",
+        "meaning": "lifting of a ban / deregulation"
+      },
+      {
+        "japanese": "南鳥島沖",
+        "romaji": "Minamitorishima oki",
+        "meaning": "off the coast of Minamitorishima (Marcus Island)"
+      },
+      {
+        "japanese": "海底泥に",
+        "romaji": "kaiteidei ni",
+        "meaning": "in the seabed mud"
+      },
+      {
+        "japanese": "中重レアアース",
+        "romaji": "chū-jū rea āsu",
+        "meaning": "medium and heavy rare earths"
+      },
+      {
+        "japanese": "確認",
+        "romaji": "kakunin",
+        "meaning": "confirmation / confirmed"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月24日（金）動き出した大型鉄道プロジェクト〜with NIKKEI",
     "english_translation": "July 24th (Friday): The large-scale railway project got underway ~ with NIKKEI",
     "published_at": "2026-07-24 18:46:00",
