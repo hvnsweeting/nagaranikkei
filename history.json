@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "7月26日（日）日本の対米巨額投資 シティとJPモルガン参加、スペースXロケット ほぼ無傷でインド洋着水",
+    "english_translation": "July 26 (Sunday): Japan's massive investment in the US, Citi and JP Morgan participate; SpaceX rocket splashes down in the Indian Ocean virtually undamaged",
+    "published_at": "2026-07-26 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9368395215.mp3",
+    "chunks": [
+      {
+        "japanese": "7月26日（日）",
+        "romaji": "shichigatsu nijūrokunichi (nichiyōbi)",
+        "meaning": "July 26th (Sunday)"
+      },
+      {
+        "japanese": "日本の",
+        "romaji": "nihon no",
+        "meaning": "Japan's"
+      },
+      {
+        "japanese": "対米",
+        "romaji": "taibei",
+        "meaning": "toward the US"
+      },
+      {
+        "japanese": "巨額投資",
+        "romaji": "kyogaku tōshi",
+        "meaning": "massive investment"
+      },
+      {
+        "japanese": "シティと",
+        "romaji": "shiti to",
+        "meaning": "Citi and"
+      },
+      {
+        "japanese": "JPモルガン",
+        "romaji": "jei pī morugan",
+        "meaning": "JP Morgan"
+      },
+      {
+        "japanese": "参加",
+        "romaji": "sanka",
+        "meaning": "participation"
+      },
+      {
+        "japanese": "スペースX",
+        "romaji": "supēsu ekkusu",
+        "meaning": "SpaceX"
+      },
+      {
+        "japanese": "ロケット",
+        "romaji": "roketto",
+        "meaning": "rocket"
+      },
+      {
+        "japanese": "ほぼ無傷で",
+        "romaji": "hobo mukizu de",
+        "meaning": "virtually undamaged / nearly scratch-free"
+      },
+      {
+        "japanese": "インド洋",
+        "romaji": "indo-yō",
+        "meaning": "Indian Ocean"
+      },
+      {
+        "japanese": "着水",
+        "romaji": "chakusui",
+        "meaning": "landing on water / splashdown"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月25日（土） iDeCo加入者に金融機関の助言解禁、南鳥島沖 海底泥に中重レアアース確認",
     "english_translation": "July 25 (Saturday): Ban lifted on financial institutions advising iDeCo subscribers; Medium and heavy rare earths confirmed in seabed mud off Minamitorishima.",
     "published_at": "2026-07-25 07:50:00",
