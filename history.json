@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "7月28日（火）首相 食料品の消費税減税「国民会議で結論得て速やかに法案提出」 、プルデンシャル生命 営業社員「完全歩合」を撤廃",
+    "english_translation": "July 28 (Tue): PM on food consumption tax cut: 'Submit bill promptly after national council reaches conclusion'; Prudential Life abolishes 'full commission' for sales staff",
+    "published_at": "2026-07-28 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8539579375.mp3",
+    "chunks": [
+      {
+        "japanese": "7月28日（火）",
+        "romaji": "shichigatsu nijūhachinichi (kayōbi)",
+        "meaning": "July 28th (Tuesday)"
+      },
+      {
+        "japanese": "首相",
+        "romaji": "shushō",
+        "meaning": "Prime Minister"
+      },
+      {
+        "japanese": "食料品の",
+        "romaji": "shokuryōhin no",
+        "meaning": "of food products / groceries"
+      },
+      {
+        "japanese": "消費税減税",
+        "romaji": "shōhizei genzei",
+        "meaning": "consumption tax reduction / tax cut"
+      },
+      {
+        "japanese": "国民会議で",
+        "romaji": "kokumin kaigi de",
+        "meaning": "at the national council"
+      },
+      {
+        "japanese": "結論得て",
+        "romaji": "ketsuron ete",
+        "meaning": "reaching a conclusion (and...)"
+      },
+      {
+        "japanese": "速やかに",
+        "romaji": "sumiyaka ni",
+        "meaning": "promptly / swiftly"
+      },
+      {
+        "japanese": "法案提出",
+        "romaji": "hōan teishutsu",
+        "meaning": "submitting a bill / introduction of legislation"
+      },
+      {
+        "japanese": "プルデンシャル生命",
+        "romaji": "purudensharu seimei",
+        "meaning": "Prudential Life Insurance"
+      },
+      {
+        "japanese": "営業社員",
+        "romaji": "eigyō shain",
+        "meaning": "sales employees / sales staff"
+      },
+      {
+        "japanese": "「完全歩合」を",
+        "romaji": "kanzen buai o",
+        "meaning": "'full commission system' (as object)"
+      },
+      {
+        "japanese": "撤廃",
+        "romaji": "teppai",
+        "meaning": "abolition / elimination"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月27日（月）高市内閣支持10ポイント下落58% 無党派で不支持51%、酷暑下の電力供給 太陽光発電と原発稼働で備え",
     "english_translation": "Monday, July 27: Takaichi Cabinet support drops 10 points to 58%, disapproval among independents at 51%; Power supply under intense heat, preparing with solar power generation and nuclear reactor operations.",
     "published_at": "2026-07-27 06:30:00",
