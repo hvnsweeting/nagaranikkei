@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "7月30日（木）熊本地震で供給網に打撃 港湾に被害、日本人の人口1億2000万人割れ 1984年以来42年ぶり",
+    "english_translation": "July 30 (Thursday): Kumamoto Earthquake Hits Supply Chains, Ports Damaged; Japanese Population Falls Below 120 Million for the First Time in 42 Years Since 1984",
+    "published_at": "2026-07-30 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8071786592.mp3",
+    "chunks": [
+      {
+        "japanese": "7月30日（木）",
+        "romaji": "shichigatsu sanjūnichi (mokuyōbi)",
+        "meaning": "July 30th (Thursday)"
+      },
+      {
+        "japanese": "熊本地震で",
+        "romaji": "Kumamoto jishin de",
+        "meaning": "due to the Kumamoto earthquake"
+      },
+      {
+        "japanese": "供給網に",
+        "romaji": "kyōkyūmō ni",
+        "meaning": "to the supply chains"
+      },
+      {
+        "japanese": "打撃",
+        "romaji": "dageki",
+        "meaning": "a blow / damage"
+      },
+      {
+        "japanese": "港湾に",
+        "romaji": "kōwan ni",
+        "meaning": "to ports / harbors"
+      },
+      {
+        "japanese": "被害",
+        "romaji": "higai",
+        "meaning": "damage"
+      },
+      {
+        "japanese": "日本人の人口",
+        "romaji": "Nihonjin no jinkō",
+        "meaning": "Japanese population"
+      },
+      {
+        "japanese": "1億2000万人割れ",
+        "romaji": "ichi-oku ni-sen-man-nin ware",
+        "meaning": "falling below 120 million people"
+      },
+      {
+        "japanese": "1984年以来",
+        "romaji": "sen-kyūhyaku-hachijū-yon-nen irai",
+        "meaning": "since 1984"
+      },
+      {
+        "japanese": "42年ぶり",
+        "romaji": "yonjū-ni-nen buri",
+        "meaning": "for the first time in 42 years"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月29日（水）熊本県で震度7の地震 家屋倒壊・火災相次ぐ、日本製紙の煙突倒壊 トヨタ・ブリヂストン・湖池屋で工場の稼働停止",
     "english_translation": "July 29th (Wednesday): Kumamoto Prefecture Hit by Seismic Intensity 7 Earthquake; House Collapses and Fires Break Out Successively; Nippon Paper's Chimney Collapses; Toyota, Bridgestone, and Koikeya Suspend Factory Operations.",
     "published_at": "2026-07-29 06:30:00",
