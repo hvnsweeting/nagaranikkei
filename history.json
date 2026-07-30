@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "7月31日（金）根拠欠く消費税減税の財源 成長投資と奪い合い、近畿にバイオ産業集積 地域版の官民投資計画が判明",
+    "english_translation": "July 31 (Fri): Financial resources for consumption tax cuts, which lack basis, compete with growth investments; Biotech industry clusters in Kinki; Regional version of public-private investment plan revealed.",
+    "published_at": "2026-07-31 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6432295733.mp3",
+    "chunks": [
+      {
+        "japanese": "7月31日（金）",
+        "romaji": "shichigatsu sanjūichinichi (kin'yōbi)",
+        "meaning": "July 31st (Friday)"
+      },
+      {
+        "japanese": "根拠欠く",
+        "romaji": "konkyo kaku",
+        "meaning": "lacking basis / groundless"
+      },
+      {
+        "japanese": "消費税減税の財源",
+        "romaji": "shōhizei genzei no zaigen",
+        "meaning": "financial resources for consumption tax cuts"
+      },
+      {
+        "japanese": "成長投資と奪い合い",
+        "romaji": "seichō tōshi to ubaiai",
+        "meaning": "competing/scrambling with growth investment"
+      },
+      {
+        "japanese": "近畿に",
+        "romaji": "kinki ni",
+        "meaning": "in the Kinki region"
+      },
+      {
+        "japanese": "バイオ産業集積",
+        "romaji": "baio sangyō shūseki",
+        "meaning": "biotech industry cluster / concentration of biotech industries"
+      },
+      {
+        "japanese": "地域版の",
+        "romaji": "chiikiban no",
+        "meaning": "regional version of"
+      },
+      {
+        "japanese": "官民投資計画が判明",
+        "romaji": "kanmin tōshi keikaku ga hanmei",
+        "meaning": "public-private investment plan is revealed"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月30日（木）熊本地震で供給網に打撃 港湾に被害、日本人の人口1億2000万人割れ 1984年以来42年ぶり",
     "english_translation": "July 30 (Thursday): Kumamoto Earthquake Hits Supply Chains, Ports Damaged; Japanese Population Falls Below 120 Million for the First Time in 42 Years Since 1984",
     "published_at": "2026-07-30 06:30:00",
