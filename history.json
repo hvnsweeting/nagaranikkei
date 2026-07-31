@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "香港便り④最新スポーツに最先端エリア　富裕層マネーも回復〜with NIKKEI",
+    "english_translation": "News from Hong Kong #4: Latest Sports, Cutting-Edge Areas, and Recovery of Wealthy Money ~ with NIKKEI",
+    "published_at": "2026-07-31 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4226213709.mp3",
+    "chunks": [
+      {
+        "japanese": "香港便り",
+        "romaji": "Honkon dayori",
+        "meaning": "News from Hong Kong (literally 'Hong Kong Letter')"
+      },
+      {
+        "japanese": "④",
+        "romaji": "yon",
+        "meaning": "Part 4"
+      },
+      {
+        "japanese": "最新",
+        "romaji": "saishin",
+        "meaning": "latest / newest"
+      },
+      {
+        "japanese": "スポーツ",
+        "romaji": "supōtsu",
+        "meaning": "sports"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "and / in addition to"
+      },
+      {
+        "japanese": "最先端",
+        "romaji": "saisentan",
+        "meaning": "cutting-edge / state-of-the-art"
+      },
+      {
+        "japanese": "エリア",
+        "romaji": "eria",
+        "meaning": "area"
+      },
+      {
+        "japanese": "富裕層",
+        "romaji": "fuyūsō",
+        "meaning": "wealthy class / the rich"
+      },
+      {
+        "japanese": "マネー",
+        "romaji": "manē",
+        "meaning": "money"
+      },
+      {
+        "japanese": "も",
+        "romaji": "mo",
+        "meaning": "also"
+      },
+      {
+        "japanese": "回復",
+        "romaji": "kaifuku",
+        "meaning": "recovery"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "uizu nikkei",
+        "meaning": "with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月31日（金）根拠欠く消費税減税の財源 成長投資と奪い合い、近畿にバイオ産業集積 地域版の官民投資計画が判明",
     "english_translation": "July 31 (Fri): Financial resources for consumption tax cuts, which lack basis, compete with growth investments; Biotech industry clusters in Kinki; Regional version of public-private investment plan revealed.",
     "published_at": "2026-07-31 06:30:00",
