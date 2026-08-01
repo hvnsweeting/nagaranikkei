@@ -120,6 +120,71 @@
     "translation_model": "gemini-3.5-flash"
   },
   {
+    "japanese_title": "7月31日（金）香港便り④最新スポーツに最先端エリア　富裕層マネーも回復〜with NIKKEI",
+    "english_translation": "July 31 (Fri) Hong Kong Report #4: From the latest sports to cutting-edge areas, wealthy money is also recovering ~ with NIKKEI",
+    "published_at": "2026-07-31 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4226213709.mp3",
+    "chunks": [
+      {
+        "japanese": "7月31日",
+        "romaji": "shichi-gatsu sanjūichi-nichi",
+        "meaning": "July 31st"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "香港便り",
+        "romaji": "honkon dayori",
+        "meaning": "Hong Kong Report / News from Hong Kong"
+      },
+      {
+        "japanese": "④",
+        "romaji": "yon",
+        "meaning": "number 4 / part 4"
+      },
+      {
+        "japanese": "最新スポーツ",
+        "romaji": "saishin supōtsu",
+        "meaning": "the latest sports"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "and / to (particle used here to connect items)"
+      },
+      {
+        "japanese": "最先端エリア",
+        "romaji": "saisentan eria",
+        "meaning": "cutting-edge area / state-of-the-art district"
+      },
+      {
+        "japanese": "富裕層",
+        "romaji": "fuyūsō",
+        "meaning": "wealthy class / the affluent"
+      },
+      {
+        "japanese": "マネーも",
+        "romaji": "manē mo",
+        "meaning": "money too / money also"
+      },
+      {
+        "japanese": "回復",
+        "romaji": "kaifuku",
+        "meaning": "recovery / restoration"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "uizu nikkei",
+        "meaning": "~ with NIKKEI (Nikkei is a Japanese media company)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "7月31日（金）根拠欠く消費税減税の財源 成長投資と奪い合い、近畿にバイオ産業集積 地域版の官民投資計画が判明",
     "english_translation": "July 31 (Fri): Financial resources for consumption tax cuts, which lack basis, compete with growth investments; Biotech industry clusters in Kinki; Regional version of public-private investment plan revealed.",
     "published_at": "2026-07-31 06:30:00",
