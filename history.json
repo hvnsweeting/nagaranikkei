@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "8月1日（土）伊藤忠 米航空機リースに3000億円出資、メモリー大手5社の現金収支14兆円プラス",
+    "english_translation": "August 1 (Sat): Itochu invests 300 billion yen in US aircraft leasing; Cash balance of 5 major memory companies is 14 trillion yen positive",
+    "published_at": "2026-08-01 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3522871741.mp3",
+    "chunks": [
+      {
+        "japanese": "8月1日（土）",
+        "romaji": "hachigatsu tsuitachi (doyōbi)",
+        "meaning": "August 1st (Saturday)"
+      },
+      {
+        "japanese": "伊藤忠",
+        "romaji": "Itōchū",
+        "meaning": "Itochu (a major Japanese trading company)"
+      },
+      {
+        "japanese": "米航空機リースに",
+        "romaji": "bei-kōkūki rīsu ni",
+        "meaning": "in US aircraft leasing"
+      },
+      {
+        "japanese": "3000億円",
+        "romaji": "sanzen-oku en",
+        "meaning": "300 billion yen"
+      },
+      {
+        "japanese": "出資",
+        "romaji": "shusshi",
+        "meaning": "investment / capital contribution"
+      },
+      {
+        "japanese": "メモリー大手5社の",
+        "romaji": "memorī ōte gosha no",
+        "meaning": "of the 5 major memory (chip) companies"
+      },
+      {
+        "japanese": "現金収支",
+        "romaji": "genkin shūshi",
+        "meaning": "cash balance / cash flow"
+      },
+      {
+        "japanese": "14兆円プラス",
+        "romaji": "jūyon-chō en purasu",
+        "meaning": "14 trillion yen positive"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "香港便り④最新スポーツに最先端エリア　富裕層マネーも回復〜with NIKKEI",
     "english_translation": "News from Hong Kong #4: Latest Sports, Cutting-Edge Areas, and Recovery of Wealthy Money ~ with NIKKEI",
     "published_at": "2026-07-31 17:00:00",
