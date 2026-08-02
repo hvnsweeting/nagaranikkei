@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "8月3日（月）日米が15年ぶり協調介入 円安阻止で思惑一致、設備投資額最高35兆円 AI供給網整備の裾野広がる",
+    "english_translation": "August 3rd (Mon): Japan and the US conduct coordinated intervention for the first time in 15 years, aligning interests to halt yen depreciation; Capital investment reaches record-high 35 trillion yen as the base of AI supply chain development expands.",
+    "published_at": "2026-08-03 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3479095421.mp3",
+    "chunks": [
+      {
+        "japanese": "8月3日（月）",
+        "romaji": "hachigatsu mikka (getsu)",
+        "meaning": "August 3rd (Monday)"
+      },
+      {
+        "japanese": "日米が",
+        "romaji": "nichibei ga",
+        "meaning": "Japan and the US (subject)"
+      },
+      {
+        "japanese": "15年ぶり",
+        "romaji": "jūgonen buri",
+        "meaning": "for the first time in 15 years"
+      },
+      {
+        "japanese": "協調介入",
+        "romaji": "kyōchō kairyū",
+        "meaning": "coordinated intervention"
+      },
+      {
+        "japanese": "円安阻止で",
+        "romaji": "en'yasu soshi de",
+        "meaning": "in halting the weak yen / to prevent yen depreciation"
+      },
+      {
+        "japanese": "思惑一致",
+        "romaji": "omowaku icchi",
+        "meaning": "alignment of intentions / agreement of interests"
+      },
+      {
+        "japanese": "設備投資額",
+        "romaji": "setsubi tōshigaku",
+        "meaning": "capital expenditure (capex) amount"
+      },
+      {
+        "japanese": "最高35兆円",
+        "romaji": "saikō sanjūgochōen",
+        "meaning": "record-high 35 trillion yen"
+      },
+      {
+        "japanese": "AI供給網整備の",
+        "romaji": "ēai kyōkyūmō seibi no",
+        "meaning": "of AI supply chain development/infrastructure"
+      },
+      {
+        "japanese": "裾野広がる",
+        "romaji": "susono hirogaru",
+        "meaning": "the base expands / supporting industries broaden"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月2日（日）波状の介入　円安・ドル高阻止へ、外国人受け入れ枠 外食95%・建設67%満たす",
     "english_translation": "August 2nd (Sunday): Wave-like interventions to stop the weak yen and strong dollar; foreign worker acceptance quotas filled at 95% for food services and 67% for construction.",
     "published_at": "2026-08-02 07:50:00",
