@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月2日（日）波状の介入　円安・ドル高阻止へ、外国人受け入れ枠 外食95%・建設67%満たす",
+    "english_translation": "August 2nd (Sunday): Wave-like interventions to stop the weak yen and strong dollar; foreign worker acceptance quotas filled at 95% for food services and 67% for construction.",
+    "published_at": "2026-08-02 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4231131386.mp3",
+    "chunks": [
+      {
+        "japanese": "8月2日（日）",
+        "romaji": "hachigatsu futsuka (nichi)",
+        "meaning": "August 2nd (Sunday)"
+      },
+      {
+        "japanese": "波状の",
+        "romaji": "hajō no",
+        "meaning": "wave-like / successive"
+      },
+      {
+        "japanese": "介入",
+        "romaji": "kainyū",
+        "meaning": "intervention"
+      },
+      {
+        "japanese": "円安・ドル高",
+        "romaji": "en'yasu doru taka",
+        "meaning": "weak yen, strong dollar"
+      },
+      {
+        "japanese": "阻止へ",
+        "romaji": "soshi e",
+        "meaning": "towards preventing / towards stopping"
+      },
+      {
+        "japanese": "外国人受け入れ枠",
+        "romaji": "gaikokujin ukeire waku",
+        "meaning": "foreign worker acceptance quota / cap"
+      },
+      {
+        "japanese": "外食",
+        "romaji": "gaishoku",
+        "meaning": "food service / dining out"
+      },
+      {
+        "japanese": "95%",
+        "romaji": "kyūjūgo pāsento",
+        "meaning": "95%"
+      },
+      {
+        "japanese": "建設",
+        "romaji": "kensetsu",
+        "meaning": "construction"
+      },
+      {
+        "japanese": "67%",
+        "romaji": "rokujūnana pāsento",
+        "meaning": "67%"
+      },
+      {
+        "japanese": "満たす",
+        "romaji": "mitasu",
+        "meaning": "to fill / to satisfy / to meet"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月1日（土）伊藤忠 米航空機リースに3000億円出資、メモリー大手5社の現金収支14兆円プラス",
     "english_translation": "August 1 (Sat): Itochu invests 300 billion yen in US aircraft leasing; Cash balance of 5 major memory companies is 14 trillion yen positive",
     "published_at": "2026-08-01 07:50:00",
