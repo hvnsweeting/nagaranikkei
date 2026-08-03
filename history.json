@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "8月4日（火）自民合同会議 食品消費税1%を了承、熊本地震 首相が激甚指定を表明",
+    "english_translation": "August 4 (Tuesday) LDP Joint Meeting Approves 1% Food Consumption Tax; Kumamoto Earthquake: PM Announces Severe Disaster Designation",
+    "published_at": "2026-08-04 06:40:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1129961583.mp3",
+    "chunks": [
+      {
+        "japanese": "8月4日（火）",
+        "romaji": "hachigatsu yokka (ka)",
+        "meaning": "August 4th (Tuesday)"
+      },
+      {
+        "japanese": "自民合同会議",
+        "romaji": "jimin gōdō kaigi",
+        "meaning": "LDP (Liberal Democratic Party) joint meeting"
+      },
+      {
+        "japanese": "食品消費税1%",
+        "romaji": "shokuhin shōhizei ippāsento",
+        "meaning": "1% food consumption tax"
+      },
+      {
+        "japanese": "を了承",
+        "romaji": "o ryōshō",
+        "meaning": "approved / agreed to"
+      },
+      {
+        "japanese": "熊本地震",
+        "romaji": "kumamoto jishin",
+        "meaning": "Kumamoto Earthquake"
+      },
+      {
+        "japanese": "首相が",
+        "romaji": "shushō ga",
+        "meaning": "the Prime Minister (subject)"
+      },
+      {
+        "japanese": "激甚指定を",
+        "romaji": "gekijin shitei o",
+        "meaning": "designation as an extremely severe disaster (as object)"
+      },
+      {
+        "japanese": "表明",
+        "romaji": "hyōmei",
+        "meaning": "announces / declares"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月3日（月）日米が15年ぶり協調介入 円安阻止で思惑一致、設備投資額最高35兆円 AI供給網整備の裾野広がる",
     "english_translation": "August 3rd (Mon): Japan and the US conduct coordinated intervention for the first time in 15 years, aligning interests to halt yen depreciation; Capital investment reaches record-high 35 trillion yen as the base of AI supply chain development expands.",
     "published_at": "2026-08-03 06:30:00",
