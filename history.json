@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "8月5日（水）銀行預金に金利競争 みずほ大口向け3倍1.5%、トヨタ純利益16%減に上方修正",
+    "english_translation": "August 5th (Wednesday): Interest rate competition for bank deposits; Mizuho offers 3 times 1.5% for large clients; Toyota's net profit revised upwards to a 16% decrease.",
+    "published_at": "2026-08-05 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6581382080.mp3",
+    "chunks": [
+      {
+        "japanese": "8月5日（水）",
+        "romaji": "Hachigatsu itsuka (Sui)",
+        "meaning": "August 5th (Wednesday)"
+      },
+      {
+        "japanese": "銀行預金",
+        "romaji": "Ginkō yokin",
+        "meaning": "Bank deposits"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "in / for"
+      },
+      {
+        "japanese": "金利競争",
+        "romaji": "Kinri kyōsō",
+        "meaning": "Interest rate competition"
+      },
+      {
+        "japanese": "みずほ",
+        "romaji": "Mizuho",
+        "meaning": "Mizuho (Bank)"
+      },
+      {
+        "japanese": "大口向け",
+        "romaji": "Ōguchi-muke",
+        "meaning": "For large clients/accounts"
+      },
+      {
+        "japanese": "3倍1.5%",
+        "romaji": "San-bai ichi-ten-go pāsento",
+        "meaning": "3 times 1.5% (interest rate)"
+      },
+      {
+        "japanese": "トヨタ",
+        "romaji": "Toyota",
+        "meaning": "Toyota"
+      },
+      {
+        "japanese": "純利益",
+        "romaji": "Jun-rieki",
+        "meaning": "Net profit"
+      },
+      {
+        "japanese": "16%減",
+        "romaji": "Jūroku pāsento gen",
+        "meaning": "16% decrease"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to (indicating the result)"
+      },
+      {
+        "japanese": "上方修正",
+        "romaji": "Jōhō shūsei",
+        "meaning": "Upward revision"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "8月4日（火）自民合同会議 食品消費税1%を了承、熊本地震 首相が激甚指定を表明",
     "english_translation": "August 4 (Tuesday) LDP Joint Meeting Approves 1% Food Consumption Tax; Kumamoto Earthquake: PM Announces Severe Disaster Designation",
     "published_at": "2026-08-04 06:40:00",
