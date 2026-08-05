@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "8月6日（木）食品消費税1% 政府が閣議決定、SBI新生銀行 地銀20行超と「大型融資連合」",
+    "english_translation": "August 6 (Thursday): Government Cabinet Decides on 1% Food Consumption Tax; SBI Shinsei Bank Forms 'Large-Scale Loan Alliance' with Over 20 Regional Banks",
+    "published_at": "2026-08-06 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7261011399.mp3",
+    "chunks": [
+      {
+        "japanese": "8月6日（木）",
+        "romaji": "hachigatsu muika (mokuyōbi)",
+        "meaning": "August 6th (Thursday)"
+      },
+      {
+        "japanese": "食品消費税1%",
+        "romaji": "shokuhin shōhizei ippāsento",
+        "meaning": "1% food consumption tax"
+      },
+      {
+        "japanese": "政府が",
+        "romaji": "seifu ga",
+        "meaning": "the government (subject)"
+      },
+      {
+        "japanese": "閣議決定",
+        "romaji": "kakugi kettei",
+        "meaning": "Cabinet decision"
+      },
+      {
+        "japanese": "SBI新生銀行",
+        "romaji": "esubīai shinsei ginkō",
+        "meaning": "SBI Shinsei Bank"
+      },
+      {
+        "japanese": "地銀20行超と",
+        "romaji": "chigin nijūkō chō to",
+        "meaning": "with over 20 regional banks"
+      },
+      {
+        "japanese": "「大型融資連合」",
+        "romaji": "\"ōgata yūshi rengō\"",
+        "meaning": "\"Large-Scale Loan Alliance\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月5日（水）銀行預金に金利競争 みずほ大口向け3倍1.5%、トヨタ純利益16%減に上方修正",
     "english_translation": "August 5th (Wednesday): Interest rate competition for bank deposits; Mizuho offers 3 times 1.5% for large clients; Toyota's net profit revised upwards to a 16% decrease.",
     "published_at": "2026-08-05 06:30:00",
