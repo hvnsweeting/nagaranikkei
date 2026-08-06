@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "8月7日（金）東大が2年連続赤字へ 「貯金」数年で枯渇、ソフトバンクG純利益18%減 4〜6月オープンAI利益貢献せず",
+    "english_translation": "August 7th (Friday): University of Tokyo heads into a deficit for the second consecutive year with 'savings' to deplete in a few years; SoftBank Group's net profit drops 18% for April–June as OpenAI does not contribute to profits.",
+    "published_at": "2026-08-07 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2431868164.mp3",
+    "chunks": [
+      {
+        "japanese": "8月7日（金）",
+        "romaji": "hachigatsu nanoka (kin)",
+        "meaning": "August 7th (Friday)"
+      },
+      {
+        "japanese": "東大が",
+        "romaji": "tōdai ga",
+        "meaning": "University of Tokyo (subject)"
+      },
+      {
+        "japanese": "2年連続赤字へ",
+        "romaji": "ninen renzoku akaji e",
+        "meaning": "heading toward a deficit for the second consecutive year"
+      },
+      {
+        "japanese": "「貯金」数年で枯渇",
+        "romaji": "chokin sūnen de kokatsu",
+        "meaning": "'savings' depleting in a few years"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "sofutobanku jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "純利益18%減",
+        "romaji": "junrieki jūhachi pāsento gen",
+        "meaning": "net profit down 18%"
+      },
+      {
+        "japanese": "4〜6月",
+        "romaji": "shigatsu kara rokugatsu",
+        "meaning": "April to June"
+      },
+      {
+        "japanese": "オープンAI",
+        "romaji": "ōpun ēai",
+        "meaning": "OpenAI"
+      },
+      {
+        "japanese": "利益貢献せず",
+        "romaji": "rieki kōken sezu",
+        "meaning": "not contributing to profits"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月6日（木）食品消費税1% 政府が閣議決定、SBI新生銀行 地銀20行超と「大型融資連合」",
     "english_translation": "August 6 (Thursday): Government Cabinet Decides on 1% Food Consumption Tax; SBI Shinsei Bank Forms 'Large-Scale Loan Alliance' with Over 20 Regional Banks",
     "published_at": "2026-08-06 06:30:00",
