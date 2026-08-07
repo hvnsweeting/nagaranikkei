@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "8月7日（金）歴史的な日米協調為替介入、「安すぎる円」変わるか〜with NIKKEIEI",
+    "english_translation": "August 7 (Friday) Historic Japan-US Coordinated Currency Intervention: Will the 'Too Weak Yen' Change? ~ with NIKKEI",
+    "published_at": "2026-08-07 17:40:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8442619028.mp3",
+    "chunks": [
+      {
+        "japanese": "8月7日（金）",
+        "romaji": "hachigatsu nanoka (kanyōbi)",
+        "meaning": "August 7th (Friday)"
+      },
+      {
+        "japanese": "歴史的な",
+        "romaji": "rekishiteki na",
+        "meaning": "historic"
+      },
+      {
+        "japanese": "日米",
+        "romaji": "nichibei",
+        "meaning": "Japan-US"
+      },
+      {
+        "japanese": "協調",
+        "romaji": "kyōchō",
+        "meaning": "coordination / joint action"
+      },
+      {
+        "japanese": "為替介入",
+        "romaji": "kawase kainyū",
+        "meaning": "currency intervention"
+      },
+      {
+        "japanese": "安すぎる",
+        "romaji": "yasusugiru",
+        "meaning": "too cheap / too weak"
+      },
+      {
+        "japanese": "円",
+        "romaji": "en",
+        "meaning": "Yen"
+      },
+      {
+        "japanese": "変わるか",
+        "romaji": "kawaru ka",
+        "meaning": "will it change?"
+      },
+      {
+        "japanese": "with NIKKEI",
+        "romaji": "uizu nikkei",
+        "meaning": "with Nikkei"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月7日（金）東大が2年連続赤字へ 「貯金」数年で枯渇、ソフトバンクG純利益18%減 4〜6月オープンAI利益貢献せず",
     "english_translation": "August 7th (Friday): University of Tokyo heads into a deficit for the second consecutive year with 'savings' to deplete in a few years; SoftBank Group's net profit drops 18% for April–June as OpenAI does not contribute to profits.",
     "published_at": "2026-08-07 06:30:00",
