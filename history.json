@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "8月8日（土）韓国と台湾の輸出額ともに初の日本超え、三井住友信託 中古不動産の再生へ200億円ファンド",
+    "english_translation": "August 8th (Saturday) South Korea and Taiwan's export values both surpass Japan for the first time, Mitsui Sumitomo Trust launches a 20 billion yen fund for the revitalization of used real estate.",
+    "published_at": "2026-08-08 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7065556745.mp3",
+    "chunks": [
+      {
+        "japanese": "8月8日（土）",
+        "romaji": "hachi-gatsu yōka (do)",
+        "meaning": "August 8th (Saturday)"
+      },
+      {
+        "japanese": "韓国",
+        "romaji": "Kankoku",
+        "meaning": "South Korea"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "台湾",
+        "romaji": "Taiwan",
+        "meaning": "Taiwan"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "輸出額",
+        "romaji": "yushutsu-gaku",
+        "meaning": "export value/amount"
+      },
+      {
+        "japanese": "ともに",
+        "romaji": "tomo ni",
+        "meaning": "both / together"
+      },
+      {
+        "japanese": "初の",
+        "romaji": "hatsu no",
+        "meaning": "first (time)"
+      },
+      {
+        "japanese": "日本超え",
+        "romaji": "Nihon-goe",
+        "meaning": "surpassing Japan"
+      },
+      {
+        "japanese": "三井住友信託",
+        "romaji": "Mitsui Sumitomo Shintaku",
+        "meaning": "Mitsui Sumitomo Trust (Company Name)"
+      },
+      {
+        "japanese": "中古不動産",
+        "romaji": "chūko fudōsan",
+        "meaning": "used real estate / pre-owned property"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "再生",
+        "romaji": "saisei",
+        "meaning": "revitalization / regeneration"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "to / towards / for"
+      },
+      {
+        "japanese": "200億円",
+        "romaji": "ni-hyaku oku en",
+        "meaning": "20 billion yen"
+      },
+      {
+        "japanese": "ファンド",
+        "romaji": "fando",
+        "meaning": "fund"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "8月7日（金）歴史的な日米協調為替介入、「安すぎる円」変わるか〜with NIKKEIEI",
     "english_translation": "August 7 (Friday) Historic Japan-US Coordinated Currency Intervention: Will the 'Too Weak Yen' Change? ~ with NIKKEI",
     "published_at": "2026-08-07 17:40:00",
