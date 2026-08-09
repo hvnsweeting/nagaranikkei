@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "8月9日（日） 3メガバンク 外貨の資金余力198兆円に、新電力Looop 夜7〜9時の電力無料に",
+    "english_translation": "August 9 (Sunday): Three Megabanks' Foreign Currency Funding Capacity Reaches 198 Trillion Yen; New Power Company Looop Makes Electricity Free from 7 to 9 PM",
+    "published_at": "2026-08-09 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2137507887.mp3",
+    "chunks": [
+      {
+        "japanese": "8月9日（日）",
+        "romaji": "hachigatsu kokonoka (nichiyōbi)",
+        "meaning": "August 9th (Sunday)"
+      },
+      {
+        "japanese": "3メガバンク",
+        "romaji": "san megabanku",
+        "meaning": "three megabanks (referring to Japan's top three banking groups)"
+      },
+      {
+        "japanese": "外貨の資金余力",
+        "romaji": "gaika no shikin yoryoku",
+        "meaning": "foreign currency funding capacity / cash reserves"
+      },
+      {
+        "japanese": "198兆円に",
+        "romaji": "hyakukyūjūhachichōen ni",
+        "meaning": "reaches 198 trillion yen (literally: to 198 trillion yen)"
+      },
+      {
+        "japanese": "新電力Looop",
+        "romaji": "shindenryoku rūpu",
+        "meaning": "new electricity provider Looop"
+      },
+      {
+        "japanese": "夜7〜9時の",
+        "romaji": "yoru shichiji kara kuji no",
+        "meaning": "of 7 PM to 9 PM"
+      },
+      {
+        "japanese": "電力無料に",
+        "romaji": "denryoku muryō ni",
+        "meaning": "makes electricity free (literally: to free electricity)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月8日（土）韓国と台湾の輸出額ともに初の日本超え、三井住友信託 中古不動産の再生へ200億円ファンド",
     "english_translation": "August 8th (Saturday) South Korea and Taiwan's export values both surpass Japan for the first time, Mitsui Sumitomo Trust launches a 20 billion yen fund for the revitalization of used real estate.",
     "published_at": "2026-08-08 07:50:00",
