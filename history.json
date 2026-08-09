@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月10日（月）防衛装備品にサイバー防御ソフト 空自レーダーなど27年にも導入、美的の移動式エアコン 欧州で大ヒット",
+    "english_translation": "August 10 (Mon): Cyber defense software for defense equipment to be introduced to ASDF radar and other systems as early as 2027; Midea's portable air conditioners a big hit in Europe",
+    "published_at": "2026-08-10 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3542343283.mp3",
+    "chunks": [
+      {
+        "japanese": "8月10日（月）",
+        "romaji": "hachigatsu tōka (getsuyōbi)",
+        "meaning": "August 10th (Monday)"
+      },
+      {
+        "japanese": "防衛装備品",
+        "romaji": "bōei sōbihin",
+        "meaning": "defense equipment"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / for"
+      },
+      {
+        "japanese": "サイバー防御ソフト",
+        "romaji": "saibā bōgyo sofuto",
+        "meaning": "cyber defense software"
+      },
+      {
+        "japanese": "空自レーダーなど",
+        "romaji": "kūji rēdā nado",
+        "meaning": "ASDF (Air Self-Defense Force) radar, etc."
+      },
+      {
+        "japanese": "27年にも",
+        "romaji": "nijūnananen ni mo",
+        "meaning": "as early as 2027"
+      },
+      {
+        "japanese": "導入",
+        "romaji": "dōnyū",
+        "meaning": "introduction / adoption"
+      },
+      {
+        "japanese": "美的の",
+        "romaji": "bideki no",
+        "meaning": "Midea's (Chinese home appliance brand)"
+      },
+      {
+        "japanese": "移動式エアコン",
+        "romaji": "idōshiki eakon",
+        "meaning": "portable air conditioner"
+      },
+      {
+        "japanese": "欧州で",
+        "romaji": "ōshū de",
+        "meaning": "in Europe"
+      },
+      {
+        "japanese": "大ヒット",
+        "romaji": "dai hitto",
+        "meaning": "big hit"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月9日（日） 3メガバンク 外貨の資金余力198兆円に、新電力Looop 夜7〜9時の電力無料に",
     "english_translation": "August 9 (Sunday): Three Megabanks' Foreign Currency Funding Capacity Reaches 198 Trillion Yen; New Power Company Looop Makes Electricity Free from 7 to 9 PM",
     "published_at": "2026-08-09 07:50:00",
