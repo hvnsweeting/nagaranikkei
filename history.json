@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "8月11日（火）ソニーGとTSMC 熊本工場に1兆円投資、ニチレイのサイバー攻撃 ハッカー集団が盗難データ公開",
+    "english_translation": "August 11 (Tuesday) - Sony Group and TSMC to invest 1 trillion yen in Kumamoto plant; Nichirei cyberattack: hacker group releases stolen data",
+    "published_at": "2026-08-11 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8364767768.mp3",
+    "chunks": [
+      {
+        "japanese": "8月11日",
+        "romaji": "hachigatsu jūichinichi",
+        "meaning": "August 11th"
+      },
+      {
+        "japanese": "（火）",
+        "romaji": "ka",
+        "meaning": "Tuesday (abbreviated)"
+      },
+      {
+        "japanese": "ソニーG",
+        "romaji": "sonī jī",
+        "meaning": "Sony Group"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "TSMC",
+        "romaji": "tī esu emu shī",
+        "meaning": "TSMC (Taiwan Semiconductor Manufacturing Company)"
+      },
+      {
+        "japanese": "熊本工場に",
+        "romaji": "kumamoto kōjō ni",
+        "meaning": "in the Kumamoto plant (factory)"
+      },
+      {
+        "japanese": "1兆円",
+        "romaji": "icchō en",
+        "meaning": "1 trillion yen"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investment"
+      },
+      {
+        "japanese": "ニチレイの",
+        "romaji": "nichirei no",
+        "meaning": "Nichirei's (a Japanese food company)"
+      },
+      {
+        "japanese": "サイバー攻撃",
+        "romaji": "saibā kōgeki",
+        "meaning": "cyberattack"
+      },
+      {
+        "japanese": "ハッカー集団が",
+        "romaji": "hakkā shūdan ga",
+        "meaning": "hacker group (subject marker)"
+      },
+      {
+        "japanese": "盗難データ",
+        "romaji": "tōnan dēta",
+        "meaning": "stolen data"
+      },
+      {
+        "japanese": "公開",
+        "romaji": "kōkai",
+        "meaning": "making public / release"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月10日（月）防衛装備品にサイバー防御ソフト 空自レーダーなど27年にも導入、美的の移動式エアコン 欧州で大ヒット",
     "english_translation": "August 10 (Mon): Cyber defense software for defense equipment to be introduced to ASDF radar and other systems as early as 2027; Midea's portable air conditioners a big hit in Europe",
     "published_at": "2026-08-10 06:30:00",
