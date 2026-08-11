@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "8月12日（水）ソニーGとTSMC 次世代画像センサー量産を正式発表、消費税減税による地方減収 国が穴埋め検討",
+    "english_translation": "August 12 (Wed) Sony Group and TSMC officially announce mass production of next-generation image sensors, National government considers covering local revenue shortfall caused by consumption tax cuts",
+    "published_at": "2026-08-12 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3942833014.mp3",
+    "chunks": [
+      {
+        "japanese": "8月12日（水）",
+        "romaji": "hachigatsu jūni nichi (sui)",
+        "meaning": "August 12th (Wednesday)"
+      },
+      {
+        "japanese": "ソニーGとTSMC",
+        "romaji": "Sonī jī to tī esu emu shī",
+        "meaning": "Sony Group and TSMC"
+      },
+      {
+        "japanese": "次世代画像センサー",
+        "romaji": "jisedai gazō sensā",
+        "meaning": "next-generation image sensors"
+      },
+      {
+        "japanese": "量産を正式発表",
+        "romaji": "ryōsan o seishiki happyō",
+        "meaning": "officially announcing mass production"
+      },
+      {
+        "japanese": "消費税減税による",
+        "romaji": "shōhizei genzei ni yoru",
+        "meaning": "caused by/due to consumption tax cuts"
+      },
+      {
+        "japanese": "地方減収",
+        "romaji": "chihō genshū",
+        "meaning": "local revenue decline"
+      },
+      {
+        "japanese": "国が穴埋め検討",
+        "romaji": "kuni ga anaume kentō",
+        "meaning": "the national government considers covering (the shortfall)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月11日（火）ソニーGとTSMC 熊本工場に1兆円投資、ニチレイのサイバー攻撃 ハッカー集団が盗難データ公開",
     "english_translation": "August 11 (Tuesday) - Sony Group and TSMC to invest 1 trillion yen in Kumamoto plant; Nichirei cyberattack: hacker group releases stolen data",
     "published_at": "2026-08-11 06:30:00",
