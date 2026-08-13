@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "8月14日（金）携帯ショップ 市区町村の4割でゼロ、ロシアのプーチン大統領が北方領土を初訪問 実効支配を誇示",
+    "english_translation": "August 14 (Friday): Mobile phone shops at zero in 40% of municipalities; Russia's President Putin makes first visit to the Northern Territories, demonstrating effective control",
+    "published_at": "2026-08-14 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7143897051.mp3",
+    "chunks": [
+      {
+        "japanese": "8月14日（金）",
+        "romaji": "hachigatsu jūyokka (kin)",
+        "meaning": "August 14 (Friday)"
+      },
+      {
+        "japanese": "携帯ショップ",
+        "romaji": "keitai shoppu",
+        "meaning": "mobile phone shop(s)"
+      },
+      {
+        "japanese": "市区町村",
+        "romaji": "shikuchōson",
+        "meaning": "municipalities (cities, wards, towns, and villages)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of"
+      },
+      {
+        "japanese": "4割",
+        "romaji": "yon-wari",
+        "meaning": "40% (literally, four tenths)"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "at / in"
+      },
+      {
+        "japanese": "ゼロ",
+        "romaji": "zero",
+        "meaning": "zero"
+      },
+      {
+        "japanese": "ロシアの",
+        "romaji": "roshia no",
+        "meaning": "Russia's / of Russia"
+      },
+      {
+        "japanese": "プーチン大統領が",
+        "romaji": "pūchin daitōryō ga",
+        "meaning": "President Putin (subject)"
+      },
+      {
+        "japanese": "北方領土を",
+        "romaji": "hoppō ryōdo o",
+        "meaning": "the Northern Territories (object)"
+      },
+      {
+        "japanese": "初訪問",
+        "romaji": "hatsu hōmon",
+        "meaning": "first visit"
+      },
+      {
+        "japanese": "実効支配を",
+        "romaji": "jikkō shihai o",
+        "meaning": "effective control (object)"
+      },
+      {
+        "japanese": "誇示",
+        "romaji": "koji",
+        "meaning": "demonstration / display / showing off"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月13日（木）ネット証券大手5社 米国株を日中も売買へ、東京23区の新築戸建て 9000万円台続く",
     "english_translation": "August 13th (Thursday): Five major online brokerage firms to trade US stocks during the daytime; Newly built detached houses in Tokyo's 23 wards remain in the 90 million yen range.",
     "published_at": "2026-08-13 06:30:00",
