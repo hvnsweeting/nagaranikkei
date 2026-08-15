@@ -1,5 +1,120 @@
 [
   {
+    "japanese_title": "8月15日（土） マンション国内50棟 カナダファンドが一括購入、EV・半導体レアアース輸入 26年上期は中国規制前の2割",
+    "english_translation": "August 15th (Saturday) Canadian Fund Purchases 50 Domestic Condominium Buildings in Bulk; EV and Semiconductor Rare Earth Imports for the First Half of 2026 are 20% of Pre-China Regulation Levels.",
+    "published_at": "2026-08-15 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1865355583.mp3",
+    "chunks": [
+      {
+        "japanese": "8月15日",
+        "romaji": "hachi-gatsu jū-go-nichi",
+        "meaning": "August 15th"
+      },
+      {
+        "japanese": "（土）",
+        "romaji": "(do)",
+        "meaning": "(Saturday)"
+      },
+      {
+        "japanese": "マンション",
+        "romaji": "manshon",
+        "meaning": "condominium / apartment building"
+      },
+      {
+        "japanese": "国内",
+        "romaji": "kokunai",
+        "meaning": "domestic / in Japan"
+      },
+      {
+        "japanese": "50棟",
+        "romaji": "gojū-tō",
+        "meaning": "50 buildings (counter for buildings)"
+      },
+      {
+        "japanese": "カナダファンド",
+        "romaji": "Kanada fando",
+        "meaning": "Canadian fund"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "一括購入",
+        "romaji": "ikkatsu kōnyū",
+        "meaning": "bulk purchase"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "EV",
+        "romaji": "ī-bī",
+        "meaning": "EV (Electric Vehicle)"
+      },
+      {
+        "japanese": "・",
+        "romaji": "・",
+        "meaning": "/ (separator)"
+      },
+      {
+        "japanese": "半導体",
+        "romaji": "handōtai",
+        "meaning": "semiconductor"
+      },
+      {
+        "japanese": "レアアース",
+        "romaji": "rea āsu",
+        "meaning": "rare earth"
+      },
+      {
+        "japanese": "輸入",
+        "romaji": "yunyū",
+        "meaning": "imports"
+      },
+      {
+        "japanese": "26年",
+        "romaji": "nijū-roku-nen",
+        "meaning": "year 2026"
+      },
+      {
+        "japanese": "上期",
+        "romaji": "kamiki",
+        "meaning": "first half (of the fiscal year)"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "(topic particle)"
+      },
+      {
+        "japanese": "中国規制",
+        "romaji": "Chūgoku kisei",
+        "meaning": "China's regulations"
+      },
+      {
+        "japanese": "前",
+        "romaji": "mae",
+        "meaning": "before / prior"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of (possessive particle)"
+      },
+      {
+        "japanese": "2割",
+        "romaji": "ni-wari",
+        "meaning": "20 percent"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "8月14日（金）携帯ショップ 市区町村の4割でゼロ、ロシアのプーチン大統領が北方領土を初訪問 実効支配を誇示",
     "english_translation": "August 14 (Friday): Mobile phone shops at zero in 40% of municipalities; Russia's President Putin makes first visit to the Northern Territories, demonstrating effective control",
     "published_at": "2026-08-14 06:30:00",
