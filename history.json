@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "8月16日（日） 企業の短期社債保有が急増 17年ぶり高水準、高市首相 靖国神社参拝見送り",
+    "english_translation": "August 16th (Sunday): Corporate short-term bond holdings surge to a 17-year high; Prime Minister Takaichi cancels Yasukuni Shrine visit.",
+    "published_at": "2026-08-16 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4203704040.mp3",
+    "chunks": [
+      {
+        "japanese": "8月16日",
+        "romaji": "hachi-gatsu jūroku-nichi",
+        "meaning": "August 16th"
+      },
+      {
+        "japanese": "（日）",
+        "romaji": "(nichi)",
+        "meaning": "(Sunday)"
+      },
+      {
+        "japanese": "企業",
+        "romaji": "kigyō",
+        "meaning": "Corporations / Companies"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of (possessive particle)"
+      },
+      {
+        "japanese": "短期社債",
+        "romaji": "tanki shasai",
+        "meaning": "Short-term corporate bonds"
+      },
+      {
+        "japanese": "保有",
+        "romaji": "hoyū",
+        "meaning": "Holdings / Ownership"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(Subject particle)"
+      },
+      {
+        "japanese": "急増",
+        "romaji": "kyūzō",
+        "meaning": "Rapid increase / Surge"
+      },
+      {
+        "japanese": "17年ぶり",
+        "romaji": "jūnananen-buri",
+        "meaning": "For the first time in 17 years / 17-year high (implying level not seen in 17 years)"
+      },
+      {
+        "japanese": "高水準",
+        "romaji": "kō-suijun",
+        "meaning": "High level / High standard"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "高市",
+        "romaji": "Takaichi",
+        "meaning": "Takaichi (surname)"
+      },
+      {
+        "japanese": "首相",
+        "romaji": "shushō",
+        "meaning": "Prime Minister"
+      },
+      {
+        "japanese": "靖国神社",
+        "romaji": "Yasukuni Jinja",
+        "meaning": "Yasukuni Shrine"
+      },
+      {
+        "japanese": "参拝",
+        "romaji": "sanpai",
+        "meaning": "Visit (to a shrine/temple) / Worship"
+      },
+      {
+        "japanese": "見送り",
+        "romaji": "miokuri",
+        "meaning": "Cancellation / Postponement"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "8月15日（土） マンション国内50棟 カナダファンドが一括購入、EV・半導体レアアース輸入 26年上期は中国規制前の2割",
     "english_translation": "August 15th (Saturday) Canadian Fund Purchases 50 Domestic Condominium Buildings in Bulk; EV and Semiconductor Rare Earth Imports for the First Half of 2026 are 20% of Pre-China Regulation Levels.",
     "published_at": "2026-08-15 07:50:00",
