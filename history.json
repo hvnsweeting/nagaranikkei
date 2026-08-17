@@ -1,5 +1,105 @@
 [
   {
+    "japanese_title": "8月18日（火）楽天が攻撃型ドローン 陸自配備と国産化を推進、  上場企業の純利益 27年3月期14%増に上振れ",
+    "english_translation": "August 18 (Tue): Rakuten promotes the domestic production and deployment of attack-type drones to the JGSDF; Listed companies' net profit revised upward to a 14% increase for the fiscal year ending March 2027.",
+    "published_at": "2026-08-18 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4082702662.mp3",
+    "chunks": [
+      {
+        "japanese": "8月18日（火）",
+        "romaji": "hachigatsu jūhachinichi (ka)",
+        "meaning": "August 18th (Tuesday)"
+      },
+      {
+        "japanese": "楽天",
+        "romaji": "Rakuten",
+        "meaning": "Rakuten (Japanese technology/e-commerce company)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker particle"
+      },
+      {
+        "japanese": "攻撃型",
+        "romaji": "kōgekigata",
+        "meaning": "attack-type / offensive"
+      },
+      {
+        "japanese": "ドローン",
+        "romaji": "dorōn",
+        "meaning": "drone"
+      },
+      {
+        "japanese": "陸自",
+        "romaji": "Rikuji",
+        "meaning": "JGSDF (Japan Ground Self-Defense Force)"
+      },
+      {
+        "japanese": "配備",
+        "romaji": "haibi",
+        "meaning": "deployment"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "国産化",
+        "romaji": "kokusanka",
+        "meaning": "domestic production / localization"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marker particle"
+      },
+      {
+        "japanese": "推進",
+        "romaji": "suishin",
+        "meaning": "promotion / pushing forward"
+      },
+      {
+        "japanese": "上場企業",
+        "romaji": "jōjō kigyō",
+        "meaning": "listed companies / publicly traded companies"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of)"
+      },
+      {
+        "japanese": "純利益",
+        "romaji": "junrieki",
+        "meaning": "net profit / net income"
+      },
+      {
+        "japanese": "27年3月期",
+        "romaji": "nijūnana-nen sangatsu-ki",
+        "meaning": "fiscal year ending March 2027 (term)"
+      },
+      {
+        "japanese": "14%増",
+        "romaji": "jūyon-pāsento zō",
+        "meaning": "14% increase"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / towards (particle)"
+      },
+      {
+        "japanese": "上振れ",
+        "romaji": "uwabure",
+        "meaning": "upward deviation / revising upward / exceeding the forecast"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月17日（月）国の基金 目標未達なら支援中止、ホンダ 衝突安全技術の開発にAI活用",
     "english_translation": "August 17 (Mon) National Fund to Suspend Support If Goals Are Unmet; Honda to Utilize AI in the Development of Collision Safety Technology",
     "published_at": "2026-08-17 06:30:00",
