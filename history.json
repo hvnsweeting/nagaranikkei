@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月19日（水）ソフトバンクGが個人向け社債1兆円 過去最大、新潟県の26年産新米 前年比4割安",
+    "english_translation": "August 19 (Wednesday) SoftBank Group to issue 1 trillion yen in retail corporate bonds, the largest ever; Niigata Prefecture's 2014 crop new rice is 40% cheaper than the previous year",
+    "published_at": "2026-08-19 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4807030805.mp3",
+    "chunks": [
+      {
+        "japanese": "8月19日（水）",
+        "romaji": "hachigatsu jūkyūnichi (suiyōbi)",
+        "meaning": "August 19th (Wednesday)"
+      },
+      {
+        "japanese": "ソフトバンクGが",
+        "romaji": "sofutobanku jī ga",
+        "meaning": "SoftBank Group (subject)"
+      },
+      {
+        "japanese": "個人向け",
+        "romaji": "kojin muke",
+        "meaning": "aimed at individuals / retail"
+      },
+      {
+        "japanese": "社債",
+        "romaji": "shasai",
+        "meaning": "corporate bonds"
+      },
+      {
+        "japanese": "1兆円",
+        "romaji": "itchō en",
+        "meaning": "1 trillion yen"
+      },
+      {
+        "japanese": "過去最大",
+        "romaji": "kako saidai",
+        "meaning": "largest ever / historic high"
+      },
+      {
+        "japanese": "新潟県の",
+        "romaji": "niigata-ken no",
+        "meaning": "Niigata Prefecture's"
+      },
+      {
+        "japanese": "26年産",
+        "romaji": "nijūroku-nen-san",
+        "meaning": "Year 26 (Heisei 26 / 2014) harvest"
+      },
+      {
+        "japanese": "新米",
+        "romaji": "shinmai",
+        "meaning": "newly harvested rice"
+      },
+      {
+        "japanese": "前年比",
+        "romaji": "zennen-hi",
+        "meaning": "compared to the previous year"
+      },
+      {
+        "japanese": "4割安",
+        "romaji": "yon-wari yasu",
+        "meaning": "40% cheaper (literally: 4-tenths cheap)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月18日（火）楽天が攻撃型ドローン 陸自配備と国産化を推進、  上場企業の純利益 27年3月期14%増に上振れ",
     "english_translation": "August 18 (Tue): Rakuten promotes the domestic production and deployment of attack-type drones to the JGSDF; Listed companies' net profit revised upward to a 14% increase for the fiscal year ending March 2027.",
     "published_at": "2026-08-18 06:30:00",
