@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "8月20日（木）消費税減税「2年限定」法案明記へ 給付と一括、残業「45時間以内」の一律指導を緩和",
+    "english_translation": "August 20 (Thursday): Consumption tax cut 'limited to 2 years' to be clearly specified in bill, packaged together with benefits; relaxation of uniform guidance on overtime 'within 45 hours'.",
+    "published_at": "2026-08-20 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7716385649.mp3",
+    "chunks": [
+      {
+        "japanese": "8月20日（木）",
+        "romaji": "hachigatsu nijū-nichi (mokuyōbi)",
+        "meaning": "August 20 (Thursday)"
+      },
+      {
+        "japanese": "消費税減税",
+        "romaji": "shōhizei genzei",
+        "meaning": "consumption tax cut"
+      },
+      {
+        "japanese": "「2年限定」",
+        "romaji": "ni-nen gentei",
+        "meaning": "'limited to 2 years'"
+      },
+      {
+        "japanese": "法案明記へ",
+        "romaji": "hōan meiki e",
+        "meaning": "towards specifying clearly in the bill"
+      },
+      {
+        "japanese": "給付と一括",
+        "romaji": "kyūfu to ikkatsu",
+        "meaning": "packaged/bundled together with benefits"
+      },
+      {
+        "japanese": "残業「45時間以内」",
+        "romaji": "zangyō yonjūgo-jikan inai",
+        "meaning": "overtime 'within 45 hours'"
+      },
+      {
+        "japanese": "の一律指導を",
+        "romaji": "no ichiritsu shidō o",
+        "meaning": "uniform guidance on (as object)"
+      },
+      {
+        "japanese": "緩和",
+        "romaji": "kanwa",
+        "meaning": "easing / relaxation"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月19日（水）ソフトバンクGが個人向け社債1兆円 過去最大、新潟県の26年産新米 前年比4割安",
     "english_translation": "August 19 (Wednesday) SoftBank Group to issue 1 trillion yen in retail corporate bonds, the largest ever; Niigata Prefecture's 2014 crop new rice is 40% cheaper than the previous year",
     "published_at": "2026-08-19 06:30:00",
