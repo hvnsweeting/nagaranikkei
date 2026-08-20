@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "8月21日（金）個人向け国債に税優遇 財務省・金融庁が要望へ、国立大学の運営費交付金 文科省が1.2兆円要求",
+    "english_translation": "August 21 (Friday): Ministry of Finance and Financial Services Agency to request tax incentives for retail government bonds; Ministry of Education requests 1.2 trillion yen for national university operating grants.",
+    "published_at": "2026-08-21 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2297393392.mp3",
+    "chunks": [
+      {
+        "japanese": "8月21日（金）",
+        "romaji": "hachigatsu nijūichi-nichi (kin'yōbi)",
+        "meaning": "August 21st (Friday)"
+      },
+      {
+        "japanese": "個人向け",
+        "romaji": "kojin muke",
+        "meaning": "for individuals / aimed at individual investors"
+      },
+      {
+        "japanese": "国債",
+        "romaji": "kokusai",
+        "meaning": "government bonds"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "for / to"
+      },
+      {
+        "japanese": "税優遇",
+        "romaji": "zei yūgū",
+        "meaning": "tax incentives / tax breaks"
+      },
+      {
+        "japanese": "財務省・金融庁",
+        "romaji": "zaimushō・kin'yūchō",
+        "meaning": "Ministry of Finance (MOF) and Financial Services Agency (FSA)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject marker)"
+      },
+      {
+        "japanese": "要望へ",
+        "romaji": "yōbō e",
+        "meaning": "heading toward requesting / to demand"
+      },
+      {
+        "japanese": "国立大学",
+        "romaji": "kokuritsu daigaku",
+        "meaning": "national universities"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's (possessive particle)"
+      },
+      {
+        "japanese": "運営費交付金",
+        "romaji": "un'eihi kōfukin",
+        "meaning": "operational subsidies / management expenses grants"
+      },
+      {
+        "japanese": "文科省",
+        "romaji": "monkashō",
+        "meaning": "Ministry of Education, Culture, Sports, Science and Technology (MEXT)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject marker)"
+      },
+      {
+        "japanese": "1.2兆円",
+        "romaji": "ichi-ten-ni chō en",
+        "meaning": "1.2 trillion yen"
+      },
+      {
+        "japanese": "要求",
+        "romaji": "yōkyū",
+        "meaning": "request / demand"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月20日（木）消費税減税「2年限定」法案明記へ 給付と一括、残業「45時間以内」の一律指導を緩和",
     "english_translation": "August 20 (Thursday): Consumption tax cut 'limited to 2 years' to be clearly specified in bill, packaged together with benefits; relaxation of uniform guidance on overtime 'within 45 hours'.",
     "published_at": "2026-08-20 06:30:00",
