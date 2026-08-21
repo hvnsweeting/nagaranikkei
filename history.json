@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "8月21日（金）酷暑をのりきる、くらしの知恵〜with NIKKEI",
+    "english_translation": "August 21 (Fri) Wisdom for Daily Life to Get Through the Extreme Heat ~ with NIKKEI",
+    "published_at": "2026-08-21 18:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6630788685.mp3",
+    "chunks": [
+      {
+        "japanese": "8月21日",
+        "romaji": "hachigatsu nijūichinichi",
+        "meaning": "August 21st"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday"
+      },
+      {
+        "japanese": "酷暑",
+        "romaji": "kokusho",
+        "meaning": "extreme heat"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marking particle"
+      },
+      {
+        "japanese": "のりきる",
+        "romaji": "norikiru",
+        "meaning": "to get through / to survive"
+      },
+      {
+        "japanese": "くらし",
+        "romaji": "kurashi",
+        "meaning": "living / daily life"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of)"
+      },
+      {
+        "japanese": "知恵",
+        "romaji": "chie",
+        "meaning": "wisdom / clever ideas"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "uizu nikkei",
+        "meaning": "~ with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月21日（金）個人向け国債に税優遇 財務省・金融庁が要望へ、国立大学の運営費交付金 文科省が1.2兆円要求",
     "english_translation": "August 21 (Friday): Ministry of Finance and Financial Services Agency to request tax incentives for retail government bonds; Ministry of Education requests 1.2 trillion yen for national university operating grants.",
     "published_at": "2026-08-21 06:30:00",
