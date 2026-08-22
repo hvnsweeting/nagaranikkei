@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月22日（土） 止まらぬコメ下落 昨秋の半値、新興未上場株の売買仲介 スマートラウンドを国が登録",
+    "english_translation": "August 22 (Sat) - Unstoppable Rice Price Decline to Half of Last Autumn; Government Registers Smartround for Brokerage of Unlisted Startup Shares",
+    "published_at": "2026-08-22 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4843047895.mp3",
+    "chunks": [
+      {
+        "japanese": "8月22日（土）",
+        "romaji": "hachigatsu nijūnichi (doyōbi)",
+        "meaning": "August 22nd (Saturday)"
+      },
+      {
+        "japanese": "止まらぬ",
+        "romaji": "tomaranu",
+        "meaning": "unstoppable / not stopping"
+      },
+      {
+        "japanese": "コメ下落",
+        "romaji": "kome geraku",
+        "meaning": "rice price decline"
+      },
+      {
+        "japanese": "昨秋の",
+        "romaji": "sakushū no",
+        "meaning": "of last autumn"
+      },
+      {
+        "japanese": "半値",
+        "romaji": "hanne",
+        "meaning": "half price"
+      },
+      {
+        "japanese": "新興",
+        "romaji": "shinkō",
+        "meaning": "emerging / startup"
+      },
+      {
+        "japanese": "未上場株の",
+        "romaji": "mijōjōkabu no",
+        "meaning": "of unlisted shares"
+      },
+      {
+        "japanese": "売買仲介",
+        "romaji": "baibai chūkai",
+        "meaning": "trading brokerage / intermediary trading"
+      },
+      {
+        "japanese": "スマートラウンドを",
+        "romaji": "sumātoraundo o",
+        "meaning": "Smartround (platform name) [direct object marker]"
+      },
+      {
+        "japanese": "国が",
+        "romaji": "kuni ga",
+        "meaning": "the country / the government [subject marker]"
+      },
+      {
+        "japanese": "登録",
+        "romaji": "tōroku",
+        "meaning": "registration / register"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月21日（金）酷暑をのりきる、くらしの知恵〜with NIKKEI",
     "english_translation": "August 21 (Fri) Wisdom for Daily Life to Get Through the Extreme Heat ~ with NIKKEI",
     "published_at": "2026-08-21 18:00:00",
