@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月24日（月）日銀利上げ加速探る 市場は2%視野、核融合で国内初の企業価値1000億円超",
+    "english_translation": "August 24 (Mon) BOJ explores accelerating interest rate hikes with the market eyeing 2%; Japan's first nuclear fusion company valuation exceeds 100 billion yen",
+    "published_at": "2026-08-24 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2896010409.mp3",
+    "chunks": [
+      {
+        "japanese": "8月24日（月）",
+        "romaji": "hachigatsu nijūyokka (getsuyōbi)",
+        "meaning": "August 24th (Monday)"
+      },
+      {
+        "japanese": "日銀",
+        "romaji": "nichigin",
+        "meaning": "Bank of Japan (BOJ)"
+      },
+      {
+        "japanese": "利上げ",
+        "romaji": "riage",
+        "meaning": "interest rate hike"
+      },
+      {
+        "japanese": "加速",
+        "romaji": "kasoku",
+        "meaning": "acceleration"
+      },
+      {
+        "japanese": "探る",
+        "romaji": "saguru",
+        "meaning": "to explore / probe"
+      },
+      {
+        "japanese": "市場は",
+        "romaji": "shijō wa",
+        "meaning": "the market"
+      },
+      {
+        "japanese": "2%視野",
+        "romaji": "ni-pāsento shiya",
+        "meaning": "2% in sight / in view"
+      },
+      {
+        "japanese": "核融合で",
+        "romaji": "kakuyūgō de",
+        "meaning": "in nuclear fusion"
+      },
+      {
+        "japanese": "国内初の",
+        "romaji": "kokunai hatsu no",
+        "meaning": "domestic first / Japan's first"
+      },
+      {
+        "japanese": "企業価値",
+        "romaji": "kigyō kachi",
+        "meaning": "corporate value / valuation"
+      },
+      {
+        "japanese": "1000億円超",
+        "romaji": "sen-oku en chō",
+        "meaning": "exceeding 100 billion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月23日（日） 日本貿易保険 国際機関に初の融資保険、中小の事業承継 成長投資・賃上げなら贈与・相続税免除",
     "english_translation": "August 23rd (Sunday) - Japan Trade Insurance (NEXI) offers its first-ever loan insurance to an international organization; SME business succession will be exempt from gift and inheritance taxes in cases of growth investment and wage hikes",
     "published_at": "2026-08-23 07:50:00",
@@ -6484,91 +6549,6 @@
         "japanese": "義務に",
         "romaji": "Gimu ni",
         "meaning": "Make it an obligation / Into an obligation"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "mock"
-  },
-  {
-    "japanese_title": "5月30日（土）ビール「23円減税」 物価高で8割帳消し、トヨタ新社長 EV選別へ大なた",
-    "english_translation": "May 30th (Sat): Beer \"23 Yen Tax Cut\" 80% Offset by High Prices, Toyota's New President Takes Drastic Measures for EV Selection",
-    "published_at": "2026-05-30 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9509977087.mp3",
-    "chunks": [
-      {
-        "japanese": "5月30日",
-        "romaji": "gogatsu sanjuunichi",
-        "meaning": "May 30th"
-      },
-      {
-        "japanese": "（土）",
-        "romaji": "(do)",
-        "meaning": "(Saturday)"
-      },
-      {
-        "japanese": "ビール",
-        "romaji": "biiru",
-        "meaning": "Beer"
-      },
-      {
-        "japanese": "23円",
-        "romaji": "nijuusan-en",
-        "meaning": "23 yen"
-      },
-      {
-        "japanese": "減税",
-        "romaji": "genzei",
-        "meaning": "Tax reduction/cut"
-      },
-      {
-        "japanese": "物価高",
-        "romaji": "bukkadaka",
-        "meaning": "High prices/soaring prices"
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "by/due to"
-      },
-      {
-        "japanese": "8割",
-        "romaji": "hachi-wari",
-        "meaning": "80% (eight tenths)"
-      },
-      {
-        "japanese": "帳消し",
-        "romaji": "choukeshi",
-        "meaning": "Cancellation/nullification/offset"
-      },
-      {
-        "japanese": "トヨタ",
-        "romaji": "toyota",
-        "meaning": "Toyota"
-      },
-      {
-        "japanese": "新社長",
-        "romaji": "shin-shachou",
-        "meaning": "New president/CEO"
-      },
-      {
-        "japanese": "EV",
-        "romaji": "ii-vii",
-        "meaning": "EV (Electric Vehicle)"
-      },
-      {
-        "japanese": "選別",
-        "romaji": "senbetsu",
-        "meaning": "Selection/screening"
-      },
-      {
-        "japanese": "へ",
-        "romaji": "e",
-        "meaning": "towards/to"
-      },
-      {
-        "japanese": "大なた",
-        "romaji": "oonata",
-        "meaning": "Big axe/hatchet (metaphorically: drastic measures/sweeping changes)"
       }
     ],
     "is_mock": false,
