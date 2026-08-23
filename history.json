@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "8月23日（日） 日本貿易保険 国際機関に初の融資保険、中小の事業承継 成長投資・賃上げなら贈与・相続税免除",
+    "english_translation": "August 23rd (Sunday) - Japan Trade Insurance (NEXI) offers its first-ever loan insurance to an international organization; SME business succession will be exempt from gift and inheritance taxes in cases of growth investment and wage hikes",
+    "published_at": "2026-08-23 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9549379186.mp3",
+    "chunks": [
+      {
+        "japanese": "8月23日（日）",
+        "romaji": "hachigatsu nijūsannichi (nichiyōbi)",
+        "meaning": "August 23rd (Sunday)"
+      },
+      {
+        "japanese": "日本貿易保険",
+        "romaji": "Nihon bōeki hoken",
+        "meaning": "Nippon Export and Investment Insurance (NEXI)"
+      },
+      {
+        "japanese": "国際機関に",
+        "romaji": "kokusaikikan ni",
+        "meaning": "to an international organization"
+      },
+      {
+        "japanese": "初の",
+        "romaji": "hatsu no",
+        "meaning": "first / first-ever"
+      },
+      {
+        "japanese": "融資保険",
+        "romaji": "yūshi hoken",
+        "meaning": "loan insurance"
+      },
+      {
+        "japanese": "中小の",
+        "romaji": "chūshō no",
+        "meaning": "of small and medium-sized enterprises (SMEs)"
+      },
+      {
+        "japanese": "事業承継",
+        "romaji": "jigyō shōkei",
+        "meaning": "business succession"
+      },
+      {
+        "japanese": "成長投資・賃上げなら",
+        "romaji": "seichō tōshi / chin'age nara",
+        "meaning": "if they invest in growth and raise wages"
+      },
+      {
+        "japanese": "贈与・相続税",
+        "romaji": "zōyo / sōzokuzei",
+        "meaning": "gift and inheritance taxes"
+      },
+      {
+        "japanese": "免除",
+        "romaji": "menjo",
+        "meaning": "exemption"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月22日（土） 止まらぬコメ下落 昨秋の半値、新興未上場株の売買仲介 スマートラウンドを国が登録",
     "english_translation": "August 22 (Sat) - Unstoppable Rice Price Decline to Half of Last Autumn; Government Registers Smartround for Brokerage of Unlisted Startup Shares",
     "published_at": "2026-08-22 07:50:00",
@@ -6509,56 +6569,6 @@
         "japanese": "大なた",
         "romaji": "oonata",
         "meaning": "Big axe/hatchet (metaphorically: drastic measures/sweeping changes)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "mock"
-  },
-  {
-    "japanese_title": "5月29日（金）「壁に貼ったバナナ」で９億円、現代アートの歴史と経済〜with NIKKEI",
-    "english_translation": "May 29th (Friday) - 900 Million Yen for 'Banana Taped to a Wall': The History and Economy of Contemporary Art ~with NIKKEI",
-    "published_at": "2026-05-29 18:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9396972229.mp3",
-    "chunks": [
-      {
-        "japanese": "5月29日（金）",
-        "romaji": "Gogatsu Nijūkunichi (Kin)",
-        "meaning": "May 29th (Friday)"
-      },
-      {
-        "japanese": "「壁に貼ったバナナ」",
-        "romaji": "Kabe ni hatta banana",
-        "meaning": "\"Banana Taped to a Wall\""
-      },
-      {
-        "japanese": "で",
-        "romaji": "De",
-        "meaning": "for / with (indicating means or value)"
-      },
-      {
-        "japanese": "９億円",
-        "romaji": "Kyū-oku-en",
-        "meaning": "900 million yen"
-      },
-      {
-        "japanese": "現代アート",
-        "romaji": "Gendai āto",
-        "meaning": "contemporary art"
-      },
-      {
-        "japanese": "の",
-        "romaji": "No",
-        "meaning": "'s / of (possessive particle)"
-      },
-      {
-        "japanese": "歴史と経済",
-        "romaji": "Rekishi to keizai",
-        "meaning": "history and economy"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "~with NIKKEI",
-        "meaning": "~with NIKKEI"
       }
     ],
     "is_mock": false,
