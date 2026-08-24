@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "8月25日（火）株主総会資料の書面交付廃止へ 企業負担を軽減、 ソフトバンクG 個人向け1兆円社債",
+    "english_translation": "August 25 (Tuesday) - Move to Abolish Paper Distribution of Shareholders' Meeting Materials to Reduce Corporate Burden; SoftBank Group's 1 Trillion Yen Corporate Bonds for Individual Investors",
+    "published_at": "2026-08-25 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9557908843.mp3",
+    "chunks": [
+      {
+        "japanese": "8月25日（火）",
+        "romaji": "hachigatsu nijūgoka (ka)",
+        "meaning": "August 25th (Tuesday)"
+      },
+      {
+        "japanese": "株主総会",
+        "romaji": "kabunushi sōkai",
+        "meaning": "shareholders' meeting"
+      },
+      {
+        "japanese": "資料",
+        "romaji": "shiryō",
+        "meaning": "materials / documents"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "書面交付",
+        "romaji": "shomen kōfu",
+        "meaning": "paper distribution / delivery in writing"
+      },
+      {
+        "japanese": "廃止へ",
+        "romaji": "haishi e",
+        "meaning": "towards the abolition / elimination"
+      },
+      {
+        "japanese": "企業負担",
+        "romaji": "kigyō futan",
+        "meaning": "corporate burden"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marker particle"
+      },
+      {
+        "japanese": "軽減",
+        "romaji": "keigen",
+        "meaning": "reducing / easing"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "Sofutobanku Jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "個人向け",
+        "romaji": "kojin muke",
+        "meaning": "for individual investors"
+      },
+      {
+        "japanese": "1兆円",
+        "romaji": "itchō en",
+        "meaning": "1 trillion yen"
+      },
+      {
+        "japanese": "社債",
+        "romaji": "shasai",
+        "meaning": "corporate bonds"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月24日（月）日銀利上げ加速探る 市場は2%視野、核融合で国内初の企業価値1000億円超",
     "english_translation": "August 24 (Mon) BOJ explores accelerating interest rate hikes with the market eyeing 2%; Japan's first nuclear fusion company valuation exceeds 100 billion yen",
     "published_at": "2026-08-24 06:30:00",
@@ -6444,111 +6519,6 @@
         "japanese": "拡大",
         "romaji": "kakudai",
         "meaning": "expansion, enlargement"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "mock"
-  },
-  {
-    "japanese_title": "5月31日（日） 日英防衛相 次期戦闘機開発で連携と一致、不動産クラファン 利回り根拠の開示を義務に",
-    "english_translation": "May 31st (Sunday): Japan-UK Defense Ministers Agree on Cooperation for Next-Generation Fighter Jet Development; Obligation to Disclose Basis for Yields in Real Estate Crowdfunding.",
-    "published_at": "2026-05-31 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9952152448.mp3",
-    "chunks": [
-      {
-        "japanese": "5月31日",
-        "romaji": "Gogatsu Sanjūichi-nichi",
-        "meaning": "May 31st"
-      },
-      {
-        "japanese": "（日）",
-        "romaji": "(Nichi)",
-        "meaning": "(Sunday)"
-      },
-      {
-        "japanese": "日英",
-        "romaji": "Nichiei",
-        "meaning": "Japan-UK"
-      },
-      {
-        "japanese": "防衛相",
-        "romaji": "Bōeishō",
-        "meaning": "Defense Ministers"
-      },
-      {
-        "japanese": "次期",
-        "romaji": "Jiki",
-        "meaning": "Next-generation / Next-term"
-      },
-      {
-        "japanese": "戦闘機",
-        "romaji": "Sentōki",
-        "meaning": "Fighter jet"
-      },
-      {
-        "japanese": "開発",
-        "romaji": "Kaihatsu",
-        "meaning": "Development"
-      },
-      {
-        "japanese": "で",
-        "romaji": "De",
-        "meaning": "In / For"
-      },
-      {
-        "japanese": "連携",
-        "romaji": "Renkei",
-        "meaning": "Cooperation / Collaboration"
-      },
-      {
-        "japanese": "と",
-        "romaji": "To",
-        "meaning": "And / With"
-      },
-      {
-        "japanese": "一致",
-        "romaji": "Itchi",
-        "meaning": "Agreement / Consensus"
-      },
-      {
-        "japanese": "不動産",
-        "romaji": "Fudōsan",
-        "meaning": "Real estate"
-      },
-      {
-        "japanese": "クラファン",
-        "romaji": "Kurafan",
-        "meaning": "Crowdfunding"
-      },
-      {
-        "japanese": "利回り",
-        "romaji": "Rimawari",
-        "meaning": "Yield / Return"
-      },
-      {
-        "japanese": "根拠",
-        "romaji": "Konkyo",
-        "meaning": "Basis / Grounds"
-      },
-      {
-        "japanese": "の",
-        "romaji": "No",
-        "meaning": "Of / 's"
-      },
-      {
-        "japanese": "開示",
-        "romaji": "Kaiji",
-        "meaning": "Disclosure"
-      },
-      {
-        "japanese": "を",
-        "romaji": "O",
-        "meaning": "(Direct object particle)"
-      },
-      {
-        "japanese": "義務に",
-        "romaji": "Gimu ni",
-        "meaning": "Make it an obligation / Into an obligation"
       }
     ],
     "is_mock": false,
