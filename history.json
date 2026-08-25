@@ -1,5 +1,85 @@
 [
   {
+    "japanese_title": "8月26日（水）農地 信託解禁で譲渡しやすく 耕作放棄地抑制へ農水省検討、ホルムズ海峡迂回 代替パイプライン建設支援",
+    "english_translation": "August 26 (Wednesday) Easier transfer of agricultural land with the lifting of trust bans, MAFF considering measures to curb abandoned farmland; Support for the construction of alternative pipelines to circumvent the Strait of Hormuz.",
+    "published_at": "2026-08-26 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4744148186.mp3",
+    "chunks": [
+      {
+        "japanese": "8月26日（水）",
+        "romaji": "hachigatsu nijūrokunichi (sui)",
+        "meaning": "August 26 (Wednesday)"
+      },
+      {
+        "japanese": "農地",
+        "romaji": "nōchi",
+        "meaning": "agricultural land / farmland"
+      },
+      {
+        "japanese": "信託解禁で",
+        "romaji": "shintaku kaikin de",
+        "meaning": "with the lifting of trust bans / by allowing trusts"
+      },
+      {
+        "japanese": "譲渡しやすく",
+        "romaji": "jōwatashi yasuku",
+        "meaning": "easier to transfer"
+      },
+      {
+        "japanese": "耕作放棄地",
+        "romaji": "kōsaku hōkichi",
+        "meaning": "abandoned farmland"
+      },
+      {
+        "japanese": "抑制へ",
+        "romaji": "yokusei e",
+        "meaning": "towards curbing / to curb"
+      },
+      {
+        "japanese": "農水省",
+        "romaji": "Nōsuishō",
+        "meaning": "Ministry of Agriculture, Forestry and Fisheries (MAFF)"
+      },
+      {
+        "japanese": "検討",
+        "romaji": "kentō",
+        "meaning": "consideration / examining"
+      },
+      {
+        "japanese": "ホルムズ海峡",
+        "romaji": "Horumuzu Kaikyō",
+        "meaning": "Strait of Hormuz"
+      },
+      {
+        "japanese": "迂回",
+        "romaji": "ukai",
+        "meaning": "circumvention / detour"
+      },
+      {
+        "japanese": "代替",
+        "romaji": "daitai",
+        "meaning": "alternative / substitute"
+      },
+      {
+        "japanese": "パイプライン",
+        "romaji": "paipurain",
+        "meaning": "pipeline"
+      },
+      {
+        "japanese": "建設",
+        "romaji": "kensetsu",
+        "meaning": "construction"
+      },
+      {
+        "japanese": "支援",
+        "romaji": "shien",
+        "meaning": "support / aid"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "8月25日（火）株主総会資料の書面交付廃止へ 企業負担を軽減、 ソフトバンクG 個人向け1兆円社債",
     "english_translation": "August 25 (Tuesday) - Move to Abolish Paper Distribution of Shareholders' Meeting Materials to Reduce Corporate Burden; SoftBank Group's 1 Trillion Yen Corporate Bonds for Individual Investors",
     "published_at": "2026-08-25 06:30:00",
@@ -6438,90 +6518,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月1日（月）高市内閣支持3ポイント低下66%、メガソーラー乱開発防止へ環境アセス拡大",
-    "english_translation": "June 1st (Monday): Takaichi Cabinet Support drops 3 points to 66%; Environmental assessment expanded to prevent reckless development of mega solar.",
-    "published_at": "2026-06-01 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1406192821.mp3",
-    "chunks": [
-      {
-        "japanese": "6月1日",
-        "romaji": "rokugatsu tsuitachi",
-        "meaning": "June 1st"
-      },
-      {
-        "japanese": "（月）",
-        "romaji": "getsu",
-        "meaning": "(Monday)"
-      },
-      {
-        "japanese": "高市",
-        "romaji": "Takaichi",
-        "meaning": "Takaichi (surname)"
-      },
-      {
-        "japanese": "内閣",
-        "romaji": "naikaku",
-        "meaning": "Cabinet"
-      },
-      {
-        "japanese": "支持",
-        "romaji": "shiji",
-        "meaning": "support"
-      },
-      {
-        "japanese": "3ポイント",
-        "romaji": "san pointo",
-        "meaning": "3 points"
-      },
-      {
-        "japanese": "低下",
-        "romaji": "teika",
-        "meaning": "decline, drop"
-      },
-      {
-        "japanese": "66%",
-        "romaji": "rokujūroku pāsento",
-        "meaning": "66 percent"
-      },
-      {
-        "japanese": "メガソーラー",
-        "romaji": "mega sōrā",
-        "meaning": "mega solar (power plant)"
-      },
-      {
-        "japanese": "乱開発",
-        "romaji": "rankaihatsu",
-        "meaning": "reckless development"
-      },
-      {
-        "japanese": "防止",
-        "romaji": "bōshi",
-        "meaning": "prevention"
-      },
-      {
-        "japanese": "へ",
-        "romaji": "e",
-        "meaning": "towards, for (indicating purpose)"
-      },
-      {
-        "japanese": "環境",
-        "romaji": "kankyō",
-        "meaning": "environment"
-      },
-      {
-        "japanese": "アセス",
-        "romaji": "asesu",
-        "meaning": "assessment (short for アセスメント)"
-      },
-      {
-        "japanese": "拡大",
-        "romaji": "kakudai",
-        "meaning": "expansion, enlargement"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "mock"
   }
 ]
