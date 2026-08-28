@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "8月29日（土） 金融庁 会計不正の経営者責任を明確に、M6.8以上の直下型地震 近畿の発生確率30年内に5割超",
+    "english_translation": "August 29 (Saturday) - Financial Services Agency to clarify management responsibility for accounting fraud; Over 50% probability of an M6.8 or higher shallow earthquake in Kinki within 30 years",
+    "published_at": "2026-08-29 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9663869624.mp3",
+    "chunks": [
+      {
+        "japanese": "8月29日（土）",
+        "romaji": "hachigatsu nijūkyūnichi (doyōbi)",
+        "meaning": "August 29th (Saturday)"
+      },
+      {
+        "japanese": "金融庁",
+        "romaji": "kin'yūchō",
+        "meaning": "Financial Services Agency (FSA)"
+      },
+      {
+        "japanese": "会計不正の",
+        "romaji": "kaikei fusei no",
+        "meaning": "of accounting fraud / accounting irregularities"
+      },
+      {
+        "japanese": "経営者責任を",
+        "romaji": "keieisha sekinin o",
+        "meaning": "management responsibility (as object)"
+      },
+      {
+        "japanese": "明確に",
+        "romaji": "meikaku ni",
+        "meaning": "clearly / to make clear (short for 'to clarify')"
+      },
+      {
+        "japanese": "M6.8以上の",
+        "romaji": "emu roku ten hachi ijō no",
+        "meaning": "of Magnitude 6.8 or higher"
+      },
+      {
+        "japanese": "直下型地震",
+        "romaji": "chokkagata jishin",
+        "meaning": "shallow, near-field earthquake (directly beneath an area)"
+      },
+      {
+        "japanese": "近畿の",
+        "romaji": "kinki no",
+        "meaning": "of the Kinki region (Kansai area of Japan)"
+      },
+      {
+        "japanese": "発生確率",
+        "romaji": "hassei kakuritsu",
+        "meaning": "probability of occurrence"
+      },
+      {
+        "japanese": "30年内に",
+        "romaji": "sanjū nen nai ni",
+        "meaning": "within 30 years"
+      },
+      {
+        "japanese": "5割超",
+        "romaji": "gowari chō",
+        "meaning": "over 50% (literally, exceeding 5 tenths)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月28日（金）ヒトゴトではない都市型水害〜with NIKKEI",
     "english_translation": "August 28 (Friday) Urban Flooding is Not Someone Else's Problem ~ with NIKKEI",
     "published_at": "2026-08-28 17:45:00",
@@ -6394,71 +6459,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "with nikkei",
         "meaning": "~with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月5日（金）PayPay 生命保険に参入、スタートアップ 創業期の資金調達4割減",
-    "english_translation": "June 5 (Friday): PayPay enters the life insurance market; fundraising for early-stage startups down 40%",
-    "published_at": "2026-06-05 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3391971336.mp3",
-    "chunks": [
-      {
-        "japanese": "6月5日",
-        "romaji": "rokugatsu itsuka",
-        "meaning": "June 5th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin",
-        "meaning": "Friday (abbreviated)"
-      },
-      {
-        "japanese": "PayPay",
-        "romaji": "peipei",
-        "meaning": "PayPay (a major Japanese mobile payment service)"
-      },
-      {
-        "japanese": "生命保険",
-        "romaji": "seimei hoken",
-        "meaning": "life insurance"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to / into (particle)"
-      },
-      {
-        "japanese": "参入",
-        "romaji": "sannyū",
-        "meaning": "entry (into a market) / penetration"
-      },
-      {
-        "japanese": "スタートアップ",
-        "romaji": "sutātoappu",
-        "meaning": "startup"
-      },
-      {
-        "japanese": "創業期",
-        "romaji": "sōgyōki",
-        "meaning": "founding period / early stage"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of / possessive particle"
-      },
-      {
-        "japanese": "資金調達",
-        "romaji": "shikin chōtatsu",
-        "meaning": "fundraising / financing / capital procurement"
-      },
-      {
-        "japanese": "4割減",
-        "romaji": "yonwarigen",
-        "meaning": "40% decrease (literally, '4-tenths reduction')"
       }
     ],
     "is_mock": false,
