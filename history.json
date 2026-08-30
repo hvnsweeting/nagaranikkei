@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "8月31日（月）高市内閣支持4ポイント上昇62%、ユニクロが旗艦店倍増 最大20店に",
+    "english_translation": "August 31 (Mon): Support for a Takaichi Cabinet rises 4 points to 62%; Uniqlo to double flagship stores, up to 20 locations",
+    "published_at": "2026-08-31 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5764433993.mp3",
+    "chunks": [
+      {
+        "japanese": "8月31日（月）",
+        "romaji": "hachigatsu sanjūichinichi (getsuyōbi)",
+        "meaning": "August 31st (Monday)"
+      },
+      {
+        "japanese": "高市内閣支持",
+        "romaji": "Takaichi naikaku shiji",
+        "meaning": "support for a Takaichi cabinet"
+      },
+      {
+        "japanese": "4ポイント上昇",
+        "romaji": "yon pointo jōshō",
+        "meaning": "rises by 4 points"
+      },
+      {
+        "japanese": "62%",
+        "romaji": "rokujūni pāsento",
+        "meaning": "62%"
+      },
+      {
+        "japanese": "ユニクロが",
+        "romaji": "Unikuro ga",
+        "meaning": "Uniqlo (subject)"
+      },
+      {
+        "japanese": "旗艦店",
+        "romaji": "kikanten",
+        "meaning": "flagship store(s)"
+      },
+      {
+        "japanese": "倍増",
+        "romaji": "baizō",
+        "meaning": "doubling / to double"
+      },
+      {
+        "japanese": "最大20店に",
+        "romaji": "saidai nijūten ni",
+        "meaning": "to a maximum of 20 stores"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月30日（日） 自衛隊情報基盤にIOWN導入、福島第1廃炉にフィジカルAI",
     "english_translation": "August 30 (Sun): Introduction of IOWN to Self-Defense Forces' information infrastructure, Physical AI for Fukushima Daiichi decommissioning",
     "published_at": "2026-08-30 07:50:00",
@@ -6399,81 +6449,6 @@
         "japanese": "高水準",
         "romaji": "kōsuijun",
         "meaning": "high level / high standard"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月6日（土）食品や日用品値上げ「実施・検討中」5割 包装見直し3割、アンソロピック｢AI開発減速｣提言",
-    "english_translation": "June 6 (Sat) 50% of companies 'implementing or considering' price hikes for food and daily goods, 30% reviewing packaging; Anthropic proposes 'slowing down AI development'",
-    "published_at": "2026-06-06 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6230539167.mp3",
-    "chunks": [
-      {
-        "japanese": "6月6日（土）",
-        "romaji": "rokugatsu muika (doyōbi)",
-        "meaning": "June 6th (Saturday)"
-      },
-      {
-        "japanese": "食品",
-        "romaji": "shokuhin",
-        "meaning": "food / food products"
-      },
-      {
-        "japanese": "や",
-        "romaji": "ya",
-        "meaning": "and (connecting nouns in a non-exhaustive list)"
-      },
-      {
-        "japanese": "日用品",
-        "romaji": "nichiyōhin",
-        "meaning": "daily necessities / daily goods"
-      },
-      {
-        "japanese": "値上げ",
-        "romaji": "neage",
-        "meaning": "price hike / price increase"
-      },
-      {
-        "japanese": "「実施・検討中」",
-        "romaji": "jisshi kentōchū",
-        "meaning": "'implementing / under consideration'"
-      },
-      {
-        "japanese": "5割",
-        "romaji": "gowari",
-        "meaning": "50% (literally, five tenths)"
-      },
-      {
-        "japanese": "包装",
-        "romaji": "hōsō",
-        "meaning": "packaging"
-      },
-      {
-        "japanese": "見直し",
-        "romaji": "minaoshi",
-        "meaning": "review / revision"
-      },
-      {
-        "japanese": "3割",
-        "romaji": "sanwari",
-        "meaning": "30% (literally, three tenths)"
-      },
-      {
-        "japanese": "アンソロピック",
-        "romaji": "Ansoropikku",
-        "meaning": "Anthropic (AI company)"
-      },
-      {
-        "japanese": "「AI開発減速」",
-        "romaji": "ēai kaihatsu gensoku",
-        "meaning": "'slowing down AI development'"
-      },
-      {
-        "japanese": "提言",
-        "romaji": "teigen",
-        "meaning": "proposal / recommendation"
       }
     ],
     "is_mock": false,
