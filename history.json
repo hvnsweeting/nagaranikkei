@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "9月1日（火）過去最大の概算要求143兆円 市場は警戒解かず、ホンダ・日産 ガラス細工の協業合意",
+    "english_translation": "September 1 (Tue): Record-high budget request of 143 trillion yen; Markets remain vigilant; Honda and Nissan's fragile collaboration agreement",
+    "published_at": "2026-09-01 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6081606200.mp3",
+    "chunks": [
+      {
+        "japanese": "9月1日（火）",
+        "romaji": "kugatsu tsuitachi (ka)",
+        "meaning": "September 1st (Tuesday)"
+      },
+      {
+        "japanese": "過去最大",
+        "romaji": "kako saidai",
+        "meaning": "largest-ever / record-high"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "概算要求",
+        "romaji": "gaisan yōkyū",
+        "meaning": "budget request / rough estimate request"
+      },
+      {
+        "japanese": "143兆円",
+        "romaji": "hyakuyonjūsanchō en",
+        "meaning": "143 trillion yen"
+      },
+      {
+        "japanese": "市場",
+        "romaji": "shijō",
+        "meaning": "the market"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "as for (topic marker particle)"
+      },
+      {
+        "japanese": "警戒解かず",
+        "romaji": "keikai tokazu",
+        "meaning": "not lowering guard / remaining vigilant"
+      },
+      {
+        "japanese": "ホンダ・日産",
+        "romaji": "Honda Nissan",
+        "meaning": "Honda and Nissan"
+      },
+      {
+        "japanese": "ガラス細工の",
+        "romaji": "garasuzaiku no",
+        "meaning": "fragile / delicate (literally 'glasswork')"
+      },
+      {
+        "japanese": "協業合意",
+        "romaji": "kyōgyō gōi",
+        "meaning": "collaboration agreement / partnership agreement"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "8月31日（月）高市内閣支持4ポイント上昇62%、ユニクロが旗艦店倍増 最大20店に",
     "english_translation": "August 31 (Mon): Support for a Takaichi Cabinet rises 4 points to 62%; Uniqlo to double flagship stores, up to 20 locations",
     "published_at": "2026-08-31 06:30:00",
@@ -6399,56 +6464,6 @@
         "japanese": "「対等合併」",
         "romaji": "\"taitō gappei\"",
         "meaning": "\"merger of equals\""
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月7日（日）金融庁、「仕組み預金」にメス、企業の不動産売却18年ぶり高水準",
-    "english_translation": "June 7th (Sun): Financial Services Agency cracks down on 'structured deposits'; corporate real estate sales hit highest level in 18 years",
-    "published_at": "2026-06-07 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC5360504708.mp3",
-    "chunks": [
-      {
-        "japanese": "6月7日（日）",
-        "romaji": "rokugatsu nanoka (nichiyōbi)",
-        "meaning": "June 7th (Sunday)"
-      },
-      {
-        "japanese": "金融庁",
-        "romaji": "kinyūchō",
-        "meaning": "Financial Services Agency (FSA)"
-      },
-      {
-        "japanese": "「仕組み預金」",
-        "romaji": "shikumi yokin",
-        "meaning": "structured deposits"
-      },
-      {
-        "japanese": "にメス",
-        "romaji": "ni mesu",
-        "meaning": "to take a scalpel to (idiom for cracking down on, investigating, or taking drastic measures against)"
-      },
-      {
-        "japanese": "企業の",
-        "romaji": "kigyō no",
-        "meaning": "companies' / corporate"
-      },
-      {
-        "japanese": "不動産売却",
-        "romaji": "fudōsan baikyaku",
-        "meaning": "real estate sales / property divestment"
-      },
-      {
-        "japanese": "18年ぶり",
-        "romaji": "jūhachinen buri",
-        "meaning": "for the first time in 18 years"
-      },
-      {
-        "japanese": "高水準",
-        "romaji": "kōsuijun",
-        "meaning": "high level / high standard"
       }
     ],
     "is_mock": false,
