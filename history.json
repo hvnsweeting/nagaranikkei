@@ -1,5 +1,120 @@
 [
   {
+    "japanese_title": "9月2日（水）長期金利3% 30年ぶり高さ 日米利上げ観測・財政不安で上昇、核ごみ処分地調査 茨城・常陸大宮市長「前向きに検討」",
+    "english_translation": "September 2nd (Wednesday): Long-term interest rates hit 3%, a 30-year high, rising due to Japan-US interest rate hike speculation and fiscal concerns. Regarding the nuclear waste disposal site survey, the Mayor of Hitachiomiya, Ibaraki, stated, \"We will consider it positively.\"",
+    "published_at": "2026-09-02 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9915039054.mp3",
+    "chunks": [
+      {
+        "japanese": "9月2日（水）",
+        "romaji": "Kugatsu futsuka (Sui)",
+        "meaning": "September 2nd (Wednesday)"
+      },
+      {
+        "japanese": "長期金利",
+        "romaji": "Chōki kinri",
+        "meaning": "Long-term interest rates"
+      },
+      {
+        "japanese": "3%",
+        "romaji": "San pāsento",
+        "meaning": "3%"
+      },
+      {
+        "japanese": "30年ぶり",
+        "romaji": "San jū nen-buri",
+        "meaning": "For the first time in 30 years / A 30-year record"
+      },
+      {
+        "japanese": "高さ",
+        "romaji": "takasa",
+        "meaning": "Height / High level"
+      },
+      {
+        "japanese": "日米",
+        "romaji": "Nichibei",
+        "meaning": "Japan-U.S. / Japan and America"
+      },
+      {
+        "japanese": "利上げ観測",
+        "romaji": "riage kansoku",
+        "meaning": "Interest rate hike speculation"
+      },
+      {
+        "japanese": "・",
+        "romaji": "・",
+        "meaning": "・ (separator, indicating a list item)"
+      },
+      {
+        "japanese": "財政不安",
+        "romaji": "zaisei fuan",
+        "meaning": "Fiscal concerns / Financial anxiety"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "due to / because of"
+      },
+      {
+        "japanese": "上昇",
+        "romaji": "jōshō",
+        "meaning": "Rise / Increase"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "核ごみ",
+        "romaji": "kaku gomi",
+        "meaning": "Nuclear waste"
+      },
+      {
+        "japanese": "処分地",
+        "romaji": "shobunchi",
+        "meaning": "Disposal site"
+      },
+      {
+        "japanese": "調査",
+        "romaji": "chōsa",
+        "meaning": "Survey / Investigation"
+      },
+      {
+        "japanese": "茨城",
+        "romaji": "Ibaraki",
+        "meaning": "Ibaraki (prefecture name)"
+      },
+      {
+        "japanese": "・",
+        "romaji": "・",
+        "meaning": "・ (separator)"
+      },
+      {
+        "japanese": "常陸大宮",
+        "romaji": "Hitachiōmiya",
+        "meaning": "Hitachiomiya (city name)"
+      },
+      {
+        "japanese": "市長",
+        "romaji": "shichō",
+        "meaning": "Mayor"
+      },
+      {
+        "japanese": "「前向きに",
+        "romaji": "Maemuki ni",
+        "meaning": "\"Positively / In a forward-looking manner"
+      },
+      {
+        "japanese": "検討」",
+        "romaji": "kentō\"",
+        "meaning": "Consider / Examine\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月1日（火）過去最大の概算要求143兆円 市場は警戒解かず、ホンダ・日産 ガラス細工の協業合意",
     "english_translation": "September 1 (Tue): Record-high budget request of 143 trillion yen; Markets remain vigilant; Honda and Nissan's fragile collaboration agreement",
     "published_at": "2026-09-01 06:30:00",
@@ -6413,60 +6528,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月8日（月)年金3号「専業主夫」30年で3倍の13万人、ヤマダ・エディオン 統合交渉「対等合併」",
-    "english_translation": "June 8 (Mon) Category 3 Pension: 'Stay-at-home husbands' triple in 30 years to 130,000; Yamada and Edion integration talks for a 'merger of equals'",
-    "published_at": "2026-06-08 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4058772602.mp3",
-    "chunks": [
-      {
-        "japanese": "6月8日（月）",
-        "romaji": "rokugatsu yōka (getsu)",
-        "meaning": "June 8th (Monday)"
-      },
-      {
-        "japanese": "年金3号",
-        "romaji": "nenkin sangō",
-        "meaning": "Category 3 Pension (pension system for dependent spouses)"
-      },
-      {
-        "japanese": "「専業主夫」",
-        "romaji": "\"sengyō shufu\"",
-        "meaning": "\"stay-at-home husband(s)\""
-      },
-      {
-        "japanese": "30年で",
-        "romaji": "sanjū-nen de",
-        "meaning": "in 30 years"
-      },
-      {
-        "japanese": "3倍の",
-        "romaji": "san-bai no",
-        "meaning": "three times / triple of"
-      },
-      {
-        "japanese": "13万人",
-        "romaji": "jūsan-man nin",
-        "meaning": "130,000 people"
-      },
-      {
-        "japanese": "ヤマダ・エディオン",
-        "romaji": "Yamada Edion",
-        "meaning": "Yamada and Edion (major Japanese electronics retailers)"
-      },
-      {
-        "japanese": "統合交渉",
-        "romaji": "tōgō kōshō",
-        "meaning": "integration / merger negotiations"
-      },
-      {
-        "japanese": "「対等合併」",
-        "romaji": "\"taitō gappei\"",
-        "meaning": "\"merger of equals\""
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
