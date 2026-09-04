@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "9月4日（金）国のお金を考えよう、にじむ高市カラー〜with NIKKEI",
+    "english_translation": "September 4th (Friday): Let's think about the nation's money; Takaichi's personal style stands out ~ with NIKKEI",
+    "published_at": "2026-09-04 17:45:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5506377434.mp3",
+    "chunks": [
+      {
+        "japanese": "9月4日（金）",
+        "romaji": "kugatsu yokka (kin'yōbi)",
+        "meaning": "September 4th (Friday)"
+      },
+      {
+        "japanese": "国の",
+        "romaji": "kuni no",
+        "meaning": "the nation's / country's"
+      },
+      {
+        "japanese": "お金",
+        "romaji": "okane",
+        "meaning": "money / wealth"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "[object marker]"
+      },
+      {
+        "japanese": "考えよう",
+        "romaji": "kangaeyō",
+        "meaning": "let's think about"
+      },
+      {
+        "japanese": "にじむ",
+        "romaji": "nijimu",
+        "meaning": "to show through / to reveal itself / to ooze"
+      },
+      {
+        "japanese": "高市カラー",
+        "romaji": "takaichi karā",
+        "meaning": "Takaichi's color (referring to politician Sanae Takaichi's characteristic style/policies)"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "uizu nikkei",
+        "meaning": "~ with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月4日（金）大和ハウス 新築戸建て受注絞り込み、新生バークシャー 積極投資にカジ",
     "english_translation": "September 4th (Friday) Daiwa House narrows down orders for newly built detached houses; the reborn Berkshire steers towards active investment",
     "published_at": "2026-09-04 06:30:00",
@@ -6429,61 +6479,6 @@
         "japanese": "利上げへ",
         "romaji": "riage e",
         "meaning": "toward an interest rate hike"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月11日（木）信越化学 福井に18年ぶりレアアース工場、米スターバックス 日本事業の売却を検討",
-    "english_translation": "June 11 (Thu) Shin-Etsu Chemical to build rare earth plant in Fukui for the first time in 18 years; US Starbucks considers selling Japanese operations",
-    "published_at": "2026-06-11 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3236353003.mp3",
-    "chunks": [
-      {
-        "japanese": "6月11日（木）",
-        "romaji": "rokugatsu jūichinichi (mokuyōbi)",
-        "meaning": "June 11th (Thursday)"
-      },
-      {
-        "japanese": "信越化学",
-        "romaji": "Shin'etsu Kagaku",
-        "meaning": "Shin-Etsu Chemical (company name)"
-      },
-      {
-        "japanese": "福井に",
-        "romaji": "Fukui ni",
-        "meaning": "in Fukui (Prefecture)"
-      },
-      {
-        "japanese": "18年ぶり",
-        "romaji": "jūhachinen buri",
-        "meaning": "for the first time in 18 years"
-      },
-      {
-        "japanese": "レアアース工場",
-        "romaji": "rea āsu kōjō",
-        "meaning": "rare earth factory"
-      },
-      {
-        "japanese": "米スターバックス",
-        "romaji": "Bei Sutābakkusu",
-        "meaning": "US Starbucks"
-      },
-      {
-        "japanese": "日本事業の",
-        "romaji": "Nihon jigyō no",
-        "meaning": "of Japan operations / of the Japanese business"
-      },
-      {
-        "japanese": "売却を",
-        "romaji": "baikyaku o",
-        "meaning": "sale (direct object)"
-      },
-      {
-        "japanese": "検討",
-        "romaji": "kentō",
-        "meaning": "considering / examining"
       }
     ],
     "is_mock": false,
