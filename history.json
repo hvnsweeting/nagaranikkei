@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "9月6日（日） 東商取の電力先物 蘭ABNアムロが参入へ、消費税減税へ特命閣僚案　内閣改造時",
+    "english_translation": "September 6 (Sun) - Dutch ABN AMRO to enter TOCOM's electricity futures market; Proposal for a special mission minister for consumption tax cuts during the cabinet reshuffle",
+    "published_at": "2026-09-06 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7673968479.mp3",
+    "chunks": [
+      {
+        "japanese": "9月6日（日）",
+        "romaji": "kugatsu muika (nichiyōbi)",
+        "meaning": "September 6th (Sunday)"
+      },
+      {
+        "japanese": "東商取",
+        "romaji": "tōshōtori",
+        "meaning": "TOCOM (Tokyo Commodity Exchange)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of / 's)"
+      },
+      {
+        "japanese": "電力先物",
+        "romaji": "denryoku sakimono",
+        "meaning": "electricity futures"
+      },
+      {
+        "japanese": "蘭",
+        "romaji": "ran",
+        "meaning": "Dutch (short for Netherlands)"
+      },
+      {
+        "japanese": "ABNアムロ",
+        "romaji": "ē-bī-en amuro",
+        "meaning": "ABN AMRO (a Dutch bank)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker particle"
+      },
+      {
+        "japanese": "参入へ",
+        "romaji": "sannyū e",
+        "meaning": "toward entry / set to enter"
+      },
+      {
+        "japanese": "消費税",
+        "romaji": "shōhizei",
+        "meaning": "consumption tax"
+      },
+      {
+        "japanese": "減税へ",
+        "romaji": "genzei e",
+        "meaning": "toward tax reduction"
+      },
+      {
+        "japanese": "特命閣僚案",
+        "romaji": "tokumei kakuryō an",
+        "meaning": "proposal for a minister with a special mission"
+      },
+      {
+        "japanese": "内閣改造時",
+        "romaji": "naikaku kaizō ji",
+        "meaning": "at the time of the cabinet reshuffle"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月5日（土） 原発の自治体税収6割増、防衛省が「AI衛星」開発へ",
     "english_translation": "September 5 (Sat) - Local government tax revenue from nuclear power plants up 60%, Ministry of Defense to develop 'AI satellites'",
     "published_at": "2026-09-05 07:50:00",
@@ -6419,61 +6489,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "with nikkei",
         "meaning": "with NIKKEI (日本経済新聞 - Nihon Keizai Shimbun)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "NIKKEI THE PITCH会議室 第19回 結局、誰が得をするのかーースタートアップM＆Aの本音",
-    "english_translation": "NIKKEI THE PITCH Conference Room Episode 19: In the end, who actually benefits? — The real truth about startup M&A",
-    "published_at": "2026-06-12 16:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6232404460.mp3",
-    "chunks": [
-      {
-        "japanese": "NIKKEI THE PITCH会議室",
-        "romaji": "NIKKEI THE PITCH kaigishitsu",
-        "meaning": "NIKKEI THE PITCH Meeting Room / Conference Room"
-      },
-      {
-        "japanese": "第19回",
-        "romaji": "dai-jūkyū-kai",
-        "meaning": "Episode 19"
-      },
-      {
-        "japanese": "結局",
-        "romaji": "kekkyoku",
-        "meaning": "in the end / after all"
-      },
-      {
-        "japanese": "誰が",
-        "romaji": "dare ga",
-        "meaning": "who (as the subject)"
-      },
-      {
-        "japanese": "得をするのか",
-        "romaji": "toku o suru no ka",
-        "meaning": "benefits? / is the one who gains?"
-      },
-      {
-        "japanese": "スタートアップ",
-        "romaji": "sutātoappu",
-        "meaning": "startup"
-      },
-      {
-        "japanese": "M＆A",
-        "romaji": "emu ando ē",
-        "meaning": "M&A (Mergers and Acquisitions)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (modifying particle)"
-      },
-      {
-        "japanese": "本音",
-        "romaji": "honne",
-        "meaning": "real intentions / true feelings / the honest truth"
       }
     ],
     "is_mock": false,
