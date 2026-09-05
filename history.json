@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "9月5日（土） 原発の自治体税収6割増、防衛省が「AI衛星」開発へ",
+    "english_translation": "September 5 (Sat) - Local government tax revenue from nuclear power plants up 60%, Ministry of Defense to develop 'AI satellites'",
+    "published_at": "2026-09-05 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5470977207.mp3",
+    "chunks": [
+      {
+        "japanese": "9月5日（土）",
+        "romaji": "kugatsu itsuka (doyōbi)",
+        "meaning": "September 5 (Saturday)"
+      },
+      {
+        "japanese": "原発の",
+        "romaji": "genpatsu no",
+        "meaning": "nuclear power plant's"
+      },
+      {
+        "japanese": "自治体",
+        "romaji": "jichitai",
+        "meaning": "local government / municipality"
+      },
+      {
+        "japanese": "税収",
+        "romaji": "zeishū",
+        "meaning": "tax revenue"
+      },
+      {
+        "japanese": "6割増",
+        "romaji": "rokuwarimashi",
+        "meaning": "60 percent increase"
+      },
+      {
+        "japanese": "防衛省が",
+        "romaji": "bōeishō ga",
+        "meaning": "Ministry of Defense (subject)"
+      },
+      {
+        "japanese": "「AI衛星」",
+        "romaji": "AI eisei",
+        "meaning": "\"AI satellite\""
+      },
+      {
+        "japanese": "開発へ",
+        "romaji": "kaihatsu he",
+        "meaning": "towards development / to develop"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月4日（金）国のお金を考えよう、にじむ高市カラー〜with NIKKEI",
     "english_translation": "September 4th (Friday): Let's think about the nation's money; Takaichi's personal style stands out ~ with NIKKEI",
     "published_at": "2026-09-04 17:45:00",
@@ -6424,61 +6474,6 @@
         "japanese": "本音",
         "romaji": "honne",
         "meaning": "real intentions / true feelings / the honest truth"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月12日（金）AIなど軍民両用技術 日英がスタートアップ支援基金、日銀 異例の植田総裁不在で利上げへ",
-    "english_translation": "June 12th (Friday) Dual-use technologies such as AI: Japan and UK to launch startup support fund; BOJ heads toward interest rate hike in the unusual absence of Governor Ueda",
-    "published_at": "2026-06-12 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4297825827.mp3",
-    "chunks": [
-      {
-        "japanese": "6月12日（金）",
-        "romaji": "rokugatsu juuninichi (kin'youbi)",
-        "meaning": "June 12th (Friday)"
-      },
-      {
-        "japanese": "AIなど",
-        "romaji": "ee-ai nado",
-        "meaning": "such as AI / AI and others"
-      },
-      {
-        "japanese": "軍民両用技術",
-        "romaji": "gunmin ryouyou gijutsu",
-        "meaning": "military-civilian dual-use technology"
-      },
-      {
-        "japanese": "日英が",
-        "romaji": "nichiei ga",
-        "meaning": "Japan and the UK (as subject)"
-      },
-      {
-        "japanese": "スタートアップ支援基金",
-        "romaji": "sutaatoappu shien kikin",
-        "meaning": "startup support fund"
-      },
-      {
-        "japanese": "日銀",
-        "romaji": "nichigin",
-        "meaning": "Bank of Japan (BOJ)"
-      },
-      {
-        "japanese": "異例の",
-        "romaji": "irei no",
-        "meaning": "unusual / unprecedented"
-      },
-      {
-        "japanese": "植田総裁不在で",
-        "romaji": "ueda sousai fuzai de",
-        "meaning": "due to the absence of Governor Ueda"
-      },
-      {
-        "japanese": "利上げへ",
-        "romaji": "riage e",
-        "meaning": "toward an interest rate hike"
       }
     ],
     "is_mock": false,
