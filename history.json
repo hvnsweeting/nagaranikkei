@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "9月7日（月）東証の上場廃止 3年連続で過去最多に、マツダ 車両開発で「脱・エクセル」",
+    "english_translation": "September 7 (Mon): TSE delistings reach a record high for the third consecutive year; Mazda moves away from Excel in vehicle development",
+    "published_at": "2026-09-07 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6598391896.mp3",
+    "chunks": [
+      {
+        "japanese": "9月7日（月）",
+        "romaji": "kugatsu nanoka (getsu)",
+        "meaning": "September 7th (Monday)"
+      },
+      {
+        "japanese": "東証の",
+        "romaji": "tōshō no",
+        "meaning": "of the Tokyo Stock Exchange (TSE)"
+      },
+      {
+        "japanese": "上場廃止",
+        "romaji": "jōjō haishi",
+        "meaning": "delisting (from a stock exchange)"
+      },
+      {
+        "japanese": "3年連続で",
+        "romaji": "sannen renzoku de",
+        "meaning": "for the third consecutive year"
+      },
+      {
+        "japanese": "過去最多に",
+        "romaji": "kako saita ni",
+        "meaning": "reaching a record high (becoming the most in history)"
+      },
+      {
+        "japanese": "マツダ",
+        "romaji": "matsuda",
+        "meaning": "Mazda (car manufacturer)"
+      },
+      {
+        "japanese": "車両開発で",
+        "romaji": "sharyō kaihatsu de",
+        "meaning": "in vehicle development"
+      },
+      {
+        "japanese": "「脱・エクセル」",
+        "romaji": "\"datsu ekuseru\"",
+        "meaning": "\"moving away from Excel\" / \"de-Exceling\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月6日（日） 東商取の電力先物 蘭ABNアムロが参入へ、消費税減税へ特命閣僚案　内閣改造時",
     "english_translation": "September 6 (Sun) - Dutch ABN AMRO to enter TOCOM's electricity futures market; Proposal for a special mission minister for consumption tax cuts during the cabinet reshuffle",
     "published_at": "2026-09-06 07:50:00",
@@ -6439,56 +6489,6 @@
         "japanese": "買収へ",
         "romaji": "baishū he",
         "meaning": "heading toward acquisition / set to acquire"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月12日（金）何が変わった？新たな防災気象情報〜with NIKKEI",
-    "english_translation": "June 12 (Fri) What has changed? New disaster prevention weather information ~with NIKKEI",
-    "published_at": "2026-06-12 18:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6104964569.mp3",
-    "chunks": [
-      {
-        "japanese": "6月12日",
-        "romaji": "rokugatsu juuninichi",
-        "meaning": "June 12th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin",
-        "meaning": "Friday (abbreviation of 金曜日 - kinyoubi)"
-      },
-      {
-        "japanese": "何が",
-        "romaji": "nani ga",
-        "meaning": "what (followed by subject marker)"
-      },
-      {
-        "japanese": "変わった？",
-        "romaji": "kawatta?",
-        "meaning": "changed? (past tense of 変わる - kawaru)"
-      },
-      {
-        "japanese": "新たな",
-        "romaji": "arata na",
-        "meaning": "new / fresh"
-      },
-      {
-        "japanese": "防災",
-        "romaji": "bousai",
-        "meaning": "disaster prevention"
-      },
-      {
-        "japanese": "気象情報",
-        "romaji": "kishou jouhou",
-        "meaning": "weather / meteorological information"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "with nikkei",
-        "meaning": "with NIKKEI (日本経済新聞 - Nihon Keizai Shimbun)"
       }
     ],
     "is_mock": false,
