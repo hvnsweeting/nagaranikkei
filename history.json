@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "9月8日（火）尾道造船が無人艇量産 自衛隊･米軍に提案へ、 みずほ銀行が「貯蓄預金」復活 3メガで初",
+    "english_translation": "September 8 (Tuesday): Onomichi Dockyard to mass-produce unmanned vessels, aiming to propose to the JSDF and US Military; Mizuho Bank to revive 'savings deposits', the first among the three megabanks.",
+    "published_at": "2026-09-08 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3570465648.mp3",
+    "chunks": [
+      {
+        "japanese": "9月8日（火）",
+        "romaji": "Kugatsu yōka (ka)",
+        "meaning": "September 8th (Tuesday)"
+      },
+      {
+        "japanese": "尾道造船",
+        "romaji": "Onomichi Zōsen",
+        "meaning": "Onomichi Dockyard (shipbuilding company)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "無人艇",
+        "romaji": "mujintei",
+        "meaning": "unmanned vessel / drone boat"
+      },
+      {
+        "japanese": "量産",
+        "romaji": "ryōsan",
+        "meaning": "mass production"
+      },
+      {
+        "japanese": "自衛隊･米軍",
+        "romaji": "Jieitai, Beigun",
+        "meaning": "Japan Self-Defense Forces and the US Military"
+      },
+      {
+        "japanese": "に提案へ",
+        "romaji": "ni teian e",
+        "meaning": "towards proposing to"
+      },
+      {
+        "japanese": "みずほ銀行",
+        "romaji": "Mizuho Ginkō",
+        "meaning": "Mizuho Bank"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "「貯蓄預金」",
+        "romaji": "chochiku yokin",
+        "meaning": "savings deposit"
+      },
+      {
+        "japanese": "復活",
+        "romaji": "fukkatsu",
+        "meaning": "revival / bringing back"
+      },
+      {
+        "japanese": "3メガで",
+        "romaji": "san mega de",
+        "meaning": "among the three megabanks"
+      },
+      {
+        "japanese": "初",
+        "romaji": "hatsu",
+        "meaning": "the first"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月7日（月）東証の上場廃止 3年連続で過去最多に、マツダ 車両開発で「脱・エクセル」",
     "english_translation": "September 7 (Mon): TSE delistings reach a record high for the third consecutive year; Mazda moves away from Excel in vehicle development",
     "published_at": "2026-09-07 06:30:00",
@@ -6429,66 +6504,6 @@
         "japanese": "27年から",
         "romaji": "nijūnananen kara",
         "meaning": "starting from 2027"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月13日（土）監視委がニデックに資料提出命令 調査に着手、学生寮のJSB 米ファンドのウォーバーグが買収へ",
-    "english_translation": "June 13 (Sat): Surveillance Commission orders Nidec to submit documents and begins investigation; US fund Warburg to acquire student dorm operator JSB",
-    "published_at": "2026-06-13 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3167547615.mp3",
-    "chunks": [
-      {
-        "japanese": "6月13日（土）",
-        "romaji": "rokugatsu jūsan-nichi (doyōbi)",
-        "meaning": "June 13th (Saturday)"
-      },
-      {
-        "japanese": "監視委が",
-        "romaji": "kanshi-i ga",
-        "meaning": "the Surveillance Commission (Securities and Exchange Surveillance Commission) [subject]"
-      },
-      {
-        "japanese": "ニデックに",
-        "romaji": "Nidekku ni",
-        "meaning": "to Nidec"
-      },
-      {
-        "japanese": "資料提出命令",
-        "romaji": "shiryō teishutsu meirei",
-        "meaning": "order to submit documents"
-      },
-      {
-        "japanese": "調査に着手",
-        "romaji": "chōsa ni chakushu",
-        "meaning": "launching/starting an investigation"
-      },
-      {
-        "japanese": "学生寮の",
-        "romaji": "gakuseiryō no",
-        "meaning": "student dormitories'"
-      },
-      {
-        "japanese": "JSB",
-        "romaji": "Jei Esu Bī",
-        "meaning": "JSB (a company operating student housing)"
-      },
-      {
-        "japanese": "米ファンドの",
-        "romaji": "bei fando no",
-        "meaning": "US fund's"
-      },
-      {
-        "japanese": "ウォーバーグが",
-        "romaji": "Wōbāgu ga",
-        "meaning": "Warburg (US private equity firm Warburg Pincus) [subject]"
-      },
-      {
-        "japanese": "買収へ",
-        "romaji": "baishū he",
-        "meaning": "heading toward acquisition / set to acquire"
       }
     ],
     "is_mock": false,
