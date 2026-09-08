@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "9月9日（水）サムスンがAI半導体で日韓連合 横浜に拠点、中小企業融資の公的保証 上限2.8億→10億円",
+    "english_translation": "September 9 (Wed) Samsung forms Japan-South Korea alliance in AI semiconductors with a base in Yokohama; Public guarantee limit for SME loans raised from 280 million to 1 billion yen",
+    "published_at": "2026-09-09 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7212199538.mp3",
+    "chunks": [
+      {
+        "japanese": "9月9日（水）",
+        "romaji": "kugatsu kokonoka (sui)",
+        "meaning": "September 9th (Wednesday)"
+      },
+      {
+        "japanese": "サムスンが",
+        "romaji": "samusun ga",
+        "meaning": "Samsung (subject)"
+      },
+      {
+        "japanese": "AI半導体で",
+        "romaji": "ēai handōtai de",
+        "meaning": "in AI semiconductors"
+      },
+      {
+        "japanese": "日韓連合",
+        "romaji": "nikkan rengō",
+        "meaning": "Japan-South Korea alliance"
+      },
+      {
+        "japanese": "横浜に",
+        "romaji": "yokohama ni",
+        "meaning": "in Yokohama"
+      },
+      {
+        "japanese": "拠点",
+        "romaji": "kyoten",
+        "meaning": "base / hub"
+      },
+      {
+        "japanese": "中小企業融資の",
+        "romaji": "chūshō kigyō yūshi no",
+        "meaning": "of financing/loans for small and medium-sized enterprises (SMEs)"
+      },
+      {
+        "japanese": "公的保証",
+        "romaji": "kōteki hoshō",
+        "meaning": "public guarantee"
+      },
+      {
+        "japanese": "上限",
+        "romaji": "jōgen",
+        "meaning": "upper limit"
+      },
+      {
+        "japanese": "2.8億→10億円",
+        "romaji": "ni-ten-hachi oku kara jū-oku en",
+        "meaning": "280 million yen to 1 billion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月8日（火）尾道造船が無人艇量産 自衛隊･米軍に提案へ、 みずほ銀行が「貯蓄預金」復活 3メガで初",
     "english_translation": "September 8 (Tuesday): Onomichi Dockyard to mass-produce unmanned vessels, aiming to propose to the JSDF and US Military; Mizuho Bank to revive 'savings deposits', the first among the three megabanks.",
     "published_at": "2026-09-08 06:30:00",
@@ -6444,66 +6504,6 @@
         "japanese": "「合意」か",
         "romaji": "\"gōi\" ka",
         "meaning": "is there an \"agreement\"? / will they reach a consensus?"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月14日（日）アンソロピック「ミュトス級AI」世界で停止、日産が社外取締役の任期を6年に短縮 27年から",
-    "english_translation": "June 14th (Sunday) Anthropic's 'Mythos-class AI' suspended worldwide; Nissan to shorten outside directors' terms to 6 years starting in 2027",
-    "published_at": "2026-06-14 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4213460541.mp3",
-    "chunks": [
-      {
-        "japanese": "6月14日（日）",
-        "romaji": "rokugatsu jūyokka (nichiyōbi)",
-        "meaning": "June 14th (Sunday)"
-      },
-      {
-        "japanese": "アンソロピック",
-        "romaji": "ansoropikku",
-        "meaning": "Anthropic"
-      },
-      {
-        "japanese": "「ミュトス級AI」",
-        "romaji": "\"myutosu-kyū ē-ai\"",
-        "meaning": "\"Mythos-class AI\""
-      },
-      {
-        "japanese": "世界で停止",
-        "romaji": "sekai de teishi",
-        "meaning": "suspended/stopped worldwide"
-      },
-      {
-        "japanese": "日産が",
-        "romaji": "nissan ga",
-        "meaning": "Nissan (subject)"
-      },
-      {
-        "japanese": "社外取締役の",
-        "romaji": "shagai torishimariyaku no",
-        "meaning": "outside directors'"
-      },
-      {
-        "japanese": "任期を",
-        "romaji": "ninki o",
-        "meaning": "term of office"
-      },
-      {
-        "japanese": "6年に",
-        "romaji": "roku-nen ni",
-        "meaning": "to 6 years"
-      },
-      {
-        "japanese": "短縮",
-        "romaji": "tanshuku",
-        "meaning": "shorten / reduction"
-      },
-      {
-        "japanese": "27年から",
-        "romaji": "nijūnananen kara",
-        "meaning": "starting from 2027"
       }
     ],
     "is_mock": false,
