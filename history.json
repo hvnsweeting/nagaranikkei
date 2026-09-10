@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "9月11日（金）ヒューリックなど 東京駅前ビル2300億円で取得、iPhone全機種値上げ 強まる「固定客」頼み",
+    "english_translation": "September 11 (Friday) - Hulic and others acquire Tokyo Station-front building for 230 billion yen; iPhone prices hiked for all models, strengthening reliance on \"loyal customers\"",
+    "published_at": "2026-09-11 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9543351404.mp3",
+    "chunks": [
+      {
+        "japanese": "9月11日",
+        "romaji": "kugatsu jūichinichi",
+        "meaning": "September 11th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "kin",
+        "meaning": "Friday (abbreviation)"
+      },
+      {
+        "japanese": "ヒューリックなど",
+        "romaji": "hyūrikku nado",
+        "meaning": "Hulic and others"
+      },
+      {
+        "japanese": "東京駅前ビル",
+        "romaji": "tōkyō ekimae biru",
+        "meaning": "Tokyo Station-front building"
+      },
+      {
+        "japanese": "2300億円で",
+        "romaji": "ni-sen san-byaku oku en de",
+        "meaning": "for 230 billion yen"
+      },
+      {
+        "japanese": "取得",
+        "romaji": "shutoku",
+        "meaning": "acquisition"
+      },
+      {
+        "japanese": "iPhone全機種",
+        "romaji": "aifōn zenkishu",
+        "meaning": "all iPhone models"
+      },
+      {
+        "japanese": "値上げ",
+        "romaji": "neage",
+        "meaning": "price hike"
+      },
+      {
+        "japanese": "強まる",
+        "romaji": "tsuyomaru",
+        "meaning": "to strengthen / grow stronger"
+      },
+      {
+        "japanese": "「固定客」頼み",
+        "romaji": "koteikyaku danomi",
+        "meaning": "reliance on \"regular/loyal customers\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月10日（木）サカナAIを10万社に 住友商事が支援 、フラット35 中古住宅購入の子育て世帯優遇を拡充",
     "english_translation": "September 10th (Thursday): Sumitomo Corporation supports introducing Sakana AI to 100,000 companies; Flat 35 expands preferential treatment for child-rearing households purchasing pre-owned homes.",
     "published_at": "2026-09-10 06:30:00",
@@ -6459,76 +6519,6 @@
         "japanese": "6万9404円",
         "romaji": "rokuman kyūsen yonhyaku yon'en",
         "meaning": "69,404 yen"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月16日（火）米イラン 戦闘終結の覚書合意、 JX金属 光通信の半導体材料を10倍に増産",
-    "english_translation": "June 16 (Tuesday) US-Iran agreement on memorandum to end hostilities; JX Metals to increase production of semiconductor materials for optical communications tenfold",
-    "published_at": "2026-06-16 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9300871256.mp3",
-    "chunks": [
-      {
-        "japanese": "6月16日（火）",
-        "romaji": "rokugatsu jūrokunichi (ka)",
-        "meaning": "June 16th (Tuesday)"
-      },
-      {
-        "japanese": "米イラン",
-        "romaji": "bei iran",
-        "meaning": "US and Iran"
-      },
-      {
-        "japanese": "戦闘終結",
-        "romaji": "sentō shūketsu",
-        "meaning": "end of combat / cessation of hostilities"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (possessive particle)"
-      },
-      {
-        "japanese": "覚書合意",
-        "romaji": "obogaki gōi",
-        "meaning": "agreement on a memorandum of understanding (MOU)"
-      },
-      {
-        "japanese": "JX金属",
-        "romaji": "jei-ekkusu kinzoku",
-        "meaning": "JX Metals (JX Nippon Mining & Metals)"
-      },
-      {
-        "japanese": "光通信",
-        "romaji": "hikari tsūshin",
-        "meaning": "optical communication"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (possessive particle)"
-      },
-      {
-        "japanese": "半導体材料",
-        "romaji": "handōtai zairyō",
-        "meaning": "semiconductor materials"
-      },
-      {
-        "japanese": "を",
-        "romaji": "o",
-        "meaning": "direct object particle"
-      },
-      {
-        "japanese": "10倍に",
-        "romaji": "jū-bai ni",
-        "meaning": "tenfold / by 10 times"
-      },
-      {
-        "japanese": "増産",
-        "romaji": "zōsan",
-        "meaning": "increase in production"
       }
     ],
     "is_mock": false,
