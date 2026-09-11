@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "9月11日（金）レバレッジ型投資とは　損も得も増幅〜with NIKKEI",
+    "english_translation": "September 11th (Friday) - What is Leveraged Investment? Amplifying Both Losses and Gains ~ with NIKKEI",
+    "published_at": "2026-09-11 17:45:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1591827770.mp3",
+    "chunks": [
+      {
+        "japanese": "9月11日（金）",
+        "romaji": "Kugatsu jūichinichi (kin)",
+        "meaning": "September 11th (Friday)"
+      },
+      {
+        "japanese": "レバレッジ型",
+        "romaji": "rebarejji-gata",
+        "meaning": "leveraged type"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investment"
+      },
+      {
+        "japanese": "とは",
+        "romaji": "to wa",
+        "meaning": "as for / what is...?"
+      },
+      {
+        "japanese": "損",
+        "romaji": "son",
+        "meaning": "loss"
+      },
+      {
+        "japanese": "も",
+        "romaji": "mo",
+        "meaning": "also / both"
+      },
+      {
+        "japanese": "得",
+        "romaji": "toku",
+        "meaning": "gain / profit"
+      },
+      {
+        "japanese": "も",
+        "romaji": "mo",
+        "meaning": "also / and"
+      },
+      {
+        "japanese": "増幅",
+        "romaji": "zōfuku",
+        "meaning": "amplification / amplifying"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "with Nikkei",
+        "meaning": "with Nikkei"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月11日（金）ヒューリックなど 東京駅前ビル2300億円で取得、iPhone全機種値上げ 強まる「固定客」頼み",
     "english_translation": "September 11 (Friday) - Hulic and others acquire Tokyo Station-front building for 230 billion yen; iPhone prices hiked for all models, strengthening reliance on \"loyal customers\"",
     "published_at": "2026-09-11 06:30:00",
@@ -6463,65 +6523,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月17日（水）日銀 1.0%への利上げ決定 国債買い入れ減額は27年4月以降停止、日経平均株価が連日最高値 6万9404円",
-    "english_translation": "Wednesday, June 17: BOJ decides on interest rate hike to 1.0%, reduction of government bond purchases to be suspended from April 2027 onwards; Nikkei Stock Average hits record highs for consecutive days, reaching 69,404 yen",
-    "published_at": "2026-06-17 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1728822758.mp3",
-    "chunks": [
-      {
-        "japanese": "6月17日（水）",
-        "romaji": "rokugatsu jūnananichi (sui)",
-        "meaning": "June 17th (Wednesday)"
-      },
-      {
-        "japanese": "日銀",
-        "romaji": "nichigin",
-        "meaning": "Bank of Japan (BOJ)"
-      },
-      {
-        "japanese": "1.0%への利上げ決定",
-        "romaji": "itten zero pāsento e no riage kettei",
-        "meaning": "decision to raise interest rates to 1.0%"
-      },
-      {
-        "japanese": "国債買い入れ減額",
-        "romaji": "kokusai kaiire gengaku",
-        "meaning": "reduction of government bond purchases"
-      },
-      {
-        "japanese": "は",
-        "romaji": "wa",
-        "meaning": "[topic marker]"
-      },
-      {
-        "japanese": "27年4月以降停止",
-        "romaji": "nijūshichinen shigatsu ikō teishi",
-        "meaning": "suspended from April 2027 onwards"
-      },
-      {
-        "japanese": "日経平均株価",
-        "romaji": "nikkei heikin kabuka",
-        "meaning": "Nikkei Stock Average"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "[subject marker]"
-      },
-      {
-        "japanese": "連日最高値",
-        "romaji": "renjitsu saikōne",
-        "meaning": "consecutive days of record highs"
-      },
-      {
-        "japanese": "6万9404円",
-        "romaji": "rokuman kyūsen yonhyaku yon'en",
-        "meaning": "69,404 yen"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
