@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "9月13日（日） 富士通がAI半導体を輸出 スパコン技術活用、自治体の国債購入が急増100倍の1.6兆円に",
+    "english_translation": "September 13 (Sun): Fujitsu to export AI semiconductors leveraging supercomputer technology; Local governments' government bond purchases surge 100-fold to 1.6 trillion yen",
+    "published_at": "2026-09-13 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7699890474.mp3",
+    "chunks": [
+      {
+        "japanese": "9月13日（日）",
+        "romaji": "kugatsu jūsan-nichi (nichiyōbi)",
+        "meaning": "September 13th (Sunday)"
+      },
+      {
+        "japanese": "富士通が",
+        "romaji": "fujitsū ga",
+        "meaning": "Fujitsu (subject)"
+      },
+      {
+        "japanese": "AI半導体を",
+        "romaji": "ē-ai handōtai o",
+        "meaning": "AI semiconductors (object)"
+      },
+      {
+        "japanese": "輸出",
+        "romaji": "yushutsu",
+        "meaning": "exporting"
+      },
+      {
+        "japanese": "スパコン技術活用",
+        "romaji": "supakon gijutsu katsuyō",
+        "meaning": "utilizing supercomputer technology"
+      },
+      {
+        "japanese": "自治体の",
+        "romaji": "jichitai no",
+        "meaning": "local governments'"
+      },
+      {
+        "japanese": "国債購入が",
+        "romaji": "kokusai kōnyū ga",
+        "meaning": "government bond purchases (subject)"
+      },
+      {
+        "japanese": "急増",
+        "romaji": "kyūzō",
+        "meaning": "rapidly increasing / surging"
+      },
+      {
+        "japanese": "100倍の",
+        "romaji": "hyaku-bai no",
+        "meaning": "100-fold / 100 times"
+      },
+      {
+        "japanese": "1.6兆円に",
+        "romaji": "it-ten-roku chō-en ni",
+        "meaning": "to 1.6 trillion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月12日（土） 日銀 9月政策金利1.25%へ、ドローンや弾薬 有事増産へ設備投資を助成",
     "english_translation": "September 12 (Sat) Bank of Japan to raise September policy rate to 1.25%; Subsidies for capital investment to increase production of drones and ammunition in an emergency",
     "published_at": "2026-09-12 07:50:00",
@@ -6459,71 +6519,6 @@
         "japanese": "「IVSの歩き方」",
         "romaji": "「IVS no Arukikata」",
         "meaning": "「How to Navigate IVS」 / 「Guide to IVS」"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月19日（金）日経平均7万円 史上最速の大台替わり、ChatGPT内に広告表示 日本でOpenAIが展開",
-    "english_translation": "June 19th (Friday): Nikkei Average hits 70,000 yen, fastest-ever major milestone shift; Ads displayed within ChatGPT as OpenAI expands in Japan.",
-    "published_at": "2026-06-19 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9251477905.mp3",
-    "chunks": [
-      {
-        "japanese": "6月19日",
-        "romaji": "Rokugatsu jūkunichi",
-        "meaning": "June 19th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "(Kin)",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "日経平均",
-        "romaji": "Nikkei Heikin",
-        "meaning": "Nikkei Average"
-      },
-      {
-        "japanese": "7万円",
-        "romaji": "Nanaman-en",
-        "meaning": "70,000 yen"
-      },
-      {
-        "japanese": "史上最速の大台替わり",
-        "romaji": "Shijō saikoku no ōdai kawari",
-        "meaning": "fastest-ever major milestone shift"
-      },
-      {
-        "japanese": "、",
-        "romaji": ",",
-        "meaning": ","
-      },
-      {
-        "japanese": "ChatGPT内に",
-        "romaji": "ChatGPT nai ni",
-        "meaning": "within ChatGPT"
-      },
-      {
-        "japanese": "広告表示",
-        "romaji": "kōkoku hyōji",
-        "meaning": "ad display"
-      },
-      {
-        "japanese": "日本で",
-        "romaji": "Nihon de",
-        "meaning": "in Japan"
-      },
-      {
-        "japanese": "OpenAIが",
-        "romaji": "OpenAI ga",
-        "meaning": "OpenAI"
-      },
-      {
-        "japanese": "展開",
-        "romaji": "tenkai",
-        "meaning": "expands / rolls out"
       }
     ],
     "is_mock": false,
