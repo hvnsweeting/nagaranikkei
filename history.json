@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "9月14日（月）OpenAI 26年内は上場せず、中部電力 社長に安井取締役",
+    "english_translation": "September 14 (Monday) OpenAI will not go public by the end of 2026; Director Yasui to become President of Chubu Electric Power",
+    "published_at": "2026-09-14 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2545323101.mp3",
+    "chunks": [
+      {
+        "japanese": "9月14日（月）",
+        "romaji": "kugatsu jūyokka (getsu)",
+        "meaning": "September 14th (Monday)"
+      },
+      {
+        "japanese": "OpenAI",
+        "romaji": "OpenAI",
+        "meaning": "OpenAI"
+      },
+      {
+        "japanese": "26年内は",
+        "romaji": "nijūroku nennai wa",
+        "meaning": "within 2026 (as a topic)"
+      },
+      {
+        "japanese": "上場せず",
+        "romaji": "jōjō sezu",
+        "meaning": "not going public / not listing on the stock market"
+      },
+      {
+        "japanese": "中部電力",
+        "romaji": "chūbu denryoku",
+        "meaning": "Chubu Electric Power"
+      },
+      {
+        "japanese": "社長に",
+        "romaji": "shachō ni",
+        "meaning": "to (the position of) president"
+      },
+      {
+        "japanese": "安井取締役",
+        "romaji": "yasui torishimariyaku",
+        "meaning": "Director Yasui"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月13日（日） 富士通がAI半導体を輸出 スパコン技術活用、自治体の国債購入が急増100倍の1.6兆円に",
     "english_translation": "September 13 (Sun): Fujitsu to export AI semiconductors leveraging supercomputer technology; Local governments' government bond purchases surge 100-fold to 1.6 trillion yen",
     "published_at": "2026-09-13 07:50:00",
@@ -6459,66 +6504,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "~with NIKKEI",
         "meaning": "~with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "NIKKEI THE PITCH会議室 第21回 【IVS2026直前スペシャル版！】CVC担当者がIVSを100倍有効活用するための「IVSの歩き方」",
-    "english_translation": "NIKKEI THE PITCH Conference Room Episode 21: [IVS 2026 Pre-Event Special Edition!] 'How to Navigate IVS' for CVC Managers to 100x More Effectively Utilize IVS",
-    "published_at": "2026-06-19 16:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1652932202.mp3",
-    "chunks": [
-      {
-        "japanese": "NIKKEI THE PITCH会議室",
-        "romaji": "NIKKEI THE PITCH Kaigishitsu",
-        "meaning": "NIKKEI THE PITCH Conference Room"
-      },
-      {
-        "japanese": "第21回",
-        "romaji": "Dai nijūikkai",
-        "meaning": "The 21st Episode"
-      },
-      {
-        "japanese": "【IVS2026直前スペシャル版！】",
-        "romaji": "[IVS2026 Chokuzen Supesharu Ban!]",
-        "meaning": "[IVS 2026 Pre-Event Special Edition!]"
-      },
-      {
-        "japanese": "CVC担当者",
-        "romaji": "CVC Tantōsha",
-        "meaning": "CVC Manager / CVC Representative"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "(subject particle)"
-      },
-      {
-        "japanese": "IVSを",
-        "romaji": "IVS o",
-        "meaning": "IVS (object particle)"
-      },
-      {
-        "japanese": "100倍",
-        "romaji": "Hyakubai",
-        "meaning": "100 times"
-      },
-      {
-        "japanese": "有効活用する",
-        "romaji": "Yūkō Katsuyō Suru",
-        "meaning": "to effectively utilize"
-      },
-      {
-        "japanese": "ための",
-        "romaji": "tame no",
-        "meaning": "for the purpose of / in order to"
-      },
-      {
-        "japanese": "「IVSの歩き方」",
-        "romaji": "「IVS no Arukikata」",
-        "meaning": "「How to Navigate IVS」 / 「Guide to IVS」"
       }
     ],
     "is_mock": false,
