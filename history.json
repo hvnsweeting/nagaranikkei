@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "9月15日（火）中部電力 林社長と勝野会長が辞任発表、楽天の携帯投資 ドコモの4割どまり",
+    "english_translation": "September 15th (Tuesday): Chubu Electric Power's President Hayashi and Chairman Katsuno announce their resignations; Rakuten's mobile investment only reaches 40% of Docomo's.",
+    "published_at": "2026-09-15 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3672760256.mp3",
+    "chunks": [
+      {
+        "japanese": "9月15日",
+        "romaji": "Kugatsu jūgonichi",
+        "meaning": "September 15th"
+      },
+      {
+        "japanese": "（火）",
+        "romaji": "(Ka)",
+        "meaning": "(Tuesday)"
+      },
+      {
+        "japanese": "中部電力",
+        "romaji": "Chūbu Denryoku",
+        "meaning": "Chubu Electric Power"
+      },
+      {
+        "japanese": "林社長",
+        "romaji": "Hayashi shachō",
+        "meaning": "President Hayashi"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "勝野会長",
+        "romaji": "Katsuno kaichō",
+        "meaning": "Chairman Katsuno"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "辞任発表",
+        "romaji": "Jinin happyō",
+        "meaning": "announce resignation"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "楽天",
+        "romaji": "Rakuten",
+        "meaning": "Rakuten (company name)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "携帯投資",
+        "romaji": "Keitai tōshi",
+        "meaning": "mobile investment"
+      },
+      {
+        "japanese": "ドコモ",
+        "romaji": "Dokomo",
+        "meaning": "Docomo (company name)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "4割",
+        "romaji": "Yon-wari",
+        "meaning": "40%"
+      },
+      {
+        "japanese": "どまり",
+        "romaji": "domari",
+        "meaning": "only reaching / limited to"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月14日（月）OpenAI 26年内は上場せず、中部電力 社長に安井取締役",
     "english_translation": "September 14 (Monday) OpenAI will not go public by the end of 2026; Director Yasui to become President of Chubu Electric Power",
     "published_at": "2026-09-14 06:30:00",
@@ -6468,45 +6558,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月19日（金）ワールドカップと経済〜with NIKKEI",
-    "english_translation": "June 19th (Friday) World Cup and Economy ~with NIKKEI",
-    "published_at": "2026-06-19 17:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6760900144.mp3",
-    "chunks": [
-      {
-        "japanese": "6月19日",
-        "romaji": "Rokugatsu jūkunichi",
-        "meaning": "June 19th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "(Kin)",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "ワールドカップ",
-        "romaji": "Wārudo Kappu",
-        "meaning": "World Cup"
-      },
-      {
-        "japanese": "と",
-        "romaji": "To",
-        "meaning": "and"
-      },
-      {
-        "japanese": "経済",
-        "romaji": "Keizai",
-        "meaning": "Economy"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "~with NIKKEI",
-        "meaning": "~with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
