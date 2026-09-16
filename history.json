@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "9月17日（木）三菱UFJ銀行が防衛産業に融資 慎重姿勢を転換 、ドコモ 延べ34万人分の顧客情報をAmazon日本法人に無断提供",
+    "english_translation": "September 17th (Thursday) MUFG Bank finances the defense industry, shifting its cautious stance; Docomo provides customer information of a total of 340,000 people to Amazon's Japanese subsidiary without permission.",
+    "published_at": "2026-09-17 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9120007612.mp3",
+    "chunks": [
+      {
+        "japanese": "9月17日（木）",
+        "romaji": "kugatsu jūnananichi (mokuyōbi)",
+        "meaning": "September 17th (Thursday)"
+      },
+      {
+        "japanese": "三菱UFJ銀行が",
+        "romaji": "mitsubishi yūefujei ginkō ga",
+        "meaning": "MUFG Bank (Mitsubishi UFJ Bank) [subject marker]"
+      },
+      {
+        "japanese": "防衛産業に",
+        "romaji": "bōei sangyō ni",
+        "meaning": "to the defense industry"
+      },
+      {
+        "japanese": "融資",
+        "romaji": "yūshi",
+        "meaning": "financing / loaning"
+      },
+      {
+        "japanese": "慎重姿勢を",
+        "romaji": "shinchō shisei o",
+        "meaning": "cautious stance [object marker]"
+      },
+      {
+        "japanese": "転換",
+        "romaji": "tenkan",
+        "meaning": "shifting / changing / turnaround"
+      },
+      {
+        "japanese": "ドコモ",
+        "romaji": "dokomo",
+        "meaning": "Docomo (Japanese telecommunications company)"
+      },
+      {
+        "japanese": "延べ34万人分の",
+        "romaji": "nobe sanjūyonman-nin bun no",
+        "meaning": "a total of 340,000 people's worth of"
+      },
+      {
+        "japanese": "顧客情報を",
+        "romaji": "kokyaku jōhō o",
+        "meaning": "customer information [object marker]"
+      },
+      {
+        "japanese": "Amazon日本法人に",
+        "romaji": "amajon nihon hōjin ni",
+        "meaning": "to Amazon's Japanese corporate entity / subsidiary"
+      },
+      {
+        "japanese": "無断提供",
+        "romaji": "mudan teikyō",
+        "meaning": "unauthorized provision / providing without permission"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月16日（水）食品消費税2年限り1% 中低所得者は先行給付、長期金利が世界で急上昇",
     "english_translation": "September 16th (Wednesday): Food consumption tax 1% limited to two years, advance payouts for low- and middle-income earners, long-term interest rates surging globally",
     "published_at": "2026-09-16 06:30:00",
@@ -6503,70 +6568,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月21日（日）メガ銀の年間配当初の2兆円へ、米 日本に中距離ミサイル装置",
-    "english_translation": "June 21 (Sunday): Megabanks' initial annual dividend payment reaching 2 trillion yen; US deploys mid-range missiles in Japan.",
-    "published_at": "2026-06-21 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2141677340.mp3",
-    "chunks": [
-      {
-        "japanese": "6月21日（日）",
-        "romaji": "Rokugatsu Nijūichinichi (Nichiyōbi)",
-        "meaning": "June 21 (Sunday)"
-      },
-      {
-        "japanese": "メガ銀",
-        "romaji": "Mega-gin",
-        "meaning": "Megabank(s)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s (possessive particle)"
-      },
-      {
-        "japanese": "年間配当初",
-        "romaji": "Nenkan haitōsho",
-        "meaning": "Initial annual dividend payment"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "(particle implying \"amounting to\" or \"reaching\")"
-      },
-      {
-        "japanese": "2兆円へ",
-        "romaji": "Ni chō-en e",
-        "meaning": "towards 2 trillion yen"
-      },
-      {
-        "japanese": "、",
-        "romaji": "ten",
-        "meaning": "comma (separator)"
-      },
-      {
-        "japanese": "米",
-        "romaji": "Bei",
-        "meaning": "US / America"
-      },
-      {
-        "japanese": "日本に",
-        "romaji": "Nihon ni",
-        "meaning": "in/to Japan"
-      },
-      {
-        "japanese": "中距離ミサイル",
-        "romaji": "Chūkyori misairu",
-        "meaning": "mid-range missile(s)"
-      },
-      {
-        "japanese": "装置",
-        "romaji": "Sōchi",
-        "meaning": "installation / deployment"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
