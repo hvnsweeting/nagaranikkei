@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "9月18日（金）首相「積極財政を継続」 片山・城内氏留任、対米投資 次は半導体工場で協議",
+    "english_translation": "September 18th (Friday): Prime Minister: 'Continue proactive fiscal policy.' Katayama and Jonai retained. US investment: next discussions will be on semiconductor factories.",
+    "published_at": "2026-09-18 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5966127881.mp3",
+    "chunks": [
+      {
+        "japanese": "9月18日（金）",
+        "romaji": "kugatsu jūhachinichi (kin)",
+        "meaning": "September 18th (Friday)"
+      },
+      {
+        "japanese": "首相",
+        "romaji": "shushō",
+        "meaning": "Prime Minister"
+      },
+      {
+        "japanese": "「積極財政を継続」",
+        "romaji": "“sekkyoku zaisei o keizoku”",
+        "meaning": "“Continue proactive fiscal policy”"
+      },
+      {
+        "japanese": "片山・城内氏",
+        "romaji": "Katayama・Jōnai shi",
+        "meaning": "Mr./Ms. Katayama and Jōnai"
+      },
+      {
+        "japanese": "留任",
+        "romaji": "ryūnin",
+        "meaning": "retained in office / reappointed"
+      },
+      {
+        "japanese": "対米投資",
+        "romaji": "tai-bei tōshi",
+        "meaning": "investment in the US"
+      },
+      {
+        "japanese": "次は",
+        "romaji": "tsugi wa",
+        "meaning": "Next is"
+      },
+      {
+        "japanese": "半導体工場で",
+        "romaji": "handōtai kōjō de",
+        "meaning": "at semiconductor factories"
+      },
+      {
+        "japanese": "協議",
+        "romaji": "kyōgi",
+        "meaning": "discussions / negotiations"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月17日（木）三菱UFJ銀行が防衛産業に融資 慎重姿勢を転換 、ドコモ 延べ34万人分の顧客情報をAmazon日本法人に無断提供",
     "english_translation": "September 17th (Thursday) MUFG Bank finances the defense industry, shifting its cautious stance; Docomo provides customer information of a total of 340,000 people to Amazon's Japanese subsidiary without permission.",
     "published_at": "2026-09-17 06:30:00",
@@ -6519,51 +6574,6 @@
         "japanese": "辞任表明",
         "romaji": "jinin hyōmei",
         "meaning": "announcement of resignation"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月22日（月）コンビニより多い歯科医が減少、預金の5割 相続で首都圏に集中",
-    "english_translation": "June 22nd (Mon) - The number of dentists (which is more than convenience stores) is decreasing; 50% of savings concentrate in the Tokyo metropolitan area through inheritance.",
-    "published_at": "2026-06-22 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6427225800.mp3",
-    "chunks": [
-      {
-        "japanese": "6月22日（月）",
-        "romaji": "rokugatsu nijūnichi (getsuyōbi)",
-        "meaning": "June 22nd (Monday)"
-      },
-      {
-        "japanese": "コンビニより多い",
-        "romaji": "konbini yori ōi",
-        "meaning": "more numerous than convenience stores"
-      },
-      {
-        "japanese": "歯科医",
-        "romaji": "shikai",
-        "meaning": "dentists / dental clinics"
-      },
-      {
-        "japanese": "が減少",
-        "romaji": "ga genshō",
-        "meaning": "decreases / is declining"
-      },
-      {
-        "japanese": "預金の5割",
-        "romaji": "yokin no gowari",
-        "meaning": "50% of savings/deposits"
-      },
-      {
-        "japanese": "相続で",
-        "romaji": "sōzoku de",
-        "meaning": "through inheritance"
-      },
-      {
-        "japanese": "首都圏に集中",
-        "romaji": "shutoken ni shūchū",
-        "meaning": "concentrating in the Tokyo metropolitan area"
       }
     ],
     "is_mock": false,
