@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "9月19日（土） 日銀の植田総裁 連続・大幅利上げの可能性「排除せず」、コメ店頭価格 2年ぶり5キロ3000円割れ",
+    "english_translation": "September 19 (Sat): BOJ Governor Ueda 'does not rule out' the possibility of consecutive and large-scale interest rate hikes; Retail rice prices fall below 3,000 yen per 5 kg for the first time in 2 years",
+    "published_at": "2026-09-19 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3598544471.mp3",
+    "chunks": [
+      {
+        "japanese": "9月19日（土）",
+        "romaji": "kugatsu jūkyūnichi (doyōbi)",
+        "meaning": "September 19th (Saturday)"
+      },
+      {
+        "japanese": "日銀",
+        "romaji": "nichigin",
+        "meaning": "Bank of Japan (BOJ)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / 's (possessive particle)"
+      },
+      {
+        "japanese": "植田総裁",
+        "romaji": "ueda sōsai",
+        "meaning": "Governor Ueda"
+      },
+      {
+        "japanese": "連続",
+        "romaji": "renzoku",
+        "meaning": "consecutive / continuous"
+      },
+      {
+        "japanese": "・",
+        "romaji": "and",
+        "meaning": "and / dot separator"
+      },
+      {
+        "japanese": "大幅",
+        "romaji": "ōhaba",
+        "meaning": "large-scale / drastic"
+      },
+      {
+        "japanese": "利上げ",
+        "romaji": "riage",
+        "meaning": "interest rate hike"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "可能性",
+        "romaji": "kanōsei",
+        "meaning": "possibility"
+      },
+      {
+        "japanese": "「排除せず」",
+        "romaji": "haijo sezu",
+        "meaning": "\"not ruling out\" / \"does not exclude\""
+      },
+      {
+        "japanese": "コメ",
+        "romaji": "kome",
+        "meaning": "rice"
+      },
+      {
+        "japanese": "店頭価格",
+        "romaji": "tentō kakaku",
+        "meaning": "over-the-counter price / retail price"
+      },
+      {
+        "japanese": "2年ぶり",
+        "romaji": "ninen buri",
+        "meaning": "for the first time in 2 years"
+      },
+      {
+        "japanese": "5キロ",
+        "romaji": "gokiro",
+        "meaning": "5 kg (kilograms)"
+      },
+      {
+        "japanese": "3000円割れ",
+        "romaji": "sanzen'en ware",
+        "meaning": "falling below 3,000 yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月18日（金）ＡＩが人類を滅ぼす？競争と共存のゆくえ〜with NIKKEI",
     "english_translation": "September 18th (Friday) Will AI destroy humanity? The future of competition and coexistence ~ with NIKKEI",
     "published_at": "2026-09-18 19:00:00",
@@ -6434,141 +6524,6 @@
         "japanese": "タンカー脱出回廊",
         "romaji": "Tankā dasshutsu kairō",
         "meaning": "Tanker escape corridor"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月24日（水）欧州の防衛ドローン企業が日本に製造拠点 輸出視野 丸紅が進出支援、日産株主総会 ルノーが「みずほ色」に反発",
-    "english_translation": "June 24th (Wednesday): European Defense Drone Company to Establish Manufacturing Base in Japan with an Eye on Exports; Marubeni Supports Expansion. Nissan Shareholders' Meeting: Renault Objects to 'Mizuho Color'.",
-    "published_at": "2026-06-24 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8721525090.mp3",
-    "chunks": [
-      {
-        "japanese": "6月24日",
-        "romaji": "Rokugatsu nijuuyokka",
-        "meaning": "June 24th"
-      },
-      {
-        "japanese": "（水）",
-        "romaji": "(Sui)",
-        "meaning": "(Wednesday)"
-      },
-      {
-        "japanese": "欧州",
-        "romaji": "Oushuu",
-        "meaning": "Europe"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "防衛",
-        "romaji": "bouei",
-        "meaning": "defense"
-      },
-      {
-        "japanese": "ドローン",
-        "romaji": "doroon",
-        "meaning": "drone"
-      },
-      {
-        "japanese": "企業",
-        "romaji": "kigyou",
-        "meaning": "company"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "(subject particle)"
-      },
-      {
-        "japanese": "日本",
-        "romaji": "Nihon",
-        "meaning": "Japan"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "in / to"
-      },
-      {
-        "japanese": "製造拠点",
-        "romaji": "seizou kyoten",
-        "meaning": "manufacturing base"
-      },
-      {
-        "japanese": "輸出",
-        "romaji": "yushutsu",
-        "meaning": "export"
-      },
-      {
-        "japanese": "視野",
-        "romaji": "shiya",
-        "meaning": "outlook / perspective (implying 'with an eye on')"
-      },
-      {
-        "japanese": "丸紅",
-        "romaji": "Marubeni",
-        "meaning": "Marubeni (Japanese trading company)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "(subject particle)"
-      },
-      {
-        "japanese": "進出",
-        "romaji": "shinshutsu",
-        "meaning": "expansion / entry"
-      },
-      {
-        "japanese": "支援",
-        "romaji": "shien",
-        "meaning": "support"
-      },
-      {
-        "japanese": "日産",
-        "romaji": "Nissan",
-        "meaning": "Nissan (car manufacturer)"
-      },
-      {
-        "japanese": "株主",
-        "romaji": "kabunushi",
-        "meaning": "shareholder"
-      },
-      {
-        "japanese": "総会",
-        "romaji": "soukai",
-        "meaning": "general meeting"
-      },
-      {
-        "japanese": "ルノー",
-        "romaji": "Runoo",
-        "meaning": "Renault (French car manufacturer)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "(subject particle)"
-      },
-      {
-        "japanese": "「みずほ色」",
-        "romaji": "\"Mizuho-iro\"",
-        "meaning": "\"Mizuho color\" (refers to the perceived influence of Mizuho Financial Group)"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to / against"
-      },
-      {
-        "japanese": "反発",
-        "romaji": "hanpatsu",
-        "meaning": "opposition / backlash"
       }
     ],
     "is_mock": false,
