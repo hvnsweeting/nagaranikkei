@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "9月21日（月）築古物件リノベーションに優遇融資、親子上場に狭まる包囲網 上場子会社139社",
+    "english_translation": "September 21 (Mon) Preferential financing for renovated old properties, tightening net on parent-subsidiary listings: 139 listed subsidiary companies",
+    "published_at": "2026-09-21 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4972857602.mp3",
+    "chunks": [
+      {
+        "japanese": "9月21日",
+        "romaji": " Kugatsu nijūichi nichi",
+        "meaning": "September 21st"
+      },
+      {
+        "japanese": "（月）",
+        "romaji": " (Getsu)",
+        "meaning": "(Monday)"
+      },
+      {
+        "japanese": "築古物件",
+        "romaji": " chiku furu bukken",
+        "meaning": "Old properties (buildings)"
+      },
+      {
+        "japanese": "リノベーション",
+        "romaji": " rinobēshon",
+        "meaning": "Renovation"
+      },
+      {
+        "japanese": "に",
+        "romaji": " ni",
+        "meaning": "for/on/to (particle)"
+      },
+      {
+        "japanese": "優遇融資",
+        "romaji": " yūgū yūshi",
+        "meaning": "Preferential financing/loan"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "親子上場",
+        "romaji": " oyako jōjō",
+        "meaning": "Parent-subsidiary listing"
+      },
+      {
+        "japanese": "に",
+        "romaji": " ni",
+        "meaning": "on/for (particle)"
+      },
+      {
+        "japanese": "狭まる",
+        "romaji": " semaru",
+        "meaning": "to narrow/tighten"
+      },
+      {
+        "japanese": "包囲網",
+        "romaji": " hōimō",
+        "meaning": "Encirclement net/blockade"
+      },
+      {
+        "japanese": "上場子会社",
+        "romaji": " jōjō kogaisha",
+        "meaning": "Listed subsidiary companies"
+      },
+      {
+        "japanese": "139社",
+        "romaji": " hyaku sanjū kyū sha",
+        "meaning": "139 companies"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "9月20日（日） 中国新興リープがスバル・三菱自超え、GoogleのAIも他社システムに侵入",
     "english_translation": "September 20 (Sunday) - Emerging Chinese EV maker Leapmotor surpasses Subaru and Mitsubishi Motors; Google's AI also infiltrates other companies' systems",
     "published_at": "2026-09-20 07:50:00",
@@ -6458,65 +6533,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月26日（金）フジHD SBIとメディア事業提携、米大手ステーブルコイン 日本企業向け参入へ",
-    "english_translation": "June 26th (Friday): Fuji HD to partner with SBI on media business; Major US stablecoin to enter the Japanese market for companies.",
-    "published_at": "2026-06-26 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2368029025.mp3",
-    "chunks": [
-      {
-        "japanese": "6月26日",
-        "romaji": "Rokugatsu nijūrokunichi",
-        "meaning": "June 26th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "(Kin)",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "フジHD",
-        "romaji": "Fuji Eichi Dī",
-        "meaning": "Fuji HD (Fuji Holdings)"
-      },
-      {
-        "japanese": "SBIと",
-        "romaji": "Esu Bī Ai to",
-        "meaning": "with SBI"
-      },
-      {
-        "japanese": "メディア事業",
-        "romaji": "Media jigyō",
-        "meaning": "media business"
-      },
-      {
-        "japanese": "提携、",
-        "romaji": "Teikei,",
-        "meaning": "partnership/alliance,"
-      },
-      {
-        "japanese": "米大手",
-        "romaji": "Bei ōte",
-        "meaning": "major US (company/firm)"
-      },
-      {
-        "japanese": "ステーブルコイン",
-        "romaji": "Sutēburu koin",
-        "meaning": "stablecoin"
-      },
-      {
-        "japanese": "日本企業向け",
-        "romaji": "Nihon kigyō-muke",
-        "meaning": "for Japanese companies"
-      },
-      {
-        "japanese": "参入へ",
-        "romaji": "Sannyū e",
-        "meaning": "to enter (the market)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
