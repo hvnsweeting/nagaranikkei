@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "9月23日（水）高市首相 トランプ氏と23日未明会談へ、習近平氏 幻の11年ぶり国連演説",
+    "english_translation": "September 23 (Wednesday): Prime Minister Takaichi to meet with Mr. Trump in the early morning of the 23rd; Mr. Xi Jinping's phantom UN speech after 11 years.",
+    "published_at": "2026-09-23 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2416769927.mp3",
+    "chunks": [
+      {
+        "japanese": "9月23日",
+        "romaji": "Kugatsu nijū-san-nichi",
+        "meaning": "September 23rd"
+      },
+      {
+        "japanese": "（水）",
+        "romaji": "(Sui)",
+        "meaning": "(Wednesday)"
+      },
+      {
+        "japanese": "高市首相",
+        "romaji": "Takaichi Shushō",
+        "meaning": "Prime Minister Takaichi"
+      },
+      {
+        "japanese": "トランプ氏",
+        "romaji": "Toranpu-shi",
+        "meaning": "Mr. Trump"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "with"
+      },
+      {
+        "japanese": "23日未明",
+        "romaji": "Nijū-san-nichi mimei",
+        "meaning": "early morning of the 23rd"
+      },
+      {
+        "japanese": "会談へ",
+        "romaji": "Kaidan e",
+        "meaning": "to meet / towards a meeting"
+      },
+      {
+        "japanese": "習近平氏",
+        "romaji": "Shū Kinpei-shi",
+        "meaning": "Mr. Xi Jinping"
+      },
+      {
+        "japanese": "幻の",
+        "romaji": "Maboroshi no",
+        "meaning": "phantom / illusory / dreamt-of"
+      },
+      {
+        "japanese": "11年ぶり",
+        "romaji": "jū-ichi-nen-buri",
+        "meaning": "after 11 years / for the first time in 11 years"
+      },
+      {
+        "japanese": "国連演説",
+        "romaji": "Kokuren enzetsu",
+        "meaning": "UN speech"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月22日（火）三菱商事 フィリピン財閥アヤラに追加出資、 ソフトバンクG 1.7兆円規模の外債発行へ",
     "english_translation": "September 22nd (Tuesday): Mitsubishi Corporation Makes Additional Investment in Philippine Conglomerate Ayala; SoftBank Group to Issue Foreign Bonds Worth 1.7 Trillion Yen.",
     "published_at": "2026-09-22 06:30:00",
@@ -6458,75 +6523,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月27日（土） 川崎重工 エアバスと防衛ドローン、個人の資産運用 AIチャットで完結",
-    "english_translation": "June 27 (Sat) Kawasaki Heavy Industries and Airbus on defense drones; Personal asset management completed via AI chat",
-    "published_at": "2026-06-27 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2786133462.mp3",
-    "chunks": [
-      {
-        "japanese": "6月27日",
-        "romaji": "rokugatsu nijūnananichi",
-        "meaning": "June 27th"
-      },
-      {
-        "japanese": "（土）",
-        "romaji": "doyōbi",
-        "meaning": "(Saturday)"
-      },
-      {
-        "japanese": "川崎重工",
-        "romaji": "kawasaki jūkō",
-        "meaning": "Kawasaki Heavy Industries"
-      },
-      {
-        "japanese": "エアバス",
-        "romaji": "eabasu",
-        "meaning": "Airbus"
-      },
-      {
-        "japanese": "と",
-        "romaji": "to",
-        "meaning": "and"
-      },
-      {
-        "japanese": "防衛ドローン",
-        "romaji": "bōei dorōn",
-        "meaning": "defense drone"
-      },
-      {
-        "japanese": "個人",
-        "romaji": "kojin",
-        "meaning": "individual / personal"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of / 's"
-      },
-      {
-        "japanese": "資産運用",
-        "romaji": "shisan un'yō",
-        "meaning": "asset management / asset investment"
-      },
-      {
-        "japanese": "AIチャット",
-        "romaji": "ēai chatto",
-        "meaning": "AI chat"
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "by / using / with"
-      },
-      {
-        "japanese": "完結",
-        "romaji": "kanketsu",
-        "meaning": "completion / concluding"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
