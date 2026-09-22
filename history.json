@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "9月22日（火）三菱商事 フィリピン財閥アヤラに追加出資、 ソフトバンクG 1.7兆円規模の外債発行へ",
+    "english_translation": "September 22nd (Tuesday): Mitsubishi Corporation Makes Additional Investment in Philippine Conglomerate Ayala; SoftBank Group to Issue Foreign Bonds Worth 1.7 Trillion Yen.",
+    "published_at": "2026-09-22 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3852512918.mp3",
+    "chunks": [
+      {
+        "japanese": "9月22日（火）",
+        "romaji": "Kugatsu nijūninichi (ka)",
+        "meaning": "September 22nd (Tuesday)"
+      },
+      {
+        "japanese": "三菱商事",
+        "romaji": "Mitsubishi Shōji",
+        "meaning": "Mitsubishi Corporation"
+      },
+      {
+        "japanese": "フィリピン財閥アヤラ",
+        "romaji": "Firipin zaibatsu Ayara",
+        "meaning": "Philippine conglomerate Ayala"
+      },
+      {
+        "japanese": "に追加出資",
+        "romaji": "ni tsuika shusshi",
+        "meaning": "makes additional investment in"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "Sofutobanku Jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "1.7兆円規模の",
+        "romaji": "Itten nana chōen kibo no",
+        "meaning": "of 1.7 trillion yen scale / worth 1.7 trillion yen"
+      },
+      {
+        "japanese": "外債発行へ",
+        "romaji": "Gaisai hakkō e",
+        "meaning": "towards issuing foreign bonds / to issue foreign bonds"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月21日（月）築古物件リノベーションに優遇融資、親子上場に狭まる包囲網 上場子会社139社",
     "english_translation": "September 21 (Mon) Preferential financing for renovated old properties, tightening net on parent-subsidiary listings: 139 listed subsidiary companies",
     "published_at": "2026-09-21 06:30:00",
@@ -6479,56 +6524,6 @@
         "japanese": "完結",
         "romaji": "kanketsu",
         "meaning": "completion / concluding"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月26日（金）日経平均７万円　株価指数について知ろう〜with NIKKEI",
-    "english_translation": "June 26th (Friday) Nikkei Average 70,000 Yen: Let's Learn About Stock Price Indices ~ with NIKKEI",
-    "published_at": "2026-06-26 17:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1944569403.mp3",
-    "chunks": [
-      {
-        "japanese": "6月26日",
-        "romaji": "rokugatsu nijūrokunichi",
-        "meaning": "June 26th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin'yōbi",
-        "meaning": "Friday"
-      },
-      {
-        "japanese": "日経平均",
-        "romaji": "nikkei heikin",
-        "meaning": "Nikkei Average"
-      },
-      {
-        "japanese": "7万円",
-        "romaji": "nanamanyen",
-        "meaning": "70,000 yen"
-      },
-      {
-        "japanese": "株価指数",
-        "romaji": "kabuka shisū",
-        "meaning": "stock price index"
-      },
-      {
-        "japanese": "について",
-        "romaji": "ni tsuite",
-        "meaning": "about / regarding"
-      },
-      {
-        "japanese": "知ろう",
-        "romaji": "shirō",
-        "meaning": "let's learn / let's know (volitional form of shiru)"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "wizu nikkei",
-        "meaning": "~ with NIKKEI"
       }
     ],
     "is_mock": false,
