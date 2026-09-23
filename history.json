@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "9月24日（木）JERAがハワイでLNG火力発電所 3100億円投資、ソフトバンクGジャンク債に発行額2倍の需要 10%の金利も",
+    "english_translation": "September 24 (Thursday): JERA invests 310 billion yen in an LNG thermal power plant in Hawaii; Demand for SoftBank Group's junk bonds reaches twice the issuance amount, with interest rates up to 10%.",
+    "published_at": "2026-09-24 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9601836996.mp3",
+    "chunks": [
+      {
+        "japanese": "9月24日（木）",
+        "romaji": "kugatsu nijūyokka (mokuyōbi)",
+        "meaning": "September 24th (Thursday)"
+      },
+      {
+        "japanese": "JERAが",
+        "romaji": "jera ga",
+        "meaning": "JERA (energy company) [subject marker]"
+      },
+      {
+        "japanese": "ハワイで",
+        "romaji": "hawai de",
+        "meaning": "in Hawaii"
+      },
+      {
+        "japanese": "LNG火力発電所",
+        "romaji": "eru enu jī karyoku hatsudensho",
+        "meaning": "LNG (Liquefied Natural Gas) thermal power plant"
+      },
+      {
+        "japanese": "3100億円",
+        "romaji": "sanzen hyakuoku en",
+        "meaning": "310 billion yen"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investment / investing"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "sofutobanku jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "ジャンク債に",
+        "romaji": "janku sai ni",
+        "meaning": "for/in junk bonds"
+      },
+      {
+        "japanese": "発行額",
+        "romaji": "hakkō gaku",
+        "meaning": "issuance amount"
+      },
+      {
+        "japanese": "2倍の",
+        "romaji": "nibai no",
+        "meaning": "twice / double of"
+      },
+      {
+        "japanese": "需要",
+        "romaji": "juyō",
+        "meaning": "demand"
+      },
+      {
+        "japanese": "10%の金利も",
+        "romaji": "juppāsento no kinri mo",
+        "meaning": "with interest rates of 10% as well"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月23日（水）高市首相 トランプ氏と23日未明会談へ、習近平氏 幻の11年ぶり国連演説",
     "english_translation": "September 23 (Wednesday): Prime Minister Takaichi to meet with Mr. Trump in the early morning of the 23rd; Mr. Xi Jinping's phantom UN speech after 11 years.",
     "published_at": "2026-09-23 06:30:00",
@@ -6488,40 +6558,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月28日（日） 対米投資 巨額のドル調達は難路、KDDIが楽天に揺さぶり 回線貸し出しの協業縮小も",
-    "english_translation": "June 28th (Sunday): US Investment – Massive Dollar Procurement Faces Difficult Path; KDDI Pressures Rakuten, Also Reducing Cooperation on Line Lending",
-    "published_at": "2026-06-28 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9673889727.mp3",
-    "chunks": [
-      {
-        "japanese": "6月28日（日）",
-        "romaji": "Roku-gatsu Ni-jū-hachi-nichi (Nichi)",
-        "meaning": "June 28th (Sunday)"
-      },
-      {
-        "japanese": "対米投資",
-        "romaji": "Tai-bei tōshi",
-        "meaning": "Investment in the US"
-      },
-      {
-        "japanese": "巨額のドル調達は難路",
-        "romaji": "Kyo-gaku no Doru chōtatsu wa nanro",
-        "meaning": "Securing a huge amount of dollars is a difficult path"
-      },
-      {
-        "japanese": "KDDIが楽天に揺さぶり",
-        "romaji": "Kē-dī-dī-ai ga Rakuten ni yusaburi",
-        "meaning": "KDDI puts pressure on Rakuten"
-      },
-      {
-        "japanese": "回線貸し出しの協業縮小も",
-        "romaji": "Kaisen kashidashi no kyōgyō shukushō mo",
-        "meaning": "Also, a reduction in cooperation for line lending"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
