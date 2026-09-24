@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "9月25日（金）ホンダが米国にHV新工場 オハイオ州で最終調整、サウジアラムコCEO「原油の供給止めず」 日本での共同備蓄拡大",
+    "english_translation": "September 25 (Friday): Honda in final adjustments for a new HV plant in Ohio, USA; Saudi Aramco CEO says 'We will not stop the supply of crude oil' as joint stockpiling in Japan expands",
+    "published_at": "2026-09-25 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7658329858.mp3",
+    "chunks": [
+      {
+        "japanese": "9月25日（金）",
+        "romaji": "kugatsu nijūgo-nichi (kin'yōbi)",
+        "meaning": "September 25th (Friday)"
+      },
+      {
+        "japanese": "ホンダが",
+        "romaji": "honda ga",
+        "meaning": "Honda (subject)"
+      },
+      {
+        "japanese": "米国に",
+        "romaji": "beikoku ni",
+        "meaning": "in/to the United States"
+      },
+      {
+        "japanese": "HV新工場",
+        "romaji": "eichi-bui shin-kōjō",
+        "meaning": "new HV (hybrid vehicle) factory"
+      },
+      {
+        "japanese": "オハイオ州で",
+        "romaji": "ohaio-shū de",
+        "meaning": "in Ohio State"
+      },
+      {
+        "japanese": "最終調整",
+        "romaji": "saishū chōsei",
+        "meaning": "final adjustments"
+      },
+      {
+        "japanese": "サウジアラムコCEO",
+        "romaji": "sauji aramuko shī-ī-ō",
+        "meaning": "Saudi Aramco CEO"
+      },
+      {
+        "japanese": "「原油の供給止めず」",
+        "romaji": "\"gen'yu no kyōkyū tomezu\"",
+        "meaning": "\"will not stop crude oil supply\""
+      },
+      {
+        "japanese": "日本での",
+        "romaji": "nihon de no",
+        "meaning": "in Japan"
+      },
+      {
+        "japanese": "共同備蓄拡大",
+        "romaji": "kyōdō bichiku kakudai",
+        "meaning": "expansion of joint stockpiling"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "9月24日（木）JERAがハワイでLNG火力発電所 3100億円投資、ソフトバンクGジャンク債に発行額2倍の需要 10%の金利も",
     "english_translation": "September 24 (Thursday): JERA invests 310 billion yen in an LNG thermal power plant in Hawaii; Demand for SoftBank Group's junk bonds reaches twice the issuance amount, with interest rates up to 10%.",
     "published_at": "2026-09-24 06:30:00",
@@ -6488,75 +6548,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "6月29日（月）高市内閣支持2ポイント上昇68%、ファストリ 取引先の違法就労厳しく監査",
-    "english_translation": "June 29 (Monday): Support for the Takaichi Cabinet rises 2 points to 68%; Fast Retailing to strictly audit suppliers' illegal employment.",
-    "published_at": "2026-06-29 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6864246921.mp3",
-    "chunks": [
-      {
-        "japanese": "6月29日（月）",
-        "romaji": "rokugatsu nijūkyūnichi (getsu)",
-        "meaning": "June 29th (Monday)"
-      },
-      {
-        "japanese": "高市内閣",
-        "romaji": "takaichi naikaku",
-        "meaning": "Takaichi Cabinet"
-      },
-      {
-        "japanese": "支持",
-        "romaji": "shiji",
-        "meaning": "support"
-      },
-      {
-        "japanese": "2ポイント",
-        "romaji": "ni pointo",
-        "meaning": "2 points"
-      },
-      {
-        "japanese": "上昇",
-        "romaji": "jōshō",
-        "meaning": "rise / increase"
-      },
-      {
-        "japanese": "68%",
-        "romaji": "rokujūhachi pasento",
-        "meaning": "68 percent"
-      },
-      {
-        "japanese": "ファストリ",
-        "romaji": "fasutori",
-        "meaning": "Fast Retailing (abbreviation for Uniqlo's parent company)"
-      },
-      {
-        "japanese": "取引先",
-        "romaji": "torihikisaki",
-        "meaning": "business partners / suppliers"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of / 's (possessive particle)"
-      },
-      {
-        "japanese": "違法就労",
-        "romaji": "ihō shūrō",
-        "meaning": "illegal employment / illegal labor"
-      },
-      {
-        "japanese": "厳しく",
-        "romaji": "kibishiku",
-        "meaning": "strictly"
-      },
-      {
-        "japanese": "監査",
-        "romaji": "kansa",
-        "meaning": "audit / inspection"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
