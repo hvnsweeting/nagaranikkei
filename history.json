@@ -1,5 +1,85 @@
 [
   {
+    "japanese_title": "9月26日（土） トランプ氏「中国は大戦時の同盟国」、ドコモが携帯料金値上げ　業界5年で3割上昇",
+    "english_translation": "September 26th (Saturday): Mr. Trump says 'China is a wartime ally'; Docomo raises mobile phone fees, with the industry seeing a 30% increase over 5 years.",
+    "published_at": "2026-09-26 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3898842033.mp3",
+    "chunks": [
+      {
+        "japanese": "9月26日（土）",
+        "romaji": "kugatsu nijūrokunichi (do)",
+        "meaning": "September 26th (Saturday)"
+      },
+      {
+        "japanese": "トランプ氏",
+        "romaji": "Toranpu-shi",
+        "meaning": "Mr. Trump"
+      },
+      {
+        "japanese": "「中国は",
+        "romaji": "Chūgoku wa",
+        "meaning": "China is (topic marker)"
+      },
+      {
+        "japanese": "大戦時",
+        "romaji": "taisenji",
+        "meaning": "wartime / during the great war"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of (possessive particle)"
+      },
+      {
+        "japanese": "同盟国」",
+        "romaji": "dōmeikoku",
+        "meaning": "allied nation / ally"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "ドコモが",
+        "romaji": "Dokomo ga",
+        "meaning": "Docomo (subject marker)"
+      },
+      {
+        "japanese": "携帯料金",
+        "romaji": "keitai ryōkin",
+        "meaning": "mobile phone fees"
+      },
+      {
+        "japanese": "値上げ",
+        "romaji": "neage",
+        "meaning": "price increase"
+      },
+      {
+        "japanese": "業界",
+        "romaji": "gyōkai",
+        "meaning": "industry"
+      },
+      {
+        "japanese": "5年で",
+        "romaji": "gonen de",
+        "meaning": "in 5 years / over 5 years"
+      },
+      {
+        "japanese": "3割",
+        "romaji": "sanwari",
+        "meaning": "30% / three tenths"
+      },
+      {
+        "japanese": "上昇",
+        "romaji": "jōshō",
+        "meaning": "rise / increase"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月25日（金）ホンダが米国にHV新工場 オハイオ州で最終調整、サウジアラムコCEO「原油の供給止めず」 日本での共同備蓄拡大",
     "english_translation": "September 25 (Friday): Honda in final adjustments for a new HV plant in Ohio, USA; Saudi Aramco CEO says 'We will not stop the supply of crude oil' as joint stockpiling in Japan expands",
     "published_at": "2026-09-25 06:30:00",
@@ -6478,75 +6558,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "6月30日（火）インドでアンモニア生産支援 日印首脳合意へ、IHI参加の再エネ事業 韓国サムスン SK 半導体に83兆円の巨額投資",
-    "english_translation": "June 30 (Tuesday) Support for ammonia production in India towards a Japan-India summit agreement; IHI to participate in a renewable energy project. South Korea's Samsung and SK to make a massive 83 trillion yen investment in semiconductors.",
-    "published_at": "2026-06-30 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6143207586.mp3",
-    "chunks": [
-      {
-        "japanese": "6月30日（火）",
-        "romaji": "Rokugatsu sanjūnichi (ka)",
-        "meaning": "June 30 (Tuesday)"
-      },
-      {
-        "japanese": "インドで",
-        "romaji": "Indo de",
-        "meaning": "In India"
-      },
-      {
-        "japanese": "アンモニア生産支援",
-        "romaji": "Anmonia seisan shien",
-        "meaning": "Ammonia production support"
-      },
-      {
-        "japanese": "日印首脳合意へ",
-        "romaji": "Nichiin shunō gōi e",
-        "meaning": "Towards a Japan-India summit agreement"
-      },
-      {
-        "japanese": "IHI参加の",
-        "romaji": "IHI sanka no",
-        "meaning": "IHI participating"
-      },
-      {
-        "japanese": "再エネ事業",
-        "romaji": "Sai-ene jigyō",
-        "meaning": "Renewable energy project"
-      },
-      {
-        "japanese": "韓国",
-        "romaji": "Kankoku",
-        "meaning": "South Korea"
-      },
-      {
-        "japanese": "サムスン",
-        "romaji": "Samusun",
-        "meaning": "Samsung"
-      },
-      {
-        "japanese": "SK",
-        "romaji": "Esu Kē",
-        "meaning": "SK (Group)"
-      },
-      {
-        "japanese": "半導体に",
-        "romaji": "Handōtai ni",
-        "meaning": "In semiconductors"
-      },
-      {
-        "japanese": "83兆円の",
-        "romaji": "Hachijūsan chōen no",
-        "meaning": "Of 83 trillion yen"
-      },
-      {
-        "japanese": "巨額投資",
-        "romaji": "Kyogaku tōshi",
-        "meaning": "Massive investment"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
