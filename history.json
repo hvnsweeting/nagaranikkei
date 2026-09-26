@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "9月27日（日） 中国が石炭年1000万トン輸入、定数削減「具体的な結論へ努力」",
+    "english_translation": "September 27th (Sunday): China imports 10 million tons of coal annually; regarding fixed number reduction, [there is an] \"effort towards concrete conclusions.\"",
+    "published_at": "2026-09-27 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7479938159.mp3",
+    "chunks": [
+      {
+        "japanese": "9月27日（日）",
+        "romaji": "kugatsu nijūnananichi (nichi)",
+        "meaning": "September 27th (Sunday)"
+      },
+      {
+        "japanese": "中国が",
+        "romaji": "Chūgoku ga",
+        "meaning": "China (subject particle)"
+      },
+      {
+        "japanese": "石炭",
+        "romaji": "sekitan",
+        "meaning": "coal"
+      },
+      {
+        "japanese": "年",
+        "romaji": "nen",
+        "meaning": "annually / per year"
+      },
+      {
+        "japanese": "1000万トン",
+        "romaji": "issenman ton",
+        "meaning": "10 million tons"
+      },
+      {
+        "japanese": "輸入",
+        "romaji": "yunyū",
+        "meaning": "import"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": "comma (separator)"
+      },
+      {
+        "japanese": "定数",
+        "romaji": "teisū",
+        "meaning": "fixed number / quota / capacity"
+      },
+      {
+        "japanese": "削減",
+        "romaji": "sakugen",
+        "meaning": "reduction / cut"
+      },
+      {
+        "japanese": "「",
+        "romaji": "hirakikagi",
+        "meaning": "opening quotation mark"
+      },
+      {
+        "japanese": "具体的な",
+        "romaji": "gutaiteki na",
+        "meaning": "concrete / specific"
+      },
+      {
+        "japanese": "結論",
+        "romaji": "ketsuron",
+        "meaning": "conclusion"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "towards / to"
+      },
+      {
+        "japanese": "努力",
+        "romaji": "doryoku",
+        "meaning": "effort / strive"
+      },
+      {
+        "japanese": "」",
+        "romaji": "tojikagi",
+        "meaning": "closing quotation mark"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月26日（土） トランプ氏「中国は大戦時の同盟国」、ドコモが携帯料金値上げ　業界5年で3割上昇",
     "english_translation": "September 26th (Saturday): Mr. Trump says 'China is a wartime ally'; Docomo raises mobile phone fees, with the industry seeing a 30% increase over 5 years.",
     "published_at": "2026-09-26 07:50:00",
@@ -6484,76 +6569,6 @@
         "japanese": "払い込み",
         "romaji": "haraikomi",
         "meaning": "payment / paying in"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月1日（水）アフラック顧客情報438万人分流出 不正アクセス、国産AI開発支援 ソフトバンクなど設立の新会社選定",
-    "english_translation": "July 1st (Wednesday): Aflac customer information of 4.38 million people leaked due to unauthorized access; domestic AI development support: new company established by SoftBank and others selected.",
-    "published_at": "2026-07-01 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9605920982.mp3",
-    "chunks": [
-      {
-        "japanese": "7月1日（水）",
-        "romaji": "shichigatsu tsuitachi (sui)",
-        "meaning": "July 1st (Wednesday)"
-      },
-      {
-        "japanese": "アフラック",
-        "romaji": "afurakku",
-        "meaning": "Aflac (insurance company)"
-      },
-      {
-        "japanese": "顧客情報",
-        "romaji": "kokyaku jōhō",
-        "meaning": "customer information"
-      },
-      {
-        "japanese": "438万人分",
-        "romaji": "yonhyaku sanjūhachiman-nin bun",
-        "meaning": "equivalent to 4.38 million people / for 4.38 million people"
-      },
-      {
-        "japanese": "流出",
-        "romaji": "ryūshutsu",
-        "meaning": "leak / leak out / data breach"
-      },
-      {
-        "japanese": "不正アクセス",
-        "romaji": "fusei akusesu",
-        "meaning": "unauthorized access"
-      },
-      {
-        "japanese": "国産",
-        "romaji": "kokusan",
-        "meaning": "domestically produced / domestic"
-      },
-      {
-        "japanese": "AI開発支援",
-        "romaji": "ēai kaihatsu shien",
-        "meaning": "AI development support"
-      },
-      {
-        "japanese": "ソフトバンクなど",
-        "romaji": "sofutobanku nado",
-        "meaning": "SoftBank and others"
-      },
-      {
-        "japanese": "設立の",
-        "romaji": "setsuritsu no",
-        "meaning": "established / founded"
-      },
-      {
-        "japanese": "新会社",
-        "romaji": "shinkaisha",
-        "meaning": "new company"
-      },
-      {
-        "japanese": "選定",
-        "romaji": "sentei",
-        "meaning": "selection / choosing"
       }
     ],
     "is_mock": false,
