@@ -1,5 +1,120 @@
 [
   {
+    "japanese_title": "9月28日（月）ロシア外相「日本とドイツは軍国主義の道歩んでいる」国連で演説、国際貿易の「受け渡し証明」電子化",
+    "english_translation": "September 28th (Monday): Russian Foreign Minister 'Japan and Germany are Walking the Path of Militarism,' Delivers Speech at UN, Digitization of 'Delivery Certificates' for International Trade",
+    "published_at": "2026-09-28 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2266765109.mp3",
+    "chunks": [
+      {
+        "japanese": "9月28日",
+        "romaji": "Kugatsu nijūhachinichi",
+        "meaning": "September 28th"
+      },
+      {
+        "japanese": "（月）",
+        "romaji": "(Getsu)",
+        "meaning": "(Monday)"
+      },
+      {
+        "japanese": "ロシア外相",
+        "romaji": "Roshia Gaishō",
+        "meaning": "Russian Foreign Minister"
+      },
+      {
+        "japanese": "「",
+        "romaji": "「",
+        "meaning": "(opening quotation mark)"
+      },
+      {
+        "japanese": "日本",
+        "romaji": "Nihon",
+        "meaning": "Japan"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "ドイツ",
+        "romaji": "Doitsu",
+        "meaning": "Germany"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "(topic particle)"
+      },
+      {
+        "japanese": "軍国主義",
+        "romaji": "Gunkokushugi",
+        "meaning": "militarism"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "道",
+        "romaji": "michi",
+        "meaning": "path / way"
+      },
+      {
+        "japanese": "歩んでいる",
+        "romaji": "ayunde iru",
+        "meaning": "are walking / treading"
+      },
+      {
+        "japanese": "」",
+        "romaji": "」",
+        "meaning": "(closing quotation mark)"
+      },
+      {
+        "japanese": "国連",
+        "romaji": "Kokuren",
+        "meaning": "United Nations (UN)"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "at"
+      },
+      {
+        "japanese": "演説",
+        "romaji": "Enzetsu",
+        "meaning": "speech / address"
+      },
+      {
+        "japanese": "、",
+        "romaji": "、",
+        "meaning": ","
+      },
+      {
+        "japanese": "国際貿易",
+        "romaji": "Kokusai Bōeki",
+        "meaning": "international trade"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "「受け渡し証明」",
+        "romaji": "ukewatashi shōmei",
+        "meaning": "\"delivery certificate\""
+      },
+      {
+        "japanese": "電子化",
+        "romaji": "Denshika",
+        "meaning": "digitization / electronic conversion"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月27日（日） 中国が石炭年1000万トン輸入、定数削減「具体的な結論へ努力」",
     "english_translation": "September 27th (Sunday): China imports 10 million tons of coal annually; regarding fixed number reduction, [there is an] \"effort towards concrete conclusions.\"",
     "published_at": "2026-09-27 07:50:00",
@@ -6513,65 +6628,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "7月2日（木）全自治体にUSB一斉調査 総務省 自衛隊のウイルス感染製品使用受け、ソフトバンクG OpenAIに1.6兆円払い込み",
-    "english_translation": "July 2nd (Thu): Ministry of Internal Affairs conducts simultaneous USB investigation of all local governments following SDF's use of virus-infected products; SoftBank Group pays 1.6 trillion yen to OpenAI",
-    "published_at": "2026-07-02 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7978255041.mp3",
-    "chunks": [
-      {
-        "japanese": "7月2日（木）",
-        "romaji": "shichi-gatsu futsuka (mokuyōbi)",
-        "meaning": "July 2nd (Thursday)"
-      },
-      {
-        "japanese": "全自治体に",
-        "romaji": "zen-jichitai ni",
-        "meaning": "to all local governments"
-      },
-      {
-        "japanese": "USB一斉調査",
-        "romaji": "yū-esu-bī issei chōsa",
-        "meaning": "simultaneous USB investigation"
-      },
-      {
-        "japanese": "総務省",
-        "romaji": "sōmushō",
-        "meaning": "Ministry of Internal Affairs and Communications"
-      },
-      {
-        "japanese": "自衛隊の",
-        "romaji": "jieitai no",
-        "meaning": "the Self-Defense Forces'"
-      },
-      {
-        "japanese": "ウイルス感染製品使用受け、",
-        "romaji": "uirusu kansen seihin shiyō uke",
-        "meaning": "following the use of virus-infected products"
-      },
-      {
-        "japanese": "ソフトバンクG",
-        "romaji": "sofutobanku jī",
-        "meaning": "SoftBank Group"
-      },
-      {
-        "japanese": "OpenAIに",
-        "romaji": "ōpun ē ai ni",
-        "meaning": "to OpenAI"
-      },
-      {
-        "japanese": "1.6兆円",
-        "romaji": "itten-roku chō en",
-        "meaning": "1.6 trillion yen"
-      },
-      {
-        "japanese": "払い込み",
-        "romaji": "haraikomi",
-        "meaning": "payment / paying in"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
