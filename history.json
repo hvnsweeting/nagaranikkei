@@ -1,5 +1,40 @@
 [
   {
+    "japanese_title": "9月30日（水）防衛スタートアップに出資 国が新法人、ニデック社長に戒田理夫専務執行役員",
+    "english_translation": "September 30th (Wednesday): Investment in defense startups, new corporation established by the state; Yoshio Kaita, Senior Managing Executive Officer, appointed as Nidec President.",
+    "published_at": "2026-09-30 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5070888193.mp3",
+    "chunks": [
+      {
+        "japanese": "9月30日（水）",
+        "romaji": "Kugatsu Sanjūnichi (Sui)",
+        "meaning": "September 30th (Wednesday)"
+      },
+      {
+        "japanese": "防衛スタートアップに出資",
+        "romaji": "Bōei sutātoappu ni shusshi",
+        "meaning": "Investment in defense startups"
+      },
+      {
+        "japanese": "国が新法人",
+        "romaji": "Kuni ga shin hōjin",
+        "meaning": "The state establishes a new corporation"
+      },
+      {
+        "japanese": "ニデック社長に",
+        "romaji": "Nidekku shachō ni",
+        "meaning": "As Nidec President"
+      },
+      {
+        "japanese": "戒田理夫専務執行役員",
+        "romaji": "Kaita Yoshio Senmu shikkō yakuin",
+        "meaning": "Yoshio Kaita, Senior Managing Executive Officer"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月29日（火）ニデック 数千億円の巨額減損計上、レゾナック 半導体チップ採取量4倍の基板開発",
     "english_translation": "September 29 (Tue) Nidec Records Massive Impairment Loss of Hundreds of Billions of Yen, Resonac Develops Substrate to Quadruple Semiconductor Chip Yield",
     "published_at": "2026-09-29 06:30:00",
@@ -6549,56 +6584,6 @@
         "japanese": "金融庁が調査",
         "romaji": "kin'yūchō ga chōsa",
         "meaning": "investigated by the Financial Services Agency"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月3日（金）30年ぶりに金利1%の世界へ　家計には負担か恩恵か？〜with NIKKEI",
-    "english_translation": "July 3rd (Friday) To a World of 1% Interest Rates for the First Time in 30 Years: A Burden or a Benefit for Households? ~ with NIKKEI",
-    "published_at": "2026-07-03 17:55:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8095851481.mp3",
-    "chunks": [
-      {
-        "japanese": "7月3日（金）",
-        "romaji": "shichigatsu mikka (kin)",
-        "meaning": "July 3rd (Friday)"
-      },
-      {
-        "japanese": "30年ぶりに",
-        "romaji": "sanjū-nen buri ni",
-        "meaning": "for the first time in 30 years"
-      },
-      {
-        "japanese": "金利1%",
-        "romaji": "kinri ichi-paasento",
-        "meaning": "1% interest rate"
-      },
-      {
-        "japanese": "の世界へ",
-        "romaji": "no sekai e",
-        "meaning": "to the world of"
-      },
-      {
-        "japanese": "家計には",
-        "romaji": "kakei ni wa",
-        "meaning": "for household budgets / households"
-      },
-      {
-        "japanese": "負担か",
-        "romaji": "futan ka",
-        "meaning": "a burden, or"
-      },
-      {
-        "japanese": "恩恵か？",
-        "romaji": "onkei ka?",
-        "meaning": "a benefit?"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "uizu nikkei",
-        "meaning": "with NIKKEI"
       }
     ],
     "is_mock": false,
