@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "10月1日（木）ニデック26年3月期有報 監査法人「意見不表明」、トイザらス「皮肉」な日本撤退 出店規制に風穴",
+    "english_translation": "October 1st (Thursday): Nidec's March 2026 Fiscal Year Securities Report - Audit Firm Issues \"Disclaimer of Opinion\"; Toys \"R\" Us' \"Ironic\" Withdrawal from Japan Creates a Breakthrough in Store Opening Regulations.",
+    "published_at": "2026-10-01 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2907703604.mp3",
+    "chunks": [
+      {
+        "japanese": "10月1日（木）",
+        "romaji": "jūgatsu tsuitachi (moku)",
+        "meaning": "October 1st (Thursday)"
+      },
+      {
+        "japanese": "ニデック",
+        "romaji": "Nidekku",
+        "meaning": "Nidec (company name)"
+      },
+      {
+        "japanese": "26年3月期",
+        "romaji": "26-nen sangatsuki",
+        "meaning": "Fiscal year ending March 2026"
+      },
+      {
+        "japanese": "有報",
+        "romaji": "yūhō",
+        "meaning": "Annual Securities Report"
+      },
+      {
+        "japanese": "監査法人",
+        "romaji": "kansa hōjin",
+        "meaning": "Audit firm"
+      },
+      {
+        "japanese": "「意見不表明」",
+        "romaji": "\"iken fuhyōmei\"",
+        "meaning": "\"Disclaimer of opinion\""
+      },
+      {
+        "japanese": "トイザらス",
+        "romaji": "Toizarasu",
+        "meaning": "Toys \"R\" Us"
+      },
+      {
+        "japanese": "「皮肉」な",
+        "romaji": "\"hiniku\" na",
+        "meaning": "\"Ironic\""
+      },
+      {
+        "japanese": "日本撤退",
+        "romaji": "Nihon tettai",
+        "meaning": "Withdrawal from Japan"
+      },
+      {
+        "japanese": "出店規制",
+        "romaji": "shutten kisei",
+        "meaning": "Store opening regulations"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "(particle indicating 'in', 'to')"
+      },
+      {
+        "japanese": "風穴",
+        "romaji": "kazaana",
+        "meaning": "Breakthrough / Opening"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "9月30日（水）防衛スタートアップに出資 国が新法人、ニデック社長に戒田理夫専務執行役員",
     "english_translation": "September 30th (Wednesday): Investment in defense startups, new corporation established by the state; Yoshio Kaita, Senior Managing Executive Officer, appointed as Nidec President.",
     "published_at": "2026-09-30 06:30:00",
@@ -6539,51 +6609,6 @@
         "japanese": "投資",
         "romaji": "tōshi",
         "meaning": "investment / to invest"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月4日（土） 成田―羽田直通の有料特急 2030年代に新設、目的曖昧な株式大量保有報告 金融庁が調査",
-    "english_translation": "July 4 (Sat): Paid limited express train directly connecting Narita and Haneda to be newly established in the 2030s; Financial Services Agency investigates large shareholding reports with vague purposes",
-    "published_at": "2026-07-04 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4593663898.mp3",
-    "chunks": [
-      {
-        "japanese": "7月4日（土）",
-        "romaji": "shichigatsu yokka (doyōbi)",
-        "meaning": "July 4th (Saturday)"
-      },
-      {
-        "japanese": "成田―羽田直通の",
-        "romaji": "Narita Haneda chokutsū no",
-        "meaning": "directly connecting Narita and Haneda"
-      },
-      {
-        "japanese": "有料特急",
-        "romaji": "yūryō tokkyū",
-        "meaning": "paid limited express train"
-      },
-      {
-        "japanese": "2030年代に新設",
-        "romaji": "nisen-sanjū nendai ni shinsetsu",
-        "meaning": "newly established in the 2030s"
-      },
-      {
-        "japanese": "目的曖昧な",
-        "romaji": "mokuteki aimai na",
-        "meaning": "with vague purposes"
-      },
-      {
-        "japanese": "株式大量保有報告",
-        "romaji": "kabushiki tairyō hoyū hōkoku",
-        "meaning": "large shareholding reports"
-      },
-      {
-        "japanese": "金融庁が調査",
-        "romaji": "kin'yūchō ga chōsa",
-        "meaning": "investigated by the Financial Services Agency"
       }
     ],
     "is_mock": false,
