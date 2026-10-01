@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "ながら日経 特別版「100年の資産形成」",
+    "english_translation": "Naganai Nikkei Special Edition \"100 Years of Asset Building\"",
+    "published_at": "2026-10-01 10:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5410737593.mp3",
+    "chunks": [
+      {
+        "japanese": "ながら日経",
+        "romaji": "nagarani nikkei",
+        "meaning": "Naganai Nikkei (a news program)"
+      },
+      {
+        "japanese": "特別版",
+        "romaji": "tokubetsuban",
+        "meaning": "special edition"
+      },
+      {
+        "japanese": "「",
+        "romaji": "(",
+        "meaning": "opening quotation mark"
+      },
+      {
+        "japanese": "100年",
+        "romaji": "hyaku nen",
+        "meaning": "100 years"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle"
+      },
+      {
+        "japanese": "資産形成",
+        "romaji": "shisan keisei",
+        "meaning": "asset building"
+      },
+      {
+        "japanese": "」",
+        "romaji": ")",
+        "meaning": "closing quotation mark"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "10月1日（木）ニデック26年3月期有報 監査法人「意見不表明」、トイザらス「皮肉」な日本撤退 出店規制に風穴",
     "english_translation": "October 1st (Thursday): Nidec's March 2026 Fiscal Year Securities Report - Audit Firm Issues \"Disclaimer of Opinion\"; Toys \"R\" Us' \"Ironic\" Withdrawal from Japan Creates a Breakthrough in Store Opening Regulations.",
     "published_at": "2026-10-01 06:30:00",
@@ -6549,66 +6594,6 @@
         "japanese": "技術実証",
         "romaji": "gijutsu jisshō",
         "meaning": "technology demonstration"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月5日（日）米マイクロン 広島で最先端メモリー生産へ、ミネベア 精密軸受け増産へ580億円投資",
-    "english_translation": "July 5 (Sun): US Micron to produce cutting-edge memory in Hiroshima; Minebea to invest 58 billion yen to increase precision bearing production",
-    "published_at": "2026-07-05 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC5592269838.mp3",
-    "chunks": [
-      {
-        "japanese": "7月5日（日）",
-        "romaji": "shichigatsu itsuka (nichiyōbi)",
-        "meaning": "July 5th (Sunday)"
-      },
-      {
-        "japanese": "米マイクロン",
-        "romaji": "bei maikuron",
-        "meaning": "US Micron (Micron Technology)"
-      },
-      {
-        "japanese": "広島で",
-        "romaji": "hiroshima de",
-        "meaning": "in Hiroshima"
-      },
-      {
-        "japanese": "最先端メモリー",
-        "romaji": "saisentan memorī",
-        "meaning": "cutting-edge memory"
-      },
-      {
-        "japanese": "生産へ",
-        "romaji": "seisan e",
-        "meaning": "toward production / to produce"
-      },
-      {
-        "japanese": "ミネベア",
-        "romaji": "minebea",
-        "meaning": "Minebea (machinery components company)"
-      },
-      {
-        "japanese": "精密軸受け",
-        "romaji": "seimitsu jikuuke",
-        "meaning": "precision bearings"
-      },
-      {
-        "japanese": "増産へ",
-        "romaji": "zōsan e",
-        "meaning": "toward production increase / to boost production"
-      },
-      {
-        "japanese": "580億円",
-        "romaji": "gohyaku hachijū oku en",
-        "meaning": "58 billion yen (literally 580 hundred-million yen)"
-      },
-      {
-        "japanese": "投資",
-        "romaji": "tōshi",
-        "meaning": "investment / to invest"
       }
     ],
     "is_mock": false,
