@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "10月3日（土） プルデンシャル生命 金融庁が処分へ、自衛隊の新型ミサイル 低コスト品量産へ",
+    "english_translation": "October 3rd (Saturday): Financial Services Agency to penalize Prudential Life; Self-Defense Forces to mass-produce low-cost new missiles",
+    "published_at": "2026-10-03 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8486337388.mp3",
+    "chunks": [
+      {
+        "japanese": "10月3日（土）",
+        "romaji": "jūgatsu mikka (doyōbi)",
+        "meaning": "October 3rd (Saturday)"
+      },
+      {
+        "japanese": "プルデンシャル生命",
+        "romaji": "purudensharu seimei",
+        "meaning": "Prudential Life Insurance"
+      },
+      {
+        "japanese": "金融庁",
+        "romaji": "kin'yūchō",
+        "meaning": "Financial Services Agency (FSA)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker particle"
+      },
+      {
+        "japanese": "処分へ",
+        "romaji": "shobun e",
+        "meaning": "toward taking administrative action / toward penalizing"
+      },
+      {
+        "japanese": "自衛隊",
+        "romaji": "jieitai",
+        "meaning": "Self-Defense Forces (SDF)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle (of)"
+      },
+      {
+        "japanese": "新型ミサイル",
+        "romaji": "shingata misairu",
+        "meaning": "new model of missile / new type of missile"
+      },
+      {
+        "japanese": "低コスト品",
+        "romaji": "teikosutohin",
+        "meaning": "low-cost products"
+      },
+      {
+        "japanese": "量産へ",
+        "romaji": "ryōsan e",
+        "meaning": "toward mass production"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月2日（金）変わる、職場の「当たり前」〜with NIKKEI",
     "english_translation": "Friday, October 2nd: The 'Norms' of the Workplace Are Changing ~with NIKKEI",
     "published_at": "2026-10-02 17:00:00",
@@ -6484,86 +6544,6 @@
         "japanese": "文言修正",
         "romaji": "mongon shūsei",
         "meaning": "wording revision / modification of text"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月8日（水）ヒューリック 東大受験「鉄緑会」買収 トップ進学塾の拡大支援、リニアが生む6600万人の「メガ経済圏」",
-    "english_translation": "July 8 (Wed) Hulic Acquires 'Tetsuryokukai' for Tokyo University Exams: Supporting Expansion of Top Prep Schools; The 'Mega Economic Zone' of 66 Million People Created by the Linear",
-    "published_at": "2026-07-08 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9550768824.mp3",
-    "chunks": [
-      {
-        "japanese": "7月8日（水）",
-        "romaji": "shichigatsu yōka (sui)",
-        "meaning": "July 8th (Wednesday)"
-      },
-      {
-        "japanese": "ヒューリック",
-        "romaji": "hyūrikku",
-        "meaning": "Hulic (a Japanese real estate company)"
-      },
-      {
-        "japanese": "東大受験",
-        "romaji": "tōdai juken",
-        "meaning": "Tokyo University entrance exams"
-      },
-      {
-        "japanese": "「鉄緑会」",
-        "romaji": "tetsuryokukai",
-        "meaning": "Tetsuryokukai (a prestigious prep school)"
-      },
-      {
-        "japanese": "買収",
-        "romaji": "baishū",
-        "meaning": "acquisition / buyout"
-      },
-      {
-        "japanese": "トップ進学塾",
-        "romaji": "toppu shingakujuku",
-        "meaning": "top prep school (cram school for school advancement)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of / 's (possessive/modifying particle)"
-      },
-      {
-        "japanese": "拡大支援",
-        "romaji": "kakudai shien",
-        "meaning": "expansion support"
-      },
-      {
-        "japanese": "リニア",
-        "romaji": "rinia",
-        "meaning": "Linear (referring to the maglev train)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "subject marker particle"
-      },
-      {
-        "japanese": "生む",
-        "romaji": "umu",
-        "meaning": "to create / to produce"
-      },
-      {
-        "japanese": "6600万人",
-        "romaji": "rokusen roppyaku-man nin",
-        "meaning": "66 million people"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (modifying particle)"
-      },
-      {
-        "japanese": "「メガ経済圏」",
-        "romaji": "mega keizaiken",
-        "meaning": "mega economic zone"
       }
     ],
     "is_mock": false,
