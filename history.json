@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "10月4日（日） ニトリが国内最大級リサイクル施設、学童保育に「小4以上枠」　待機解消へ子ども家庭庁",
+    "english_translation": "October 4th (Sun): Nitori opens one of the largest domestic recycling facilities; Children and Families Agency aims to eliminate waiting lists with '4th grade and above slots' in after-school care.",
+    "published_at": "2026-10-04 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8048689118.mp3",
+    "chunks": [
+      {
+        "japanese": "10月4日（日）",
+        "romaji": "jūgatsu yokka (nichiyōbi)",
+        "meaning": "October 4th (Sunday)"
+      },
+      {
+        "japanese": "ニトリが",
+        "romaji": "nitori ga",
+        "meaning": "Nitori (major Japanese furniture retail chain) [subject marker]"
+      },
+      {
+        "japanese": "国内最大級",
+        "romaji": "kokunai saidaikyū",
+        "meaning": "one of the largest in the country / domestic largest class"
+      },
+      {
+        "japanese": "リサイクル施設",
+        "romaji": "risaikuru shisetsu",
+        "meaning": "recycling facility"
+      },
+      {
+        "japanese": "学童保育に",
+        "romaji": "gakudō hoiku ni",
+        "meaning": "in / to after-school care (for elementary school students)"
+      },
+      {
+        "japanese": "「小4以上枠」",
+        "romaji": "shō-yon ijō waku",
+        "meaning": "slots/quotas for 4th graders and above"
+      },
+      {
+        "japanese": "待機解消へ",
+        "romaji": "taiki kaishō e",
+        "meaning": "towards resolving/eliminating waiting lists"
+      },
+      {
+        "japanese": "子ども家庭庁",
+        "romaji": "kodomo kateichō",
+        "meaning": "Children and Families Agency"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月3日（土） プルデンシャル生命 金融庁が処分へ、自衛隊の新型ミサイル 低コスト品量産へ",
     "english_translation": "October 3rd (Saturday): Financial Services Agency to penalize Prudential Life; Self-Defense Forces to mass-produce low-cost new missiles",
     "published_at": "2026-10-03 07:50:00",
@@ -6493,60 +6543,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash-lite"
-  },
-  {
-    "japanese_title": "7月9日（木）JCB・りそながバスで「手ぶら決済」 タッチ不要、骨太の方針原案 金融政策で文言修正",
-    "english_translation": "July 9 (Thursday): JCB and Resona trial 'hands-free payment' on buses with no touch required; Draft of the 'Big-Boned' (Basic) Policy; Wording revised in monetary policy",
-    "published_at": "2026-07-09 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7703450697.mp3",
-    "chunks": [
-      {
-        "japanese": "7月9日（木）",
-        "romaji": "shichigatsu kokonoka (mokuyōbi)",
-        "meaning": "July 9th (Thursday)"
-      },
-      {
-        "japanese": "JCB・りそな",
-        "romaji": "jē-shī-bī, risona",
-        "meaning": "JCB and Resona (Japanese financial institutions)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "subject marker particle"
-      },
-      {
-        "japanese": "バスで",
-        "romaji": "basu de",
-        "meaning": "on the bus / by bus"
-      },
-      {
-        "japanese": "「手ぶら決済」",
-        "romaji": "\"tebura kessai\"",
-        "meaning": "\"hands-free payment\" (empty-handed payment)"
-      },
-      {
-        "japanese": "タッチ不要",
-        "romaji": "tatchi fuyō",
-        "meaning": "no touch required"
-      },
-      {
-        "japanese": "骨太の方針原案",
-        "romaji": "honebuto no hōshin gen'an",
-        "meaning": "draft of the basic policies for economic and fiscal management (literally 'big-boned policy draft')"
-      },
-      {
-        "japanese": "金融政策で",
-        "romaji": "kin'yū seisaku de",
-        "meaning": "in monetary policy / regarding monetary policy"
-      },
-      {
-        "japanese": "文言修正",
-        "romaji": "mongon shūsei",
-        "meaning": "wording revision / modification of text"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
