@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "10月5日（月）サウジとUAE アジア石油備蓄に協力へ、BYD 軽EV「ラッコ」を海外販売",
+    "english_translation": "October 5th (Mon): Saudi and UAE to cooperate in Asian oil stockpiling; BYD to sell 'Lakko' mini EV overseas",
+    "published_at": "2026-10-05 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1233325393.mp3",
+    "chunks": [
+      {
+        "japanese": "10月5日（月）",
+        "romaji": "jūgatsu itsuka (getsuyōbi)",
+        "meaning": "October 5th (Monday)"
+      },
+      {
+        "japanese": "サウジ",
+        "romaji": "sauji",
+        "meaning": "Saudi (Arabia)"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "UAE",
+        "romaji": "yū-ē-ī",
+        "meaning": "UAE (United Arab Emirates)"
+      },
+      {
+        "japanese": "アジア",
+        "romaji": "ajia",
+        "meaning": "Asia"
+      },
+      {
+        "japanese": "石油備蓄",
+        "romaji": "sekiyu bichiku",
+        "meaning": "oil stockpiling / petroleum reserves"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "in / to (particle)"
+      },
+      {
+        "japanese": "協力へ",
+        "romaji": "kyōryoku e",
+        "meaning": "heading towards cooperation"
+      },
+      {
+        "japanese": "BYD",
+        "romaji": "bī-wai-dī",
+        "meaning": "BYD (Chinese electric vehicle manufacturer)"
+      },
+      {
+        "japanese": "軽EV",
+        "romaji": "kei ī-vī",
+        "meaning": "mini EV (light electric vehicle / 'kei' class EV)"
+      },
+      {
+        "japanese": "「ラッコ」",
+        "romaji": "rakko",
+        "meaning": "'Lakko' (literally 'Sea Otter', the car model name)"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marker (particle)"
+      },
+      {
+        "japanese": "海外販売",
+        "romaji": "kaigai hanbai",
+        "meaning": "overseas sales / selling overseas"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月4日（日） ニトリが国内最大級リサイクル施設、学童保育に「小4以上枠」　待機解消へ子ども家庭庁",
     "english_translation": "October 4th (Sun): Nitori opens one of the largest domestic recycling facilities; Children and Families Agency aims to eliminate waiting lists with '4th grade and above slots' in after-school care.",
     "published_at": "2026-10-04 07:50:00",
@@ -6453,95 +6528,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "7月10日（金）大成建設とファナック 収納力2倍の倉庫、ファストリ 製造小売りで世界2位に",
-    "english_translation": "July 10th (Friday) Taisei Corporation and FANUC; Warehouses with double storage capacity, Fast Retailing becomes world's 2nd in manufacturing retail",
-    "published_at": "2026-07-10 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6455881520.mp3",
-    "chunks": [
-      {
-        "japanese": "7月10日",
-        "romaji": "shichigatsu tōka",
-        "meaning": "July 10th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "(kin)",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "大成建設",
-        "romaji": "Taisei Kensetsu",
-        "meaning": "Taisei Corporation"
-      },
-      {
-        "japanese": "と",
-        "romaji": "to",
-        "meaning": "and"
-      },
-      {
-        "japanese": "ファナック",
-        "romaji": "Fanukku",
-        "meaning": "FANUC"
-      },
-      {
-        "japanese": "収納力",
-        "romaji": "shūnōryoku",
-        "meaning": "storage capacity"
-      },
-      {
-        "japanese": "2倍",
-        "romaji": "ni-bai",
-        "meaning": "double"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of"
-      },
-      {
-        "japanese": "倉庫",
-        "romaji": "sōko",
-        "meaning": "warehouse"
-      },
-      {
-        "japanese": "、",
-        "romaji": "、",
-        "meaning": ","
-      },
-      {
-        "japanese": "ファストリ",
-        "romaji": "Fasutori",
-        "meaning": "Fast Retailing"
-      },
-      {
-        "japanese": "製造小売り",
-        "romaji": "seizō kogōri",
-        "meaning": "manufacturing retail"
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "in"
-      },
-      {
-        "japanese": "世界",
-        "romaji": "sekai",
-        "meaning": "world"
-      },
-      {
-        "japanese": "2位",
-        "romaji": "ni-i",
-        "meaning": "2nd place"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash-lite"
   }
 ]
