@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "10月7日（水）日経平均終値737円高 3カ月ぶり7万円台回復、川崎重工 ロボット企業へトランスフォーム",
+    "english_translation": "October 7 (Wed): Nikkei Average closing price up 737 yen, recovering to the 70,000 yen level for the first time in 3 months; Kawasaki Heavy Industries transforms into a robotics company",
+    "published_at": "2026-10-07 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9101971209.mp3",
+    "chunks": [
+      {
+        "japanese": "10月7日（水）",
+        "romaji": "jūgatsu nanoka (sui)",
+        "meaning": "October 7th (Wednesday)"
+      },
+      {
+        "japanese": "日経平均",
+        "romaji": "nikkei heikin",
+        "meaning": "Nikkei Average"
+      },
+      {
+        "japanese": "終値",
+        "romaji": "owarine",
+        "meaning": "closing price"
+      },
+      {
+        "japanese": "737円高",
+        "romaji": "nanahyaku sanjū nana-en daka",
+        "meaning": "737 yen higher"
+      },
+      {
+        "japanese": "3カ月ぶり",
+        "romaji": "san-ka-getsu buri",
+        "meaning": "for the first time in 3 months"
+      },
+      {
+        "japanese": "7万円台",
+        "romaji": "nana-man-en-dai",
+        "meaning": "70,000 yen level"
+      },
+      {
+        "japanese": "回復",
+        "romaji": "kaifuku",
+        "meaning": "recovery"
+      },
+      {
+        "japanese": "川崎重工",
+        "romaji": "kawasaki jūkō",
+        "meaning": "Kawasaki Heavy Industries"
+      },
+      {
+        "japanese": "ロボット企業へ",
+        "romaji": "robotto kigyō e",
+        "meaning": "to a robotics company"
+      },
+      {
+        "japanese": "トランスフォーム",
+        "romaji": "toransufōmu",
+        "meaning": "transform"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月6日（火）老朽火力発電所の延命資金を市場調達 経産省検討、大和証券 口座番号など顧客情報22万件が漏洩か",
     "english_translation": "October 6 (Tue): METI considers market procurement of life-extension funds for aging thermal power plants; Daiwa Securities leaks up to 220,000 items of customer information, including account numbers?",
     "published_at": "2026-10-06 06:30:00",
@@ -6504,51 +6564,6 @@
         "japanese": "主導",
         "romaji": "shudō",
         "meaning": "leadership / spearheading / taking the initiative"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月11日（土） ソフトバンクやPayPay セブン&アイに出資協議、退職自衛官の支援へ「庁」新設検討",
-    "english_translation": "July 11 (Sat) - SoftBank and PayPay in talks to invest in Seven & i; considering the establishment of a new 'Agency' to support retired Self-Defense Force personnel.",
-    "published_at": "2026-07-11 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8108235042.mp3",
-    "chunks": [
-      {
-        "japanese": "7月11日（土）",
-        "romaji": "shichigatsu jūichinichi (doyōbi)",
-        "meaning": "July 11th (Saturday)"
-      },
-      {
-        "japanese": "ソフトバンクやPayPay",
-        "romaji": "sofutobanku ya peipei",
-        "meaning": "SoftBank, PayPay, etc."
-      },
-      {
-        "japanese": "セブン&アイに",
-        "romaji": "sebun ando ai ni",
-        "meaning": "in/to Seven & i"
-      },
-      {
-        "japanese": "出資協議",
-        "romaji": "shusshi kyōgi",
-        "meaning": "investment talks"
-      },
-      {
-        "japanese": "退職自衛官の",
-        "romaji": "taishoku jieikan no",
-        "meaning": "retired Self-Defense Force (SDF) personnel's"
-      },
-      {
-        "japanese": "支援へ",
-        "romaji": "shien e",
-        "meaning": "toward support / toward assistance"
-      },
-      {
-        "japanese": "「庁」新設検討",
-        "romaji": "'chō' shinsetsu kentō",
-        "meaning": "considering establishing a new 'Agency' (government office)"
       }
     ],
     "is_mock": false,
