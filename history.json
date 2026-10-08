@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "10月8日（木）ノーベル化学賞に東京理科大名誉教授の硤合憲三氏 不斉有機合成、TOPIX刷新 「全入指数」に選別の波",
+    "english_translation": "October 8 (Thursday) - Kenso Soai, Professor Emeritus at Tokyo University of Science, tipped for the Nobel Prize in Chemistry for asymmetric organic synthesis; TOPIX reform brings a 'wave of selection' to the 'all-inclusive index'",
+    "published_at": "2026-10-08 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3684762203.mp3",
+    "chunks": [
+      {
+        "japanese": "10月8日（木）",
+        "romaji": "jūgatsu yōka (moku)",
+        "meaning": "October 8th (Thursday)"
+      },
+      {
+        "japanese": "ノーベル化学賞に",
+        "romaji": "nōberu kagakushō ni",
+        "meaning": "for the Nobel Prize in Chemistry"
+      },
+      {
+        "japanese": "東京理科大",
+        "romaji": "tōkyō rikadai",
+        "meaning": "Tokyo University of Science"
+      },
+      {
+        "japanese": "名誉教授の",
+        "romaji": "meiyo kyōju no",
+        "meaning": "Professor Emeritus (of)"
+      },
+      {
+        "japanese": "硤合憲三氏",
+        "romaji": "sōai kenzō-shi",
+        "meaning": "Mr. Kenso Soai"
+      },
+      {
+        "japanese": "不斉有機合成",
+        "romaji": "fusei yūki gōsei",
+        "meaning": "asymmetric organic synthesis"
+      },
+      {
+        "japanese": "TOPIX刷新",
+        "romaji": "topikusu sasshin",
+        "meaning": "TOPIX reform / renewal"
+      },
+      {
+        "japanese": "「全入指数」に",
+        "romaji": "zen'nyū shisū ni",
+        "meaning": "to the 'all-inclusive index'"
+      },
+      {
+        "japanese": "選別の波",
+        "romaji": "senbetsu no nami",
+        "meaning": "a wave of selection"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月7日（水）日経平均終値737円高 3カ月ぶり7万円台回復、川崎重工 ロボット企業へトランスフォーム",
     "english_translation": "October 7 (Wed): Nikkei Average closing price up 737 yen, recovering to the 70,000 yen level for the first time in 3 months; Kawasaki Heavy Industries transforms into a robotics company",
     "published_at": "2026-10-07 06:30:00",
@@ -6503,70 +6558,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash-lite"
-  },
-  {
-    "japanese_title": "7月12日（日） 100万円でも買えない株 6割増の49銘柄、AppleがOpenAI提訴「元幹部が機密持ち出し主導」",
-    "english_translation": "July 12 (Sun) - Stocks you can't buy even with 1 million yen increase by 60% to 49 brands; Apple sues OpenAI: 'Former executive led the removal of confidential info'",
-    "published_at": "2026-07-12 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC5298043914.mp3",
-    "chunks": [
-      {
-        "japanese": "7月12日（日）",
-        "romaji": "Shichigatsu jūninichi (nichiyōbi)",
-        "meaning": "July 12th (Sunday)"
-      },
-      {
-        "japanese": "100万円でも",
-        "romaji": "hyakuman-en demo",
-        "meaning": "even with 1 million yen"
-      },
-      {
-        "japanese": "買えない株",
-        "romaji": "kaenai kabu",
-        "meaning": "stocks that cannot be bought"
-      },
-      {
-        "japanese": "6割増の",
-        "romaji": "rokuwarimashi no",
-        "meaning": "60% increase of"
-      },
-      {
-        "japanese": "49銘柄",
-        "romaji": "yonjūkyū meigara",
-        "meaning": "49 stock brands / 49 stock issues"
-      },
-      {
-        "japanese": "Appleが",
-        "romaji": "Appuru ga",
-        "meaning": "Apple (subject)"
-      },
-      {
-        "japanese": "OpenAI提訴",
-        "romaji": "Ōpun-AI teiso",
-        "meaning": "suing OpenAI / lawsuit against OpenAI"
-      },
-      {
-        "japanese": "元幹部が",
-        "romaji": "moto kanbu ga",
-        "meaning": "former executive (subject)"
-      },
-      {
-        "japanese": "機密",
-        "romaji": "kimitsu",
-        "meaning": "confidential information / secrets"
-      },
-      {
-        "japanese": "持ち出し",
-        "romaji": "mochidashi",
-        "meaning": "taking out / removal / unauthorized copying"
-      },
-      {
-        "japanese": "主導",
-        "romaji": "shudō",
-        "meaning": "leadership / spearheading / taking the initiative"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
