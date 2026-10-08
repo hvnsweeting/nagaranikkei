@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "10月9日（金）プルデンシャル生命「全社で統治不全」 報告書公表、ファストリが大幅増配 27年8月期は7年連続で最高益へ",
+    "english_translation": "October 9th (Friday) Prudential Life 'Company-wide Governance Failure' Report Released; Fast Retailing Substantially Increases Dividends, Heading Towards Record-High Profits for the 7th Consecutive Year in the Fiscal Year Ending August 2027",
+    "published_at": "2026-10-09 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5174924722.mp3",
+    "chunks": [
+      {
+        "japanese": "10月9日（金）",
+        "romaji": "jūgatsu kokonoka (kin'yōbi)",
+        "meaning": "October 9th (Friday)"
+      },
+      {
+        "japanese": "プルデンシャル生命",
+        "romaji": "Purudensharu seimei",
+        "meaning": "Prudential Life Insurance"
+      },
+      {
+        "japanese": "「全社で統治不全」",
+        "romaji": "\"zensha de tōchi fuzen\"",
+        "meaning": "\"company-wide governance failure\""
+      },
+      {
+        "japanese": "報告書公表",
+        "romaji": "hōkokusho kōhyō",
+        "meaning": "report released / published"
+      },
+      {
+        "japanese": "ファストリが",
+        "romaji": "Fasutori ga",
+        "meaning": "Fast Retailing (subject marker)"
+      },
+      {
+        "japanese": "大幅増配",
+        "romaji": "ōhaba zōhai",
+        "meaning": "significant dividend increase"
+      },
+      {
+        "japanese": "27年8月期は",
+        "romaji": "nijūnananen hachigatsuki wa",
+        "meaning": "as for the fiscal year ending August 2027"
+      },
+      {
+        "japanese": "7年連続で",
+        "romaji": "nananen renzoku de",
+        "meaning": "for the 7th consecutive year"
+      },
+      {
+        "japanese": "最高益へ",
+        "romaji": "saikōeki e",
+        "meaning": "towards record-high profits"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月8日（木）ノーベル化学賞に東京理科大名誉教授の硤合憲三氏 不斉有機合成、TOPIX刷新 「全入指数」に選別の波",
     "english_translation": "October 8 (Thursday) - Kenso Soai, Professor Emeritus at Tokyo University of Science, tipped for the Nobel Prize in Chemistry for asymmetric organic synthesis; TOPIX reform brings a 'wave of selection' to the 'all-inclusive index'",
     "published_at": "2026-10-08 06:30:00",
@@ -6468,95 +6523,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月13日（月）東京の空き家予備軍100万戸、ヒューリック 鉄緑会につけた数百億円の価値",
-    "english_translation": "July 13 (Mon) Tokyo's 1 million vacant homes in reserve, Hulic's hundreds of billions of yen value attached to Tetsuryukai",
-    "published_at": "2026-07-13 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3405290245.mp3",
-    "chunks": [
-      {
-        "japanese": "7月13日",
-        "romaji": "shichigatsu jūsan-nichi",
-        "meaning": "July 13th"
-      },
-      {
-        "japanese": "（月）",
-        "romaji": "（getsu）",
-        "meaning": "(Monday)"
-      },
-      {
-        "japanese": "東京",
-        "romaji": "Tōkyō",
-        "meaning": "Tokyo"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (possessive particle)"
-      },
-      {
-        "japanese": "空き家",
-        "romaji": "akiya",
-        "meaning": "vacant house"
-      },
-      {
-        "japanese": "予備軍",
-        "romaji": "yobigun",
-        "meaning": "reserve force / reserve"
-      },
-      {
-        "japanese": "100万戸",
-        "romaji": "hyakuman-ko",
-        "meaning": "1 million units (households/doors)"
-      },
-      {
-        "japanese": "、",
-        "romaji": "、",
-        "meaning": ","
-      },
-      {
-        "japanese": "ヒューリック",
-        "romaji": "Hyūrikku",
-        "meaning": "Hulic (company name)"
-      },
-      {
-        "japanese": " ",
-        "romaji": " ",
-        "meaning": " "
-      },
-      {
-        "japanese": "鉄緑会",
-        "romaji": "Tetsuryūkai",
-        "meaning": "Tetsuryukai (a cram school)"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to (particle indicating destination or target)"
-      },
-      {
-        "japanese": "つけた",
-        "romaji": "tsuketa",
-        "meaning": "attached / given"
-      },
-      {
-        "japanese": "数百億円",
-        "romaji": "suuhyaku okuyen",
-        "meaning": "hundreds of billions of yen"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (possessive particle)"
-      },
-      {
-        "japanese": "価値",
-        "romaji": "kachi",
-        "meaning": "value"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash-lite"
   }
 ]
