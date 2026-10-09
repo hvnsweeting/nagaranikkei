@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "10月9日（金）ノーベル賞の秋、今年も到来〜with NIKKEI",
+    "english_translation": "October 9th (Friday): The Autumn of the Nobel Prize Arrives Again This Year ~with NIKKEI",
+    "published_at": "2026-10-09 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5215345196.mp3",
+    "chunks": [
+      {
+        "japanese": "10月9日（金）",
+        "romaji": "jū-gatsu kokonoka (kin'yōbi)",
+        "meaning": "October 9th (Friday)"
+      },
+      {
+        "japanese": "ノーベル賞",
+        "romaji": "nōberu-shō",
+        "meaning": "Nobel Prize"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of"
+      },
+      {
+        "japanese": "秋",
+        "romaji": "aki",
+        "meaning": "autumn / fall"
+      },
+      {
+        "japanese": "今年も",
+        "romaji": "kotoshi mo",
+        "meaning": "this year too"
+      },
+      {
+        "japanese": "到来",
+        "romaji": "tōrai",
+        "meaning": "arrival / coming"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "~uizu nikkei",
+        "meaning": "~with NIKKEI (Japanese financial newspaper)"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月9日（金）プルデンシャル生命「全社で統治不全」 報告書公表、ファストリが大幅増配 27年8月期は7年連続で最高益へ",
     "english_translation": "October 9th (Friday) Prudential Life 'Company-wide Governance Failure' Report Released; Fast Retailing Substantially Increases Dividends, Heading Towards Record-High Profits for the 7th Consecutive Year in the Fiscal Year Ending August 2027",
     "published_at": "2026-10-09 06:30:00",
@@ -6459,66 +6504,6 @@
         "japanese": "提携",
         "romaji": "teikei",
         "meaning": "partnership / alliance"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月14日（火）「令和のPKO」急浮上 GPIFで国債買い支え論、 三菱UFJ 時価総額首位",
-    "english_translation": "July 14 (Tuesday) - 'Reiwa PKO' Rapidly Emerges: Debate over GPIF supporting government bonds, Mitsubishi UFJ takes top spot in market capitalization",
-    "published_at": "2026-07-14 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9560604493.mp3",
-    "chunks": [
-      {
-        "japanese": "7月14日（火）",
-        "romaji": "shichi-gatsu jūyokka (ka)",
-        "meaning": "July 14th (Tuesday)"
-      },
-      {
-        "japanese": "令和の",
-        "romaji": "reiwa no",
-        "meaning": "Reiwa era's"
-      },
-      {
-        "japanese": "PKO",
-        "romaji": "pī-kē-ō",
-        "meaning": "PKO (Price Keeping Operation - government intervention to support stock prices)"
-      },
-      {
-        "japanese": "急浮上",
-        "romaji": "kyūfujō",
-        "meaning": "rapidly emerging / sudden rise to the surface"
-      },
-      {
-        "japanese": "GPIFで",
-        "romaji": "jī-pī-ai-efu de",
-        "meaning": "by/using GPIF (Government Pension Investment Fund)"
-      },
-      {
-        "japanese": "国債",
-        "romaji": "kokusai",
-        "meaning": "government bonds"
-      },
-      {
-        "japanese": "買い支え論",
-        "romaji": "kaisasae ron",
-        "meaning": "argument for buying to support (the market)"
-      },
-      {
-        "japanese": "三菱UFJ",
-        "romaji": "mitsubishi yū-efu-jei",
-        "meaning": "Mitsubishi UFJ (financial group)"
-      },
-      {
-        "japanese": "時価総額",
-        "romaji": "jika sōgaku",
-        "meaning": "market capitalization"
-      },
-      {
-        "japanese": "首位",
-        "romaji": "shui",
-        "meaning": "first place / top position"
       }
     ],
     "is_mock": false,
