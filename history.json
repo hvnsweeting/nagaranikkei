@@ -1,5 +1,100 @@
 [
   {
+    "japanese_title": "10月11日（日） 患者通知なく診療データ提供 大病院に義務づけ、大成建設 ゲリラ豪雨の浸水5分で予測",
+    "english_translation": "October 11th (Sunday): Mandating medical data provision without patient notification for large hospitals; Taisei Corporation predicts guerrilla downpour flooding in 5 minutes.",
+    "published_at": "2026-10-11 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6399018247.mp3",
+    "chunks": [
+      {
+        "japanese": "10月11日（日）",
+        "romaji": "Jūgatsu jūichinichi (Nichi)",
+        "meaning": "October 11th (Sunday)"
+      },
+      {
+        "japanese": "患者",
+        "romaji": "Kanja",
+        "meaning": "Patient"
+      },
+      {
+        "japanese": "通知",
+        "romaji": "Tsūchi",
+        "meaning": "Notification"
+      },
+      {
+        "japanese": "なく",
+        "romaji": "Naku",
+        "meaning": "Without"
+      },
+      {
+        "japanese": "診療",
+        "romaji": "Shinryō",
+        "meaning": "Medical treatment / Consultation"
+      },
+      {
+        "japanese": "データ",
+        "romaji": "Dēta",
+        "meaning": "Data"
+      },
+      {
+        "japanese": "提供",
+        "romaji": "Teikyō",
+        "meaning": "Provision / Offering"
+      },
+      {
+        "japanese": "大病院",
+        "romaji": "Daibyōin",
+        "meaning": "Large hospital"
+      },
+      {
+        "japanese": "に",
+        "romaji": "Ni",
+        "meaning": "To / For"
+      },
+      {
+        "japanese": "義務づけ",
+        "romaji": "Gimuzuke",
+        "meaning": "Mandated / Obligation"
+      },
+      {
+        "japanese": "大成建設",
+        "romaji": "Taisei Kensetsu",
+        "meaning": "Taisei Corporation (a construction company)"
+      },
+      {
+        "japanese": "ゲリラ豪雨",
+        "romaji": "Gerira gōu",
+        "meaning": "Guerrilla downpour / Sudden localized torrential rain"
+      },
+      {
+        "japanese": "の",
+        "romaji": "No",
+        "meaning": "Of / 's"
+      },
+      {
+        "japanese": "浸水",
+        "romaji": "Shinsui",
+        "meaning": "Flooding / Inundation"
+      },
+      {
+        "japanese": "5分",
+        "romaji": "Gofun",
+        "meaning": "5 minutes"
+      },
+      {
+        "japanese": "で",
+        "romaji": "De",
+        "meaning": "In / By"
+      },
+      {
+        "japanese": "予測",
+        "romaji": "Yosoku",
+        "meaning": "Prediction / Forecast"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月10日（土） 中小の事業承継 悪質なM&A仲介排除へ、金融庁 プルデンシャル生命に業務停止命令",
     "english_translation": "October 10 (Sat) - Towards eliminating malicious M&A intermediaries in SME business succession; Financial Services Agency issues business suspension order to Prudential Life Insurance",
     "published_at": "2026-10-10 07:50:00",
@@ -6433,75 +6528,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "7月16日（木）電力8社がデータセンター送電網増強 全国30カ所、ASML 通期売上高見通しを上方修正",
-    "english_translation": "July 16 (Thursday) - 8 power companies to strengthen power grids for data centers at 30 locations nationwide; ASML revises full-year sales forecast upward",
-    "published_at": "2026-07-16 05:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6050648958.mp3",
-    "chunks": [
-      {
-        "japanese": "7月16日（木）",
-        "romaji": "shichigatsu jūrokunichi (mokuyōbi)",
-        "meaning": "July 16th (Thursday)"
-      },
-      {
-        "japanese": "電力8社",
-        "romaji": "denryoku hassha",
-        "meaning": "8 power companies"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "subject marker"
-      },
-      {
-        "japanese": "データセンター",
-        "romaji": "dēta sentā",
-        "meaning": "data center"
-      },
-      {
-        "japanese": "送電網",
-        "romaji": "sōdenmō",
-        "meaning": "power transmission grid"
-      },
-      {
-        "japanese": "増強",
-        "romaji": "zōkyō",
-        "meaning": "reinforcement / expansion"
-      },
-      {
-        "japanese": "全国30カ所",
-        "romaji": "zenkoku sanjūkasho",
-        "meaning": "30 locations nationwide"
-      },
-      {
-        "japanese": "ASML",
-        "romaji": "ē esu emu eru",
-        "meaning": "ASML (semiconductor equipment manufacturer)"
-      },
-      {
-        "japanese": "通期",
-        "romaji": "tsūki",
-        "meaning": "full-year / full-term"
-      },
-      {
-        "japanese": "売上高見通し",
-        "romaji": "uriagedaka mitoshi",
-        "meaning": "sales forecast / revenue outlook"
-      },
-      {
-        "japanese": "を",
-        "romaji": "o",
-        "meaning": "object marker"
-      },
-      {
-        "japanese": "上方修正",
-        "romaji": "jōhō shūsei",
-        "meaning": "upward revision"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
