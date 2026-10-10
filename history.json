@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "10月10日（土） 中小の事業承継 悪質なM&A仲介排除へ、金融庁 プルデンシャル生命に業務停止命令",
+    "english_translation": "October 10 (Sat) - Towards eliminating malicious M&A intermediaries in SME business succession; Financial Services Agency issues business suspension order to Prudential Life Insurance",
+    "published_at": "2026-10-10 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6347607452.mp3",
+    "chunks": [
+      {
+        "japanese": "10月10日（土）",
+        "romaji": "jū-gatsu tōka (doyōbi)",
+        "meaning": "October 10th (Saturday)"
+      },
+      {
+        "japanese": "中小の",
+        "romaji": "chūshō no",
+        "meaning": "small and medium-sized (enterprises')"
+      },
+      {
+        "japanese": "事業承継",
+        "romaji": "jigyō shōkei",
+        "meaning": "business succession"
+      },
+      {
+        "japanese": "悪質な",
+        "romaji": "akushitsu na",
+        "meaning": "malicious / bad-faith"
+      },
+      {
+        "japanese": "M&A仲介",
+        "romaji": "emu ando ē chūkai",
+        "meaning": "M&A (Mergers & Acquisitions) brokerage / intermediary"
+      },
+      {
+        "japanese": "排除へ",
+        "romaji": "haijo e",
+        "meaning": "towards the exclusion / elimination of"
+      },
+      {
+        "japanese": "金融庁",
+        "romaji": "kin'yū-chō",
+        "meaning": "Financial Services Agency (FSA)"
+      },
+      {
+        "japanese": "プルデンシャル生命に",
+        "romaji": "purudensharu seimei ni",
+        "meaning": "to Prudential Life Insurance"
+      },
+      {
+        "japanese": "業務停止命令",
+        "romaji": "gyōmu teishi meirei",
+        "meaning": "business suspension order"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月9日（金）ノーベル賞の秋、今年も到来〜with NIKKEI",
     "english_translation": "October 9th (Friday): The Autumn of the Nobel Prize Arrives Again This Year ~with NIKKEI",
     "published_at": "2026-10-09 17:00:00",
@@ -6444,66 +6499,6 @@
         "japanese": "上方修正",
         "romaji": "jōhō shūsei",
         "meaning": "upward revision"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月15日（水）日本の特許競争力 G7で最低 産学連携のビジネス活用弱く、NVIDIAと三菱重工 AIデータセンターで提携",
-    "english_translation": "July 15 (Wed) Japan's patent competitiveness lowest in G7, business utilization of industry-academia collaboration is weak; NVIDIA and Mitsubishi Heavy Industries partner in AI data centers",
-    "published_at": "2026-07-15 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1178358694.mp3",
-    "chunks": [
-      {
-        "japanese": "7月15日（水）",
-        "romaji": "shichigatsu jūgonichi (sui)",
-        "meaning": "July 15th (Wednesday)"
-      },
-      {
-        "japanese": "日本の",
-        "romaji": "nihon no",
-        "meaning": "Japan's"
-      },
-      {
-        "japanese": "特許競争力",
-        "romaji": "tokkyo kyōsōryoku",
-        "meaning": "patent competitiveness"
-      },
-      {
-        "japanese": "G7で最低",
-        "romaji": "jī sebun de saitei",
-        "meaning": "lowest among G7"
-      },
-      {
-        "japanese": "産学連携の",
-        "romaji": "sangaku renkei no",
-        "meaning": "of industry-academia collaboration"
-      },
-      {
-        "japanese": "ビジネス活用弱く",
-        "romaji": "bijinesu katsuyō yowaku",
-        "meaning": "business utilization is weak, and"
-      },
-      {
-        "japanese": "NVIDIAと",
-        "romaji": "enubidia to",
-        "meaning": "NVIDIA and"
-      },
-      {
-        "japanese": "三菱重工",
-        "romaji": "mitsubishi jūkō",
-        "meaning": "Mitsubishi Heavy Industries"
-      },
-      {
-        "japanese": "AIデータセンターで",
-        "romaji": "ēai dētasentā de",
-        "meaning": "in AI data centers"
-      },
-      {
-        "japanese": "提携",
-        "romaji": "teikei",
-        "meaning": "partnership / alliance"
       }
     ],
     "is_mock": false,
