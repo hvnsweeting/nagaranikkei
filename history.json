@@ -1,5 +1,110 @@
 [
   {
+    "japanese_title": "10月15日（木）簗和生農相 首相に辞表提出、ワールドとTSIが経営統合へ 27年3月に持ち株会社設立",
+    "english_translation": "October 15th (Thursday): Minister of Agriculture Kazuo Yana submits resignation to Prime Minister; World and TSI to merge their businesses, establishing a holding company in March 2027.",
+    "published_at": "2026-10-15 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5469057464.mp3",
+    "chunks": [
+      {
+        "japanese": "10月15日",
+        "romaji": "jūgatsu jūgonichi",
+        "meaning": "October 15th"
+      },
+      {
+        "japanese": "（木）",
+        "romaji": "(mokuyō)",
+        "meaning": "(Thursday)"
+      },
+      {
+        "japanese": "簗和生",
+        "romaji": "Yana Kazuo",
+        "meaning": "Kazuo Yana (name)"
+      },
+      {
+        "japanese": "農相",
+        "romaji": "nōshō",
+        "meaning": "Minister of Agriculture"
+      },
+      {
+        "japanese": "首相",
+        "romaji": "shushō",
+        "meaning": "Prime Minister"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to"
+      },
+      {
+        "japanese": "辞表",
+        "romaji": "jihyō",
+        "meaning": "resignation letter"
+      },
+      {
+        "japanese": "提出",
+        "romaji": "teishutsu",
+        "meaning": "submission"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": "comma (separator)"
+      },
+      {
+        "japanese": "ワールド",
+        "romaji": "Wārudo",
+        "meaning": "World (company name)"
+      },
+      {
+        "japanese": "と",
+        "romaji": "to",
+        "meaning": "and"
+      },
+      {
+        "japanese": "TSI",
+        "romaji": "TSI",
+        "meaning": "TSI (company name)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "経営統合",
+        "romaji": "keiei tōgō",
+        "meaning": "business integration / merger"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "towards / to"
+      },
+      {
+        "japanese": "27年3月",
+        "romaji": "nijūnana-nen sangatsu",
+        "meaning": "March 2027 (lit. 'March of the 27th year')"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "in"
+      },
+      {
+        "japanese": "持ち株会社",
+        "romaji": "mochikabu gaisha",
+        "meaning": "holding company"
+      },
+      {
+        "japanese": "設立",
+        "romaji": "setsuritsu",
+        "meaning": "establishment / founding"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "フィジカルAIで工場自動化 防災も目玉 デジタル見本市CEATEC開幕、NTTがアンソロピック向けデータセンター",
     "english_translation": "Factory automation with Physical AI, disaster prevention also a highlight; Digital trade fair CEATEC opens, NTT data center for Anthropic",
     "published_at": "2026-10-14 06:30:00",
@@ -6484,86 +6589,6 @@
         "japanese": "ステーブルコイン決済",
         "romaji": "sutēburukoin kessai",
         "meaning": "stablecoin payment"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月19日（日）地銀 信金の与信管理 金融庁が点検へ、過熱AI相場「期待修正」でマネー逆流",
-    "english_translation": "July 19 (Sun): Financial Services Agency to inspect credit management of regional and shinkin banks; money flows reverse due to 'expectation adjustments' in the overheated AI market.",
-    "published_at": "2026-07-19 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6360778773.mp3",
-    "chunks": [
-      {
-        "japanese": "7月19日（日）",
-        "romaji": "shichigatsu jūkyūnichi (nichiyōbi)",
-        "meaning": "July 19th (Sunday)"
-      },
-      {
-        "japanese": "地銀",
-        "romaji": "chigin",
-        "meaning": "regional banks (short for 地方銀行 - chihō ginkō)"
-      },
-      {
-        "japanese": "信金",
-        "romaji": "shinkin",
-        "meaning": "shinkin banks / credit unions (short for 信用金庫 - shinyō kinko)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "possessive particle (of)"
-      },
-      {
-        "japanese": "与信管理",
-        "romaji": "yoshin kanri",
-        "meaning": "credit management / credit control"
-      },
-      {
-        "japanese": "金融庁",
-        "romaji": "kin'yūchō",
-        "meaning": "Financial Services Agency (FSA)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "subject marker particle"
-      },
-      {
-        "japanese": "点検へ",
-        "romaji": "tenken he",
-        "meaning": "moving to inspect / toward inspection"
-      },
-      {
-        "japanese": "過熱",
-        "romaji": "kanetsu",
-        "meaning": "overheating"
-      },
-      {
-        "japanese": "AI相場",
-        "romaji": "ēai sōba",
-        "meaning": "AI market"
-      },
-      {
-        "japanese": "「期待修正」",
-        "romaji": "kitai shūsei",
-        "meaning": "\"correction of expectations\" / \"adjustment of expectations\""
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "due to / because of"
-      },
-      {
-        "japanese": "マネー",
-        "romaji": "manē",
-        "meaning": "money"
-      },
-      {
-        "japanese": "逆流",
-        "romaji": "gyakuryū",
-        "meaning": "backflow / reverse flow"
       }
     ],
     "is_mock": false,
