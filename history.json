@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "10月16日（金）日経平均3318円安 「コアウィーブ・ショック」で下げ幅歴代3位、外国船借り受け日本籍に 非常時の輸送を政府指示",
+    "english_translation": "October 16th (Friday): The Nikkei Average fell 3318 yen due to the 'Coreweave Shock,' marking the third largest drop on record. The government has instructed the chartering of foreign ships for Japanese registration to facilitate emergency transportation.",
+    "published_at": "2026-10-16 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1245679724.mp3",
+    "chunks": [
+      {
+        "japanese": "10月16日",
+        "romaji": "jūgatsu jūrokunichi",
+        "meaning": "October 16th"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "日経平均",
+        "romaji": "Nikkei Heikin",
+        "meaning": "Nikkei Average"
+      },
+      {
+        "japanese": "3318円安",
+        "romaji": "sanzen sanbyaku jūhachi en yasu",
+        "meaning": "down 3318 yen / a fall of 3318 yen"
+      },
+      {
+        "japanese": "「コアウィーブ・ショック」",
+        "romaji": "\"Koaweebu Shokku\"",
+        "meaning": "\"Coreweave Shock\""
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "due to / by"
+      },
+      {
+        "japanese": "下げ幅",
+        "romaji": "sagehaba",
+        "meaning": "extent of the fall / drop margin"
+      },
+      {
+        "japanese": "歴代3位",
+        "romaji": "rekidai san'i",
+        "meaning": "3rd largest on record / historically 3rd highest"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "外国船",
+        "romaji": "gaikokusen",
+        "meaning": "foreign ships / foreign vessels"
+      },
+      {
+        "japanese": "借り受け",
+        "romaji": "kariuke",
+        "meaning": "chartering / borrowing"
+      },
+      {
+        "japanese": "日本籍に",
+        "romaji": "Nihonseki ni",
+        "meaning": "into Japanese registry / to be registered as Japanese"
+      },
+      {
+        "japanese": "非常時の",
+        "romaji": "hijōji no",
+        "meaning": "in emergencies / for emergencies"
+      },
+      {
+        "japanese": "輸送を",
+        "romaji": "yusō o",
+        "meaning": "transportation (direct object)"
+      },
+      {
+        "japanese": "政府指示",
+        "romaji": "seifu shiji",
+        "meaning": "government instruction / government directive"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月15日（木）簗和生農相 首相に辞表提出、ワールドとTSIが経営統合へ 27年3月に持ち株会社設立",
     "english_translation": "October 15th (Thursday): Minister of Agriculture Kazuo Yana submits resignation to Prime Minister; World and TSI to merge their businesses, establishing a holding company in March 2027.",
     "published_at": "2026-10-15 06:30:00",
@@ -6534,61 +6619,6 @@
         "japanese": "1000億円",
         "romaji": "sen-oku en",
         "meaning": "100 billion yen"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月20日（月）企業の役員選任  一般株主の支持率わかりやすく、Amazon配送大手 運送2300社とステーブルコイン決済",
-    "english_translation": "July 20 (Monday) Making corporate officer appointment approval ratings easier to understand for general shareholders; Amazon delivery giant to use stablecoin payments with 2,300 transport companies",
-    "published_at": "2026-07-20 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8416528975.mp3",
-    "chunks": [
-      {
-        "japanese": "7月20日（月）",
-        "romaji": "shichigatsu hatsuka (getsuyōbi)",
-        "meaning": "July 20th (Monday)"
-      },
-      {
-        "japanese": "企業の",
-        "romaji": "kigyō no",
-        "meaning": "company's / corporate"
-      },
-      {
-        "japanese": "役員選任",
-        "romaji": "yakuin sennin",
-        "meaning": "appointment of officers / election of directors"
-      },
-      {
-        "japanese": "一般株主の",
-        "romaji": "ippan kabunushi no",
-        "meaning": "general shareholders'"
-      },
-      {
-        "japanese": "支持率",
-        "romaji": "shijiritsu",
-        "meaning": "approval rating / support rate"
-      },
-      {
-        "japanese": "わかりやすく",
-        "romaji": "wakariyasuku",
-        "meaning": "clearly / in an easy-to-understand manner"
-      },
-      {
-        "japanese": "Amazon配送大手",
-        "romaji": "amazon haisō ōte",
-        "meaning": "major Amazon delivery partner / Amazon delivery giant"
-      },
-      {
-        "japanese": "運送2300社と",
-        "romaji": "unsō nisen-sanbyaku-sha to",
-        "meaning": "with 2,300 transport companies"
-      },
-      {
-        "japanese": "ステーブルコイン決済",
-        "romaji": "sutēburukoin kessai",
-        "meaning": "stablecoin payment"
       }
     ],
     "is_mock": false,
