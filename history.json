@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "10月16日（金）民泊は迷惑施設？　各地で相次ぐ営業禁止〜with NIKKEI",
+    "english_translation": "October 16th (Friday): Are vacation rentals a nuisance? Bans on operations happening one after another in various areas ~ with NIKKEI",
+    "published_at": "2026-10-16 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4350397764.mp3",
+    "chunks": [
+      {
+        "japanese": "10月16日（金）",
+        "romaji": "jūgatsu jūrokunichi (kin)",
+        "meaning": "October 16th (Friday)"
+      },
+      {
+        "japanese": "民泊",
+        "romaji": "minpaku",
+        "meaning": "private lodging / vacation rental"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "as for / topic marker"
+      },
+      {
+        "japanese": "迷惑施設",
+        "romaji": "meiwaku shisetsu",
+        "meaning": "nuisance facility"
+      },
+      {
+        "japanese": "各地で",
+        "romaji": "kakuchi de",
+        "meaning": "in various places / across regions"
+      },
+      {
+        "japanese": "相次ぐ",
+        "romaji": "aitsugu",
+        "meaning": "occurring one after another / successive"
+      },
+      {
+        "japanese": "営業禁止",
+        "romaji": "eigyō kinshi",
+        "meaning": "business ban / prohibition of operation"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "with NIKKEI",
+        "meaning": "~ with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月16日（金）日経平均3318円安 「コアウィーブ・ショック」で下げ幅歴代3位、外国船借り受け日本籍に 非常時の輸送を政府指示",
     "english_translation": "October 16th (Friday): The Nikkei Average fell 3318 yen due to the 'Coreweave Shock,' marking the third largest drop on record. The government has instructed the chartering of foreign ships for Japanese registration to facilitate emergency transportation.",
     "published_at": "2026-10-16 06:30:00",
@@ -6549,76 +6599,6 @@
         "japanese": "「最大のリスクは円安」",
         "romaji": "saidai no risuku wa en'yasu",
         "meaning": "\"the biggest risk is the weak yen\""
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月21日（火）政府 国際標準化の司令塔創設へ、 EU アリババに制裁金1000億円",
-    "english_translation": "July 21 (Tue): Government to establish control tower for international standardization; EU fines Alibaba 100 billion yen",
-    "published_at": "2026-07-21 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1061928268.mp3",
-    "chunks": [
-      {
-        "japanese": "7月21日（火）",
-        "romaji": "shichigatsu nijūichinichi (kayōbi)",
-        "meaning": "July 21st (Tuesday)"
-      },
-      {
-        "japanese": "政府",
-        "romaji": "seifu",
-        "meaning": "government"
-      },
-      {
-        "japanese": "国際標準化",
-        "romaji": "kokusai hyōjunka",
-        "meaning": "international standardization"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "possessive particle (of)"
-      },
-      {
-        "japanese": "司令塔",
-        "romaji": "shireitō",
-        "meaning": "control tower / nerve center"
-      },
-      {
-        "japanese": "創設",
-        "romaji": "sōsetsu",
-        "meaning": "establishment / founding"
-      },
-      {
-        "japanese": "へ",
-        "romaji": "he",
-        "meaning": "towards / aiming for"
-      },
-      {
-        "japanese": "EU",
-        "romaji": "ī-yū",
-        "meaning": "EU (European Union)"
-      },
-      {
-        "japanese": "アリババ",
-        "romaji": "aribaba",
-        "meaning": "Alibaba"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to / on (particle indicating target of an action)"
-      },
-      {
-        "japanese": "制裁金",
-        "romaji": "seisaikin",
-        "meaning": "fine / penalty / sanction fee"
-      },
-      {
-        "japanese": "1000億円",
-        "romaji": "sen-oku en",
-        "meaning": "100 billion yen"
       }
     ],
     "is_mock": false,
