@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "10月18日（日） MS&AD、政府の国産AI計画に参加、世界債務5京円 借り換えの壁",
+    "english_translation": "October 18th (Sun): MS&AD joins the government's domestic AI initiative; Global debt hits 50 quadrillion yen, the wall of refinancing",
+    "published_at": "2026-10-18 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4865424340.mp3",
+    "chunks": [
+      {
+        "japanese": "10月18日（日）",
+        "romaji": "juugatsu juuhachinichi (nichi)",
+        "meaning": "October 18th (Sunday)"
+      },
+      {
+        "japanese": "MS&AD",
+        "romaji": "Emu Esu Ando A Dii",
+        "meaning": "MS&AD Insurance Group"
+      },
+      {
+        "japanese": "政府",
+        "romaji": "seifu",
+        "meaning": "government"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of (possessive particle)"
+      },
+      {
+        "japanese": "国産",
+        "romaji": "kokusan",
+        "meaning": "domestic / domestically produced"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "eiai",
+        "meaning": "AI (Artificial Intelligence)"
+      },
+      {
+        "japanese": "計画",
+        "romaji": "keikaku",
+        "meaning": "plan / initiative"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "in / to (target particle)"
+      },
+      {
+        "japanese": "参加",
+        "romaji": "sanka",
+        "meaning": "participation / joining"
+      },
+      {
+        "japanese": "世界",
+        "romaji": "sekai",
+        "meaning": "world / global"
+      },
+      {
+        "japanese": "債務",
+        "romaji": "saimu",
+        "meaning": "debt / liabilities"
+      },
+      {
+        "japanese": "5京円",
+        "romaji": "go-kyou en",
+        "meaning": "50 quadrillion yen"
+      },
+      {
+        "japanese": "借り換え",
+        "romaji": "karikae",
+        "meaning": "refinancing / debt rollover"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of (possessive particle)"
+      },
+      {
+        "japanese": "壁",
+        "romaji": "kabe",
+        "meaning": "wall / barrier / hurdle"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月17日（土）トヨタが全50車種をSDVに、新幹線「のぞみ」指定席値上げ",
     "english_translation": "October 17 (Sat) Toyota to make all 50 models SDVs, Shinkansen 'Nozomi' reserved seat price increase",
     "published_at": "2026-10-17 07:50:00",
@@ -6563,80 +6648,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月23日（木）世界の社債発行 1~6月に過去最大580兆円、ストーカー加害者にGPS装着案 被害者に接近通知",
-    "english_translation": "July 23rd (Thursday): Global corporate bond issuance hits record 580 trillion yen in Jan-June; proposal to attach GPS to stalker perpetrators, notifying victims of proximity.",
-    "published_at": "2026-07-23 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1262678322.mp3",
-    "chunks": [
-      {
-        "japanese": "7月23日",
-        "romaji": "Shichigatsu Nijū-san-nichi",
-        "meaning": "July 23rd"
-      },
-      {
-        "japanese": "（木）",
-        "romaji": "(Moku)",
-        "meaning": "(Thursday)"
-      },
-      {
-        "japanese": "世界の",
-        "romaji": "Sekai no",
-        "meaning": "Global / World's"
-      },
-      {
-        "japanese": "社債発行",
-        "romaji": "Shasai Hakkō",
-        "meaning": "corporate bond issuance"
-      },
-      {
-        "japanese": "1~6月に",
-        "romaji": "Ichi-gatsu kara Roku-gatsu ni",
-        "meaning": "in January-June"
-      },
-      {
-        "japanese": "過去最大",
-        "romaji": "Kako Saidai",
-        "meaning": "record high / largest ever"
-      },
-      {
-        "japanese": "580兆円",
-        "romaji": "Gohyaku Hachijū Chō-en",
-        "meaning": "580 trillion yen"
-      },
-      {
-        "japanese": "、",
-        "romaji": ",",
-        "meaning": ","
-      },
-      {
-        "japanese": "ストーカー",
-        "romaji": "Sutōkā",
-        "meaning": "stalker"
-      },
-      {
-        "japanese": "加害者に",
-        "romaji": "Kagaisha ni",
-        "meaning": "to perpetrators / to assailants"
-      },
-      {
-        "japanese": "GPS装着案",
-        "romaji": "Jīpīesu Sōchaku-an",
-        "meaning": "GPS attachment proposal / plan to attach GPS"
-      },
-      {
-        "japanese": "被害者に",
-        "romaji": "Higaisha ni",
-        "meaning": "to victims"
-      },
-      {
-        "japanese": "接近通知",
-        "romaji": "Sekkin Tsūchi",
-        "meaning": "proximity notification / notification of approach"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
