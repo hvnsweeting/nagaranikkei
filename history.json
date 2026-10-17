@@ -1,5 +1,90 @@
 [
   {
+    "japanese_title": "10月17日（土）トヨタが全50車種をSDVに、新幹線「のぞみ」指定席値上げ",
+    "english_translation": "October 17 (Sat) Toyota to make all 50 models SDVs, Shinkansen 'Nozomi' reserved seat price increase",
+    "published_at": "2026-10-17 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9782421383.mp3",
+    "chunks": [
+      {
+        "japanese": "10月17日",
+        "romaji": "jūgatsu jūshichinichi",
+        "meaning": "October 17th"
+      },
+      {
+        "japanese": "（土）",
+        "romaji": "(doyo)",
+        "meaning": "(Saturday)"
+      },
+      {
+        "japanese": "トヨタ",
+        "romaji": "Toyota",
+        "meaning": "Toyota"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "topic particle"
+      },
+      {
+        "japanese": "全50車種",
+        "romaji": "zen gojū shashu",
+        "meaning": "all 50 car models"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "direct object particle"
+      },
+      {
+        "japanese": "SDV",
+        "romaji": "SDV",
+        "meaning": "Software Defined Vehicle"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "particle indicating change or target"
+      },
+      {
+        "japanese": "、",
+        "romaji": "ten",
+        "meaning": "comma"
+      },
+      {
+        "japanese": "新幹線",
+        "romaji": "Shinkansen",
+        "meaning": "bullet train"
+      },
+      {
+        "japanese": "「",
+        "romaji": "kagi kakko",
+        "meaning": "opening quotation mark"
+      },
+      {
+        "japanese": "のぞみ",
+        "romaji": "Nozomi",
+        "meaning": "Nozomi (train name)"
+      },
+      {
+        "japanese": "」",
+        "romaji": "kagi kakko",
+        "meaning": "closing quotation mark"
+      },
+      {
+        "japanese": "指定席",
+        "romaji": "shiteiseki",
+        "meaning": "reserved seat"
+      },
+      {
+        "japanese": "値上げ",
+        "romaji": "neage",
+        "meaning": "price increase"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "10月16日（金）民泊は迷惑施設？　各地で相次ぐ営業禁止〜with NIKKEI",
     "english_translation": "October 16th (Friday): Are vacation rentals a nuisance? Bans on operations happening one after another in various areas ~ with NIKKEI",
     "published_at": "2026-10-16 17:00:00",
@@ -6553,55 +6638,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "7月22日（水）M&A「のれん」償却維持で決着 会計基準機構、ゴールドマンCOO 日本経済「最大のリスクは円安」",
-    "english_translation": "July 22 (Wed) - Settlement Reached to Maintain M&A 'Goodwill' Amortization by Accounting Standards Board; Goldman COO: 'The Biggest Risk' to the Japanese Economy is the Weak Yen",
-    "published_at": "2026-07-22 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6670899434.mp3",
-    "chunks": [
-      {
-        "japanese": "7月22日（水）",
-        "romaji": "shichigatsu nijūnichi (sui)",
-        "meaning": "July 22nd (Wednesday)"
-      },
-      {
-        "japanese": "M&A",
-        "romaji": "emu ando ē",
-        "meaning": "M&A (Mergers and Acquisitions)"
-      },
-      {
-        "japanese": "「のれん」",
-        "romaji": "noren",
-        "meaning": "goodwill (intangible asset value in accounting)"
-      },
-      {
-        "japanese": "償却維持で決着",
-        "romaji": "shōkyaku iji de ketchaku",
-        "meaning": "settled on maintaining amortization"
-      },
-      {
-        "japanese": "会計基準機構",
-        "romaji": "kaikei kijun kikō",
-        "meaning": "accounting standards board / organization"
-      },
-      {
-        "japanese": "ゴールドマンCOO",
-        "romaji": "gōrudoman shī-ō-ō",
-        "meaning": "Goldman (Sachs) COO"
-      },
-      {
-        "japanese": "日本経済",
-        "romaji": "nihon keizai",
-        "meaning": "Japanese economy"
-      },
-      {
-        "japanese": "「最大のリスクは円安」",
-        "romaji": "saidai no risuku wa en'yasu",
-        "meaning": "\"the biggest risk is the weak yen\""
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
