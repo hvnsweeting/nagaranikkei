@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "10月20日（火）国内初「森林ファンド」1000億円投資、 データセンター・クラウド 国が安全認証へ",
+    "english_translation": "October 20th (Tuesday): Japan's First 'Forest Fund' Secures 100 Billion Yen Investment; Government to Introduce Safety Certification for Data Centers and Cloud.",
+    "published_at": "2026-10-20 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8020423277.mp3",
+    "chunks": [
+      {
+        "japanese": "10月20日（火）",
+        "romaji": "jūgatsu hatsuka (ka)",
+        "meaning": "October 20th (Tuesday)"
+      },
+      {
+        "japanese": "国内初",
+        "romaji": "kokunaihatsu",
+        "meaning": "First in Japan / Domestic first"
+      },
+      {
+        "japanese": "森林ファンド",
+        "romaji": "shinrin fando",
+        "meaning": "Forest Fund"
+      },
+      {
+        "japanese": "1000億円",
+        "romaji": "sen'okuen",
+        "meaning": "100 billion yen"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investment"
+      },
+      {
+        "japanese": "データセンター・クラウド",
+        "romaji": "dēta sentā kuraudo",
+        "meaning": "Data centers and cloud"
+      },
+      {
+        "japanese": "国が",
+        "romaji": "kuni ga",
+        "meaning": "The country / The government (subject marker)"
+      },
+      {
+        "japanese": "安全認証へ",
+        "romaji": "anzen ninshō e",
+        "meaning": "Towards safety certification / For safety certification"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月19日（月）三菱重工 休眠造船ラインを再稼働、マイナ認証の導入 デジタル庁に相談6倍",
     "english_translation": "October 19th (Monday): Mitsubishi Heavy Industries restarts dormant shipbuilding lines; Consultations to the Digital Agency regarding the introduction of My Number card authentication increased sixfold.",
     "published_at": "2026-10-19 06:30:00",
@@ -6598,55 +6648,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月24日（金）動き出した大型鉄道プロジェクト〜with NIKKEI",
-    "english_translation": "July 24th (Friday): The large-scale railway project got underway ~ with NIKKEI",
-    "published_at": "2026-07-24 18:46:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4947260906.mp3",
-    "chunks": [
-      {
-        "japanese": "7月24日",
-        "romaji": "Shichigatsu nijūyokka",
-        "meaning": "July 24th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "(Kin)",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "動き出した",
-        "romaji": "Ugokidashita",
-        "meaning": "started to move / got underway"
-      },
-      {
-        "japanese": "大型",
-        "romaji": "Ōgata",
-        "meaning": "large-scale"
-      },
-      {
-        "japanese": "鉄道",
-        "romaji": "Tetsudō",
-        "meaning": "railway"
-      },
-      {
-        "japanese": "プロジェクト",
-        "romaji": "Purojekuto",
-        "meaning": "project"
-      },
-      {
-        "japanese": "〜",
-        "romaji": "〜",
-        "meaning": "~ (tilde, often used as a separator or for emphasis)"
-      },
-      {
-        "japanese": "with NIKKEI",
-        "romaji": "with NIKKEI",
-        "meaning": "with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
