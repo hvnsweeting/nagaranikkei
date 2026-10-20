@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "10月21日（水）銀行貸し出しに迫る限界 ファンドが企業融資、不正アクセス 中国系AI「ARTEX」で日本攻撃",
+    "english_translation": "October 21st (Wednesday) Limits approaching for bank lending, funds provide corporate financing, unauthorized access: Japan attacked by Chinese AI 'ARTEX'.",
+    "published_at": "2026-10-21 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6473906857.mp3",
+    "chunks": [
+      {
+        "japanese": "10月21日（水）",
+        "romaji": "jūgatsu nijuuichi-nichi (sui)",
+        "meaning": "October 21st (Wednesday)"
+      },
+      {
+        "japanese": "銀行貸し出し",
+        "romaji": "ginkō kashidashi",
+        "meaning": "bank lending / bank loans"
+      },
+      {
+        "japanese": "に迫る",
+        "romaji": "ni semaru",
+        "meaning": "approaching / drawing near to"
+      },
+      {
+        "japanese": "限界",
+        "romaji": "genkai",
+        "meaning": "limit / boundary"
+      },
+      {
+        "japanese": "ファンド",
+        "romaji": "fando",
+        "meaning": "fund(s)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "企業融資",
+        "romaji": "kigyō yūshi",
+        "meaning": "corporate financing / company loans"
+      },
+      {
+        "japanese": "不正アクセス",
+        "romaji": "fusei akusesu",
+        "meaning": "unauthorized access / illegal access"
+      },
+      {
+        "japanese": "中国系",
+        "romaji": "Chūgoku-kei",
+        "meaning": "Chinese-affiliated / Chinese-origin"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "ē-ai",
+        "meaning": "AI (Artificial Intelligence)"
+      },
+      {
+        "japanese": "「ARTEX」で",
+        "romaji": "\"ARTEX\" de",
+        "meaning": "by 'ARTEX' / using 'ARTEX'"
+      },
+      {
+        "japanese": "日本攻撃",
+        "romaji": "Nihon kōgeki",
+        "meaning": "attack on Japan / Japan attack"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月20日（火）国内初「森林ファンド」1000億円投資、 データセンター・クラウド 国が安全認証へ",
     "english_translation": "October 20th (Tuesday): Japan's First 'Forest Fund' Secures 100 Billion Yen Investment; Government to Introduce Safety Certification for Data Centers and Cloud.",
     "published_at": "2026-10-20 06:30:00",
@@ -6584,66 +6654,6 @@
         "japanese": "着水",
         "romaji": "chakusui",
         "meaning": "landing on water / splashdown"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月25日（土） iDeCo加入者に金融機関の助言解禁、南鳥島沖 海底泥に中重レアアース確認",
-    "english_translation": "July 25 (Saturday): Ban lifted on financial institutions advising iDeCo subscribers; Medium and heavy rare earths confirmed in seabed mud off Minamitorishima.",
-    "published_at": "2026-07-25 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8237736295.mp3",
-    "chunks": [
-      {
-        "japanese": "7月25日（土）",
-        "romaji": "shichigatsu nijūgoka (doyōbi)",
-        "meaning": "July 25th (Saturday)"
-      },
-      {
-        "japanese": "iDeCo加入者",
-        "romaji": "ideko kan'yūsha",
-        "meaning": "iDeCo (individual Defined Contribution pension plan) subscribers"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to / for"
-      },
-      {
-        "japanese": "金融機関",
-        "romaji": "kin'yū kikan",
-        "meaning": "financial institutions"
-      },
-      {
-        "japanese": "の助言",
-        "romaji": "no jogen",
-        "meaning": "advice of / from"
-      },
-      {
-        "japanese": "解禁",
-        "romaji": "kaikin",
-        "meaning": "lifting of a ban / deregulation"
-      },
-      {
-        "japanese": "南鳥島沖",
-        "romaji": "Minamitorishima oki",
-        "meaning": "off the coast of Minamitorishima (Marcus Island)"
-      },
-      {
-        "japanese": "海底泥に",
-        "romaji": "kaiteidei ni",
-        "meaning": "in the seabed mud"
-      },
-      {
-        "japanese": "中重レアアース",
-        "romaji": "chū-jū rea āsu",
-        "meaning": "medium and heavy rare earths"
-      },
-      {
-        "japanese": "確認",
-        "romaji": "kakunin",
-        "meaning": "confirmation / confirmed"
       }
     ],
     "is_mock": false,
