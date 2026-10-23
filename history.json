@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "10月23日（金）NISAで人気のオルカンとは〜with NIKKEI",
+    "english_translation": "October 23rd (Fri): What is 'All-Country', which is popular in NISA? ~with NIKKEI",
+    "published_at": "2026-10-23 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5643187892.mp3",
+    "chunks": [
+      {
+        "japanese": "10月23日",
+        "romaji": "juugatsu nijuusan-nichi",
+        "meaning": "October 23rd"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "NISA",
+        "romaji": "niisa",
+        "meaning": "NISA (Nippon Individual Savings Account)"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "in / within"
+      },
+      {
+        "japanese": "人気",
+        "romaji": "ninki",
+        "meaning": "popular / popularity"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "particle (modifies the following noun)"
+      },
+      {
+        "japanese": "オルカン",
+        "romaji": "orukan",
+        "meaning": "'All-Country' (short for All-Country global equity fund)"
+      },
+      {
+        "japanese": "とは",
+        "romaji": "to wa",
+        "meaning": "what is... / regarding..."
+      },
+      {
+        "japanese": "〜",
+        "romaji": "~",
+        "meaning": "~"
+      },
+      {
+        "japanese": "with NIKKEI",
+        "romaji": "with nikkei",
+        "meaning": "with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月23日（金）日銀10月会合 連続利上げ見送りへ、PHP欠陥｢AIなら数分で標的に｣ サイバー攻撃確認",
     "english_translation": "October 23 (Fri): Bank of Japan October meeting set to forgo consecutive interest rate hikes; PHP vulnerability 'AI can make it a target in minutes', cyberattacks confirmed",
     "published_at": "2026-10-23 06:30:00",
@@ -6583,75 +6643,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "7月28日（火）首相 食料品の消費税減税「国民会議で結論得て速やかに法案提出」 、プルデンシャル生命 営業社員「完全歩合」を撤廃",
-    "english_translation": "July 28 (Tue): PM on food consumption tax cut: 'Submit bill promptly after national council reaches conclusion'; Prudential Life abolishes 'full commission' for sales staff",
-    "published_at": "2026-07-28 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8539579375.mp3",
-    "chunks": [
-      {
-        "japanese": "7月28日（火）",
-        "romaji": "shichigatsu nijūhachinichi (kayōbi)",
-        "meaning": "July 28th (Tuesday)"
-      },
-      {
-        "japanese": "首相",
-        "romaji": "shushō",
-        "meaning": "Prime Minister"
-      },
-      {
-        "japanese": "食料品の",
-        "romaji": "shokuryōhin no",
-        "meaning": "of food products / groceries"
-      },
-      {
-        "japanese": "消費税減税",
-        "romaji": "shōhizei genzei",
-        "meaning": "consumption tax reduction / tax cut"
-      },
-      {
-        "japanese": "国民会議で",
-        "romaji": "kokumin kaigi de",
-        "meaning": "at the national council"
-      },
-      {
-        "japanese": "結論得て",
-        "romaji": "ketsuron ete",
-        "meaning": "reaching a conclusion (and...)"
-      },
-      {
-        "japanese": "速やかに",
-        "romaji": "sumiyaka ni",
-        "meaning": "promptly / swiftly"
-      },
-      {
-        "japanese": "法案提出",
-        "romaji": "hōan teishutsu",
-        "meaning": "submitting a bill / introduction of legislation"
-      },
-      {
-        "japanese": "プルデンシャル生命",
-        "romaji": "purudensharu seimei",
-        "meaning": "Prudential Life Insurance"
-      },
-      {
-        "japanese": "営業社員",
-        "romaji": "eigyō shain",
-        "meaning": "sales employees / sales staff"
-      },
-      {
-        "japanese": "「完全歩合」を",
-        "romaji": "kanzen buai o",
-        "meaning": "'full commission system' (as object)"
-      },
-      {
-        "japanese": "撤廃",
-        "romaji": "teppai",
-        "meaning": "abolition / elimination"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
