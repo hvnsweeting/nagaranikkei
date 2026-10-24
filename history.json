@@ -1,5 +1,55 @@
 [
   {
+    "japanese_title": "10月24日（土）滋賀銀行・池田泉州HD 経営統合へ、防衛費の対象経費を拡大へ",
+    "english_translation": "October 24 (Sat) - Shiga Bank and Senshu Ikeda Holdings to move toward business integration; expanding the scope of eligible defense budget expenses.",
+    "published_at": "2026-10-24 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7251225528.mp3",
+    "chunks": [
+      {
+        "japanese": "10月24日（土）",
+        "romaji": "jūgatsu nijūyokka (doyōbi)",
+        "meaning": "October 24th (Saturday)"
+      },
+      {
+        "japanese": "滋賀銀行",
+        "romaji": "Shiga Ginkō",
+        "meaning": "Shiga Bank"
+      },
+      {
+        "japanese": "・",
+        "romaji": "nakaguro",
+        "meaning": "and / interpunct symbol"
+      },
+      {
+        "japanese": "池田泉州HD",
+        "romaji": "Ikeda Senshū Hōrudingsu",
+        "meaning": "Senshu Ikeda Holdings"
+      },
+      {
+        "japanese": "経営統合へ",
+        "romaji": "keiei tōgō he",
+        "meaning": "towards business integration / merger"
+      },
+      {
+        "japanese": "防衛費の",
+        "romaji": "bōeihi no",
+        "meaning": "of defense budget / defense spending"
+      },
+      {
+        "japanese": "対象経費を",
+        "romaji": "taishō keihi o",
+        "meaning": "eligible expenses / covered expenditures (object marker)"
+      },
+      {
+        "japanese": "拡大へ",
+        "romaji": "kakudai he",
+        "meaning": "towards expansion / expanding"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月23日（金）NISAで人気のオルカンとは〜with NIKKEI",
     "english_translation": "October 23rd (Fri): What is 'All-Country', which is popular in NISA? ~with NIKKEI",
     "published_at": "2026-10-23 17:00:00",
@@ -6523,125 +6573,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月29日（水）熊本県で震度7の地震 家屋倒壊・火災相次ぐ、日本製紙の煙突倒壊 トヨタ・ブリヂストン・湖池屋で工場の稼働停止",
-    "english_translation": "July 29th (Wednesday): Kumamoto Prefecture Hit by Seismic Intensity 7 Earthquake; House Collapses and Fires Break Out Successively; Nippon Paper's Chimney Collapses; Toyota, Bridgestone, and Koikeya Suspend Factory Operations.",
-    "published_at": "2026-07-29 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3141516142.mp3",
-    "chunks": [
-      {
-        "japanese": "7月29日（水）",
-        "romaji": "Shichigatsu nijūkunichi (Sui)",
-        "meaning": "July 29th (Wednesday)"
-      },
-      {
-        "japanese": "熊本県で",
-        "romaji": "Kumamoto-ken de",
-        "meaning": "in Kumamoto Prefecture"
-      },
-      {
-        "japanese": "震度7",
-        "romaji": "Shindo nana",
-        "meaning": "seismic intensity 7"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "地震",
-        "romaji": "jishin",
-        "meaning": "earthquake"
-      },
-      {
-        "japanese": "家屋倒壊",
-        "romaji": "kaoku tōkai",
-        "meaning": "house collapse"
-      },
-      {
-        "japanese": "・",
-        "romaji": "-",
-        "meaning": "and (separator)"
-      },
-      {
-        "japanese": "火災",
-        "romaji": "kasai",
-        "meaning": "fire"
-      },
-      {
-        "japanese": "相次ぐ",
-        "romaji": "aitsugu",
-        "meaning": "follow one after another / successively occur"
-      },
-      {
-        "japanese": "、",
-        "romaji": "-",
-        "meaning": ","
-      },
-      {
-        "japanese": "日本製紙",
-        "romaji": "Nippon Seishi",
-        "meaning": "Nippon Paper (company name)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "煙突倒壊",
-        "romaji": "entotsu tōkai",
-        "meaning": "chimney collapse"
-      },
-      {
-        "japanese": "トヨタ",
-        "romaji": "Toyota",
-        "meaning": "Toyota (company name)"
-      },
-      {
-        "japanese": "・",
-        "romaji": "-",
-        "meaning": "and (separator)"
-      },
-      {
-        "japanese": "ブリヂストン",
-        "romaji": "Burijisuton",
-        "meaning": "Bridgestone (company name)"
-      },
-      {
-        "japanese": "・",
-        "romaji": "-",
-        "meaning": "and (separator)"
-      },
-      {
-        "japanese": "湖池屋",
-        "romaji": "Koikeya",
-        "meaning": "Koikeya (company name)"
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "at / in"
-      },
-      {
-        "japanese": "工場",
-        "romaji": "kōjō",
-        "meaning": "factory / plant"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "稼働停止",
-        "romaji": "kadō teishi",
-        "meaning": "suspension of operations / shutdown"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
