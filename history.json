@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "10月26日（月）高市内閣支持率 横ばい62%、GMOへの攻撃者、利用者PCの乗っ取りを画策",
+    "english_translation": "October 26 (Mon): Takaichi Cabinet approval rate flat at 62%; Attacker targeting GMO plotted to hijack users' PCs.",
+    "published_at": "2026-10-26 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8226610671.mp3",
+    "chunks": [
+      {
+        "japanese": "10月26日（月）",
+        "romaji": "Jūgatsu nijūroku-nichi (Getsu)",
+        "meaning": "October 26th (Monday)"
+      },
+      {
+        "japanese": "高市内閣",
+        "romaji": "Takaichi Naikaku",
+        "meaning": "Takaichi Cabinet"
+      },
+      {
+        "japanese": "支持率",
+        "romaji": "Shijiritsu",
+        "meaning": "approval rate"
+      },
+      {
+        "japanese": "横ばい",
+        "romaji": "Yokobai",
+        "meaning": "flat / unchanged"
+      },
+      {
+        "japanese": "62%",
+        "romaji": "rokujū-ni pasento",
+        "meaning": "62 percent"
+      },
+      {
+        "japanese": "GMO",
+        "romaji": "Jī-em-ū",
+        "meaning": "GMO (company name)"
+      },
+      {
+        "japanese": "への",
+        "romaji": "e no",
+        "meaning": "to / targeting / against"
+      },
+      {
+        "japanese": "攻撃者",
+        "romaji": "Kōgekisha",
+        "meaning": "attacker"
+      },
+      {
+        "japanese": "利用者",
+        "romaji": "Riyōsha",
+        "meaning": "user(s)"
+      },
+      {
+        "japanese": "PCの",
+        "romaji": "Pī-shī no",
+        "meaning": "PC's / of the PC"
+      },
+      {
+        "japanese": "乗っ取り",
+        "romaji": "Nottori",
+        "meaning": "hijacking / takeover"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "(object marker)"
+      },
+      {
+        "japanese": "画策",
+        "romaji": "Kakusaku",
+        "meaning": "plotting / scheming"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月25日（日） GMO「能動的サイバー防御」適用を政府に要請、中国系AIのARTEX悪質改造が横行",
     "english_translation": "October 25 (Sun) GMO requests government to apply 'Proactive Cyber Defense'; malicious modification of Chinese AI ARTEX rampant",
     "published_at": "2026-10-25 07:50:00",
@@ -6554,56 +6629,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "uizu nikkei",
         "meaning": "~ with NIKKEI (Nikkei is a Japanese media company)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月31日（金）根拠欠く消費税減税の財源 成長投資と奪い合い、近畿にバイオ産業集積 地域版の官民投資計画が判明",
-    "english_translation": "July 31 (Fri): Financial resources for consumption tax cuts, which lack basis, compete with growth investments; Biotech industry clusters in Kinki; Regional version of public-private investment plan revealed.",
-    "published_at": "2026-07-31 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6432295733.mp3",
-    "chunks": [
-      {
-        "japanese": "7月31日（金）",
-        "romaji": "shichigatsu sanjūichinichi (kin'yōbi)",
-        "meaning": "July 31st (Friday)"
-      },
-      {
-        "japanese": "根拠欠く",
-        "romaji": "konkyo kaku",
-        "meaning": "lacking basis / groundless"
-      },
-      {
-        "japanese": "消費税減税の財源",
-        "romaji": "shōhizei genzei no zaigen",
-        "meaning": "financial resources for consumption tax cuts"
-      },
-      {
-        "japanese": "成長投資と奪い合い",
-        "romaji": "seichō tōshi to ubaiai",
-        "meaning": "competing/scrambling with growth investment"
-      },
-      {
-        "japanese": "近畿に",
-        "romaji": "kinki ni",
-        "meaning": "in the Kinki region"
-      },
-      {
-        "japanese": "バイオ産業集積",
-        "romaji": "baio sangyō shūseki",
-        "meaning": "biotech industry cluster / concentration of biotech industries"
-      },
-      {
-        "japanese": "地域版の",
-        "romaji": "chiikiban no",
-        "meaning": "regional version of"
-      },
-      {
-        "japanese": "官民投資計画が判明",
-        "romaji": "kanmin tōshi keikaku ga hanmei",
-        "meaning": "public-private investment plan is revealed"
       }
     ],
     "is_mock": false,
