@@ -1,5 +1,100 @@
 [
   {
+    "japanese_title": "10月25日（日） GMO「能動的サイバー防御」適用を政府に要請、中国系AIのARTEX悪質改造が横行",
+    "english_translation": "October 25 (Sun) GMO requests government to apply 'Proactive Cyber Defense'; malicious modification of Chinese AI ARTEX rampant",
+    "published_at": "2026-10-25 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2253692372.mp3",
+    "chunks": [
+      {
+        "japanese": "10月25日",
+        "romaji": "10gatsu 25nichi",
+        "meaning": "October 25th"
+      },
+      {
+        "japanese": "（日）",
+        "romaji": "(nichi)",
+        "meaning": "(Sunday)"
+      },
+      {
+        "japanese": "GMO",
+        "romaji": "GMO",
+        "meaning": "GMO (company name)"
+      },
+      {
+        "japanese": "「能動的サイバー防御」",
+        "romaji": "「nōdōteki saibā bōgyo」",
+        "meaning": "'Proactive Cyber Defense'"
+      },
+      {
+        "japanese": "適用",
+        "romaji": "tekiyo",
+        "meaning": "application"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object particle"
+      },
+      {
+        "japanese": "政府",
+        "romaji": "seifu",
+        "meaning": "government"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to"
+      },
+      {
+        "japanese": "要請",
+        "romaji": "yōsei",
+        "meaning": "request"
+      },
+      {
+        "japanese": "、",
+        "romaji": "、",
+        "meaning": ","
+      },
+      {
+        "japanese": "中国系",
+        "romaji": "chūgokukei",
+        "meaning": "Chinese-origin"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "AI",
+        "meaning": "AI"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle"
+      },
+      {
+        "japanese": "ARTEX",
+        "romaji": "ARTEX",
+        "meaning": "ARTEX (specific AI name)"
+      },
+      {
+        "japanese": "悪質改造",
+        "romaji": "akushitsu kaizō",
+        "meaning": "malicious modification"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject particle"
+      },
+      {
+        "japanese": "横行",
+        "romaji": "ōkō",
+        "meaning": "rampant"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash-lite"
+  },
+  {
     "japanese_title": "10月24日（土）滋賀銀行・池田泉州HD 経営統合へ、防衛費の対象経費を拡大へ",
     "english_translation": "October 24 (Sat) - Shiga Bank and Senshu Ikeda Holdings to move toward business integration; expanding the scope of eligible defense budget expenses.",
     "published_at": "2026-10-24 07:50:00",
@@ -6509,66 +6604,6 @@
         "japanese": "官民投資計画が判明",
         "romaji": "kanmin tōshi keikaku ga hanmei",
         "meaning": "public-private investment plan is revealed"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月30日（木）熊本地震で供給網に打撃 港湾に被害、日本人の人口1億2000万人割れ 1984年以来42年ぶり",
-    "english_translation": "July 30 (Thursday): Kumamoto Earthquake Hits Supply Chains, Ports Damaged; Japanese Population Falls Below 120 Million for the First Time in 42 Years Since 1984",
-    "published_at": "2026-07-30 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8071786592.mp3",
-    "chunks": [
-      {
-        "japanese": "7月30日（木）",
-        "romaji": "shichigatsu sanjūnichi (mokuyōbi)",
-        "meaning": "July 30th (Thursday)"
-      },
-      {
-        "japanese": "熊本地震で",
-        "romaji": "Kumamoto jishin de",
-        "meaning": "due to the Kumamoto earthquake"
-      },
-      {
-        "japanese": "供給網に",
-        "romaji": "kyōkyūmō ni",
-        "meaning": "to the supply chains"
-      },
-      {
-        "japanese": "打撃",
-        "romaji": "dageki",
-        "meaning": "a blow / damage"
-      },
-      {
-        "japanese": "港湾に",
-        "romaji": "kōwan ni",
-        "meaning": "to ports / harbors"
-      },
-      {
-        "japanese": "被害",
-        "romaji": "higai",
-        "meaning": "damage"
-      },
-      {
-        "japanese": "日本人の人口",
-        "romaji": "Nihonjin no jinkō",
-        "meaning": "Japanese population"
-      },
-      {
-        "japanese": "1億2000万人割れ",
-        "romaji": "ichi-oku ni-sen-man-nin ware",
-        "meaning": "falling below 120 million people"
-      },
-      {
-        "japanese": "1984年以来",
-        "romaji": "sen-kyūhyaku-hachijū-yon-nen irai",
-        "meaning": "since 1984"
-      },
-      {
-        "japanese": "42年ぶり",
-        "romaji": "yonjū-ni-nen buri",
-        "meaning": "for the first time in 42 years"
       }
     ],
     "is_mock": false,
