@@ -1,5 +1,50 @@
 [
   {
+    "japanese_title": "10月27日（火）東京都千代田区 三菱地所系マンションに5年転売禁止要請、ペロブスカイト官民で量産へ",
+    "english_translation": "October 27th (Tuesday): Request for a 5-year resale ban on Mitsubishi Estate group condominiums in Chiyoda Ward, Tokyo; Towards mass production of Perovskite by public and private sectors.",
+    "published_at": "2026-10-27 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4129459474.mp3",
+    "chunks": [
+      {
+        "japanese": "10月27日（火）",
+        "romaji": "Jūgatsu Nijūnana-nichi (Ka)",
+        "meaning": "October 27th (Tuesday)"
+      },
+      {
+        "japanese": "東京都千代田区",
+        "romaji": "Tōkyō-to Chiyoda-ku",
+        "meaning": "Chiyoda Ward, Tokyo Metropolis"
+      },
+      {
+        "japanese": "三菱地所系マンションに",
+        "romaji": "Mitsubishi Jisho-kei manshon ni",
+        "meaning": "to/for Mitsubishi Estate affiliated condominiums"
+      },
+      {
+        "japanese": "5年転売禁止要請",
+        "romaji": "go-nen tenbai kinshi yōsei",
+        "meaning": "request for a 5-year resale ban"
+      },
+      {
+        "japanese": "ペロブスカイト",
+        "romaji": "PerobusuKaito",
+        "meaning": "Perovskite (material)"
+      },
+      {
+        "japanese": "官民で",
+        "romaji": "kanmin de",
+        "meaning": "by government and private sector"
+      },
+      {
+        "japanese": "量産へ",
+        "romaji": "ryōsan e",
+        "meaning": "towards mass production"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月26日（月）高市内閣支持率 横ばい62%、GMOへの攻撃者、利用者PCの乗っ取りを画策",
     "english_translation": "October 26 (Mon): Takaichi Cabinet approval rate flat at 62%; Attacker targeting GMO plotted to hijack users' PCs.",
     "published_at": "2026-10-26 06:30:00",
@@ -6564,71 +6609,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "uizu nikkei",
         "meaning": "with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "7月31日（金）香港便り④最新スポーツに最先端エリア　富裕層マネーも回復〜with NIKKEI",
-    "english_translation": "July 31 (Fri) Hong Kong Report #4: From the latest sports to cutting-edge areas, wealthy money is also recovering ~ with NIKKEI",
-    "published_at": "2026-07-31 17:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4226213709.mp3",
-    "chunks": [
-      {
-        "japanese": "7月31日",
-        "romaji": "shichi-gatsu sanjūichi-nichi",
-        "meaning": "July 31st"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin",
-        "meaning": "(Friday)"
-      },
-      {
-        "japanese": "香港便り",
-        "romaji": "honkon dayori",
-        "meaning": "Hong Kong Report / News from Hong Kong"
-      },
-      {
-        "japanese": "④",
-        "romaji": "yon",
-        "meaning": "number 4 / part 4"
-      },
-      {
-        "japanese": "最新スポーツ",
-        "romaji": "saishin supōtsu",
-        "meaning": "the latest sports"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "and / to (particle used here to connect items)"
-      },
-      {
-        "japanese": "最先端エリア",
-        "romaji": "saisentan eria",
-        "meaning": "cutting-edge area / state-of-the-art district"
-      },
-      {
-        "japanese": "富裕層",
-        "romaji": "fuyūsō",
-        "meaning": "wealthy class / the affluent"
-      },
-      {
-        "japanese": "マネーも",
-        "romaji": "manē mo",
-        "meaning": "money too / money also"
-      },
-      {
-        "japanese": "回復",
-        "romaji": "kaifuku",
-        "meaning": "recovery / restoration"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "uizu nikkei",
-        "meaning": "~ with NIKKEI (Nikkei is a Japanese media company)"
       }
     ],
     "is_mock": false,
