@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "10月28日（水）GMO 顧客のものとされる情報「公開確認」、三井住友信託銀行 退職金・年金の年功廃止",
+    "english_translation": "Oct 28 (Wed) Information alleged to belong to GMO customers confirmed published; Sumitomo Mitsui Trust Bank abolishes seniority system for retirement pay and pensions",
+    "published_at": "2026-10-28 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1157404801.mp3",
+    "chunks": [
+      {
+        "japanese": "10月28日（水）",
+        "romaji": "jūgatsu nijūhachinichi (sui)",
+        "meaning": "October 28th (Wednesday)"
+      },
+      {
+        "japanese": "GMO",
+        "romaji": "jī emu ō",
+        "meaning": "GMO (Internet Group)"
+      },
+      {
+        "japanese": "顧客のものとされる",
+        "romaji": "kokyaku no mono to sareru",
+        "meaning": "alleged/said to belong to customers"
+      },
+      {
+        "japanese": "情報",
+        "romaji": "jōhō",
+        "meaning": "information"
+      },
+      {
+        "japanese": "「公開確認」",
+        "romaji": "kōkai kakunin",
+        "meaning": "'publication confirmed'"
+      },
+      {
+        "japanese": "三井住友信託銀行",
+        "romaji": "mitsui sumitomo shintaku ginkō",
+        "meaning": "Sumitomo Mitsui Trust Bank"
+      },
+      {
+        "japanese": "退職金・年金",
+        "romaji": "taishokukin, nenkin",
+        "meaning": "retirement allowance and pension"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of / possessive particle"
+      },
+      {
+        "japanese": "年功廃止",
+        "romaji": "nenkō haishi",
+        "meaning": "abolition of seniority-based system"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月27日（火）東京都千代田区 三菱地所系マンションに5年転売禁止要請、ペロブスカイト官民で量産へ",
     "english_translation": "October 27th (Tuesday): Request for a 5-year resale ban on Mitsubishi Estate group condominiums in Chiyoda Ward, Tokyo; Towards mass production of Perovskite by public and private sectors.",
     "published_at": "2026-10-27 06:30:00",
@@ -6539,76 +6594,6 @@
         "japanese": "14兆円プラス",
         "romaji": "jūyon-chō en purasu",
         "meaning": "14 trillion yen positive"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "香港便り④最新スポーツに最先端エリア　富裕層マネーも回復〜with NIKKEI",
-    "english_translation": "News from Hong Kong #4: Latest Sports, Cutting-Edge Areas, and Recovery of Wealthy Money ~ with NIKKEI",
-    "published_at": "2026-07-31 17:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4226213709.mp3",
-    "chunks": [
-      {
-        "japanese": "香港便り",
-        "romaji": "Honkon dayori",
-        "meaning": "News from Hong Kong (literally 'Hong Kong Letter')"
-      },
-      {
-        "japanese": "④",
-        "romaji": "yon",
-        "meaning": "Part 4"
-      },
-      {
-        "japanese": "最新",
-        "romaji": "saishin",
-        "meaning": "latest / newest"
-      },
-      {
-        "japanese": "スポーツ",
-        "romaji": "supōtsu",
-        "meaning": "sports"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "and / in addition to"
-      },
-      {
-        "japanese": "最先端",
-        "romaji": "saisentan",
-        "meaning": "cutting-edge / state-of-the-art"
-      },
-      {
-        "japanese": "エリア",
-        "romaji": "eria",
-        "meaning": "area"
-      },
-      {
-        "japanese": "富裕層",
-        "romaji": "fuyūsō",
-        "meaning": "wealthy class / the rich"
-      },
-      {
-        "japanese": "マネー",
-        "romaji": "manē",
-        "meaning": "money"
-      },
-      {
-        "japanese": "も",
-        "romaji": "mo",
-        "meaning": "also"
-      },
-      {
-        "japanese": "回復",
-        "romaji": "kaifuku",
-        "meaning": "recovery"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "uizu nikkei",
-        "meaning": "with NIKKEI"
       }
     ],
     "is_mock": false,
