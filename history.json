@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "10月29日（木）27年産米6%減の見通し 続く官製需給調整、ゆうちょ銀行 松井証券に2割出資へ",
+    "english_translation": "October 29 (Thu): Forecast of a 6% decrease for the 2015 rice crop; ongoing government-led supply and demand adjustments; Japan Post Bank set to take a 20% stake in Matsui Securities",
+    "published_at": "2026-10-29 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5142294103.mp3",
+    "chunks": [
+      {
+        "japanese": "10月29日（木）",
+        "romaji": "Jūgatsu nijūkyū-nichi (Moku)",
+        "meaning": "October 29 (Thursday)"
+      },
+      {
+        "japanese": "27年産米",
+        "romaji": "Nijūnana-nen-san mai",
+        "meaning": "2015 (Heisei 27) harvest rice"
+      },
+      {
+        "japanese": "6%減の",
+        "romaji": "Roku-pāsento gen no",
+        "meaning": "of a 6% decrease"
+      },
+      {
+        "japanese": "見通し",
+        "romaji": "Mitooshi",
+        "meaning": "forecast / outlook"
+      },
+      {
+        "japanese": "続く",
+        "romaji": "Tsuzuku",
+        "meaning": "continuing / ongoing"
+      },
+      {
+        "japanese": "官製",
+        "romaji": "Kansei",
+        "meaning": "government-led / government-controlled"
+      },
+      {
+        "japanese": "需給調整",
+        "romaji": "Jukyū chōsei",
+        "meaning": "supply and demand adjustment"
+      },
+      {
+        "japanese": "ゆうちょ銀行",
+        "romaji": "Yūcho ginkō",
+        "meaning": "Japan Post Bank"
+      },
+      {
+        "japanese": "松井証券に",
+        "romaji": "Matsui shōken ni",
+        "meaning": "in Matsui Securities"
+      },
+      {
+        "japanese": "2割",
+        "romaji": "Ni-wari",
+        "meaning": "20% (two tenths)"
+      },
+      {
+        "japanese": "出資へ",
+        "romaji": "Shusshi he",
+        "meaning": "heading towards investment / to invest"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月28日（水）GMO 顧客のものとされる情報「公開確認」、三井住友信託銀行 退職金・年金の年功廃止",
     "english_translation": "Oct 28 (Wed) Information alleged to belong to GMO customers confirmed published; Sumitomo Mitsui Trust Bank abolishes seniority system for retirement pay and pensions",
     "published_at": "2026-10-28 06:30:00",
@@ -6544,56 +6609,6 @@
         "japanese": "満たす",
         "romaji": "mitasu",
         "meaning": "to fill / to satisfy / to meet"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月1日（土）伊藤忠 米航空機リースに3000億円出資、メモリー大手5社の現金収支14兆円プラス",
-    "english_translation": "August 1 (Sat): Itochu invests 300 billion yen in US aircraft leasing; Cash balance of 5 major memory companies is 14 trillion yen positive",
-    "published_at": "2026-08-01 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3522871741.mp3",
-    "chunks": [
-      {
-        "japanese": "8月1日（土）",
-        "romaji": "hachigatsu tsuitachi (doyōbi)",
-        "meaning": "August 1st (Saturday)"
-      },
-      {
-        "japanese": "伊藤忠",
-        "romaji": "Itōchū",
-        "meaning": "Itochu (a major Japanese trading company)"
-      },
-      {
-        "japanese": "米航空機リースに",
-        "romaji": "bei-kōkūki rīsu ni",
-        "meaning": "in US aircraft leasing"
-      },
-      {
-        "japanese": "3000億円",
-        "romaji": "sanzen-oku en",
-        "meaning": "300 billion yen"
-      },
-      {
-        "japanese": "出資",
-        "romaji": "shusshi",
-        "meaning": "investment / capital contribution"
-      },
-      {
-        "japanese": "メモリー大手5社の",
-        "romaji": "memorī ōte gosha no",
-        "meaning": "of the 5 major memory (chip) companies"
-      },
-      {
-        "japanese": "現金収支",
-        "romaji": "genkin shūshi",
-        "meaning": "cash balance / cash flow"
-      },
-      {
-        "japanese": "14兆円プラス",
-        "romaji": "jūyon-chō en purasu",
-        "meaning": "14 trillion yen positive"
       }
     ],
     "is_mock": false,
