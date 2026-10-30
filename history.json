@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "10月30日（金）急増する不正アクセス、私たちはどう守ればいいか〜with NIKKEI",
+    "english_translation": "October 30th (Friday): Rapidly Increasing Unauthorized Access – How Should We Protect Ourselves? ~with NIKKEI",
+    "published_at": "2026-10-30 17:00:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC5808591291.mp3",
+    "chunks": [
+      {
+        "japanese": "10月30日（金）",
+        "romaji": "Jūgatsu sanjūnichi (kin)",
+        "meaning": "October 30th (Friday)"
+      },
+      {
+        "japanese": "急増する",
+        "romaji": "Kyūzō suru",
+        "meaning": "Rapidly increasing / Surging"
+      },
+      {
+        "japanese": "不正アクセス",
+        "romaji": "Fusei akusesu",
+        "meaning": "Unauthorized access"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "私たち",
+        "romaji": "Watashitachi",
+        "meaning": "We / Us"
+      },
+      {
+        "japanese": "は",
+        "romaji": "wa",
+        "meaning": "(topic particle)"
+      },
+      {
+        "japanese": "どう",
+        "romaji": "Dō",
+        "meaning": "How"
+      },
+      {
+        "japanese": "守ればいいか",
+        "romaji": "Mamoreba ii ka",
+        "meaning": "Should we protect ourselves? / How should we protect ourselves?"
+      },
+      {
+        "japanese": "〜with NIKKEI",
+        "romaji": "~with NIKKEI",
+        "meaning": "~with NIKKEI"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月30日（金）日本車の中国生産 ピークの4割弱、中部電力に業務改善命令へ 浜岡原発の不正巡り",
     "english_translation": "October 30 (Fri): Production of Japanese cars in China drops to slightly under 40% of its peak; Business improvement order to be issued to Chubu Electric Power over misconduct at Hamaoka Nuclear Power Plant",
     "published_at": "2026-10-30 06:30:00",
@@ -6524,66 +6579,6 @@
         "japanese": "表明",
         "romaji": "hyōmei",
         "meaning": "announces / declares"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月3日（月）日米が15年ぶり協調介入 円安阻止で思惑一致、設備投資額最高35兆円 AI供給網整備の裾野広がる",
-    "english_translation": "August 3rd (Mon): Japan and the US conduct coordinated intervention for the first time in 15 years, aligning interests to halt yen depreciation; Capital investment reaches record-high 35 trillion yen as the base of AI supply chain development expands.",
-    "published_at": "2026-08-03 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3479095421.mp3",
-    "chunks": [
-      {
-        "japanese": "8月3日（月）",
-        "romaji": "hachigatsu mikka (getsu)",
-        "meaning": "August 3rd (Monday)"
-      },
-      {
-        "japanese": "日米が",
-        "romaji": "nichibei ga",
-        "meaning": "Japan and the US (subject)"
-      },
-      {
-        "japanese": "15年ぶり",
-        "romaji": "jūgonen buri",
-        "meaning": "for the first time in 15 years"
-      },
-      {
-        "japanese": "協調介入",
-        "romaji": "kyōchō kairyū",
-        "meaning": "coordinated intervention"
-      },
-      {
-        "japanese": "円安阻止で",
-        "romaji": "en'yasu soshi de",
-        "meaning": "in halting the weak yen / to prevent yen depreciation"
-      },
-      {
-        "japanese": "思惑一致",
-        "romaji": "omowaku icchi",
-        "meaning": "alignment of intentions / agreement of interests"
-      },
-      {
-        "japanese": "設備投資額",
-        "romaji": "setsubi tōshigaku",
-        "meaning": "capital expenditure (capex) amount"
-      },
-      {
-        "japanese": "最高35兆円",
-        "romaji": "saikō sanjūgochōen",
-        "meaning": "record-high 35 trillion yen"
-      },
-      {
-        "japanese": "AI供給網整備の",
-        "romaji": "ēai kyōkyūmō seibi no",
-        "meaning": "of AI supply chain development/infrastructure"
-      },
-      {
-        "japanese": "裾野広がる",
-        "romaji": "susono hirogaru",
-        "meaning": "the base expands / supporting industries broaden"
       }
     ],
     "is_mock": false,
