@@ -1,5 +1,75 @@
 [
   {
+    "japanese_title": "11月1日（日）GMO不正侵入 システム脆弱性を2年前に把握、iDeCoが12月大幅拡充利用拡大へ",
+    "english_translation": "Sunday, November 1st: GMO unauthorized breach—System vulnerability identified 2 years ago; iDeCo to undergo major expansion in December to broaden usage",
+    "published_at": "2026-11-01 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7924971994.mp3",
+    "chunks": [
+      {
+        "japanese": "11月1日（日）",
+        "romaji": "jūichi-gatsu tsuitachi (nichi)",
+        "meaning": "Sunday, November 1st"
+      },
+      {
+        "japanese": "GMO",
+        "romaji": "jī-emū-ō",
+        "meaning": "GMO (Company name)"
+      },
+      {
+        "japanese": "不正侵入",
+        "romaji": "fusei shin'nyū",
+        "meaning": "unauthorized access / breach"
+      },
+      {
+        "japanese": "システム脆弱性",
+        "romaji": "shisutemu zeijakusei",
+        "meaning": "system vulnerability"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "direct object marker"
+      },
+      {
+        "japanese": "2年前に",
+        "romaji": "ni-nen mae ni",
+        "meaning": "2 years ago"
+      },
+      {
+        "japanese": "把握",
+        "romaji": "haoku",
+        "meaning": "identified / grasped / known"
+      },
+      {
+        "japanese": "iDeCo",
+        "romaji": "ideko",
+        "meaning": "iDeCo (Japanese pension plan)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "12月",
+        "romaji": "jūni-gatsu",
+        "meaning": "December"
+      },
+      {
+        "japanese": "大幅拡充",
+        "romaji": "ōhaba kakujū",
+        "meaning": "major expansion / significant enhancement"
+      },
+      {
+        "japanese": "利用拡大へ",
+        "romaji": "riyō kakudai e",
+        "meaning": "heading towards expanding usage"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "10月31日（土）政府 サイバー対策で米AIにモデル提供拡大を要請、「赤坂プリンスホテル」跡地ビル 大和証券G系が3000億円で買収",
     "english_translation": "October 31st (Saturday): Government requests expansion of model provision to US AI for cyber measures; Daiwa Securities Group acquires the former \"Akasaka Prince Hotel\" site building for 300 billion yen.",
     "published_at": "2026-10-31 07:50:00",
@@ -6528,75 +6598,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月5日（水）銀行預金に金利競争 みずほ大口向け3倍1.5%、トヨタ純利益16%減に上方修正",
-    "english_translation": "August 5th (Wednesday): Interest rate competition for bank deposits; Mizuho offers 3 times 1.5% for large clients; Toyota's net profit revised upwards to a 16% decrease.",
-    "published_at": "2026-08-05 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6581382080.mp3",
-    "chunks": [
-      {
-        "japanese": "8月5日（水）",
-        "romaji": "Hachigatsu itsuka (Sui)",
-        "meaning": "August 5th (Wednesday)"
-      },
-      {
-        "japanese": "銀行預金",
-        "romaji": "Ginkō yokin",
-        "meaning": "Bank deposits"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "in / for"
-      },
-      {
-        "japanese": "金利競争",
-        "romaji": "Kinri kyōsō",
-        "meaning": "Interest rate competition"
-      },
-      {
-        "japanese": "みずほ",
-        "romaji": "Mizuho",
-        "meaning": "Mizuho (Bank)"
-      },
-      {
-        "japanese": "大口向け",
-        "romaji": "Ōguchi-muke",
-        "meaning": "For large clients/accounts"
-      },
-      {
-        "japanese": "3倍1.5%",
-        "romaji": "San-bai ichi-ten-go pāsento",
-        "meaning": "3 times 1.5% (interest rate)"
-      },
-      {
-        "japanese": "トヨタ",
-        "romaji": "Toyota",
-        "meaning": "Toyota"
-      },
-      {
-        "japanese": "純利益",
-        "romaji": "Jun-rieki",
-        "meaning": "Net profit"
-      },
-      {
-        "japanese": "16%減",
-        "romaji": "Jūroku pāsento gen",
-        "meaning": "16% decrease"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to (indicating the result)"
-      },
-      {
-        "japanese": "上方修正",
-        "romaji": "Jōhō shūsei",
-        "meaning": "Upward revision"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
