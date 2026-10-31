@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "10月31日（土）政府 サイバー対策で米AIにモデル提供拡大を要請、「赤坂プリンスホテル」跡地ビル 大和証券G系が3000億円で買収",
+    "english_translation": "October 31st (Saturday): Government requests expansion of model provision to US AI for cyber measures; Daiwa Securities Group acquires the former \"Akasaka Prince Hotel\" site building for 300 billion yen.",
+    "published_at": "2026-10-31 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4327908484.mp3",
+    "chunks": [
+      {
+        "japanese": "10月31日",
+        "romaji": "Juugatsu Sanjuuichinichi",
+        "meaning": "October 31st"
+      },
+      {
+        "japanese": "（土）",
+        "romaji": "(Do)",
+        "meaning": "(Saturday)"
+      },
+      {
+        "japanese": "政府",
+        "romaji": "Seifu",
+        "meaning": "Government"
+      },
+      {
+        "japanese": "サイバー対策で",
+        "romaji": "Saibaa Taisaku de",
+        "meaning": "for cyber measures"
+      },
+      {
+        "japanese": "米AIに",
+        "romaji": "Bei Eiai ni",
+        "meaning": "to US AI"
+      },
+      {
+        "japanese": "モデル提供拡大を",
+        "romaji": "Moderu Teikyou Kakudai o",
+        "meaning": "expansion of model provision (direct object)"
+      },
+      {
+        "japanese": "要請",
+        "romaji": "Yousei",
+        "meaning": "requests"
+      },
+      {
+        "japanese": "、「赤坂プリンスホテル」跡地ビル",
+        "romaji": "Akasaka Purinsu Hoteru Atochi Biru",
+        "meaning": "the former \"Akasaka Prince Hotel\" site building"
+      },
+      {
+        "japanese": "大和証券G系が",
+        "romaji": "Daiwa Shouken G-kei ga",
+        "meaning": "Daiwa Securities Group (as subject)"
+      },
+      {
+        "japanese": "3000億円で",
+        "romaji": "Sansen Oku En de",
+        "meaning": "for 300 billion yen"
+      },
+      {
+        "japanese": "買収",
+        "romaji": "Baishuu",
+        "meaning": "acquired / acquisition"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "10月30日（金）急増する不正アクセス、私たちはどう守ればいいか〜with NIKKEI",
     "english_translation": "October 30th (Friday): Rapidly Increasing Unauthorized Access – How Should We Protect Ourselves? ~with NIKKEI",
     "published_at": "2026-10-30 17:00:00",
@@ -6533,55 +6598,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "8月4日（火）自民合同会議 食品消費税1%を了承、熊本地震 首相が激甚指定を表明",
-    "english_translation": "August 4 (Tuesday) LDP Joint Meeting Approves 1% Food Consumption Tax; Kumamoto Earthquake: PM Announces Severe Disaster Designation",
-    "published_at": "2026-08-04 06:40:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1129961583.mp3",
-    "chunks": [
-      {
-        "japanese": "8月4日（火）",
-        "romaji": "hachigatsu yokka (ka)",
-        "meaning": "August 4th (Tuesday)"
-      },
-      {
-        "japanese": "自民合同会議",
-        "romaji": "jimin gōdō kaigi",
-        "meaning": "LDP (Liberal Democratic Party) joint meeting"
-      },
-      {
-        "japanese": "食品消費税1%",
-        "romaji": "shokuhin shōhizei ippāsento",
-        "meaning": "1% food consumption tax"
-      },
-      {
-        "japanese": "を了承",
-        "romaji": "o ryōshō",
-        "meaning": "approved / agreed to"
-      },
-      {
-        "japanese": "熊本地震",
-        "romaji": "kumamoto jishin",
-        "meaning": "Kumamoto Earthquake"
-      },
-      {
-        "japanese": "首相が",
-        "romaji": "shushō ga",
-        "meaning": "the Prime Minister (subject)"
-      },
-      {
-        "japanese": "激甚指定を",
-        "romaji": "gekijin shitei o",
-        "meaning": "designation as an extremely severe disaster (as object)"
-      },
-      {
-        "japanese": "表明",
-        "romaji": "hyōmei",
-        "meaning": "announces / declares"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
