@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月3日（火）GMO熊谷社長 子会社の指摘「生かせず」不正アクセス問題で謝罪、自動運転車「ハンドル無し」一律認定",
+    "english_translation": "Tuesday, November 3: GMO President Kumagai apologizes over unauthorized access issue after failing to heed subsidiary's warning; Self-driving cars 'without steering wheels' receive uniform certification.",
+    "published_at": "2026-11-03 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9056773195.mp3",
+    "chunks": [
+      {
+        "japanese": "11月3日（火）",
+        "romaji": "Jūichi-gatsu mikka (ka)",
+        "meaning": "November 3rd (Tuesday)"
+      },
+      {
+        "japanese": "GMO",
+        "romaji": "Jī-em-ū",
+        "meaning": "GMO (Internet Group)"
+      },
+      {
+        "japanese": "熊谷社長",
+        "romaji": "Kumagai shachō",
+        "meaning": "President Kumagai"
+      },
+      {
+        "japanese": "子会社の指摘",
+        "romaji": "kogaisha no shiteki",
+        "meaning": "subsidiary's warning / pointing out"
+      },
+      {
+        "japanese": "「生かせず」",
+        "romaji": "\"ikasezu\"",
+        "meaning": "\"failing to make use of\""
+      },
+      {
+        "japanese": "不正アクセス問題で",
+        "romaji": "fusei akusesu mondai de",
+        "meaning": "due to the unauthorized access problem"
+      },
+      {
+        "japanese": "謝罪",
+        "romaji": "shazai",
+        "meaning": "apology"
+      },
+      {
+        "japanese": "自動運転車",
+        "romaji": "jidō untensha",
+        "meaning": "autonomous / self-driving cars"
+      },
+      {
+        "japanese": "「ハンドル無し」",
+        "romaji": "\"handoru nashi\"",
+        "meaning": "\"without steering wheels\""
+      },
+      {
+        "japanese": "一律認定",
+        "romaji": "ichiritsu nintei",
+        "meaning": "uniform certification / standardized approval"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月2日（月）AIなど経済安保研究 計画変更しやすく 5000億円超え国費活用、工場跡地に再び工場 土壌汚染の調査不要に",
     "english_translation": "November 2nd (Mon): Making plan changes easier for AI and economic security research using over 500 billion yen in public funds; soil contamination surveys no longer required for building factories on former factory sites.",
     "published_at": "2026-11-02 06:30:00",
@@ -6554,61 +6614,6 @@
         "japanese": "with NIKKEI",
         "romaji": "uizu nikkei",
         "meaning": "with Nikkei"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月7日（金）東大が2年連続赤字へ 「貯金」数年で枯渇、ソフトバンクG純利益18%減 4〜6月オープンAI利益貢献せず",
-    "english_translation": "August 7th (Friday): University of Tokyo heads into a deficit for the second consecutive year with 'savings' to deplete in a few years; SoftBank Group's net profit drops 18% for April–June as OpenAI does not contribute to profits.",
-    "published_at": "2026-08-07 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2431868164.mp3",
-    "chunks": [
-      {
-        "japanese": "8月7日（金）",
-        "romaji": "hachigatsu nanoka (kin)",
-        "meaning": "August 7th (Friday)"
-      },
-      {
-        "japanese": "東大が",
-        "romaji": "tōdai ga",
-        "meaning": "University of Tokyo (subject)"
-      },
-      {
-        "japanese": "2年連続赤字へ",
-        "romaji": "ninen renzoku akaji e",
-        "meaning": "heading toward a deficit for the second consecutive year"
-      },
-      {
-        "japanese": "「貯金」数年で枯渇",
-        "romaji": "chokin sūnen de kokatsu",
-        "meaning": "'savings' depleting in a few years"
-      },
-      {
-        "japanese": "ソフトバンクG",
-        "romaji": "sofutobanku jī",
-        "meaning": "SoftBank Group"
-      },
-      {
-        "japanese": "純利益18%減",
-        "romaji": "junrieki jūhachi pāsento gen",
-        "meaning": "net profit down 18%"
-      },
-      {
-        "japanese": "4〜6月",
-        "romaji": "shigatsu kara rokugatsu",
-        "meaning": "April to June"
-      },
-      {
-        "japanese": "オープンAI",
-        "romaji": "ōpun ēai",
-        "meaning": "OpenAI"
-      },
-      {
-        "japanese": "利益貢献せず",
-        "romaji": "rieki kōken sezu",
-        "meaning": "not contributing to profits"
       }
     ],
     "is_mock": false,
