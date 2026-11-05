@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月5日（木）米中間選挙 民主党が上下両院で多数派奪還、三菱商事4年ぶり最高益 今期最終1.2兆円",
+    "english_translation": "November 5 (Thu): US Midterm Elections - Democrats Regain Majority in Both Houses; Mitsubishi Corp. Achieves Record Profit for First Time in 4 Years, Final Net Profit of 1.2 Trillion Yen Expected for Current Term",
+    "published_at": "2026-11-05 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8906427960.mp3",
+    "chunks": [
+      {
+        "japanese": "11月5日（木）",
+        "romaji": "jūichi-gatsu go-nichi (mokuyōbi)",
+        "meaning": "November 5th (Thursday)"
+      },
+      {
+        "japanese": "米中間選挙",
+        "romaji": "bei chūkan senkyo",
+        "meaning": "US midterm elections"
+      },
+      {
+        "japanese": "民主党が",
+        "romaji": "minshutō ga",
+        "meaning": "Democratic Party [subject marker]"
+      },
+      {
+        "japanese": "上下両院で",
+        "romaji": "jōge ryōin de",
+        "meaning": "in both houses of Congress (Senate and House of Representatives)"
+      },
+      {
+        "japanese": "多数派奪還",
+        "romaji": "tasūha dakkan",
+        "meaning": "regaining the majority"
+      },
+      {
+        "japanese": "三菱商事",
+        "romaji": "mitsubishi shōji",
+        "meaning": "Mitsubishi Corporation"
+      },
+      {
+        "japanese": "4年ぶり",
+        "romaji": "yon-nen buri",
+        "meaning": "for the first time in 4 years"
+      },
+      {
+        "japanese": "最高益",
+        "romaji": "saikōeki",
+        "meaning": "record-high profit"
+      },
+      {
+        "japanese": "今期最終",
+        "romaji": "konki saishū",
+        "meaning": "current term final (net profit)"
+      },
+      {
+        "japanese": "1.2兆円",
+        "romaji": "ichi-ten-ni chō-en",
+        "meaning": "1.2 trillion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月4日（水）陸自 30年度にも対艦・空・地のシステム統合、米中間選挙投票へ",
     "english_translation": "November 4th (Wednesday) - Japan Ground Self-Defense Force to integrate anti-ship, anti-air, and anti-ground systems as early as FY2018; US midterm elections voting approaches.",
     "published_at": "2026-11-04 06:30:00",
@@ -6513,95 +6573,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月8日（土）韓国と台湾の輸出額ともに初の日本超え、三井住友信託 中古不動産の再生へ200億円ファンド",
-    "english_translation": "August 8th (Saturday) South Korea and Taiwan's export values both surpass Japan for the first time, Mitsui Sumitomo Trust launches a 20 billion yen fund for the revitalization of used real estate.",
-    "published_at": "2026-08-08 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7065556745.mp3",
-    "chunks": [
-      {
-        "japanese": "8月8日（土）",
-        "romaji": "hachi-gatsu yōka (do)",
-        "meaning": "August 8th (Saturday)"
-      },
-      {
-        "japanese": "韓国",
-        "romaji": "Kankoku",
-        "meaning": "South Korea"
-      },
-      {
-        "japanese": "と",
-        "romaji": "to",
-        "meaning": "and"
-      },
-      {
-        "japanese": "台湾",
-        "romaji": "Taiwan",
-        "meaning": "Taiwan"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "輸出額",
-        "romaji": "yushutsu-gaku",
-        "meaning": "export value/amount"
-      },
-      {
-        "japanese": "ともに",
-        "romaji": "tomo ni",
-        "meaning": "both / together"
-      },
-      {
-        "japanese": "初の",
-        "romaji": "hatsu no",
-        "meaning": "first (time)"
-      },
-      {
-        "japanese": "日本超え",
-        "romaji": "Nihon-goe",
-        "meaning": "surpassing Japan"
-      },
-      {
-        "japanese": "三井住友信託",
-        "romaji": "Mitsui Sumitomo Shintaku",
-        "meaning": "Mitsui Sumitomo Trust (Company Name)"
-      },
-      {
-        "japanese": "中古不動産",
-        "romaji": "chūko fudōsan",
-        "meaning": "used real estate / pre-owned property"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of"
-      },
-      {
-        "japanese": "再生",
-        "romaji": "saisei",
-        "meaning": "revitalization / regeneration"
-      },
-      {
-        "japanese": "へ",
-        "romaji": "e",
-        "meaning": "to / towards / for"
-      },
-      {
-        "japanese": "200億円",
-        "romaji": "ni-hyaku oku en",
-        "meaning": "20 billion yen"
-      },
-      {
-        "japanese": "ファンド",
-        "romaji": "fando",
-        "meaning": "fund"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
