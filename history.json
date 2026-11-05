@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "11月6日（金）個人預金「ペイオフ保護なし」 140兆円に、トヨタの27年3月期 営業利益4%増に上方修正",
+    "english_translation": "November 6th (Friday): Personal Deposits Without 'Payoff Protection' Reach 140 Trillion Yen; Toyota's Operating Profit for Fiscal Year Ending March 2027 Revised Upward by 4%.",
+    "published_at": "2026-11-06 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8078405306.mp3",
+    "chunks": [
+      {
+        "japanese": "11月6日（金）",
+        "romaji": "jūichi-gatsu muika (kin)",
+        "meaning": "November 6th (Friday)"
+      },
+      {
+        "japanese": "個人預金",
+        "romaji": "kojin yokin",
+        "meaning": "Personal deposits"
+      },
+      {
+        "japanese": "「ペイオフ保護なし」",
+        "romaji": "\"peiofu hogo nashi\"",
+        "meaning": "\"No payoff protection\""
+      },
+      {
+        "japanese": "140兆円に",
+        "romaji": "hyaku-yonjū-chō-en ni",
+        "meaning": "To 140 trillion yen (reaching 140 trillion yen)"
+      },
+      {
+        "japanese": "トヨタの",
+        "romaji": "Toyota no",
+        "meaning": "Toyota's"
+      },
+      {
+        "japanese": "27年3月期",
+        "romaji": "nijū-nana-nen san-gatsu-ki",
+        "meaning": "Fiscal year ending March 2027"
+      },
+      {
+        "japanese": "営業利益",
+        "romaji": "eigyō rieki",
+        "meaning": "Operating profit"
+      },
+      {
+        "japanese": "4%増に",
+        "romaji": "yon pāsento zō ni",
+        "meaning": "By a 4% increase"
+      },
+      {
+        "japanese": "上方修正",
+        "romaji": "jōhō shūsei",
+        "meaning": "Upward revision"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月5日（木）米中間選挙 民主党が上下両院で多数派奪還、三菱商事4年ぶり最高益 今期最終1.2兆円",
     "english_translation": "November 5 (Thu): US Midterm Elections - Democrats Regain Majority in Both Houses; Mitsubishi Corp. Achieves Record Profit for First Time in 4 Years, Final Net Profit of 1.2 Trillion Yen Expected for Current Term",
     "published_at": "2026-11-05 06:30:00",
@@ -6524,51 +6579,6 @@
         "japanese": "大ヒット",
         "romaji": "dai hitto",
         "meaning": "big hit"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月9日（日） 3メガバンク 外貨の資金余力198兆円に、新電力Looop 夜7〜9時の電力無料に",
-    "english_translation": "August 9 (Sunday): Three Megabanks' Foreign Currency Funding Capacity Reaches 198 Trillion Yen; New Power Company Looop Makes Electricity Free from 7 to 9 PM",
-    "published_at": "2026-08-09 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2137507887.mp3",
-    "chunks": [
-      {
-        "japanese": "8月9日（日）",
-        "romaji": "hachigatsu kokonoka (nichiyōbi)",
-        "meaning": "August 9th (Sunday)"
-      },
-      {
-        "japanese": "3メガバンク",
-        "romaji": "san megabanku",
-        "meaning": "three megabanks (referring to Japan's top three banking groups)"
-      },
-      {
-        "japanese": "外貨の資金余力",
-        "romaji": "gaika no shikin yoryoku",
-        "meaning": "foreign currency funding capacity / cash reserves"
-      },
-      {
-        "japanese": "198兆円に",
-        "romaji": "hyakukyūjūhachichōen ni",
-        "meaning": "reaches 198 trillion yen (literally: to 198 trillion yen)"
-      },
-      {
-        "japanese": "新電力Looop",
-        "romaji": "shindenryoku rūpu",
-        "meaning": "new electricity provider Looop"
-      },
-      {
-        "japanese": "夜7〜9時の",
-        "romaji": "yoru shichiji kara kuji no",
-        "meaning": "of 7 PM to 9 PM"
-      },
-      {
-        "japanese": "電力無料に",
-        "romaji": "denryoku muryō ni",
-        "meaning": "makes electricity free (literally: to free electricity)"
       }
     ],
     "is_mock": false,
