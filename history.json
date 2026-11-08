@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "11月8日（日） ACミランを所有の世界最大級スポーツファンド 日本進出、イオン 衣料レンタル店を3倍60店に",
+    "english_translation": "Sunday, November 8: World's largest sports fund owning AC Milan expands into Japan; Aeon to triple clothing rental stores to 60.",
+    "published_at": "2026-11-08 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC1579785071.mp3",
+    "chunks": [
+      {
+        "japanese": "11月8日（日）",
+        "romaji": "jūichigatsu yōka (nichi)",
+        "meaning": "November 8th (Sunday)"
+      },
+      {
+        "japanese": "ACミラン",
+        "romaji": "ēshī miran",
+        "meaning": "AC Milan"
+      },
+      {
+        "japanese": "を所有の",
+        "romaji": "o shoyū no",
+        "meaning": "owning / which owns"
+      },
+      {
+        "japanese": "世界最大級",
+        "romaji": "sekai saidaikyū",
+        "meaning": "one of the world's largest"
+      },
+      {
+        "japanese": "スポーツファンド",
+        "romaji": "supōtsu fando",
+        "meaning": "sports fund"
+      },
+      {
+        "japanese": "日本進出",
+        "romaji": "nihon shinshutsu",
+        "meaning": "expansion into Japan"
+      },
+      {
+        "japanese": "イオン",
+        "romaji": "ion",
+        "meaning": "Aeon (retail company)"
+      },
+      {
+        "japanese": "衣料レンタル店",
+        "romaji": "iryō rentaru ten",
+        "meaning": "clothing rental stores"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "object marker"
+      },
+      {
+        "japanese": "3倍",
+        "romaji": "sanbai",
+        "meaning": "triple / 3 times"
+      },
+      {
+        "japanese": "60店に",
+        "romaji": "rokujutten ni",
+        "meaning": "to 60 stores"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月7日（土）世界の時価総額1日で550兆円喪失、三菱重工が自社株買い3000億円",
     "english_translation": "Nov 7 (Sat) Global market cap loses 550 trillion yen in one day; Mitsubishi Heavy Industries buys back 300 billion yen of its own shares",
     "published_at": "2026-11-07 07:50:00",
@@ -6494,81 +6559,6 @@
         "japanese": "国が穴埋め検討",
         "romaji": "kuni ga anaume kentō",
         "meaning": "the national government considers covering (the shortfall)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月11日（火）ソニーGとTSMC 熊本工場に1兆円投資、ニチレイのサイバー攻撃 ハッカー集団が盗難データ公開",
-    "english_translation": "August 11 (Tuesday) - Sony Group and TSMC to invest 1 trillion yen in Kumamoto plant; Nichirei cyberattack: hacker group releases stolen data",
-    "published_at": "2026-08-11 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC8364767768.mp3",
-    "chunks": [
-      {
-        "japanese": "8月11日",
-        "romaji": "hachigatsu jūichinichi",
-        "meaning": "August 11th"
-      },
-      {
-        "japanese": "（火）",
-        "romaji": "ka",
-        "meaning": "Tuesday (abbreviated)"
-      },
-      {
-        "japanese": "ソニーG",
-        "romaji": "sonī jī",
-        "meaning": "Sony Group"
-      },
-      {
-        "japanese": "と",
-        "romaji": "to",
-        "meaning": "and"
-      },
-      {
-        "japanese": "TSMC",
-        "romaji": "tī esu emu shī",
-        "meaning": "TSMC (Taiwan Semiconductor Manufacturing Company)"
-      },
-      {
-        "japanese": "熊本工場に",
-        "romaji": "kumamoto kōjō ni",
-        "meaning": "in the Kumamoto plant (factory)"
-      },
-      {
-        "japanese": "1兆円",
-        "romaji": "icchō en",
-        "meaning": "1 trillion yen"
-      },
-      {
-        "japanese": "投資",
-        "romaji": "tōshi",
-        "meaning": "investment"
-      },
-      {
-        "japanese": "ニチレイの",
-        "romaji": "nichirei no",
-        "meaning": "Nichirei's (a Japanese food company)"
-      },
-      {
-        "japanese": "サイバー攻撃",
-        "romaji": "saibā kōgeki",
-        "meaning": "cyberattack"
-      },
-      {
-        "japanese": "ハッカー集団が",
-        "romaji": "hakkā shūdan ga",
-        "meaning": "hacker group (subject marker)"
-      },
-      {
-        "japanese": "盗難データ",
-        "romaji": "tōnan dēta",
-        "meaning": "stolen data"
-      },
-      {
-        "japanese": "公開",
-        "romaji": "kōkai",
-        "meaning": "making public / release"
       }
     ],
     "is_mock": false,
