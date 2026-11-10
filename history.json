@@ -1,5 +1,110 @@
 [
   {
+    "japanese_title": "11月10日（火）サカナAIが27年秋にも上場へ スタートアップ国内最大級、政府 大学に防衛専門研究所",
+    "english_translation": "November 10th (Tuesday): Sakana AI to list as early as Fall 2027; Largest domestic startup; Government and universities to establish a specialized defense research institute.",
+    "published_at": "2026-11-10 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8917917772.mp3",
+    "chunks": [
+      {
+        "japanese": "11月10日",
+        "romaji": "jūichi-gatsu tōka",
+        "meaning": "November 10th"
+      },
+      {
+        "japanese": "（火）",
+        "romaji": "(ka)",
+        "meaning": "(Tuesday)"
+      },
+      {
+        "japanese": "サカナAI",
+        "romaji": "Sakana AI",
+        "meaning": "Sakana AI (company name)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject particle)"
+      },
+      {
+        "japanese": "27年",
+        "romaji": "ni-jū nana-nen",
+        "meaning": "Year 2027"
+      },
+      {
+        "japanese": "秋",
+        "romaji": "aki",
+        "meaning": "fall, autumn"
+      },
+      {
+        "japanese": "にも",
+        "romaji": "ni mo",
+        "meaning": "even as early as"
+      },
+      {
+        "japanese": "上場",
+        "romaji": "jōjō",
+        "meaning": "listing (on stock market)"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "e",
+        "meaning": "towards, to"
+      },
+      {
+        "japanese": "スタートアップ",
+        "romaji": "sutātoappu",
+        "meaning": "startup"
+      },
+      {
+        "japanese": "国内",
+        "romaji": "kokunai",
+        "meaning": "domestic, in Japan"
+      },
+      {
+        "japanese": "最大級",
+        "romaji": "saidai-kyū",
+        "meaning": "largest class, largest of its kind"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": "(comma separator)"
+      },
+      {
+        "japanese": "政府",
+        "romaji": "seifu",
+        "meaning": "government"
+      },
+      {
+        "japanese": "大学",
+        "romaji": "daigaku",
+        "meaning": "university"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "for, to (target/recipient)"
+      },
+      {
+        "japanese": "防衛",
+        "romaji": "bōei",
+        "meaning": "defense"
+      },
+      {
+        "japanese": "専門",
+        "romaji": "senmon",
+        "meaning": "specialized"
+      },
+      {
+        "japanese": "研究所",
+        "romaji": "kenkyūjo",
+        "meaning": "research institute"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月9日（月）気象災害の経済損失 40年で6倍の1.1兆ドル、ソフトバンクGとABB ロボット企業の中国事業分離検討",
     "english_translation": "Monday, November 9: Economic losses from weather disasters increase sixfold to $1.1 trillion over 40 years; SoftBank Group and ABB consider spinning off robotics business in China.",
     "published_at": "2026-11-09 06:30:00",
@@ -6509,76 +6614,6 @@
         "japanese": "誇示",
         "romaji": "koji",
         "meaning": "demonstration / display / showing off"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月13日（木）ネット証券大手5社 米国株を日中も売買へ、東京23区の新築戸建て 9000万円台続く",
-    "english_translation": "August 13th (Thursday): Five major online brokerage firms to trade US stocks during the daytime; Newly built detached houses in Tokyo's 23 wards remain in the 90 million yen range.",
-    "published_at": "2026-08-13 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC3145206730.mp3",
-    "chunks": [
-      {
-        "japanese": "8月13日（木）",
-        "romaji": "hachigatsu jūsan-nichi (mokuyōbi)",
-        "meaning": "August 13th (Thursday)"
-      },
-      {
-        "japanese": "ネット証券",
-        "romaji": "netto shōken",
-        "meaning": "online securities / online brokerages"
-      },
-      {
-        "japanese": "大手5社",
-        "romaji": "ōte go-sha",
-        "meaning": "5 major companies"
-      },
-      {
-        "japanese": "米国株",
-        "romaji": "beikokukabu",
-        "meaning": "US stocks"
-      },
-      {
-        "japanese": "を",
-        "romaji": "wo",
-        "meaning": "object marking particle"
-      },
-      {
-        "japanese": "日中も",
-        "romaji": "nicchū mo",
-        "meaning": "during the day as well"
-      },
-      {
-        "japanese": "売買へ",
-        "romaji": "baibai he",
-        "meaning": "heading toward trading (buying and selling)"
-      },
-      {
-        "japanese": "東京23区",
-        "romaji": "tōkyō nijūsan-ku",
-        "meaning": "Tokyo's 23 wards"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "possessive particle (of / 's)"
-      },
-      {
-        "japanese": "新築戸建て",
-        "romaji": "shinchiku kodate",
-        "meaning": "newly built detached houses"
-      },
-      {
-        "japanese": "9000万円台",
-        "romaji": "kyūsen-man-en dai",
-        "meaning": "90 million yen range"
-      },
-      {
-        "japanese": "続く",
-        "romaji": "tsuduku",
-        "meaning": "to continue / remain"
       }
     ],
     "is_mock": false,
