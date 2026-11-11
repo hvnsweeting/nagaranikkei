@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "11月11日（水）ソフトバンクG最終赤字7680億円 4〜9月、中小企業のデジタル投資急増 1〜6月最大に",
+    "english_translation": "Wednesday, November 11: SoftBank Group posts net loss of 768 billion yen for April–September; Digital investment by SMEs surges, reaching a record high in January–June",
+    "published_at": "2026-11-11 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC8078310150.mp3",
+    "chunks": [
+      {
+        "japanese": "11月11日（水）",
+        "romaji": "Jūichigatsu jūichinichi (sui)",
+        "meaning": "November 11th (Wednesday)"
+      },
+      {
+        "japanese": "ソフトバンクG",
+        "romaji": "Sofutobanku Jī",
+        "meaning": "SoftBank Group"
+      },
+      {
+        "japanese": "最終赤字",
+        "romaji": "saishū akaji",
+        "meaning": "net loss / final deficit"
+      },
+      {
+        "japanese": "7680億円",
+        "romaji": "nanasen roppyaku hachijū oku en",
+        "meaning": "768 billion yen"
+      },
+      {
+        "japanese": "4〜9月",
+        "romaji": "shigatsu kara kugatsu",
+        "meaning": "April to September"
+      },
+      {
+        "japanese": "中小企業",
+        "romaji": "chūshō kigyō",
+        "meaning": "small and medium-sized enterprises (SMEs)"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle ('s / of)"
+      },
+      {
+        "japanese": "デジタル投資",
+        "romaji": "dejitaru tōshi",
+        "meaning": "digital investment"
+      },
+      {
+        "japanese": "急増",
+        "romaji": "kyūzō",
+        "meaning": "surge / rapid increase"
+      },
+      {
+        "japanese": "1〜6月",
+        "romaji": "ichigatsu kara rokugatsu",
+        "meaning": "January to June"
+      },
+      {
+        "japanese": "最大に",
+        "romaji": "saidai ni",
+        "meaning": "reaching the largest / hitting a record high"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月10日（火）サカナAIが27年秋にも上場へ スタートアップ国内最大級、政府 大学に防衛専門研究所",
     "english_translation": "November 10th (Tuesday): Sakana AI to list as early as Fall 2027; Largest domestic startup; Government and universities to establish a specialized defense research institute.",
     "published_at": "2026-11-10 06:30:00",
@@ -6543,80 +6608,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "8月14日（金）携帯ショップ 市区町村の4割でゼロ、ロシアのプーチン大統領が北方領土を初訪問 実効支配を誇示",
-    "english_translation": "August 14 (Friday): Mobile phone shops at zero in 40% of municipalities; Russia's President Putin makes first visit to the Northern Territories, demonstrating effective control",
-    "published_at": "2026-08-14 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7143897051.mp3",
-    "chunks": [
-      {
-        "japanese": "8月14日（金）",
-        "romaji": "hachigatsu jūyokka (kin)",
-        "meaning": "August 14 (Friday)"
-      },
-      {
-        "japanese": "携帯ショップ",
-        "romaji": "keitai shoppu",
-        "meaning": "mobile phone shop(s)"
-      },
-      {
-        "japanese": "市区町村",
-        "romaji": "shikuchōson",
-        "meaning": "municipalities (cities, wards, towns, and villages)"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of"
-      },
-      {
-        "japanese": "4割",
-        "romaji": "yon-wari",
-        "meaning": "40% (literally, four tenths)"
-      },
-      {
-        "japanese": "で",
-        "romaji": "de",
-        "meaning": "at / in"
-      },
-      {
-        "japanese": "ゼロ",
-        "romaji": "zero",
-        "meaning": "zero"
-      },
-      {
-        "japanese": "ロシアの",
-        "romaji": "roshia no",
-        "meaning": "Russia's / of Russia"
-      },
-      {
-        "japanese": "プーチン大統領が",
-        "romaji": "pūchin daitōryō ga",
-        "meaning": "President Putin (subject)"
-      },
-      {
-        "japanese": "北方領土を",
-        "romaji": "hoppō ryōdo o",
-        "meaning": "the Northern Territories (object)"
-      },
-      {
-        "japanese": "初訪問",
-        "romaji": "hatsu hōmon",
-        "meaning": "first visit"
-      },
-      {
-        "japanese": "実効支配を",
-        "romaji": "jikkō shihai o",
-        "meaning": "effective control (object)"
-      },
-      {
-        "japanese": "誇示",
-        "romaji": "koji",
-        "meaning": "demonstration / display / showing off"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
