@@ -1,5 +1,100 @@
 [
   {
+    "japanese_title": "11月12日（木）生保が国債買いやすく 価格下落でも減損不要、重要インフラのサイバー脅威 自衛隊が平時から探知",
+    "english_translation": "November 12th (Thursday): Life insurers can more easily buy government bonds; no impairment required even with price drops. Cyber threats to critical infrastructure; Self-Defense Forces detect from peacetime.",
+    "published_at": "2026-11-12 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9132336840.mp3",
+    "chunks": [
+      {
+        "japanese": "11月12日（木）",
+        "romaji": "jūichigatsu jūnichi (moku)",
+        "meaning": "November 12th (Thursday)"
+      },
+      {
+        "japanese": "生保",
+        "romaji": "seiho",
+        "meaning": "life insurers"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject marker)"
+      },
+      {
+        "japanese": "国債",
+        "romaji": "kokusai",
+        "meaning": "government bonds"
+      },
+      {
+        "japanese": "買いやすく",
+        "romaji": "kaiyasuku",
+        "meaning": "easier to buy / can be bought easily"
+      },
+      {
+        "japanese": "価格下落",
+        "romaji": "kakaku geraku",
+        "meaning": "price fall / price decline"
+      },
+      {
+        "japanese": "でも",
+        "romaji": "demo",
+        "meaning": "even if / even with"
+      },
+      {
+        "japanese": "減損不要",
+        "romaji": "genson fuyō",
+        "meaning": "no impairment required / impairment unnecessary"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": ","
+      },
+      {
+        "japanese": "重要インフラ",
+        "romaji": "jūyō infura",
+        "meaning": "critical infrastructure"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "'s / of"
+      },
+      {
+        "japanese": "サイバー脅威",
+        "romaji": "saibā kyōi",
+        "meaning": "cyber threat"
+      },
+      {
+        "japanese": "自衛隊",
+        "romaji": "jieitai",
+        "meaning": "Self-Defense Forces (SDF)"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "(subject marker)"
+      },
+      {
+        "japanese": "平時",
+        "romaji": "heiji",
+        "meaning": "peacetime"
+      },
+      {
+        "japanese": "から",
+        "romaji": "kara",
+        "meaning": "from"
+      },
+      {
+        "japanese": "探知",
+        "romaji": "tanchi",
+        "meaning": "detect / detection"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月11日（水）ソフトバンクG最終赤字7680億円 4〜9月、中小企業のデジタル投資急増 1〜6月最大に",
     "english_translation": "Wednesday, November 11: SoftBank Group posts net loss of 768 billion yen for April–September; Digital investment by SMEs surges, reaching a record high in January–June",
     "published_at": "2026-11-11 06:30:00",
@@ -6489,121 +6584,6 @@
         "japanese": "見送り",
         "romaji": "miokuri",
         "meaning": "Cancellation / Postponement"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "8月15日（土） マンション国内50棟 カナダファンドが一括購入、EV・半導体レアアース輸入 26年上期は中国規制前の2割",
-    "english_translation": "August 15th (Saturday) Canadian Fund Purchases 50 Domestic Condominium Buildings in Bulk; EV and Semiconductor Rare Earth Imports for the First Half of 2026 are 20% of Pre-China Regulation Levels.",
-    "published_at": "2026-08-15 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC1865355583.mp3",
-    "chunks": [
-      {
-        "japanese": "8月15日",
-        "romaji": "hachi-gatsu jū-go-nichi",
-        "meaning": "August 15th"
-      },
-      {
-        "japanese": "（土）",
-        "romaji": "(do)",
-        "meaning": "(Saturday)"
-      },
-      {
-        "japanese": "マンション",
-        "romaji": "manshon",
-        "meaning": "condominium / apartment building"
-      },
-      {
-        "japanese": "国内",
-        "romaji": "kokunai",
-        "meaning": "domestic / in Japan"
-      },
-      {
-        "japanese": "50棟",
-        "romaji": "gojū-tō",
-        "meaning": "50 buildings (counter for buildings)"
-      },
-      {
-        "japanese": "カナダファンド",
-        "romaji": "Kanada fando",
-        "meaning": "Canadian fund"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "(subject particle)"
-      },
-      {
-        "japanese": "一括購入",
-        "romaji": "ikkatsu kōnyū",
-        "meaning": "bulk purchase"
-      },
-      {
-        "japanese": "、",
-        "romaji": ",",
-        "meaning": ","
-      },
-      {
-        "japanese": "EV",
-        "romaji": "ī-bī",
-        "meaning": "EV (Electric Vehicle)"
-      },
-      {
-        "japanese": "・",
-        "romaji": "・",
-        "meaning": "/ (separator)"
-      },
-      {
-        "japanese": "半導体",
-        "romaji": "handōtai",
-        "meaning": "semiconductor"
-      },
-      {
-        "japanese": "レアアース",
-        "romaji": "rea āsu",
-        "meaning": "rare earth"
-      },
-      {
-        "japanese": "輸入",
-        "romaji": "yunyū",
-        "meaning": "imports"
-      },
-      {
-        "japanese": "26年",
-        "romaji": "nijū-roku-nen",
-        "meaning": "year 2026"
-      },
-      {
-        "japanese": "上期",
-        "romaji": "kamiki",
-        "meaning": "first half (of the fiscal year)"
-      },
-      {
-        "japanese": "は",
-        "romaji": "wa",
-        "meaning": "(topic particle)"
-      },
-      {
-        "japanese": "中国規制",
-        "romaji": "Chūgoku kisei",
-        "meaning": "China's regulations"
-      },
-      {
-        "japanese": "前",
-        "romaji": "mae",
-        "meaning": "before / prior"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "'s / of (possessive particle)"
-      },
-      {
-        "japanese": "2割",
-        "romaji": "ni-wari",
-        "meaning": "20 percent"
       }
     ],
     "is_mock": false,
