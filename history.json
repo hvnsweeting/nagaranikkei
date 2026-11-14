@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月14日（土マイクロソフト365大規模障害、三菱UFJなど5大銀行 4〜9月の純利益3.9兆円",
+    "english_translation": "November 14 (Sat): Major Microsoft 365 outage; 5 major banks including Mitsubishi UFJ report 3.9 trillion yen in net profit for April–September.",
+    "published_at": "2026-11-14 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6046017951.mp3",
+    "chunks": [
+      {
+        "japanese": "11月14日（土",
+        "romaji": "jūichi-gatsu jūyokka (do)",
+        "meaning": "November 14th (Saturday)"
+      },
+      {
+        "japanese": "マイクロソフト365",
+        "romaji": "Maikurosofuto san-roku-go",
+        "meaning": "Microsoft 365"
+      },
+      {
+        "japanese": "大規模障害",
+        "romaji": "daikibo shōgai",
+        "meaning": "large-scale outage / failure"
+      },
+      {
+        "japanese": "三菱UFJ",
+        "romaji": "Mitsubishi Yū-efu-jei",
+        "meaning": "Mitsubishi UFJ"
+      },
+      {
+        "japanese": "など",
+        "romaji": "nado",
+        "meaning": "such as / and others"
+      },
+      {
+        "japanese": "5大銀行",
+        "romaji": "go-dai ginkō",
+        "meaning": "5 major banks"
+      },
+      {
+        "japanese": "4〜9月",
+        "romaji": "shi-kara-ku-gatsu",
+        "meaning": "April to September"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle / of"
+      },
+      {
+        "japanese": "純利益",
+        "romaji": "junrieki",
+        "meaning": "net profit"
+      },
+      {
+        "japanese": "3.9兆円",
+        "romaji": "san-ten-kyū chō-en",
+        "meaning": "3.9 trillion yen"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月13日（金）経済安保の重要物資 老朽生産設備の国有化検討、ASEANで石油共同備蓄 日本が主導",
     "english_translation": "November 13 (Fri): Critical Materials for Economic Security — Consideration of Nationalizing Aging Production Facilities; Japan Leads Joint Oil Stockpiling in ASEAN",
     "published_at": "2026-11-13 06:30:00",
@@ -6504,56 +6564,6 @@
         "japanese": "上振れ",
         "romaji": "uwabure",
         "meaning": "upward deviation / revising upward / exceeding the forecast"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月17日（月）国の基金 目標未達なら支援中止、ホンダ 衝突安全技術の開発にAI活用",
-    "english_translation": "August 17 (Mon) National Fund to Suspend Support If Goals Are Unmet; Honda to Utilize AI in the Development of Collision Safety Technology",
-    "published_at": "2026-08-17 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9741748773.mp3",
-    "chunks": [
-      {
-        "japanese": "8月17日（月）",
-        "romaji": "hachigatsu jūnanachi (getsu)",
-        "meaning": "August 17th (Monday)"
-      },
-      {
-        "japanese": "国の基金",
-        "romaji": "kuni no kikin",
-        "meaning": "national/state fund"
-      },
-      {
-        "japanese": "目標未達なら",
-        "romaji": "mokuhyō mitatsu nara",
-        "meaning": "if goals are not achieved / if targets are unmet"
-      },
-      {
-        "japanese": "支援中止",
-        "romaji": "shien chūshi",
-        "meaning": "suspension of support / stopping aid"
-      },
-      {
-        "japanese": "ホンダ",
-        "romaji": "Honda",
-        "meaning": "Honda"
-      },
-      {
-        "japanese": "衝突安全技術",
-        "romaji": "shōtotsu anzen gijutsu",
-        "meaning": "collision safety technology"
-      },
-      {
-        "japanese": "の開発に",
-        "romaji": "no kaihatsu ni",
-        "meaning": "in the development of"
-      },
-      {
-        "japanese": "AI活用",
-        "romaji": "ē-ai katsuyō",
-        "meaning": "utilizing AI / AI application"
       }
     ],
     "is_mock": false,
