@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "11月16日（月）男性育休「名ばかり取得」にメス、大東建託が国産木材使用倍増へ",
+    "english_translation": "November 16 (Mon): Taking action against 'in-name-only' male childcare leave; Daito Trust Construction aims to double domestic timber usage.",
+    "published_at": "2026-11-16 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6852177493.mp3",
+    "chunks": [
+      {
+        "japanese": "11月16日（月）",
+        "romaji": "Jūichigatsu Jūrokunichi (Getsuyōbi)",
+        "meaning": "November 16 (Monday)"
+      },
+      {
+        "japanese": "男性育休",
+        "romaji": "dansei ikukyuu",
+        "meaning": "men's childcare leave"
+      },
+      {
+        "japanese": "「名ばかり取得」",
+        "romaji": "\"nabakari shutoku\"",
+        "meaning": "\"taking (leave) in name only\""
+      },
+      {
+        "japanese": "にメス",
+        "romaji": "ni mesu",
+        "meaning": "taking action against / putting a scalpel to"
+      },
+      {
+        "japanese": "大東建託",
+        "romaji": "Daitō Kentaku",
+        "meaning": "Daito Trust Construction"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "国産木材",
+        "romaji": "kokusan mokuzai",
+        "meaning": "domestic timber"
+      },
+      {
+        "japanese": "使用",
+        "romaji": "shiyō",
+        "meaning": "usage"
+      },
+      {
+        "japanese": "倍増へ",
+        "romaji": "baizō he",
+        "meaning": "heading towards doubling"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月15日（日） ソニー生命の金銭不正 調査期間中も継続か、トランプ氏 レガシー作りへ中ロと会談",
     "english_translation": "November 15th (Sunday): Sony Life's Financial Misconduct – Will it Continue Even During the Investigation Period? Mr. Trump to Hold Talks with China and Russia for Legacy Building.",
     "published_at": "2026-11-15 07:50:00",
@@ -6459,71 +6514,6 @@
         "japanese": "緩和",
         "romaji": "kanwa",
         "meaning": "easing / relaxation"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月19日（水）ソフトバンクGが個人向け社債1兆円 過去最大、新潟県の26年産新米 前年比4割安",
-    "english_translation": "August 19 (Wednesday) SoftBank Group to issue 1 trillion yen in retail corporate bonds, the largest ever; Niigata Prefecture's 2014 crop new rice is 40% cheaper than the previous year",
-    "published_at": "2026-08-19 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4807030805.mp3",
-    "chunks": [
-      {
-        "japanese": "8月19日（水）",
-        "romaji": "hachigatsu jūkyūnichi (suiyōbi)",
-        "meaning": "August 19th (Wednesday)"
-      },
-      {
-        "japanese": "ソフトバンクGが",
-        "romaji": "sofutobanku jī ga",
-        "meaning": "SoftBank Group (subject)"
-      },
-      {
-        "japanese": "個人向け",
-        "romaji": "kojin muke",
-        "meaning": "aimed at individuals / retail"
-      },
-      {
-        "japanese": "社債",
-        "romaji": "shasai",
-        "meaning": "corporate bonds"
-      },
-      {
-        "japanese": "1兆円",
-        "romaji": "itchō en",
-        "meaning": "1 trillion yen"
-      },
-      {
-        "japanese": "過去最大",
-        "romaji": "kako saidai",
-        "meaning": "largest ever / historic high"
-      },
-      {
-        "japanese": "新潟県の",
-        "romaji": "niigata-ken no",
-        "meaning": "Niigata Prefecture's"
-      },
-      {
-        "japanese": "26年産",
-        "romaji": "nijūroku-nen-san",
-        "meaning": "Year 26 (Heisei 26 / 2014) harvest"
-      },
-      {
-        "japanese": "新米",
-        "romaji": "shinmai",
-        "meaning": "newly harvested rice"
-      },
-      {
-        "japanese": "前年比",
-        "romaji": "zennen-hi",
-        "meaning": "compared to the previous year"
-      },
-      {
-        "japanese": "4割安",
-        "romaji": "yon-wari yasu",
-        "meaning": "40% cheaper (literally: 4-tenths cheap)"
       }
     ],
     "is_mock": false,
