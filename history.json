@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月15日（日） ソニー生命の金銭不正 調査期間中も継続か、トランプ氏 レガシー作りへ中ロと会談",
+    "english_translation": "November 15th (Sunday): Sony Life's Financial Misconduct – Will it Continue Even During the Investigation Period? Mr. Trump to Hold Talks with China and Russia for Legacy Building.",
+    "published_at": "2026-11-15 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6925621773.mp3",
+    "chunks": [
+      {
+        "japanese": "11月15日（日）",
+        "romaji": "jūichi-gatsu jūgo-nichi (nichi)",
+        "meaning": "November 15th (Sunday)"
+      },
+      {
+        "japanese": "ソニー生命の",
+        "romaji": "Sonī Seimei no",
+        "meaning": "Sony Life's"
+      },
+      {
+        "japanese": "金銭不正",
+        "romaji": "kinsen fusei",
+        "meaning": "financial misconduct / financial irregularity"
+      },
+      {
+        "japanese": "調査期間中も",
+        "romaji": "chōsa kikan-chū mo",
+        "meaning": "even during the investigation period"
+      },
+      {
+        "japanese": "継続か",
+        "romaji": "keizoku ka",
+        "meaning": "will it continue? / (a question implying continuation)"
+      },
+      {
+        "japanese": "、",
+        "romaji": ",",
+        "meaning": "(comma)"
+      },
+      {
+        "japanese": "トランプ氏",
+        "romaji": "Toranpu-shi",
+        "meaning": "Mr. Trump / Trump"
+      },
+      {
+        "japanese": "レガシー作りへ",
+        "romaji": "regashī zukuri e",
+        "meaning": "towards legacy building / for building a legacy"
+      },
+      {
+        "japanese": "中ロと",
+        "romaji": "Chū-Ro to",
+        "meaning": "with China and Russia"
+      },
+      {
+        "japanese": "会談",
+        "romaji": "kaidan",
+        "meaning": "meeting / talks"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月14日（土マイクロソフト365大規模障害、三菱UFJなど5大銀行 4〜9月の純利益3.9兆円",
     "english_translation": "November 14 (Sat): Major Microsoft 365 outage; 5 major banks including Mitsubishi UFJ report 3.9 trillion yen in net profit for April–September.",
     "published_at": "2026-11-14 07:50:00",
@@ -6464,106 +6524,6 @@
         "japanese": "4割安",
         "romaji": "yon-wari yasu",
         "meaning": "40% cheaper (literally: 4-tenths cheap)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月18日（火）楽天が攻撃型ドローン 陸自配備と国産化を推進、  上場企業の純利益 27年3月期14%増に上振れ",
-    "english_translation": "August 18 (Tue): Rakuten promotes the domestic production and deployment of attack-type drones to the JGSDF; Listed companies' net profit revised upward to a 14% increase for the fiscal year ending March 2027.",
-    "published_at": "2026-08-18 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4082702662.mp3",
-    "chunks": [
-      {
-        "japanese": "8月18日（火）",
-        "romaji": "hachigatsu jūhachinichi (ka)",
-        "meaning": "August 18th (Tuesday)"
-      },
-      {
-        "japanese": "楽天",
-        "romaji": "Rakuten",
-        "meaning": "Rakuten (Japanese technology/e-commerce company)"
-      },
-      {
-        "japanese": "が",
-        "romaji": "ga",
-        "meaning": "subject marker particle"
-      },
-      {
-        "japanese": "攻撃型",
-        "romaji": "kōgekigata",
-        "meaning": "attack-type / offensive"
-      },
-      {
-        "japanese": "ドローン",
-        "romaji": "dorōn",
-        "meaning": "drone"
-      },
-      {
-        "japanese": "陸自",
-        "romaji": "Rikuji",
-        "meaning": "JGSDF (Japan Ground Self-Defense Force)"
-      },
-      {
-        "japanese": "配備",
-        "romaji": "haibi",
-        "meaning": "deployment"
-      },
-      {
-        "japanese": "と",
-        "romaji": "to",
-        "meaning": "and"
-      },
-      {
-        "japanese": "国産化",
-        "romaji": "kokusanka",
-        "meaning": "domestic production / localization"
-      },
-      {
-        "japanese": "を",
-        "romaji": "o",
-        "meaning": "object marker particle"
-      },
-      {
-        "japanese": "推進",
-        "romaji": "suishin",
-        "meaning": "promotion / pushing forward"
-      },
-      {
-        "japanese": "上場企業",
-        "romaji": "jōjō kigyō",
-        "meaning": "listed companies / publicly traded companies"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "possessive particle (of)"
-      },
-      {
-        "japanese": "純利益",
-        "romaji": "junrieki",
-        "meaning": "net profit / net income"
-      },
-      {
-        "japanese": "27年3月期",
-        "romaji": "nijūnana-nen sangatsu-ki",
-        "meaning": "fiscal year ending March 2027 (term)"
-      },
-      {
-        "japanese": "14%増",
-        "romaji": "jūyon-pāsento zō",
-        "meaning": "14% increase"
-      },
-      {
-        "japanese": "に",
-        "romaji": "ni",
-        "meaning": "to / towards (particle)"
-      },
-      {
-        "japanese": "上振れ",
-        "romaji": "uwabure",
-        "meaning": "upward deviation / revising upward / exceeding the forecast"
       }
     ],
     "is_mock": false,
