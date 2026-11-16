@@ -1,5 +1,110 @@
 [
   {
+    "japanese_title": "11月17日（火）最先端スパコン「富岳」に不正アクセス 企業の機密情報流出に懸念 、Google 最先端AIモデルを日本政府に先行提供",
+    "english_translation": "November 17 (Tue): Concerns over leakage of corporate confidential information due to unauthorized access to the cutting-edge supercomputer \"Fugaku\"; Google provides cutting-edge AI model to the Japanese government in advance.",
+    "published_at": "2026-11-17 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC7442626150.mp3",
+    "chunks": [
+      {
+        "japanese": "11月17日（火）",
+        "romaji": "jūichigatsu jūnananichi (ka)",
+        "meaning": "November 17th (Tuesday)"
+      },
+      {
+        "japanese": "最先端",
+        "romaji": "saitentan",
+        "meaning": "cutting-edge / state-of-the-art"
+      },
+      {
+        "japanese": "スパコン",
+        "romaji": "supakon",
+        "meaning": "supercomputer (short for スーパーコンピュータ)"
+      },
+      {
+        "japanese": "「富岳」",
+        "romaji": "\"Fugaku\"",
+        "meaning": "\"Fugaku\" (name of Japan's supercomputer)"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to / on (target particle)"
+      },
+      {
+        "japanese": "不正アクセス",
+        "romaji": "fusei akkusesu",
+        "meaning": "unauthorized access"
+      },
+      {
+        "japanese": "企業",
+        "romaji": "kigyō",
+        "meaning": "companies / corporate"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle ('s / of)"
+      },
+      {
+        "japanese": "機密情報",
+        "romaji": "kimitsu jōhō",
+        "meaning": "confidential information"
+      },
+      {
+        "japanese": "流出",
+        "romaji": "ryūshutsu",
+        "meaning": "leakage / outflow"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "regarding / over"
+      },
+      {
+        "japanese": "懸念",
+        "romaji": "ken'en",
+        "meaning": "concerns / fears"
+      },
+      {
+        "japanese": "Google",
+        "romaji": "gūguru",
+        "meaning": "Google"
+      },
+      {
+        "japanese": "最先端",
+        "romaji": "saitentan",
+        "meaning": "cutting-edge / state-of-the-art"
+      },
+      {
+        "japanese": "AIモデル",
+        "romaji": "eiai moderu",
+        "meaning": "AI model"
+      },
+      {
+        "japanese": "を",
+        "romaji": "o",
+        "meaning": "direct object particle"
+      },
+      {
+        "japanese": "日本政府",
+        "romaji": "nihon seifu",
+        "meaning": "Japanese government"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to"
+      },
+      {
+        "japanese": "先行提供",
+        "romaji": "senkō teikyō",
+        "meaning": "advance provision / providing ahead of time"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月16日（月）男性育休「名ばかり取得」にメス、大東建託が国産木材使用倍増へ",
     "english_translation": "November 16 (Mon): Taking action against 'in-name-only' male childcare leave; Daito Trust Construction aims to double domestic timber usage.",
     "published_at": "2026-11-16 06:30:00",
@@ -6464,56 +6569,6 @@
         "japanese": "要求",
         "romaji": "yōkyū",
         "meaning": "request / demand"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月20日（木）消費税減税「2年限定」法案明記へ 給付と一括、残業「45時間以内」の一律指導を緩和",
-    "english_translation": "August 20 (Thursday): Consumption tax cut 'limited to 2 years' to be clearly specified in bill, packaged together with benefits; relaxation of uniform guidance on overtime 'within 45 hours'.",
-    "published_at": "2026-08-20 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7716385649.mp3",
-    "chunks": [
-      {
-        "japanese": "8月20日（木）",
-        "romaji": "hachigatsu nijū-nichi (mokuyōbi)",
-        "meaning": "August 20 (Thursday)"
-      },
-      {
-        "japanese": "消費税減税",
-        "romaji": "shōhizei genzei",
-        "meaning": "consumption tax cut"
-      },
-      {
-        "japanese": "「2年限定」",
-        "romaji": "ni-nen gentei",
-        "meaning": "'limited to 2 years'"
-      },
-      {
-        "japanese": "法案明記へ",
-        "romaji": "hōan meiki e",
-        "meaning": "towards specifying clearly in the bill"
-      },
-      {
-        "japanese": "給付と一括",
-        "romaji": "kyūfu to ikkatsu",
-        "meaning": "packaged/bundled together with benefits"
-      },
-      {
-        "japanese": "残業「45時間以内」",
-        "romaji": "zangyō yonjūgo-jikan inai",
-        "meaning": "overtime 'within 45 hours'"
-      },
-      {
-        "japanese": "の一律指導を",
-        "romaji": "no ichiritsu shidō o",
-        "meaning": "uniform guidance on (as object)"
-      },
-      {
-        "japanese": "緩和",
-        "romaji": "kanwa",
-        "meaning": "easing / relaxation"
       }
     ],
     "is_mock": false,
