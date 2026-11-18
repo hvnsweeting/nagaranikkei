@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月19日（木）利用目的終えた個人情報 15社が漏洩、ロビー活動の外国代理人 政治家接触に届け出義務",
+    "english_translation": "November 19th (Thursday): Personal information whose purpose of use has ended was leaked by 15 companies; foreign agents involved in lobbying activities have an obligation to report contact with politicians.",
+    "published_at": "2026-11-19 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2457915421.mp3",
+    "chunks": [
+      {
+        "japanese": "11月19日（木）",
+        "romaji": "jūichi-gatsu jūkyū-nichi (moku)",
+        "meaning": "November 19th (Thursday)"
+      },
+      {
+        "japanese": "利用目的",
+        "romaji": "riyō mokuteki",
+        "meaning": "purpose of use"
+      },
+      {
+        "japanese": "終えた",
+        "romaji": "oeta",
+        "meaning": "ended / finished"
+      },
+      {
+        "japanese": "個人情報",
+        "romaji": "kojin jōhō",
+        "meaning": "personal information"
+      },
+      {
+        "japanese": "15社が",
+        "romaji": "jūgo-sha ga",
+        "meaning": "15 companies (subject marker)"
+      },
+      {
+        "japanese": "漏洩、",
+        "romaji": "rōei,",
+        "meaning": "leaked, / disclosure,"
+      },
+      {
+        "japanese": "ロビー活動の",
+        "romaji": "robī katsudō no",
+        "meaning": "of lobbying activities / lobbying activities'"
+      },
+      {
+        "japanese": "外国代理人",
+        "romaji": "gaikoku dairinin",
+        "meaning": "foreign agent"
+      },
+      {
+        "japanese": "政治家接触に",
+        "romaji": "seijika sesshoku ni",
+        "meaning": "for contact with politicians / regarding contact with politicians"
+      },
+      {
+        "japanese": "届け出義務",
+        "romaji": "todokede gimu",
+        "meaning": "reporting obligation / duty to report"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月18日（水）信金の預金金利 8割が銀行下回る、ハウス食品Gの「ココイチ」売却",
     "english_translation": "November 18th (Wednesday): 80% of credit union deposit interest rates fall below banks, House Foods Group sells \"Coco Ichibanya\"",
     "published_at": "2026-11-18 06:30:00",
@@ -6504,61 +6564,6 @@
         "japanese": "登録",
         "romaji": "tōroku",
         "meaning": "registration / register"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月21日（金）酷暑をのりきる、くらしの知恵〜with NIKKEI",
-    "english_translation": "August 21 (Fri) Wisdom for Daily Life to Get Through the Extreme Heat ~ with NIKKEI",
-    "published_at": "2026-08-21 18:00:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC6630788685.mp3",
-    "chunks": [
-      {
-        "japanese": "8月21日",
-        "romaji": "hachigatsu nijūichinichi",
-        "meaning": "August 21st"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin",
-        "meaning": "Friday"
-      },
-      {
-        "japanese": "酷暑",
-        "romaji": "kokusho",
-        "meaning": "extreme heat"
-      },
-      {
-        "japanese": "を",
-        "romaji": "o",
-        "meaning": "object marking particle"
-      },
-      {
-        "japanese": "のりきる",
-        "romaji": "norikiru",
-        "meaning": "to get through / to survive"
-      },
-      {
-        "japanese": "くらし",
-        "romaji": "kurashi",
-        "meaning": "living / daily life"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "possessive particle (of)"
-      },
-      {
-        "japanese": "知恵",
-        "romaji": "chie",
-        "meaning": "wisdom / clever ideas"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "uizu nikkei",
-        "meaning": "~ with NIKKEI"
       }
     ],
     "is_mock": false,
