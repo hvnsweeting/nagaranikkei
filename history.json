@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "11月20日（金）JT ロシア事業損失で1兆3860億円下方修正、米中ロ 初の首脳会談で「特別な責任」",
+    "english_translation": "Nov 20 (Fri) JT revises earnings downward by 1.386 trillion yen due to Russian business losses; US, China, and Russia hold first summit on 'special responsibility'",
+    "published_at": "2026-11-20 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3816566337.mp3",
+    "chunks": [
+      {
+        "japanese": "11月20日（金）",
+        "romaji": "Jūichigatsu hatsuka (Kin)",
+        "meaning": "November 20th (Friday)"
+      },
+      {
+        "japanese": "JT",
+        "romaji": "Jē-tī",
+        "meaning": "Japan Tobacco"
+      },
+      {
+        "japanese": "ロシア事業損失で",
+        "romaji": "Roshia jigyō sonshitsu de",
+        "meaning": "due to losses in Russia business"
+      },
+      {
+        "japanese": "1兆3860億円",
+        "romaji": "icchō san-sen hap-pyaku roku-jū oku en",
+        "meaning": "1.386 trillion yen"
+      },
+      {
+        "japanese": "下方修正",
+        "romaji": "kahō shūsei",
+        "meaning": "downward revision"
+      },
+      {
+        "japanese": "米中ロ",
+        "romaji": "Bei-Chū-Ro",
+        "meaning": "US, China, and Russia"
+      },
+      {
+        "japanese": "初の",
+        "romaji": "hatsu no",
+        "meaning": "first"
+      },
+      {
+        "japanese": "首脳会談で",
+        "romaji": "shunō kaidan de",
+        "meaning": "at the summit"
+      },
+      {
+        "japanese": "「特別な責任」",
+        "romaji": "\"tokubetsu na sekinin\"",
+        "meaning": "\"special responsibility\""
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月19日（木）利用目的終えた個人情報 15社が漏洩、ロビー活動の外国代理人 政治家接触に届け出義務",
     "english_translation": "November 19th (Thursday): Personal information whose purpose of use has ended was leaked by 15 companies; foreign agents involved in lobbying activities have an obligation to report contact with politicians.",
     "published_at": "2026-11-19 06:30:00",
@@ -6499,71 +6554,6 @@
         "japanese": "免除",
         "romaji": "menjo",
         "meaning": "exemption"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月22日（土） 止まらぬコメ下落 昨秋の半値、新興未上場株の売買仲介 スマートラウンドを国が登録",
-    "english_translation": "August 22 (Sat) - Unstoppable Rice Price Decline to Half of Last Autumn; Government Registers Smartround for Brokerage of Unlisted Startup Shares",
-    "published_at": "2026-08-22 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4843047895.mp3",
-    "chunks": [
-      {
-        "japanese": "8月22日（土）",
-        "romaji": "hachigatsu nijūnichi (doyōbi)",
-        "meaning": "August 22nd (Saturday)"
-      },
-      {
-        "japanese": "止まらぬ",
-        "romaji": "tomaranu",
-        "meaning": "unstoppable / not stopping"
-      },
-      {
-        "japanese": "コメ下落",
-        "romaji": "kome geraku",
-        "meaning": "rice price decline"
-      },
-      {
-        "japanese": "昨秋の",
-        "romaji": "sakushū no",
-        "meaning": "of last autumn"
-      },
-      {
-        "japanese": "半値",
-        "romaji": "hanne",
-        "meaning": "half price"
-      },
-      {
-        "japanese": "新興",
-        "romaji": "shinkō",
-        "meaning": "emerging / startup"
-      },
-      {
-        "japanese": "未上場株の",
-        "romaji": "mijōjōkabu no",
-        "meaning": "of unlisted shares"
-      },
-      {
-        "japanese": "売買仲介",
-        "romaji": "baibai chūkai",
-        "meaning": "trading brokerage / intermediary trading"
-      },
-      {
-        "japanese": "スマートラウンドを",
-        "romaji": "sumātoraundo o",
-        "meaning": "Smartround (platform name) [direct object marker]"
-      },
-      {
-        "japanese": "国が",
-        "romaji": "kuni ga",
-        "meaning": "the country / the government [subject marker]"
-      },
-      {
-        "japanese": "登録",
-        "romaji": "tōroku",
-        "meaning": "registration / register"
       }
     ],
     "is_mock": false,
