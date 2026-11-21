@@ -1,5 +1,65 @@
 [
   {
+    "japanese_title": "11月21日（土）先端AIのサイバー攻撃 仮想空間で再現、「H3」民間移管 JAXAは開発に注力",
+    "english_translation": "November 21 (Sat): Advanced AI Cyberattacks Reproduced in Virtual Space; 'H3' Transferred to Private Sector as JAXA Focuses on Development",
+    "published_at": "2026-11-21 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC2080691335.mp3",
+    "chunks": [
+      {
+        "japanese": "11月21日（土）",
+        "romaji": "Jūichigatsu nijūichinichi (Doyōbi)",
+        "meaning": "Saturday, November 21"
+      },
+      {
+        "japanese": "先端AIの",
+        "romaji": "sentan ēi-ai no",
+        "meaning": "advanced AI's / cutting-edge AI's"
+      },
+      {
+        "japanese": "サイバー攻撃",
+        "romaji": "saibā kōgeki",
+        "meaning": "cyberattack"
+      },
+      {
+        "japanese": "仮想空間で",
+        "romaji": "kasō kūkan de",
+        "meaning": "in virtual space"
+      },
+      {
+        "japanese": "再現",
+        "romaji": "saigen",
+        "meaning": "reproduction / recreated"
+      },
+      {
+        "japanese": "「H3」",
+        "romaji": "Echi-san",
+        "meaning": "'H3' (rocket)"
+      },
+      {
+        "japanese": "民間移管",
+        "romaji": "minkan igan",
+        "meaning": "transfer to the private sector"
+      },
+      {
+        "japanese": "JAXAは",
+        "romaji": "Jakusa wa",
+        "meaning": "JAXA (topic marker)"
+      },
+      {
+        "japanese": "開発に",
+        "romaji": "kaihatsu ni",
+        "meaning": "on development"
+      },
+      {
+        "japanese": "注力",
+        "romaji": "chūryoku",
+        "meaning": "focusing efforts / concentrating"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月20日（金）JT ロシア事業損失で1兆3860億円下方修正、米中ロ 初の首脳会談で「特別な責任」",
     "english_translation": "Nov 20 (Fri) JT revises earnings downward by 1.386 trillion yen due to Russian business losses; US, China, and Russia hold first summit on 'special responsibility'",
     "published_at": "2026-11-20 06:30:00",
@@ -6494,66 +6554,6 @@
         "japanese": "1000億円超",
         "romaji": "sen-oku en chō",
         "meaning": "exceeding 100 billion yen"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月23日（日） 日本貿易保険 国際機関に初の融資保険、中小の事業承継 成長投資・賃上げなら贈与・相続税免除",
-    "english_translation": "August 23rd (Sunday) - Japan Trade Insurance (NEXI) offers its first-ever loan insurance to an international organization; SME business succession will be exempt from gift and inheritance taxes in cases of growth investment and wage hikes",
-    "published_at": "2026-08-23 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9549379186.mp3",
-    "chunks": [
-      {
-        "japanese": "8月23日（日）",
-        "romaji": "hachigatsu nijūsannichi (nichiyōbi)",
-        "meaning": "August 23rd (Sunday)"
-      },
-      {
-        "japanese": "日本貿易保険",
-        "romaji": "Nihon bōeki hoken",
-        "meaning": "Nippon Export and Investment Insurance (NEXI)"
-      },
-      {
-        "japanese": "国際機関に",
-        "romaji": "kokusaikikan ni",
-        "meaning": "to an international organization"
-      },
-      {
-        "japanese": "初の",
-        "romaji": "hatsu no",
-        "meaning": "first / first-ever"
-      },
-      {
-        "japanese": "融資保険",
-        "romaji": "yūshi hoken",
-        "meaning": "loan insurance"
-      },
-      {
-        "japanese": "中小の",
-        "romaji": "chūshō no",
-        "meaning": "of small and medium-sized enterprises (SMEs)"
-      },
-      {
-        "japanese": "事業承継",
-        "romaji": "jigyō shōkei",
-        "meaning": "business succession"
-      },
-      {
-        "japanese": "成長投資・賃上げなら",
-        "romaji": "seichō tōshi / chin'age nara",
-        "meaning": "if they invest in growth and raise wages"
-      },
-      {
-        "japanese": "贈与・相続税",
-        "romaji": "zōyo / sōzokuzei",
-        "meaning": "gift and inheritance taxes"
-      },
-      {
-        "japanese": "免除",
-        "romaji": "menjo",
-        "meaning": "exemption"
       }
     ],
     "is_mock": false,
