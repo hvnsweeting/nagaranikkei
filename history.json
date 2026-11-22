@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "11月22日（日）米国株急落で強まるリスク回避、デビット決済急増 Suicaなど電子マネー逆転",
+    "english_translation": "Nov 22 (Sun) Risk aversion strengthens due to US stock plunge; Debit payments surge, overtaking e-money like Suica",
+    "published_at": "2026-11-22 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9709106194.mp3",
+    "chunks": [
+      {
+        "japanese": "11月22日（日）",
+        "romaji": "jū-ichi gatsu ni-jū-ni nichi (nichi)",
+        "meaning": "November 22nd (Sunday)"
+      },
+      {
+        "japanese": "米国株",
+        "romaji": "beikoku kabu",
+        "meaning": "US stocks"
+      },
+      {
+        "japanese": "急落",
+        "romaji": "kyūraku",
+        "meaning": "plunge / sharp drop"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "due to / because of"
+      },
+      {
+        "japanese": "強まる",
+        "romaji": "tsuyomaru",
+        "meaning": "to strengthen / to intensify"
+      },
+      {
+        "japanese": "リスク回避",
+        "romaji": "risuku kaihi",
+        "meaning": "risk aversion"
+      },
+      {
+        "japanese": "デビット決済",
+        "romaji": "debitto kessai",
+        "meaning": "debit card payments"
+      },
+      {
+        "japanese": "急増",
+        "romaji": "kyūzō",
+        "meaning": "rapid increase / surge"
+      },
+      {
+        "japanese": "Suicaなど",
+        "romaji": "Suika nado",
+        "meaning": "such as Suica"
+      },
+      {
+        "japanese": "電子マネー",
+        "romaji": "denshi manē",
+        "meaning": "electronic money / e-money"
+      },
+      {
+        "japanese": "逆転",
+        "romaji": "gyakuten",
+        "meaning": "reversal / overtaking"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月21日（土）先端AIのサイバー攻撃 仮想空間で再現、「H3」民間移管 JAXAは開発に注力",
     "english_translation": "November 21 (Sat): Advanced AI Cyberattacks Reproduced in Virtual Space; 'H3' Transferred to Private Sector as JAXA Focuses on Development",
     "published_at": "2026-11-21 07:50:00",
@@ -6489,71 +6554,6 @@
         "japanese": "社債",
         "romaji": "shasai",
         "meaning": "corporate bonds"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月24日（月）日銀利上げ加速探る 市場は2%視野、核融合で国内初の企業価値1000億円超",
-    "english_translation": "August 24 (Mon) BOJ explores accelerating interest rate hikes with the market eyeing 2%; Japan's first nuclear fusion company valuation exceeds 100 billion yen",
-    "published_at": "2026-08-24 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2896010409.mp3",
-    "chunks": [
-      {
-        "japanese": "8月24日（月）",
-        "romaji": "hachigatsu nijūyokka (getsuyōbi)",
-        "meaning": "August 24th (Monday)"
-      },
-      {
-        "japanese": "日銀",
-        "romaji": "nichigin",
-        "meaning": "Bank of Japan (BOJ)"
-      },
-      {
-        "japanese": "利上げ",
-        "romaji": "riage",
-        "meaning": "interest rate hike"
-      },
-      {
-        "japanese": "加速",
-        "romaji": "kasoku",
-        "meaning": "acceleration"
-      },
-      {
-        "japanese": "探る",
-        "romaji": "saguru",
-        "meaning": "to explore / probe"
-      },
-      {
-        "japanese": "市場は",
-        "romaji": "shijō wa",
-        "meaning": "the market"
-      },
-      {
-        "japanese": "2%視野",
-        "romaji": "ni-pāsento shiya",
-        "meaning": "2% in sight / in view"
-      },
-      {
-        "japanese": "核融合で",
-        "romaji": "kakuyūgō de",
-        "meaning": "in nuclear fusion"
-      },
-      {
-        "japanese": "国内初の",
-        "romaji": "kokunai hatsu no",
-        "meaning": "domestic first / Japan's first"
-      },
-      {
-        "japanese": "企業価値",
-        "romaji": "kigyō kachi",
-        "meaning": "corporate value / valuation"
-      },
-      {
-        "japanese": "1000億円超",
-        "romaji": "sen-oku en chō",
-        "meaning": "exceeding 100 billion yen"
       }
     ],
     "is_mock": false,
