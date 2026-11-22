@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "11月23日（月）日立 宇宙から災害予兆を把握へ、GX推進機構 金属リサイクル装置の米新興に投資",
+    "english_translation": "Nov 23 (Mon) Hitachi aims to detect disaster signs from space; GX Promotion Org invests in US metal recycling equipment startup",
+    "published_at": "2026-11-23 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC4217001897.mp3",
+    "chunks": [
+      {
+        "japanese": "11月23日（月）",
+        "romaji": "Jūichi-gatsu nijūsan-nichi (Getsuyōbi)",
+        "meaning": "November 23rd (Monday)"
+      },
+      {
+        "japanese": "日立",
+        "romaji": "Hitachi",
+        "meaning": "Hitachi (company name)"
+      },
+      {
+        "japanese": "宇宙から",
+        "romaji": "uchū kara",
+        "meaning": "from space"
+      },
+      {
+        "japanese": "災害予兆を",
+        "romaji": "saigai yochō o",
+        "meaning": "signs of natural disasters (object marker)"
+      },
+      {
+        "japanese": "把握へ",
+        "romaji": "haaku e",
+        "meaning": "towards grasping / detecting"
+      },
+      {
+        "japanese": "GX推進機構",
+        "romaji": "Jī-Ekusu Suishin Kikō",
+        "meaning": "GX (Green Transformation) Promotion Organization"
+      },
+      {
+        "japanese": "金属リサイクル装置の",
+        "romaji": "kinzoku risaikuru sōchi no",
+        "meaning": "of metal recycling equipment"
+      },
+      {
+        "japanese": "米新興に",
+        "romaji": "bei shinkō ni",
+        "meaning": "in a US startup / emerging US company"
+      },
+      {
+        "japanese": "投資",
+        "romaji": "tōshi",
+        "meaning": "investing / investment"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月22日（日）米国株急落で強まるリスク回避、デビット決済急増 Suicaなど電子マネー逆転",
     "english_translation": "Nov 22 (Sun) Risk aversion strengthens due to US stock plunge; Debit payments surge, overtaking e-money like Suica",
     "published_at": "2026-11-22 07:50:00",
@@ -6483,80 +6538,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-2.5-flash"
-  },
-  {
-    "japanese_title": "8月25日（火）株主総会資料の書面交付廃止へ 企業負担を軽減、 ソフトバンクG 個人向け1兆円社債",
-    "english_translation": "August 25 (Tuesday) - Move to Abolish Paper Distribution of Shareholders' Meeting Materials to Reduce Corporate Burden; SoftBank Group's 1 Trillion Yen Corporate Bonds for Individual Investors",
-    "published_at": "2026-08-25 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9557908843.mp3",
-    "chunks": [
-      {
-        "japanese": "8月25日（火）",
-        "romaji": "hachigatsu nijūgoka (ka)",
-        "meaning": "August 25th (Tuesday)"
-      },
-      {
-        "japanese": "株主総会",
-        "romaji": "kabunushi sōkai",
-        "meaning": "shareholders' meeting"
-      },
-      {
-        "japanese": "資料",
-        "romaji": "shiryō",
-        "meaning": "materials / documents"
-      },
-      {
-        "japanese": "の",
-        "romaji": "no",
-        "meaning": "of (possessive particle)"
-      },
-      {
-        "japanese": "書面交付",
-        "romaji": "shomen kōfu",
-        "meaning": "paper distribution / delivery in writing"
-      },
-      {
-        "japanese": "廃止へ",
-        "romaji": "haishi e",
-        "meaning": "towards the abolition / elimination"
-      },
-      {
-        "japanese": "企業負担",
-        "romaji": "kigyō futan",
-        "meaning": "corporate burden"
-      },
-      {
-        "japanese": "を",
-        "romaji": "o",
-        "meaning": "object marker particle"
-      },
-      {
-        "japanese": "軽減",
-        "romaji": "keigen",
-        "meaning": "reducing / easing"
-      },
-      {
-        "japanese": "ソフトバンクG",
-        "romaji": "Sofutobanku Jī",
-        "meaning": "SoftBank Group"
-      },
-      {
-        "japanese": "個人向け",
-        "romaji": "kojin muke",
-        "meaning": "for individual investors"
-      },
-      {
-        "japanese": "1兆円",
-        "romaji": "itchō en",
-        "meaning": "1 trillion yen"
-      },
-      {
-        "japanese": "社債",
-        "romaji": "shasai",
-        "meaning": "corporate bonds"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
   }
 ]
