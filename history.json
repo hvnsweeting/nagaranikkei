@@ -1,5 +1,80 @@
 [
   {
+    "japanese_title": "11月24日（火）アンソロピックのClaude 日本の導入企業10倍に 、住友商事が中小企業投資の新ファンド 450億円 出資先にAI知見注入",
+    "english_translation": "November 24 (Tue): Anthropic's Claude sees 10-fold increase in adoption by Japanese companies; Sumitomo Corporation creates new 45 billion yen SME investment fund to inject AI expertise into portfolio companies",
+    "published_at": "2026-11-24 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9181755207.mp3",
+    "chunks": [
+      {
+        "japanese": "11月24日（火）",
+        "romaji": "jūichigatsu nijūyokka (kayōbi)",
+        "meaning": "November 24th (Tuesday)"
+      },
+      {
+        "japanese": "アンソロピックの",
+        "romaji": "Ansoropikku no",
+        "meaning": "Anthropic's"
+      },
+      {
+        "japanese": "Claude",
+        "romaji": "Kurōdo",
+        "meaning": "Claude (AI model)"
+      },
+      {
+        "japanese": "日本の",
+        "romaji": "Nihon no",
+        "meaning": "Japan's / in Japan"
+      },
+      {
+        "japanese": "導入企業",
+        "romaji": "dōnyū kigyō",
+        "meaning": "adopting companies / companies implementing (it)"
+      },
+      {
+        "japanese": "10倍に",
+        "romaji": "jūbai ni",
+        "meaning": "(increases) 10-fold / 10 times"
+      },
+      {
+        "japanese": "住友商事が",
+        "romaji": "Sumitomo Shōji ga",
+        "meaning": "Sumitomo Corporation (subject particle)"
+      },
+      {
+        "japanese": "中小企業投資の",
+        "romaji": "chūshō kigyō tōshi no",
+        "meaning": "for small and medium-sized enterprise (SME) investment"
+      },
+      {
+        "japanese": "新ファンド",
+        "romaji": "shin fando",
+        "meaning": "new fund"
+      },
+      {
+        "japanese": "450億円",
+        "romaji": "yonhyaku gojū-oku en",
+        "meaning": "45 billion yen"
+      },
+      {
+        "japanese": "出資先に",
+        "romaji": "shusshisaki ni",
+        "meaning": "into investment recipients / portfolio companies"
+      },
+      {
+        "japanese": "AI知見",
+        "romaji": "ē-ai chiken",
+        "meaning": "AI expertise / AI knowledge"
+      },
+      {
+        "japanese": "注入",
+        "romaji": "chūnyū",
+        "meaning": "injection / instilling"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月23日（月）日立 宇宙から災害予兆を把握へ、GX推進機構 金属リサイクル装置の米新興に投資",
     "english_translation": "Nov 23 (Mon) Hitachi aims to detect disaster signs from space; GX Promotion Org invests in US metal recycling equipment startup",
     "published_at": "2026-11-23 06:30:00",
@@ -6458,85 +6533,5 @@
     ],
     "is_mock": false,
     "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月26日（水）農地 信託解禁で譲渡しやすく 耕作放棄地抑制へ農水省検討、ホルムズ海峡迂回 代替パイプライン建設支援",
-    "english_translation": "August 26 (Wednesday) Easier transfer of agricultural land with the lifting of trust bans, MAFF considering measures to curb abandoned farmland; Support for the construction of alternative pipelines to circumvent the Strait of Hormuz.",
-    "published_at": "2026-08-26 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4744148186.mp3",
-    "chunks": [
-      {
-        "japanese": "8月26日（水）",
-        "romaji": "hachigatsu nijūrokunichi (sui)",
-        "meaning": "August 26 (Wednesday)"
-      },
-      {
-        "japanese": "農地",
-        "romaji": "nōchi",
-        "meaning": "agricultural land / farmland"
-      },
-      {
-        "japanese": "信託解禁で",
-        "romaji": "shintaku kaikin de",
-        "meaning": "with the lifting of trust bans / by allowing trusts"
-      },
-      {
-        "japanese": "譲渡しやすく",
-        "romaji": "jōwatashi yasuku",
-        "meaning": "easier to transfer"
-      },
-      {
-        "japanese": "耕作放棄地",
-        "romaji": "kōsaku hōkichi",
-        "meaning": "abandoned farmland"
-      },
-      {
-        "japanese": "抑制へ",
-        "romaji": "yokusei e",
-        "meaning": "towards curbing / to curb"
-      },
-      {
-        "japanese": "農水省",
-        "romaji": "Nōsuishō",
-        "meaning": "Ministry of Agriculture, Forestry and Fisheries (MAFF)"
-      },
-      {
-        "japanese": "検討",
-        "romaji": "kentō",
-        "meaning": "consideration / examining"
-      },
-      {
-        "japanese": "ホルムズ海峡",
-        "romaji": "Horumuzu Kaikyō",
-        "meaning": "Strait of Hormuz"
-      },
-      {
-        "japanese": "迂回",
-        "romaji": "ukai",
-        "meaning": "circumvention / detour"
-      },
-      {
-        "japanese": "代替",
-        "romaji": "daitai",
-        "meaning": "alternative / substitute"
-      },
-      {
-        "japanese": "パイプライン",
-        "romaji": "paipurain",
-        "meaning": "pipeline"
-      },
-      {
-        "japanese": "建設",
-        "romaji": "kensetsu",
-        "meaning": "construction"
-      },
-      {
-        "japanese": "支援",
-        "romaji": "shien",
-        "meaning": "support / aid"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-2.5-flash"
   }
 ]
