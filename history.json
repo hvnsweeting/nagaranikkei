@@ -1,5 +1,70 @@
 [
   {
+    "japanese_title": "11月25日（水）消費者金融ではない「貸金業」新設へ、都心の中古マンション価格 13年半ぶり前年割れ",
+    "english_translation": "November 25 (Wed): Moves to establish a new \"money lending business\" that is not consumer finance; City-center used condo prices drop year-on-year for the first time in 13.5 years.",
+    "published_at": "2026-11-25 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC6566360480.mp3",
+    "chunks": [
+      {
+        "japanese": "11月25日",
+        "romaji": "juuichigatsu nijuugonichi",
+        "meaning": "November 25th"
+      },
+      {
+        "japanese": "（水）",
+        "romaji": "sui",
+        "meaning": "Wednesday"
+      },
+      {
+        "japanese": "消費者金融",
+        "romaji": "shouhisha kin'yuu",
+        "meaning": "consumer finance"
+      },
+      {
+        "japanese": "ではない",
+        "romaji": "de wa nai",
+        "meaning": "is not"
+      },
+      {
+        "japanese": "「貸金業」",
+        "romaji": "kashikingyou",
+        "meaning": "\"money lending business\""
+      },
+      {
+        "japanese": "新設へ",
+        "romaji": "shinsetsu he",
+        "meaning": "towards establishing / creating"
+      },
+      {
+        "japanese": "都心の",
+        "romaji": "toshin no",
+        "meaning": "city center's / downtown"
+      },
+      {
+        "japanese": "中古マンション",
+        "romaji": "chuuko manshon",
+        "meaning": "used/pre-owned condominium"
+      },
+      {
+        "japanese": "価格",
+        "romaji": "kakaku",
+        "meaning": "price"
+      },
+      {
+        "japanese": "13年半ぶり",
+        "romaji": "juusannenhan buri",
+        "meaning": "for the first time in 13 and a half years"
+      },
+      {
+        "japanese": "前年割れ",
+        "romaji": "zennen ware",
+        "meaning": "falling below the previous year's level"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月24日（火）アンソロピックのClaude 日本の導入企業10倍に 、住友商事が中小企業投資の新ファンド 450億円 出資先にAI知見注入",
     "english_translation": "November 24 (Tue): Anthropic's Claude sees 10-fold increase in adoption by Japanese companies; Sumitomo Corporation creates new 45 billion yen SME investment fund to inject AI expertise into portfolio companies",
     "published_at": "2026-11-24 06:30:00",
@@ -6474,61 +6539,6 @@
         "japanese": "倍増",
         "romaji": "baizō",
         "meaning": "doubling"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月27日（木）政府備蓄米 9月中に買い戻し実施へ、Apple「Mac mini」刷新 AI処理を4倍高速に",
-    "english_translation": "August 27th (Thursday) Government to implement buyback of reserved rice within September; Apple to refresh 'Mac mini', making AI processing 4 times faster",
-    "published_at": "2026-08-27 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC7439559497.mp3",
-    "chunks": [
-      {
-        "japanese": "8月27日（木）",
-        "romaji": "hachigatsu nijūnananichi (mokuyōbi)",
-        "meaning": "August 27th (Thursday)"
-      },
-      {
-        "japanese": "政府備蓄米",
-        "romaji": "seifu bichukumai",
-        "meaning": "government-reserved rice / stockpiled rice"
-      },
-      {
-        "japanese": "9月中に",
-        "romaji": "kugatsuchū ni",
-        "meaning": "within September"
-      },
-      {
-        "japanese": "買い戻し",
-        "romaji": "kaimodoshi",
-        "meaning": "buyback / repurchase"
-      },
-      {
-        "japanese": "実施へ",
-        "romaji": "jisshi e",
-        "meaning": "toward implementation / to be carried out"
-      },
-      {
-        "japanese": "Apple「Mac mini」",
-        "romaji": "appuru makku mini",
-        "meaning": "Apple's \"Mac mini\""
-      },
-      {
-        "japanese": "刷新",
-        "romaji": "sasshin",
-        "meaning": "refresh / renewal / complete overhaul"
-      },
-      {
-        "japanese": "AI処理を",
-        "romaji": "ēai shori o",
-        "meaning": "AI processing (with object marker particle)"
-      },
-      {
-        "japanese": "4倍高速に",
-        "romaji": "yonbai kōsoku ni",
-        "meaning": "4 times faster"
       }
     ],
     "is_mock": false,
