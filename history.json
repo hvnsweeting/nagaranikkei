@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "11月26日（木）安保強化へ財政配慮を 財源確保「国民負担も」、 米軍 沖縄に新型戦闘機「F15EX」を常駐",
+    "english_translation": "November 26th (Thursday): Financial consideration for strengthening security; securing financial resources 'including national burden'; U.S. military permanently stations new F-15EX fighter jets in Okinawa.",
+    "published_at": "2026-11-26 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3833733237.mp3",
+    "chunks": [
+      {
+        "japanese": "11月26日",
+        "romaji": "Jūichigatsu Nijūrokunichi",
+        "meaning": "November 26th"
+      },
+      {
+        "japanese": "（木）",
+        "romaji": "(Moku)",
+        "meaning": "(Thursday)"
+      },
+      {
+        "japanese": "安保強化",
+        "romaji": "Anpo Kyōka",
+        "meaning": "Strengthening security"
+      },
+      {
+        "japanese": "へ",
+        "romaji": "E",
+        "meaning": "Towards, to"
+      },
+      {
+        "japanese": "財政配慮",
+        "romaji": "Zaisei Hairyo",
+        "meaning": "Financial consideration"
+      },
+      {
+        "japanese": "を",
+        "romaji": "O",
+        "meaning": "Object particle"
+      },
+      {
+        "japanese": "財源確保",
+        "romaji": "Zaigen Kakuho",
+        "meaning": "Securing financial resources"
+      },
+      {
+        "japanese": "「国民負担も」",
+        "romaji": "「Kokumin Futan mo」",
+        "meaning": "\"National burden too\""
+      },
+      {
+        "japanese": "、",
+        "romaji": "、",
+        "meaning": "Comma"
+      },
+      {
+        "japanese": "米軍",
+        "romaji": "Beigun",
+        "meaning": "U.S. military"
+      },
+      {
+        "japanese": "沖縄",
+        "romaji": "Okinawa",
+        "meaning": "Okinawa (prefecture name)"
+      },
+      {
+        "japanese": "に",
+        "romaji": "Ni",
+        "meaning": "In, at, to (location particle)"
+      },
+      {
+        "japanese": "新型戦闘機",
+        "romaji": "Shingata Sentōki",
+        "meaning": "New type fighter jet"
+      },
+      {
+        "japanese": "「F15EX」",
+        "romaji": "「Efu jūgo ī ekkusu」",
+        "meaning": "\"F15EX\" (specific model name)"
+      },
+      {
+        "japanese": "を",
+        "romaji": "O",
+        "meaning": "Object particle"
+      },
+      {
+        "japanese": "常駐",
+        "romaji": "Jōchū",
+        "meaning": "Permanent stationing"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月25日（水）消費者金融ではない「貸金業」新設へ、都心の中古マンション価格 13年半ぶり前年割れ",
     "english_translation": "November 25 (Wed): Moves to establish a new \"money lending business\" that is not consumer finance; City-center used condo prices drop year-on-year for the first time in 13.5 years.",
     "published_at": "2026-11-25 06:30:00",
@@ -6479,66 +6569,6 @@
         "japanese": "〜with NIKKEI",
         "romaji": "with nikkei",
         "meaning": "~ with NIKKEI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月28日（金）NVIDIA最高益 AI需要創出へ全方位、科学論文 安保上｢懸念ある｣組織との共著倍増",
-    "english_translation": "August 28 (Fri) NVIDIA Record Profits: Going All-Out to Create AI Demand; Scientific Papers Co-authored with Organizations of National Security Concern Double",
-    "published_at": "2026-08-28 06:30:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC2499435480.mp3",
-    "chunks": [
-      {
-        "japanese": "8月28日（金）",
-        "romaji": "hachigatsu nijūhachinichi (kin'yōbi)",
-        "meaning": "August 28th (Friday)"
-      },
-      {
-        "japanese": "NVIDIA",
-        "romaji": "enubidia",
-        "meaning": "NVIDIA"
-      },
-      {
-        "japanese": "最高益",
-        "romaji": "saikōeki",
-        "meaning": "record-high profits"
-      },
-      {
-        "japanese": "AI需要創出へ",
-        "romaji": "ēai juyō sōshutsu e",
-        "meaning": "toward creating AI demand"
-      },
-      {
-        "japanese": "全方位",
-        "romaji": "zenhōi",
-        "meaning": "all directions / all-out / omnidirectional"
-      },
-      {
-        "japanese": "科学論文",
-        "romaji": "kagaku ronbun",
-        "meaning": "scientific papers"
-      },
-      {
-        "japanese": "安保上",
-        "romaji": "anpojō",
-        "meaning": "on national security / from a security standpoint"
-      },
-      {
-        "japanese": "｢懸念ある｣組織との",
-        "romaji": "kenen aru soshiki to no",
-        "meaning": "with organizations that have 'concerns'"
-      },
-      {
-        "japanese": "共著",
-        "romaji": "kyōcho",
-        "meaning": "co-authorship / joint research"
-      },
-      {
-        "japanese": "倍増",
-        "romaji": "baizō",
-        "meaning": "doubling"
       }
     ],
     "is_mock": false,
