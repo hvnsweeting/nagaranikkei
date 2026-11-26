@@ -1,5 +1,95 @@
 [
   {
+    "japanese_title": "11月27日（金）東京電力 AIインフラに10兆円、キオクシア AIメモリーで韓国勢の代替狙う",
+    "english_translation": "November 27th (Friday): TEPCO invests 10 trillion yen in AI infrastructure; Kioxia aims to replace South Korean players with AI memory.",
+    "published_at": "2026-11-27 06:30:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC9041481190.mp3",
+    "chunks": [
+      {
+        "japanese": "11月",
+        "romaji": "jūichi-gatsu",
+        "meaning": "November"
+      },
+      {
+        "japanese": "27日",
+        "romaji": "nijūshichi-nichi",
+        "meaning": "27th day"
+      },
+      {
+        "japanese": "（金）",
+        "romaji": "(kin)",
+        "meaning": "(Friday)"
+      },
+      {
+        "japanese": "東京電力",
+        "romaji": "Tōkyō Denryoku",
+        "meaning": "Tokyo Electric Power Company (TEPCO)"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "īa-i",
+        "meaning": "AI (Artificial Intelligence)"
+      },
+      {
+        "japanese": "インフラ",
+        "romaji": "infura",
+        "meaning": "infrastructure"
+      },
+      {
+        "japanese": "に",
+        "romaji": "ni",
+        "meaning": "to/for"
+      },
+      {
+        "japanese": "10兆円",
+        "romaji": "jū-chō-en",
+        "meaning": "10 trillion yen"
+      },
+      {
+        "japanese": "キオクシア",
+        "romaji": "Kioxia",
+        "meaning": "Kioxia (company name)"
+      },
+      {
+        "japanese": "AI",
+        "romaji": "īa-i",
+        "meaning": "AI (Artificial Intelligence)"
+      },
+      {
+        "japanese": "メモリー",
+        "romaji": "memorī",
+        "meaning": "memory"
+      },
+      {
+        "japanese": "で",
+        "romaji": "de",
+        "meaning": "with/by means of"
+      },
+      {
+        "japanese": "韓国勢",
+        "romaji": "Kankokusei",
+        "meaning": "South Korean players/forces/competitors"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "of/possessive particle"
+      },
+      {
+        "japanese": "代替",
+        "romaji": "daitai",
+        "meaning": "replacement/alternative"
+      },
+      {
+        "japanese": "狙う",
+        "romaji": "nerau",
+        "meaning": "to aim for/at"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-2.5-flash"
+  },
+  {
     "japanese_title": "11月26日（木）安保強化へ財政配慮を 財源確保「国民負担も」、 米軍 沖縄に新型戦闘機「F15EX」を常駐",
     "english_translation": "November 26th (Thursday): Financial consideration for strengthening security; securing financial resources 'including national burden'; U.S. military permanently stations new F-15EX fighter jets in Okinawa.",
     "published_at": "2026-11-26 06:30:00",
@@ -6524,51 +6614,6 @@
         "japanese": "5割超",
         "romaji": "gowari chō",
         "meaning": "over 50% (literally, exceeding 5 tenths)"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月28日（金）ヒトゴトではない都市型水害〜with NIKKEI",
-    "english_translation": "August 28 (Friday) Urban Flooding is Not Someone Else's Problem ~ with NIKKEI",
-    "published_at": "2026-08-28 17:45:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC4818632481.mp3",
-    "chunks": [
-      {
-        "japanese": "8月28日",
-        "romaji": "hachigatsu nijūhachinichi",
-        "meaning": "August 28th"
-      },
-      {
-        "japanese": "（金）",
-        "romaji": "kin",
-        "meaning": "Friday"
-      },
-      {
-        "japanese": "ヒトゴト",
-        "romaji": "hitogoto",
-        "meaning": "someone else's business / other people's affairs"
-      },
-      {
-        "japanese": "ではない",
-        "romaji": "de wa nai",
-        "meaning": "is not"
-      },
-      {
-        "japanese": "都市型",
-        "romaji": "toshigata",
-        "meaning": "urban-type"
-      },
-      {
-        "japanese": "水害",
-        "romaji": "suigai",
-        "meaning": "flood disaster / water damage"
-      },
-      {
-        "japanese": "〜with NIKKEI",
-        "romaji": "with nikkei",
-        "meaning": "~ with NIKKEI"
       }
     ],
     "is_mock": false,
