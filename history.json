@@ -1,5 +1,60 @@
 [
   {
+    "japanese_title": "11月28日（土）企業年金が初の資産超過、住宅資金の贈与税非課税",
+    "english_translation": "Saturday, November 28: Corporate pensions reach a surplus of assets for the first time; gift tax exemption for housing funds",
+    "published_at": "2026-11-28 07:50:00",
+    "audio_url": "https://traffic.megaphone.fm/NRBC3795823346.mp3",
+    "chunks": [
+      {
+        "japanese": "11月28日（土）",
+        "romaji": "jūichigatsu nijūhachinichi (doyōbi)",
+        "meaning": "November 28th (Saturday)"
+      },
+      {
+        "japanese": "企業年金",
+        "romaji": "kigyō nenkin",
+        "meaning": "corporate pension"
+      },
+      {
+        "japanese": "が",
+        "romaji": "ga",
+        "meaning": "subject marker"
+      },
+      {
+        "japanese": "初の",
+        "romaji": "hatsu no",
+        "meaning": "first / first time"
+      },
+      {
+        "japanese": "資産超過",
+        "romaji": "shisan chōka",
+        "meaning": "asset surplus (assets exceeding liabilities)"
+      },
+      {
+        "japanese": "住宅資金",
+        "romaji": "jūtaku shikin",
+        "meaning": "housing funds"
+      },
+      {
+        "japanese": "の",
+        "romaji": "no",
+        "meaning": "possessive particle / of"
+      },
+      {
+        "japanese": "贈与税",
+        "romaji": "zōyozei",
+        "meaning": "gift tax"
+      },
+      {
+        "japanese": "非課税",
+        "romaji": "hikazei",
+        "meaning": "tax exemption / tax-free"
+      }
+    ],
+    "is_mock": false,
+    "translation_model": "gemini-3.5-flash"
+  },
+  {
     "japanese_title": "11月27日（金）東京電力 AIインフラに10兆円、キオクシア AIメモリーで韓国勢の代替狙う",
     "english_translation": "November 27th (Friday): TEPCO invests 10 trillion yen in AI infrastructure; Kioxia aims to replace South Korean players with AI memory.",
     "published_at": "2026-11-27 06:30:00",
@@ -6549,71 +6604,6 @@
         "japanese": "フィジカルAI",
         "romaji": "fijikaru ēai",
         "meaning": "physical AI"
-      }
-    ],
-    "is_mock": false,
-    "translation_model": "gemini-3.5-flash"
-  },
-  {
-    "japanese_title": "8月29日（土） 金融庁 会計不正の経営者責任を明確に、M6.8以上の直下型地震 近畿の発生確率30年内に5割超",
-    "english_translation": "August 29 (Saturday) - Financial Services Agency to clarify management responsibility for accounting fraud; Over 50% probability of an M6.8 or higher shallow earthquake in Kinki within 30 years",
-    "published_at": "2026-08-29 07:50:00",
-    "audio_url": "https://traffic.megaphone.fm/NRBC9663869624.mp3",
-    "chunks": [
-      {
-        "japanese": "8月29日（土）",
-        "romaji": "hachigatsu nijūkyūnichi (doyōbi)",
-        "meaning": "August 29th (Saturday)"
-      },
-      {
-        "japanese": "金融庁",
-        "romaji": "kin'yūchō",
-        "meaning": "Financial Services Agency (FSA)"
-      },
-      {
-        "japanese": "会計不正の",
-        "romaji": "kaikei fusei no",
-        "meaning": "of accounting fraud / accounting irregularities"
-      },
-      {
-        "japanese": "経営者責任を",
-        "romaji": "keieisha sekinin o",
-        "meaning": "management responsibility (as object)"
-      },
-      {
-        "japanese": "明確に",
-        "romaji": "meikaku ni",
-        "meaning": "clearly / to make clear (short for 'to clarify')"
-      },
-      {
-        "japanese": "M6.8以上の",
-        "romaji": "emu roku ten hachi ijō no",
-        "meaning": "of Magnitude 6.8 or higher"
-      },
-      {
-        "japanese": "直下型地震",
-        "romaji": "chokkagata jishin",
-        "meaning": "shallow, near-field earthquake (directly beneath an area)"
-      },
-      {
-        "japanese": "近畿の",
-        "romaji": "kinki no",
-        "meaning": "of the Kinki region (Kansai area of Japan)"
-      },
-      {
-        "japanese": "発生確率",
-        "romaji": "hassei kakuritsu",
-        "meaning": "probability of occurrence"
-      },
-      {
-        "japanese": "30年内に",
-        "romaji": "sanjū nen nai ni",
-        "meaning": "within 30 years"
-      },
-      {
-        "japanese": "5割超",
-        "romaji": "gowari chō",
-        "meaning": "over 50% (literally, exceeding 5 tenths)"
       }
     ],
     "is_mock": false,
